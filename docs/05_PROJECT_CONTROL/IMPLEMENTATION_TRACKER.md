@@ -18,8 +18,8 @@
 | PREVIOUS DOCUMENTED GM HASH — SUPERSEDED BY RE-FREEZE | `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA` |
 | Application Version | 0.1.0-dev (Phase 1A + Phase 1B Production) |
 | Implementation Started | 2026-08-04 (Phase 1A) |
-| Last Updated | 2026-08-04 (Phase 1E CR/NCF gate **PASSED / ACKNOWLEDGED**) |
-| Overall Completion | Phase 1A–1E **IMPLEMENTED** (gates PASSED; full regression **NOT CLOSED**); RESULTS **NOT STARTED**; VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
+| Last Updated | 2026-08-04 (Phase 1F RESULTS readiness **READY**; impl NOT AUTHORIZED) |
+| Overall Completion | Phase 1A–1E **IMPLEMENTED**; RESULTS **SPEC READY** / **NOT STARTED**; VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
 
 ---
 
@@ -146,6 +146,7 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 | Phase 1D FLGT | **PASSED / IMPLEMENTED** — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts (4 exact / 14 tol / 0 mismatch); F-G12 deferred; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
 | Phase 1E CR/NCF readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
 | Phase 1E CR/NCF | **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; GTC 13 pts; full regression **NOT CLOSED**; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
+| Phase 1F RESULTS readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; GTC pack **63** RESULTS Equity rows; **IMPLEMENTED NOT STARTED**; **VALIDATED NOT CLAIMED**; impl **NOT YET AUTHORIZED** |
 | Formal GM approval | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 August 2026 WAT; SHA `D07560CA…BFEA` |
 | Critical-path literals | **829** total; **829 RESOLVED**; **0 UNRESOLVED** (register complete) |
 | Path integrity | **CLOSED — NON-SUBSTANTIVE CURRENT-WORKBOOK DIFFERENCE** |
@@ -162,8 +163,8 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 
 | Field | Value |
 |-------|--------|
-| Current focus | Phase 1E CR/NCF gate **PASSED**; RESULTS not started |
-| Next objective | **PHASE 1F — RESULTS** readiness/implementation when separately authorized; presentation deferred |
+| Current focus | Phase 1F RESULTS **SPEC READY** (`PHASE1F_RESULTS_READINESS.md`); calculation **NOT STARTED** / **NOT YET AUTHORIZED** |
+| Next objective | PO **RESULTS implementation** authorization when ready; presentation deferred |
 | Expected completion | _TBD_ (presentation deferred until calc VALIDATED) |
 
 ---

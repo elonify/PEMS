@@ -12,6 +12,7 @@ The project follows Semantic Versioning.
 
 ### Added
 
+- **Phase 1F RESULTS readiness READY** (2026-08-04): report `PHASE1F_RESULTS_READINESS.md`; RESULTS Equity inventory (62 formulas / 63 GTC KPI rows); CaseInput = Equity C4 only; upstream 1A–1E mapped; ambiguities BIT/AIT, unit-cost/C4, dual hub non-blocking; **IMPLEMENTED NOT STARTED**; **VALIDATED NOT CLAIMED**; **RESULTS IMPLEMENTATION NOT YET AUTHORIZED**; GM SHA `D07560CA…BFEA` MATCH  
 - **Phase 1E CR/NCF gate PASSED / ACKNOWLEDGED** (2026-08-04): `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; targeted 10/10; GTC 13 pts PASS; full regression **NOT CLOSED/INTERRUPTED** (not a PASS); **VALIDATED NOT CLAIMED**; RESULTS not started; GM SHA `D07560CA…BFEA` MATCH  
 - **Phase 1E CR/NCF controlled completion** (2026-08-04): implementation report finalized with explicit regression limitation; gate ack file `PHASE1E_GATE_ACKNOWLEDGEMENT.md` = **PENDING ACK**; targeted tests 10/10 PASS; GTC 13 pts PASS; full regression **NOT CLOSED/INTERRUPTED** (not converted to PASS); **VALIDATED NOT CLAIMED**; RESULTS not started; GM SHA `D07560CA…BFEA` MATCH  
 - **Phase 1E — CR/NCF IMPLEMENTED** (2026-08-04): CR Econ bridge; Project AE/AF/AG/AH/AJ/IRR; Equity × C4; AU14 `NO_VALID_IRR`; HT/CIT intermediates import path; GTC **13 pts (12 tol + 1 expected error / 0 mismatch)**; report `PHASE1E_CR_NCF_IMPLEMENTATION.md`; **NUMERICALLY VALIDATED NOT CLAIMED**; RESULTS not started; GM SHA `D07560CA…BFEA` MATCH  
