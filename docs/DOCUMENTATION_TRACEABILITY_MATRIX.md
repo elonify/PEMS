@@ -182,6 +182,7 @@ These remaining items are recorded as OPEN, not silently invented.
 | Phase 1F RESULTS readiness | Spec readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; 63 GTC RESULTS Equity points |
 | Phase 1F RESULTS implementation | Code + GTC subset | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; unit 11 + GTC 3; 0 mismatch; **VALIDATED NOT CLAIMED** |
 | Phase 1G numerical validation | GTC chain comparison | **Anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; 0 mismatch; intermediate path limits; full VALIDATED **NOT CLAIMED** |
-| Phase 1H presentation readiness | Spec readiness | **SPEC READY** — `PHASE1H_PRESENTATION_READINESS.md`; first-slice ready pending PO; code NOT STARTED |
+| Phase 1H presentation readiness | Spec readiness | **SPEC READY** — `PHASE1H_PRESENTATION_READINESS.md` |
+| Phase 1H presentation first-slice | Code + PT tests | **IMPLEMENTED** — `PHASE1H_PRESENTATION_IMPLEMENTATION.md`; VALIDATED NOT CLAIMED; charts deferred |
 | Formal GM approval | `GOLDEN_MASTER_APPROVAL.md` | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 Aug 2026 WAT; SHA `D07560CA…BFEA` |
 | Control | — | `WORKBOOK_ERROR_STATUS.md` EXP-001; `SCOPE_DECISIONS.md` |

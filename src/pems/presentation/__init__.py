@@ -1,10 +1,21 @@
-"""Presentation layer — deferred until after calc numerical validation.
+"""Presentation projection layer (Phase 1H first slice).
 
-Authoritative specs:
-  docs/02_SPECIFICATIONS/presentation/PEMS_PRESENTATION_SPECIFICATION.md
-  + NUMBER_FORMAT, UNIT_AND_CURRENCY, TYPOGRAPHY, INPUT_OUTPUT_VISUAL_LANGUAGE
-
-Do not invent a new visual language.
+Consumes RunBundle from application services. No economic re-calculation.
 """
 
-PRESENTATION_IMPLEMENTATION_DEFERRED = True
+from pems.presentation.formats import (
+    format_money_mm,
+    format_percent,
+    is_unavailable,
+)
+from pems.presentation.view_models import PresentationBundle, build_presentation
+
+__all__ = [
+    "PresentationBundle",
+    "build_presentation",
+    "format_money_mm",
+    "format_percent",
+    "is_unavailable",
+]
+
+PRESENTATION_FIRST_SLICE = True
