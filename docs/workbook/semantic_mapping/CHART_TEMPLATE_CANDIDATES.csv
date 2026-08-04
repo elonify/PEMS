@@ -1,0 +1,41 @@
+worksheet,chart_index,chart_type,title_text,series_count,named_range_refs,direct_sheet_refs,axis_id_count,status,template_id,dataset_id,module_source,mapping_status
+Ec_IO,1,AreaChart,Economic Limit Chart,1,0,0,2,CANDIDATE,,,,PENDING
+Ec_IO,2,AreaChart,,2,0,0,2,CANDIDATE,,,,PENDING
+Ec_IO,3,AreaChart,,2,0,0,2,CANDIDATE,,,,PENDING
+Ec_IO,4,BarChart,Oil Cost Profile,4,0,0,2,CANDIDATE,,,,PENDING
+Ec_IO,5,AreaChart,Gas Cost Profile,1,0,0,2,CANDIDATE,,,,PENDING
+Ec_IO,6,AreaChart,Project Discounted NCF,1,0,0,2,CANDIDATE,,,,PENDING
+STOIIP,1,LineChart,STOIIP,5,0,0,2,CANDIDATE,,,,PENDING
+STOIIP,2,BarChart,"STOIIP, MMSTB",3,0,0,2,CANDIDATE,,,,PENDING
+STOIIP,3,LineChart,%Change in STOIIP,5,0,0,2,CANDIDATE,,,,PENDING
+STOIIP,4,BarChart,%Change in STOIIP,9,0,0,2,CANDIDATE,,,,PENDING
+GIIP,1,LineChart,STOIIP,5,0,0,2,CANDIDATE,,,,PENDING
+GIIP,2,BarChart,"STOIIP, MMSTB",3,0,0,2,CANDIDATE,,,,PENDING
+GIIP,3,LineChart,%Change in STOIIP,5,0,0,2,CANDIDATE,,,,PENDING
+GIIP,4,BarChart,%Change in STOIIP,9,0,0,2,CANDIDATE,,,,PENDING
+Production Profile,1,LineChart,,1,0,0,2,CANDIDATE,,,,PENDING
+Production Profile,2,LineChart,,1,0,0,2,CANDIDATE,,,,PENDING
+OML123_Oil_S1,1,BarChart,OML 123 SCENARIO 1,1,0,0,2,CANDIDATE,,,,PENDING
+Prod_Summary,1,LineChart,,1,0,0,2,CANDIDATE,,,,PENDING
+Prod_Summary,2,AreaChart,,2,0,0,2,CANDIDATE,,,,PENDING
+Prod_Summary,3,AreaChart,,2,0,0,2,CANDIDATE,,,,PENDING
+Block_TC,1,BarChart,Cost Profile,4,0,0,2,CANDIDATE,,,,PENDING
+Block_TC_Gas,1,AreaChart,Gas Cost Profile,1,0,0,2,CANDIDATE,,,,PENDING
+FLGT,1,BarChart,Front-Loaded Govt Take,7,0,0,2,CANDIDATE,,,,PENDING
+Project_NCF,1,AreaChart,Project Discounted NCF,1,0,0,2,CANDIDATE,,,,PENDING
+Analysis,1,ScatterChart,% Change in NPV,8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,2,ScatterChart,NPV,8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,3,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,4,BarChart,,2,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,5,BarChart,%Change in NPV,9,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,6,BarChart,Hurdle Rate Vs NPV,1,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,7,LineChart,% Change in GRR,8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,8,BarChart,%Change in GRR,9,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,9,BarChart,"Growth Rate of Return, %",2,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,10,LineChart,"Growth Rate of Return, %",8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,11,LineChart,"Profitability Index, PI",8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,12,LineChart,%Change in PI,8,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,13,BarChart,"Profitability Index, PI",3,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,14,BarChart,%Change in PI,3,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Analysis,15,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,0,0,2,DEFERRED_ANALYSIS,,,,PENDING
+Equity_NCF_Con,1,BarChart,Equity CashFlow with Acquisition Cost,1,0,0,2,CANDIDATE,,,,PENDING

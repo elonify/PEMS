@@ -1,0 +1,157 @@
+worksheet,chart_index,chart_type,title_text,series_index,series_title,val_formula,cat_formula,x_formula,y_formula,val_named_range,cat_named_range,x_named_range,y_named_range,x_axis_id,y_axis_id,secondary_axis_candidate
+Ec_IO,1,AreaChart,Economic Limit Chart,1,,[0]!Cum_DNCF,[0]!Years_Prod,,,0,0,0,0,10,100,1
+Ec_IO,2,AreaChart,,1,,[0]!Annual_Oil,Prod_Summary!$S$5:$S$23,,,0,0,0,0,10,100,1
+Ec_IO,2,AreaChart,,2,,[0]!Cum_Oil,Prod_Summary!$S$5:$S$31,,,0,0,0,0,10,100,1
+Ec_IO,3,AreaChart,,1,,[0]!Cum_Gas,Prod_Summary!$S$5:$S$31,,,0,0,0,0,10,100,1
+Ec_IO,3,AreaChart,,2,,[0]!Annual_Gas,Prod_Summary!$S$5:$S$46,,,0,0,0,0,10,100,1
+Ec_IO,4,BarChart,Oil Cost Profile,1,,[0]!Expl_Appr.,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Ec_IO,4,BarChart,Oil Cost Profile,2,,[0]!Wells_CAP,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Ec_IO,4,BarChart,Oil Cost Profile,3,,[0]!Fac_CAP,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Ec_IO,4,BarChart,Oil Cost Profile,4,,[0]!OPEX,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Ec_IO,5,AreaChart,Gas Cost Profile,1,,[0]!Gas_Expl_Appr.,[0]!Years_Prod,,,0,0,0,0,10,100,1
+Ec_IO,6,AreaChart,Project Discounted NCF,1,,[0]!Cum_DNCF,[0]!Years_Prod,,,0,0,0,0,10,100,1
+STOIIP,1,LineChart,STOIIP,1,,STOIIP!$D$40:$D$48,STOIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+STOIIP,1,LineChart,STOIIP,2,,STOIIP!$E$40:$E$48,STOIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+STOIIP,1,LineChart,STOIIP,3,,STOIIP!$F$40:$F$48,STOIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+STOIIP,1,LineChart,STOIIP,4,,STOIIP!$G$40:$G$48,STOIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+STOIIP,1,LineChart,STOIIP,5,,STOIIP!$H$40:$H$48,STOIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+STOIIP,2,BarChart,"STOIIP, MMSTB",1,,STOIIP!$D$40:$H$40,STOIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+STOIIP,2,BarChart,"STOIIP, MMSTB",2,,STOIIP!$D$44:$H$44,STOIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+STOIIP,2,BarChart,"STOIIP, MMSTB",3,,STOIIP!$D$48:$H$48,STOIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+STOIIP,3,LineChart,%Change in STOIIP,1,,STOIIP!$O$40:$O$48,STOIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+STOIIP,3,LineChart,%Change in STOIIP,2,,STOIIP!$P$40:$P$48,STOIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+STOIIP,3,LineChart,%Change in STOIIP,3,,STOIIP!$Q$40:$Q$48,STOIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+STOIIP,3,LineChart,%Change in STOIIP,4,,STOIIP!$R$40:$R$48,STOIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+STOIIP,3,LineChart,%Change in STOIIP,5,,STOIIP!$S$40:$S$48,STOIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+STOIIP,4,BarChart,%Change in STOIIP,1,,STOIIP!$O$40:$S$40,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,2,,STOIIP!$O$41:$S$41,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,3,,STOIIP!$O$42:$S$42,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,4,,STOIIP!$O$43:$S$43,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,5,,STOIIP!$O$44:$S$44,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,6,,STOIIP!$O$45:$S$45,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,7,,STOIIP!$O$46:$S$46,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,8,,STOIIP!$O$47:$S$47,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+STOIIP,4,BarChart,%Change in STOIIP,9,,STOIIP!$O$48:$S$48,STOIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,1,LineChart,STOIIP,1,,GIIP!$D$40:$D$48,GIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+GIIP,1,LineChart,STOIIP,2,,GIIP!$E$40:$E$48,GIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+GIIP,1,LineChart,STOIIP,3,,GIIP!$F$40:$F$48,GIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+GIIP,1,LineChart,STOIIP,4,,GIIP!$G$40:$G$48,GIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+GIIP,1,LineChart,STOIIP,5,,GIIP!$H$40:$H$48,GIIP!$C$40:$C$48,,,0,0,0,0,299086296,14087672,1
+GIIP,2,BarChart,"STOIIP, MMSTB",1,,GIIP!$D$40:$H$40,GIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+GIIP,2,BarChart,"STOIIP, MMSTB",2,,GIIP!$D$44:$H$44,GIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+GIIP,2,BarChart,"STOIIP, MMSTB",3,,GIIP!$D$48:$H$48,GIIP!$D$39:$H$39,,,0,0,0,0,14090808,14091984,1
+GIIP,3,LineChart,%Change in STOIIP,1,,GIIP!$O$40:$O$48,GIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+GIIP,3,LineChart,%Change in STOIIP,2,,GIIP!$P$40:$P$48,GIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+GIIP,3,LineChart,%Change in STOIIP,3,,GIIP!$Q$40:$Q$48,GIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+GIIP,3,LineChart,%Change in STOIIP,4,,GIIP!$R$40:$R$48,GIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+GIIP,3,LineChart,%Change in STOIIP,5,,GIIP!$S$40:$S$48,GIIP!$N$40:$N$48,,,0,0,0,0,14090024,14086888,1
+GIIP,4,BarChart,%Change in STOIIP,1,,GIIP!$O$40:$S$40,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,2,,GIIP!$O$41:$S$41,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,3,,GIIP!$O$42:$S$42,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,4,,GIIP!$O$43:$S$43,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,5,,GIIP!$O$44:$S$44,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,6,,GIIP!$O$45:$S$45,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,7,,GIIP!$O$46:$S$46,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,8,,GIIP!$O$47:$S$47,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+GIIP,4,BarChart,%Change in STOIIP,9,,GIIP!$O$48:$S$48,GIIP!$O$39:$S$39,,,0,0,0,0,14089240,14088456,1
+Production Profile,1,LineChart,,1,,[0]!Rates_Charts,[0]!Years_Charts,,,0,0,0,0,14091200,14089632,1
+Production Profile,2,LineChart,,1,,'Production Profile'!AG_Chart_Rates,[0]!Years_Charts,,,0,0,0,0,866188616,866188976,1
+OML123_Oil_S1,1,BarChart,OML 123 SCENARIO 1,1,,OML123_Oil_S1!$CP$4:$CP$45,OML123_Oil_S1!$CN$4:$CN$45,,,0,0,0,0,802517744,802511264,1
+Prod_Summary,1,LineChart,,1,,Prod_Summary!$C$5:$C$46,,,,0,0,0,0,628584728,628583648,1
+Prod_Summary,2,AreaChart,,1,,[0]!Annual_Oil,Prod_Summary!$S$5:$S$23,,,0,0,0,0,10,100,1
+Prod_Summary,2,AreaChart,,2,,[0]!Cum_Oil,Prod_Summary!$S$5:$S$31,,,0,0,0,0,10,100,1
+Prod_Summary,3,AreaChart,,1,,[0]!Cum_Gas,Prod_Summary!$S$5:$S$31,,,0,0,0,0,10,100,1
+Prod_Summary,3,AreaChart,,2,,[0]!Annual_Gas,Prod_Summary!$S$5:$S$46,,,0,0,0,0,10,100,1
+Block_TC,1,BarChart,Cost Profile,1,,[0]!Expl_Appr.,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Block_TC,1,BarChart,Cost Profile,2,,[0]!Wells_CAP,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Block_TC,1,BarChart,Cost Profile,3,,[0]!Fac_CAP,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Block_TC,1,BarChart,Cost Profile,4,,[0]!OPEX,[0]!Years_Prod,,,0,0,0,0,546630968,546627728,1
+Block_TC_Gas,1,AreaChart,Gas Cost Profile,1,,[0]!Gas_Expl_Appr.,[0]!Years_Prod,,,0,0,0,0,10,100,1
+FLGT,1,BarChart,Front-Loaded Govt Take,1,,FLGT!$AA$7:$AA$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,2,,FLGT!$AB$7:$AB$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,3,,FLGT!$AC$7:$AC$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,4,,FLGT!$AD$7:$AD$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,5,,FLGT!$AE$7:$AE$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,6,,FLGT!$AF$7:$AF$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+FLGT,1,BarChart,Front-Loaded Govt Take,7,,FLGT!$AG$7:$AG$28,FLGT!$A$7:$A$28,,,0,0,0,0,776221928,776213648,1
+Project_NCF,1,AreaChart,Project Discounted NCF,1,,[0]!Cum_DNCF,[0]!Years_Prod,,,0,0,0,0,10,100,1
+Analysis,1,ScatterChart,% Change in NPV,1,,,,Analysis!$U$84:$U$92,Analysis!$V$84:$V$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,2,,,,Analysis!$U$84:$U$92,Analysis!$W$84:$W$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,3,,,,Analysis!$U$84:$U$92,Analysis!$X$84:$X$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,4,,,,Analysis!$U$84:$U$92,Analysis!$Y$84:$Y$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,5,,,,Analysis!$U$84:$U$92,Analysis!$Z$84:$Z$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,6,,,,Analysis!$U$84:$U$92,Analysis!$AA$84:$AA$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,7,,,,Analysis!$U$84:$U$92,Analysis!$AB$84:$AB$92,0,0,0,0,793674528,793673448,1
+Analysis,1,ScatterChart,% Change in NPV,8,,,,Analysis!$U$84:$U$92,Analysis!$AC$84:$AC$92,0,0,0,0,793674528,793673448,1
+Analysis,2,ScatterChart,NPV,1,,,,Analysis!$J$84:$J$92,Analysis!$K$84:$K$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,2,,,,Analysis!$J$84:$J$92,Analysis!$L$84:$L$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,3,,,,Analysis!$J$84:$J$92,Analysis!$M$84:$M$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,4,,,,Analysis!$J$84:$J$92,Analysis!$N$84:$N$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,5,,,,Analysis!$J$84:$J$92,Analysis!$O$84:$O$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,6,,,,Analysis!$J$84:$J$92,Analysis!$P$84:$P$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,7,,,,Analysis!$J$84:$J$92,Analysis!$Q$84:$Q$92,0,0,0,0,889981568,889980488,1
+Analysis,2,ScatterChart,NPV,8,,,,Analysis!$J$84:$J$92,Analysis!$R$84:$R$92,0,0,0,0,889981568,889980488,1
+Analysis,3,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,,,,Analysis!$C$23:$C$33,Analysis!$D$23:$D$33,0,0,0,0,732670896,732671616,1
+Analysis,4,BarChart,,1,,Analysis!$K$99:$R$99,Analysis!$K$96:$R$96,,,0,0,0,0,799550560,799547320,1
+Analysis,4,BarChart,,2,,Analysis!$K$97:$R$97,Analysis!$K$96:$R$96,,,0,0,0,0,799550560,799547320,1
+Analysis,5,BarChart,%Change in NPV,1,,Analysis!$AF$87:$AM$87,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,2,,Analysis!$AF$86:$AM$86,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,3,,Analysis!$AF$85:$AM$85,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,4,,Analysis!$AF$84:$AM$84,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,5,,Analysis!$AG$88:$AM$88,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,6,,Analysis!$AF$89:$AM$89,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,7,,Analysis!$AF$90:$AM$90,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,8,,Analysis!$AF$91:$AM$91,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,5,BarChart,%Change in NPV,9,,Analysis!$AF$92:$AM$92,Analysis!$AF$83:$AM$83,,,0,0,0,0,819028864,819023104,1
+Analysis,6,BarChart,Hurdle Rate Vs NPV,1,,Analysis!$D$113:$D$131,Analysis!$C$113:$C$131,,,0,0,0,0,819014824,819015904,1
+Analysis,7,LineChart,% Change in GRR,1,,Analysis!$W$251:$W$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,2,,Analysis!$AB$251:$AB$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,3,,Analysis!$V$251:$V$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,4,,Analysis!$AC$251:$AC$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,5,,Analysis!$Z$251:$Z$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,6,,Analysis!$X$251:$X$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,7,,Analysis!$Y$251:$Y$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,7,LineChart,% Change in GRR,8,,Analysis!$AA$251:$AA$259,Analysis!$U$251:$U$259,,,0,0,0,0,1087280720,1087280000,1
+Analysis,8,BarChart,%Change in GRR,1,,Analysis!$V$254:$AC$254,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,2,,Analysis!$V$253:$AC$253,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,3,,Analysis!$V$252:$AC$252,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,4,,Analysis!$V$251:$AC$251,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,5,,Analysis!$V$255:$AB$255,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,6,,Analysis!$V$256:$AC$256,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,7,,Analysis!$V$257:$AC$257,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,8,,Analysis!$V$258:$AC$258,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,8,BarChart,%Change in GRR,9,,Analysis!$V$259:$AC$259,Analysis!$V$250:$AC$250,,,0,0,0,0,1089019688,1089019328,1
+Analysis,9,BarChart,"Growth Rate of Return, %",1,,Analysis!$K$266:$R$266,Analysis!$K$265:$R$265,,,0,0,0,0,924890568,924885528,1
+Analysis,9,BarChart,"Growth Rate of Return, %",2,,Analysis!$K$268:$R$268,Analysis!$K$265:$R$265,,,0,0,0,0,924890568,924885528,1
+Analysis,10,LineChart,"Growth Rate of Return, %",1,,Analysis!$K$251:$K$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",2,,Analysis!$L$251:$L$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",3,,Analysis!$M$251:$M$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",4,,Analysis!$N$251:$N$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",5,,Analysis!$O$251:$O$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",6,,Analysis!$P$251:$P$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",7,,Analysis!$Q$251:$Q$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,10,LineChart,"Growth Rate of Return, %",8,,Analysis!$R$251:$R$259,Analysis!$J$251:$J$259,,,0,0,0,0,1106659368,1106659008,1
+Analysis,11,LineChart,"Profitability Index, PI",1,,Analysis!$K$374:$K$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",2,,Analysis!$L$374:$L$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",3,,Analysis!$M$374:$M$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",4,,Analysis!$O$374:$O$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",5,,Analysis!$N$374:$N$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",6,,Analysis!$Q$374:$Q$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",7,,Analysis!$R$374:$R$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,11,LineChart,"Profitability Index, PI",8,,Analysis!$P$374:$P$382,Analysis!$J$374:$J$382,,,0,0,0,0,742289760,742294080,1
+Analysis,12,LineChart,%Change in PI,1,,Analysis!$W$374:$W$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,2,,Analysis!$V$374:$V$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,3,,Analysis!$X$374:$X$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,4,,Analysis!$Z$374:$Z$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,5,,Analysis!$Y$374:$Y$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,6,,Analysis!$AB$374:$AB$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,7,,Analysis!$AC$374:$AC$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,12,LineChart,%Change in PI,8,,Analysis!$AA$374:$AA$382,Analysis!$U$374:$U$382,,,0,0,0,0,753741000,753745680,1
+Analysis,13,BarChart,"Profitability Index, PI",1,,Analysis!$K$374:$S$374,Analysis!$K$373:$S$373,,,0,0,0,0,742289760,742294080,1
+Analysis,13,BarChart,"Profitability Index, PI",2,,Analysis!$K$378:$S$378,Analysis!$K$373:$S$373,,,0,0,0,0,742289760,742294080,1
+Analysis,13,BarChart,"Profitability Index, PI",3,,Analysis!$K$382:$S$382,Analysis!$K$373:$S$373,,,0,0,0,0,742289760,742294080,1
+Analysis,14,BarChart,%Change in PI,1,,Analysis!$V$374:$AC$374,Analysis!$V$373:$AC$373,,,0,0,0,0,753741000,753745680,1
+Analysis,14,BarChart,%Change in PI,2,,Analysis!$V$378:$AC$378,Analysis!$V$373:$AC$373,,,0,0,0,0,753741000,753745680,1
+Analysis,14,BarChart,%Change in PI,3,,Analysis!$V$382:$AC$382,Analysis!$V$373:$AC$373,,,0,0,0,0,753741000,753745680,1
+Analysis,15,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,,,,,Analysis!$D$22:$D$32,0,0,0,0,732670896,732671616,1
+Equity_NCF_Con,1,BarChart,Equity CashFlow with Acquisition Cost,1,,Equity_NCF_Con!$AH$5:$AH$34,Equity_NCF_Con!$A$5:$A$34,,,0,0,0,0,992062784,992061344,1

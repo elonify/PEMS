@@ -1,11 +1,11 @@
 # Phase 1H — Presentation First-Slice Implementation Report
 
-**Date:** 2026-08-04  
-**Authorization:** Project Owner — Phase 1H presentation first-slice implementation  
-**Controlling readiness:** `PHASE1H_PRESENTATION_READINESS.md`  
+**Date:** 2026-08-04
+**Authorization:** Project Owner — Phase 1H presentation first-slice implementation
+**Controlling readiness:** `PHASE1H_PRESENTATION_READINESS.md`
 **Git commit under this task:** **None** (await checkpoint authorization)
 
-**Active GM SHA:** `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA`  
+**Active GM SHA:** `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA`
 **GM modified:** **No**
 
 ---
@@ -33,8 +33,8 @@ UI (PySide6 MainWindow)
   → widgets (tables / banners)
 ```
 
-- **No** economic re-calculation in `pems.presentation` or `pems.ui`.  
-- **No** live Excel calc host.  
+- **No** economic re-calculation in `pems.presentation` or `pems.ui`.
+- **No** live Excel calc host.
 - Static tests enforce no `pems.calculations` imports from presentation/ui.
 
 ---
@@ -133,13 +133,13 @@ Control docs (tracker/changelog/traceability) updated for first-slice IMPLEMENTE
 
 ## H. Deferred items
 
-- 41 charts / dual-axis chart engine  
-- Analysis / sensitivity UI  
-- Monte Carlo  
-- MIRR (no RESULTS mapping)  
-- PDF/Word report export  
-- Full Excel pixel parity  
-- Full-system presentation validation claim  
+- 40 charts / dual-axis chart engine
+- Analysis / sensitivity UI
+- Monte Carlo
+- MIRR (no RESULTS mapping)
+- PDF/Word report export
+- Full Excel pixel parity
+- Full-system presentation validation claim
 
 ---
 
@@ -154,5 +154,5 @@ python -m pems --run-gm
 
 ## J. STOP
 
-No chart implementation. No sensitivity/MC. No calc engine changes beyond orchestration.  
+No chart implementation. No sensitivity/MC. No calc engine changes beyond orchestration.
 No automatic commit/push.

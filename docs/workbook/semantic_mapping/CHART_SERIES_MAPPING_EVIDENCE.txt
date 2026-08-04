@@ -1,0 +1,1084 @@
+==========================================================================================
+CHART XML: xl/charts/chart1.xml
+CHART INDEX: 1
+TITLE: Economic Limit Chart | Net Cash Flow, $mm | Oil Production Rate, mbopd
+SERIES COUNT: 3
+AXIS IDS: 984720488, 984727328, 984720488, 984727328, 984786728, 984780968, 984720488, 984727328, 984780968, 984786728
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: CIT_NCF!$AI$3:$AI$4
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Cum_DNCF
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: CIT_NCF!$AH$3:$AH$4
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Annual_DNCF
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: CIT_NCF!$AG$3:$AG$4
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Rates_Oil
+==========================================================================================
+CHART XML: xl/charts/chart10.xml
+CHART INDEX: 2
+TITLE: %Change in STOIIP | Input Variables
+SERIES COUNT: 9
+AXIS IDS: 14089240, 14088456, 14089240, 14088456
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$40
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$40:$S$40
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$41
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$41:$S$41
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$42
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$42:$S$42
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$43
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$43:$S$43
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$44
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$44:$S$44
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$45
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$45:$S$45
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$46
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$46:$S$46
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$47
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$47:$S$47
+  SERIES 9
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$N$48
+    FORMULA: STOIIP!$O$39:$S$39
+    FORMULA: STOIIP!$O$48:$S$48
+==========================================================================================
+CHART XML: xl/charts/chart11.xml
+CHART INDEX: 3
+TITLE: STOIIP | Input Variations | STOIIP, MMSTB
+SERIES COUNT: 5
+AXIS IDS: 299086296, 14087672, 299086296, 14087672
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$D$39
+    FORMULA: GIIP!$C$40:$C$48
+    FORMULA: GIIP!$D$40:$D$48
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$E$39
+    FORMULA: GIIP!$C$40:$C$48
+    FORMULA: GIIP!$E$40:$E$48
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$F$39
+    FORMULA: GIIP!$C$40:$C$48
+    FORMULA: GIIP!$F$40:$F$48
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$G$39
+    FORMULA: GIIP!$C$40:$C$48
+    FORMULA: GIIP!$G$40:$G$48
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$H$39
+    FORMULA: GIIP!$C$40:$C$48
+    FORMULA: GIIP!$H$40:$H$48
+==========================================================================================
+CHART XML: xl/charts/chart12.xml
+CHART INDEX: 4
+TITLE: STOIIP, MMSTB | Variables
+SERIES COUNT: 3
+AXIS IDS: 14090808, 14091984, 14090808, 14091984
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$C$40
+    FORMULA: GIIP!$D$39:$H$39
+    FORMULA: GIIP!$D$40:$H$40
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$C$44
+    FORMULA: GIIP!$D$39:$H$39
+    FORMULA: GIIP!$D$44:$H$44
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$C$48
+    FORMULA: GIIP!$D$39:$H$39
+    FORMULA: GIIP!$D$48:$H$48
+==========================================================================================
+CHART XML: xl/charts/chart13.xml
+CHART INDEX: 5
+TITLE: %Change in STOIIP | %Input Variation | %STOIIP Variation
+SERIES COUNT: 5
+AXIS IDS: 14090024, 14086888, 14090024, 14086888
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$O$39
+    FORMULA: GIIP!$N$40:$N$48
+    FORMULA: GIIP!$O$40:$O$48
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$P$39
+    FORMULA: GIIP!$N$40:$N$48
+    FORMULA: GIIP!$P$40:$P$48
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$Q$39
+    FORMULA: GIIP!$N$40:$N$48
+    FORMULA: GIIP!$Q$40:$Q$48
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$R$39
+    FORMULA: GIIP!$N$40:$N$48
+    FORMULA: GIIP!$R$40:$R$48
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$S$39
+    FORMULA: GIIP!$N$40:$N$48
+    FORMULA: GIIP!$S$40:$S$48
+==========================================================================================
+CHART XML: xl/charts/chart14.xml
+CHART INDEX: 6
+TITLE: %Change in STOIIP | Input Variables
+SERIES COUNT: 9
+AXIS IDS: 14089240, 14088456, 14089240, 14088456
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$40
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$40:$S$40
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$41
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$41:$S$41
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$42
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$42:$S$42
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$43
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$43:$S$43
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$44
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$44:$S$44
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$45
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$45:$S$45
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$46
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$46:$S$46
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$47
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$47:$S$47
+  SERIES 9
+    TITLE: <UNTITLED>
+    FORMULA: GIIP!$N$48
+    FORMULA: GIIP!$O$39:$S$39
+    FORMULA: GIIP!$O$48:$S$48
+==========================================================================================
+CHART XML: xl/charts/chart15.xml
+CHART INDEX: 7
+TITLE: <BLANK>
+SERIES COUNT: 2
+AXIS IDS: 14091200, 14089632, 14093552, 14093160, 14091200, 14089632, 14093160, 14093552
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: 'Production Profile'!$D$21
+    FORMULA: [0]!Years_Charts
+    FORMULA: [0]!Rates_Charts
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: 'Production Profile'!$F$21:$F$22
+    FORMULA: 'Production Profile'!$B$23:$B$53
+    FORMULA: [0]!Chart_Cum
+==========================================================================================
+CHART XML: xl/charts/chart16.xml
+CHART INDEX: 8
+TITLE: <BLANK>
+SERIES COUNT: 2
+AXIS IDS: 866188616, 866188976, 866206976, 866199776, 866188616, 866188976, 866199776, 866206976
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: 'Production Profile'!$G$21:$G$22
+    FORMULA: [0]!Years_Charts
+    FORMULA: 'Production Profile'!AG_Chart_Rates
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: 'Production Profile'!$I$21:$I$22
+    FORMULA: 'Production Profile'!$B$23:$B$53
+    FORMULA: [0]!AG_Chart_Cum
+==========================================================================================
+CHART XML: xl/charts/chart17.xml
+CHART INDEX: 9
+TITLE: OML 123 SCENARIO | 1 | Production, mmbbls | Production Rate, mb/d
+SERIES COUNT: 2
+AXIS IDS: 802517744, 802511264, 563511328, 563515288, 563511328, 563515288, 802511264, 802517744
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: OML123_Oil_S1!$CN$4:$CN$45
+    FORMULA: OML123_Oil_S1!$CP$4:$CP$45
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: OML123_Oil_S1!$CN$4:$CN$45
+    FORMULA: OML123_Oil_S1!$CO$4:$CO$45
+==========================================================================================
+CHART XML: xl/charts/chart18.xml
+CHART INDEX: 10
+TITLE: <BLANK>
+SERIES COUNT: 1
+AXIS IDS: 628584728, 628583648, 628584728, 628583648
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$C$5:$C$46
+==========================================================================================
+CHART XML: xl/charts/chart19.xml
+CHART INDEX: 11
+TITLE: <BLANK>
+SERIES COUNT: 3
+AXIS IDS: 1184706480, 1184705760, 921977776, 1172498192, 921977776, 1172498192, 1184705760, 1184706480
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$U$3:$U$4
+    FORMULA: Prod_Summary!$S$5:$S$23
+    FORMULA: [0]!Annual_Oil
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$V$3:$V$4
+    FORMULA: Prod_Summary!$S$5:$S$31
+    FORMULA: [0]!Cum_Oil
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$T$3:$T$4
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Rates_Oil
+==========================================================================================
+CHART XML: xl/charts/chart2.xml
+CHART INDEX: 12
+TITLE: <BLANK>
+SERIES COUNT: 3
+AXIS IDS: 1184706480, 1184705760, 921977776, 1172498192, 921977776, 1172498192, 1184705760, 1184706480
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$U$3:$U$4
+    FORMULA: Prod_Summary!$S$5:$S$23
+    FORMULA: [0]!Annual_Oil
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$V$3:$V$4
+    FORMULA: Prod_Summary!$S$5:$S$31
+    FORMULA: [0]!Cum_Oil
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$T$3:$T$4
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Rates_Oil
+==========================================================================================
+CHART XML: xl/charts/chart20.xml
+CHART INDEX: 13
+TITLE: <BLANK>
+SERIES COUNT: 3
+AXIS IDS: 1245327864, 1245324624, 1117006232, 1117006592, 1117006232, 1117006592, 1245324624, 1245327864
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$Y$3:$Y$4
+    FORMULA: Prod_Summary!$S$5:$S$31
+    FORMULA: [0]!Cum_Gas
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$S$5:$S$46
+    FORMULA: [0]!Annual_Gas
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$W$3:$W$4
+    FORMULA: Prod_Summary!$S$5:$S$46
+    FORMULA: [0]!Rates_Gas
+==========================================================================================
+CHART XML: xl/charts/chart21.xml
+CHART INDEX: 14
+TITLE: Cost Profile | Cost, $mm
+SERIES COUNT: 4
+AXIS IDS: 546630968, 546627728, 546630968, 546627728
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Expl_Appr.
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Wells_CAP
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Fac_CAP
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!OPEX
+==========================================================================================
+CHART XML: xl/charts/chart22.xml
+CHART INDEX: 15
+TITLE: Gas Cost Profile | Cost, $mm
+SERIES COUNT: 4
+AXIS IDS: 546630968, 546627728, 546630968, 546627728, 546630968, 546627728, 546630968, 546627728
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FU$2
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Gas_Expl_Appr.
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_Wells_CAP
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_Fac_CAP
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_OPEX
+==========================================================================================
+CHART XML: xl/charts/chart23.xml
+CHART INDEX: 16
+TITLE: Front-Loaded Govt Take | Cost, $mm
+SERIES COUNT: 7
+AXIS IDS: 776221928, 776213648, 776221928, 776213648
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AA$7:$AA$28
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AB$7:$AB$28
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AC$7:$AC$28
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AD$7:$AD$28
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AE$7:$AE$28
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AF$7:$AF$28
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: FLGT!$A$7:$A$28
+    FORMULA: FLGT!$AG$7:$AG$28
+==========================================================================================
+CHART XML: xl/charts/chart24.xml
+CHART INDEX: 17
+TITLE: Project Discounted NCF | Annual NCF, $mm | Cum. | Disc. NCF, $mm
+SERIES COUNT: 2
+AXIS IDS: 686743592, 686741432, 739322360, 739323800, 739322360, 739323800, 686741432, 686743592
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Cum_DNCF
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: CIT_NCF!$A$8:$A$49
+    FORMULA: [0]!Annual_DNCF
+==========================================================================================
+CHART XML: xl/charts/chart25.xml
+CHART INDEX: 18
+TITLE: % Change in NPV
+SERIES COUNT: 8
+AXIS IDS: 793674528, 793673448, 793674528, 793673448
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$V$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$V$84:$V$92
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$W$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$W$84:$W$92
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$X$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$X$84:$X$92
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Y$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$Y$84:$Y$92
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Z$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$Z$84:$Z$92
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AA$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$AA$84:$AA$92
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AB$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$AB$84:$AB$92
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AC$83
+    FORMULA: Analysis!$U$84:$U$92
+    FORMULA: Analysis!$AC$84:$AC$92
+==========================================================================================
+CHART XML: xl/charts/chart26.xml
+CHART INDEX: 19
+TITLE: NPV
+SERIES COUNT: 8
+AXIS IDS: 889981568, 889980488, 889981568, 889980488
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$K$84:$K$92
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$L$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$L$84:$L$92
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$M$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$M$84:$M$92
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$N$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$N$84:$N$92
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$O$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$O$84:$O$92
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$P$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$P$84:$P$92
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Q$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$Q$84:$Q$92
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$R$83
+    FORMULA: Analysis!$J$84:$J$92
+    FORMULA: Analysis!$R$84:$R$92
+==========================================================================================
+CHART XML: xl/charts/chart27.xml
+CHART INDEX: 20
+TITLE: Oil Price Based Sensitivities of NPV and Disc. Payout | Crude Oil Price, $/bbl | NPV, | $mm | Discounted Payout Period, Years
+SERIES COUNT: 2
+AXIS IDS: 732670896, 732671616, 732613656, 732611136, 732670896, 732671616, 732611136, 732613656
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$D$19
+    FORMULA: Analysis!$C$23:$C$33
+    FORMULA: Analysis!$D$23:$D$33
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$F$19
+    FORMULA: Analysis!$E$23:$E$33
+    FORMULA: Analysis!$F$23:$F$33
+==========================================================================================
+CHART XML: xl/charts/chart28.xml
+CHART INDEX: 21
+TITLE: Variables | Net Present Value, $mm
+SERIES COUNT: 2
+AXIS IDS: 799550560, 799547320, 799550560, 799547320
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$96:$R$96
+    FORMULA: Analysis!$K$99:$R$99
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$96:$R$96
+    FORMULA: Analysis!$K$97:$R$97
+==========================================================================================
+CHART XML: xl/charts/chart29.xml
+CHART INDEX: 22
+TITLE: %Change in NPV
+SERIES COUNT: 9
+AXIS IDS: 819028864, 819023104, 819028864, 819023104
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$87
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$87:$AM$87
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$86
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$86:$AM$86
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$85
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$85:$AM$85
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$84
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$84:$AM$84
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$88
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AG$88:$AM$88
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$89
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$89:$AM$89
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$90
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$90:$AM$90
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$91
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$91:$AM$91
+  SERIES 9
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AE$92
+    FORMULA: Analysis!$AF$83:$AM$83
+    FORMULA: Analysis!$AF$92:$AM$92
+==========================================================================================
+CHART XML: xl/charts/chart3.xml
+CHART INDEX: 23
+TITLE: <BLANK>
+SERIES COUNT: 3
+AXIS IDS: 1245327864, 1245324624, 1117006232, 1117006592, 1117006232, 1117006592, 1245324624, 1245327864
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$Y$3:$Y$4
+    FORMULA: Prod_Summary!$S$5:$S$31
+    FORMULA: [0]!Cum_Gas
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$S$5:$S$46
+    FORMULA: [0]!Annual_Gas
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Prod_Summary!$W$3:$W$4
+    FORMULA: Prod_Summary!$S$5:$S$46
+    FORMULA: [0]!Rates_Gas
+==========================================================================================
+CHART XML: xl/charts/chart30.xml
+CHART INDEX: 24
+TITLE: Hurdle Rate Vs NPV | Rate, % | NPV, $mm
+SERIES COUNT: 1
+AXIS IDS: 819014824, 819015904, 819014824, 819015904
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$C$113:$C$131
+    FORMULA: Analysis!$D$113:$D$131
+==========================================================================================
+CHART XML: xl/charts/chart31.xml
+CHART INDEX: 25
+TITLE: % Change | in GRR
+SERIES COUNT: 8
+AXIS IDS: 1087280720, 1087280000, 1087280720, 1087280000
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$W$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$W$251:$W$259
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AB$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$AB$251:$AB$259
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$V$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$V$251:$V$259
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AC$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$AC$251:$AC$259
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Z$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$Z$251:$Z$259
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$X$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$X$251:$X$259
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Y$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$Y$251:$Y$259
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AA$250
+    FORMULA: Analysis!$U$251:$U$259
+    FORMULA: Analysis!$AA$251:$AA$259
+==========================================================================================
+CHART XML: xl/charts/chart32.xml
+CHART INDEX: 26
+TITLE: %Change in GRR
+SERIES COUNT: 9
+AXIS IDS: 1089019688, 1089019328, 1089019688, 1089019328
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$254
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$254:$AC$254
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$253
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$253:$AC$253
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$252
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$252:$AC$252
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$251
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$251:$AC$251
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$255
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$255:$AB$255
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$256
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$256:$AC$256
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$257
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$257:$AC$257
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$258
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$258:$AC$258
+  SERIES 9
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$259
+    FORMULA: Analysis!$V$250:$AC$250
+    FORMULA: Analysis!$V$259:$AC$259
+==========================================================================================
+CHART XML: xl/charts/chart33.xml
+CHART INDEX: 27
+TITLE: Growth Rate | of Return, %
+SERIES COUNT: 2
+AXIS IDS: 924890568, 924885528, 924890568, 924885528
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$265:$R$265
+    FORMULA: Analysis!$K$266:$R$266
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$265:$R$265
+    FORMULA: Analysis!$K$268:$R$268
+==========================================================================================
+CHART XML: xl/charts/chart34.xml
+CHART INDEX: 28
+TITLE: Growth | Rate of Return | , %
+SERIES COUNT: 8
+AXIS IDS: 1106659368, 1106659008, 1106659368, 1106659008
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$K$251:$K$259
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$L$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$L$251:$L$259
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$M$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$M$251:$M$259
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$N$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$N$251:$N$259
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$O$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$O$251:$O$259
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$P$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$P$251:$P$259
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Q$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$Q$251:$Q$259
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$R$250
+    FORMULA: Analysis!$J$251:$J$259
+    FORMULA: Analysis!$R$251:$R$259
+==========================================================================================
+CHART XML: xl/charts/chart35.xml
+CHART INDEX: 29
+TITLE: Profitability Index, PI
+SERIES COUNT: 8
+AXIS IDS: 742289760, 742294080, 742289760, 742294080
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$K$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$K$374:$K$382
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$L$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$L$374:$L$382
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$M$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$M$374:$M$382
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$O$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$O$374:$O$382
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$N$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$N$374:$N$382
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Q$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$Q$374:$Q$382
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$R$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$R$374:$R$382
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$P$373
+    FORMULA: Analysis!$J$374:$J$382
+    FORMULA: Analysis!$P$374:$P$382
+==========================================================================================
+CHART XML: xl/charts/chart36.xml
+CHART INDEX: 30
+TITLE: %Change in PI
+SERIES COUNT: 8
+AXIS IDS: 753741000, 753745680, 753741000, 753745680
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$W$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$W$374:$W$382
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$V$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$V$374:$V$382
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$X$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$X$374:$X$382
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Z$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$Z$374:$Z$382
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$Y$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$Y$374:$Y$382
+  SERIES 6
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AB$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$AB$374:$AB$382
+  SERIES 7
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AC$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$AC$374:$AC$382
+  SERIES 8
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$AA$373
+    FORMULA: Analysis!$U$374:$U$382
+    FORMULA: Analysis!$AA$374:$AA$382
+==========================================================================================
+CHART XML: xl/charts/chart37.xml
+CHART INDEX: 31
+TITLE: Profitability Index, PI
+SERIES COUNT: 3
+AXIS IDS: 742289760, 742294080, 742289760, 742294080
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$J$374
+    FORMULA: Analysis!$K$373:$S$373
+    FORMULA: Analysis!$K$374:$S$374
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$J$378
+    FORMULA: Analysis!$K$373:$S$373
+    FORMULA: Analysis!$K$378:$S$378
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$J$382
+    FORMULA: Analysis!$K$373:$S$373
+    FORMULA: Analysis!$K$382:$S$382
+==========================================================================================
+CHART XML: xl/charts/chart38.xml
+CHART INDEX: 32
+TITLE: %Change in PI
+SERIES COUNT: 3
+AXIS IDS: 753741000, 753745680, 753741000, 753745680
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$374
+    FORMULA: Analysis!$V$373:$AC$373
+    FORMULA: Analysis!$V$374:$AC$374
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$378
+    FORMULA: Analysis!$V$373:$AC$373
+    FORMULA: Analysis!$V$378:$AC$378
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$U$382
+    FORMULA: Analysis!$V$373:$AC$373
+    FORMULA: Analysis!$V$382:$AC$382
+==========================================================================================
+CHART XML: xl/charts/chart39.xml
+CHART INDEX: 33
+TITLE: Oil Price Based Sensitivities of NPV and Disc. Payout | Crude Oil Price, $/bbl | NPV, $mm | Discounted Payout Period, Years
+SERIES COUNT: 2
+AXIS IDS: 732670896, 732671616, 732613656, 732611136, 732670896, 732671616, 732611136, 732613656
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$D$19
+    FORMULA: Analysis!$C$22:$C$32
+    FORMULA: Analysis!$D$22:$D$32
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Analysis!$F$19
+    FORMULA: Analysis!$C$22:$C$32
+    FORMULA: Analysis!$F$22:$F$32
+==========================================================================================
+CHART XML: xl/charts/chart4.xml
+CHART INDEX: 34
+TITLE: Oil Cost Profile | Cost, $mm
+SERIES COUNT: 4
+AXIS IDS: 546630968, 546627728, 546630968, 546627728
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Expl_Appr.
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Wells_CAP
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Fac_CAP
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!OPEX
+==========================================================================================
+CHART XML: xl/charts/chart40.xml
+CHART INDEX: 35
+TITLE: Equity CashFlow with Acquisition Cost | Equity DNCF, $MM | Equity Cum DNCF, $MM
+SERIES COUNT: 2
+AXIS IDS: 992062784, 992061344, 992055224, 992053064, 992062784, 992061344, 992053064, 992055224
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Equity_NCF_Con!$AH$3:$AH$4
+    FORMULA: Equity_NCF_Con!$A$5:$A$34
+    FORMULA: Equity_NCF_Con!$AH$5:$AH$34
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Equity_NCF_Con!$AI$3:$AI$4
+    FORMULA: Equity_NCF_Con!$A$5:$A$34
+    FORMULA: Equity_NCF_Con!$AI$5:$AI$34
+==========================================================================================
+CHART XML: xl/charts/chart5.xml
+CHART INDEX: 36
+TITLE: Gas Cost Profile | Cost, $mm
+SERIES COUNT: 4
+AXIS IDS: 546630968, 546627728, 546630968, 546627728, 546630968, 546627728, 546630968, 546627728
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FU$2
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Gas_Expl_Appr.
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_Wells_CAP
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_Fac_CAP
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: Block_TC_Gas!$FT$5:$FT$46
+    FORMULA: [0]!Gas_OPEX
+==========================================================================================
+CHART XML: xl/charts/chart6.xml
+CHART INDEX: 37
+TITLE: Project Discounted NCF | Annual NCF, $mm | Cum. | Disc. NCF, $mm
+SERIES COUNT: 2
+AXIS IDS: 686743592, 686741432, 739322360, 739323800, 739322360, 739323800, 686741432, 686743592
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: [0]!Years_Prod
+    FORMULA: [0]!Cum_DNCF
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: CIT_NCF!$A$8:$A$49
+    FORMULA: [0]!Annual_DNCF
+==========================================================================================
+CHART XML: xl/charts/chart7.xml
+CHART INDEX: 38
+TITLE: STOIIP | Input Variations | STOIIP, MMSTB
+SERIES COUNT: 5
+AXIS IDS: 299086296, 14087672, 299086296, 14087672
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$D$39
+    FORMULA: STOIIP!$C$40:$C$48
+    FORMULA: STOIIP!$D$40:$D$48
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$E$39
+    FORMULA: STOIIP!$C$40:$C$48
+    FORMULA: STOIIP!$E$40:$E$48
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$F$39
+    FORMULA: STOIIP!$C$40:$C$48
+    FORMULA: STOIIP!$F$40:$F$48
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$G$39
+    FORMULA: STOIIP!$C$40:$C$48
+    FORMULA: STOIIP!$G$40:$G$48
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$H$39
+    FORMULA: STOIIP!$C$40:$C$48
+    FORMULA: STOIIP!$H$40:$H$48
+==========================================================================================
+CHART XML: xl/charts/chart8.xml
+CHART INDEX: 39
+TITLE: STOIIP, MMSTB | Variables
+SERIES COUNT: 3
+AXIS IDS: 14090808, 14091984, 14090808, 14091984
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$C$40
+    FORMULA: STOIIP!$D$39:$H$39
+    FORMULA: STOIIP!$D$40:$H$40
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$C$44
+    FORMULA: STOIIP!$D$39:$H$39
+    FORMULA: STOIIP!$D$44:$H$44
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$C$48
+    FORMULA: STOIIP!$D$39:$H$39
+    FORMULA: STOIIP!$D$48:$H$48
+==========================================================================================
+CHART XML: xl/charts/chart9.xml
+CHART INDEX: 40
+TITLE: %Change in STOIIP | %Input Variation | %STOIIP Variation
+SERIES COUNT: 5
+AXIS IDS: 14090024, 14086888, 14090024, 14086888
+  SERIES 1
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$O$39
+    FORMULA: STOIIP!$N$40:$N$48
+    FORMULA: STOIIP!$O$40:$O$48
+  SERIES 2
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$P$39
+    FORMULA: STOIIP!$N$40:$N$48
+    FORMULA: STOIIP!$P$40:$P$48
+  SERIES 3
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$Q$39
+    FORMULA: STOIIP!$N$40:$N$48
+    FORMULA: STOIIP!$Q$40:$Q$48
+  SERIES 4
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$R$39
+    FORMULA: STOIIP!$N$40:$N$48
+    FORMULA: STOIIP!$R$40:$R$48
+  SERIES 5
+    TITLE: <UNTITLED>
+    FORMULA: STOIIP!$S$39
+    FORMULA: STOIIP!$N$40:$N$48
+    FORMULA: STOIIP!$S$40:$S$48

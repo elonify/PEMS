@@ -49,7 +49,7 @@
     "START": 28
   },
   "cross_sheet_edge_types": 212,
-  "charts_openpyxl": 41,
+  "charts_openpyxl": 40,
   "charts_by_sheet": {
     "Ec_IO": 6,
     "Analysis": 15,
@@ -68,7 +68,7 @@
     "file_extension": ".xlsx",
     "vba_archive_present": true,
     "package_vbaProject": false,
-    "chart_xml_count": 41
+    "chart_xml_count": 40
   },
   "formula_count_by_sheet": {
     "Oil Input": 16808,

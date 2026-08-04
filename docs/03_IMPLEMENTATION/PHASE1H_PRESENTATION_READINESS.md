@@ -108,7 +108,7 @@ Presentation readiness is **not** granted merely because RESULTS is implemented;
 
 | Metric | Evidence |
 |--------|----------|
-| Chart count | **41** (`CHARTS_AND_VBA.md`, openpyxl `_charts`) |
+| Chart count | **40** (`CHARTS_AND_VBA.md`, openpyxl `_charts`) |
 | Analysis | 15 (sensitivity — **DEFERRED** with Analysis scope) |
 | Ec_IO | 6 |
 | STOIIP / GIIP | 4 each |
@@ -405,7 +405,7 @@ Authoritative: `UNIT_AND_CURRENCY_SPECIFICATION.md`, `NUMBER_FORMAT_SPECIFICATIO
 
 | Item | Status |
 |------|--------|
-| Full 41-chart series→template map | Pending deep inventory |
+| Full 40-chart series→template map | Pending deep inventory |
 | Analysis / sensitivity UI | DEFERRED |
 | Monte Carlo UI | DEFERRED |
 | Reservoir STOIIP/GIIP full product | Interface partial |
@@ -455,7 +455,7 @@ None for **first-slice** KPI+forms+tables.
 | Dual-axis zero align | CHART_SPECIFICATION §6 |
 | No calc in UI | UI_ARCHITECTURE §2; CHART_SPEC constraints |
 | 30 visible sheets | PEMS_PRESENTATION_SPECIFICATION §2; PRESENTATION_AUDIT_EXTRACT |
-| 41 charts inventory | CHARTS_AND_VBA.md |
+| 40 charts inventory | CHARTS_AND_VBA.md |
 | Analysis deferred | SCOPE / PERIPHERAL_SCOPE_REGISTER; Analysis data tables |
 | AU14 / NO_VALID_IRR display | DATA_MODEL; RESULTS/CR contracts; GTC EXP-001 |
 | Report types | REPORT_SPECIFICATION |

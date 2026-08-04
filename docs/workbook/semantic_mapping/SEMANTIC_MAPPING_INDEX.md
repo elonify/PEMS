@@ -55,7 +55,7 @@ Map workbook evidence to PEMS domains **without** inventing business rules, alte
 | `CROSS_SHEET_DEPENDENCY_EDGES.csv` | **212** directed sheet-edge types |
 | `SHEET_UPSTREAM_SUMMARY.csv` | Per-sheet upstream list |
 | `NAMED_RANGE_USAGE_TOP100.csv` | Substring usage of defined names |
-| `CHART_INVENTORY.csv` | **41** charts (openpyxl) |
+| `CHART_INVENTORY.csv` | **40** charts (openpyxl) |
 | `CHARTS_AND_VBA.md` | Chart/VBA findings |
 | `SEMANTIC_PHASE_SUMMARY.json` | Machine summary |
 | `modules/M01_Input_Control.md` … `M09_…` | Domain maps |

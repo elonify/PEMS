@@ -6,8 +6,8 @@
 
 | Metric | Value |
 |--------|------:|
-| Chart XML parts in package | **41** |
-| Charts via openpyxl `_charts` | **41** |
+| Chart XML parts in package | **40** |
+| Charts via openpyxl `_charts` | **40** |
 | Artifact | `CHART_INVENTORY.csv` |
 
 ### By worksheet
