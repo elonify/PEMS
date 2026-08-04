@@ -1,0 +1,362 @@
+worksheet,chart_index,chart_type,title,anchor,series_count,series_preview,affects,domain
+Ec_IO,0,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Cum_DNCF', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='General', ptCount=16, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=3.2400012363013833, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-95.92658723823713, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-96.92677244041896, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-49.53335691149462, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=-3.4876966574615764, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=26.09701004567349, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=44.81408002817034, <openp",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Ec_IO,1,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f='Prod_Summary!$AI$22', strCache=<openpyxl.chart.data_source.StrData object>
+Parameters:
+pt","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Annual_Oil', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.36525, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.7869072705341456, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=1.6953403214770675, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=3.6524999999999994, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=3.6525, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=2.84283047185045, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=2.2",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Ec_IO,2,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f='Prod_Summary!$AF$22', strCache=<openpyxl.chart.data_source.StrData object>
+Parameters:
+pt","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Cum_Gas', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.658793104896479, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=2.078119823639267, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=5.135966542987855, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=9.515966542987858, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=13.390241159166274, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Ec_IO,3,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",4,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Expl_Appr.', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=35.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=7",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Ec_IO,4,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Gas_Expl_Appr.', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nid",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Ec_IO,5,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Cum_DNCF', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='General', ptCount=16, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=3.2400012363013833, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-95.92658723823713, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-96.92677244041896, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-49.53335691149462, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=-3.4876966574615764, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=26.09701004567349, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=44.81408002817034, <openp",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M01_Input_Control
+Analysis,0,ScatterChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$V$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='Oil Production'], v=None""}, {""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$W$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='Gas Production'], v=None""}, {""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$X$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.d",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,1,ScatterChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$K$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='Oil Production'], v=None""}, {""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$L$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='Gas Production'], v=None""}, {""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$M$83', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.d",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,2,ScatterChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$D$19', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='NPV, $mm'], v=None""}]",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,3,BarChart,,"<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$K$99:$R$99', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='[$$-409]#,##0.00_ ;[Red]\\\\-[$$-409]#,##0.00\\\\ ', ptCount=8, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=130.94437996140582, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=126.39412455265283, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=54.04717934752129, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=58.698081879679854, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=58.11542922917181, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=76.34517721626904, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,4,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",9,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$AF$87:$AM$87', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=8, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=-0.18914426917506824, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.18205431922703055, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.06484464151046906, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.06790471903659451, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.05625714431821107, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=-0.012119350677301365, <ope",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,5,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$D$113:$D$131', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='[$$-409]#,##0.00_ ;[Red]\\\\-[$$-409]#,##0.00\\\\ ', ptCount=19, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\n",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,6,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$W$251:$W$259', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=-0.06968086707510349, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.05117310282772167, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-0.033643314257909805, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-0.016044817033601208, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.014746082090213471, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.029042747163351236, ",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,7,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",9,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$V$254:$AC$254', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=8, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=-0.0154340705940211, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.016044817033601208, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.007451370103087263, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.005385137072743973, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.00656131789500698, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=-0.0010128829816086554, ",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,8,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$K$266:$R$266', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.00%', ptCount=8, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.1540505607010434, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.15357135706288783, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.17019636729125232, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.16883306716082225, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.16959648173625386, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.16507384576738082, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.16440264669",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,9,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$K$251:$K$259', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.00%', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.15357135706288783, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.15662650488375918, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.1595202144984671, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.1624252661150103, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.16507384576738082, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.16750803824801386, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.169868043733",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,10,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$K$374:$K$382', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=1.047609325451801, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=1.090007530194434, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=1.1316373144970397, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=1.1749192271382396, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=1.215721762193484, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=1.2543842284676157, <openpyxl.chart.data_source.NumVal object>\nParameters:\n",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,11,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",8,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$W$374:$W$382', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=-0.13828200001813204, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.10340707545797986, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-0.0691642202281002, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-0.033562395873892856, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.031802068101811715, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.06353398475609812, <op",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,12,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",3,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$K$374:$S$374', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=1.047609325451801, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=1.054156132817309, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=1.298415162067372, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=1.2759091118126888, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=1.2884666824281155, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=1.215721762193484, <openpyxl.chart.data_source.NumVal object>\nParameters:\ni",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,13,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",3,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Analysis!$V$374:$AC$374', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=8, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=-0.1328968801912929, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.13828200001813204, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.06802000461412103, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.04950750368292412, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.05983681669346811, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=-0.008606738588862567, <ope",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+Analysis,14,ScatterChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""None"", ""cat"": ""None"", ""title"": ""<openpyxl.chart.series.SeriesLabel object>\nParameters:\nstrRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='Analysis!$D$19', strCache=<openpyxl.chart.data_source.StrData object>\nParameters:\nptCount=1, pt=[<openpyxl.chart.data_source.StrVal object>\nParameters:\nidx=0, v='NPV, $mm'], v=None""}]",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M09_Sensitivity_Analysis
+STOIIP,0,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",5,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='STOIIP!$D$40:$D$48', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=176.8824, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=166.47755294117647, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=157.2288, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=148.9536, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=141.50592, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=134.76754285714287, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=128.64174",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+STOIIP,1,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",3,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='STOIIP!$D$40:$H$40', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=5, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=176.8824, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=113.204736, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=113.204736, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=113.204736, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=150.44313600000004]"", ""cat"": ""<openpyxl.chart.data_source.AxDataSource object>\nParameters:\nmultiLvlStrRef=None, numLit=None, numRef=None, strLit=None, strRef=<openpyxl.chart.data_source.StrRef object>\nParame",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+STOIIP,2,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",5,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='STOIIP!$O$40:$O$48', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.2499999999999999, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.17647058823529407, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.11111111111111113, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.052631578947368356, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=-0.04761904761904754, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=-0.09090909090909091, <openpyxl.",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+STOIIP,3,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",9,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='STOIIP!$O$40:$S$40', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=5, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.2499999999999999, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.20000000000000004, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-0.20000000000000004, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-0.20000000000000004, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.06315789473684236]"", ""cat"": ""<openpyxl.chart.data_source.AxDataSource object>\nParameters:\nmultiLvlStrRef=None, numLit=None, numRef=None, strLit=None, strRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='ST",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+GIIP,0,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",5,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='GIIP!$D$40:$D$48', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=993.168, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=934.7463529411764, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=882.816, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=836.3520000000001, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=794.5344, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=756.6994285714285, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=722.304",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+GIIP,1,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",3,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='GIIP!$D$40:$H$40', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=5, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=993.168, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=635.62752, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=635.62752, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=635.62752, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=844.7155200000001]"", ""cat"": ""<openpyxl.chart.data_source.AxDataSource object>\nParameters:\nmultiLvlStrRef=None, numLit=None, numRef=None, strLit=None, strRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\n",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+GIIP,2,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",5,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='GIIP!$O$40:$O$48', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=9, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.25, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.176470588235294, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.11111111111111115, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.05263157894736853, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=-0.047619047619047734, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=-0.09090909090909095, <openpyxl.chart.data_source.",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+GIIP,3,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",9,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='GIIP!$O$40:$S$40', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='0.0%', ptCount=5, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.25, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-0.2, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-0.2, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-0.2, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0631578947368422]"", ""cat"": ""<openpyxl.chart.data_source.AxDataSource object>\nParameters:\nmultiLvlStrRef=None, numLit=None, numRef=None, strLit=None, strRef=<openpyxl.chart.data_source.StrRef object>\nParameters:\nf='GIIP!$O$39:$S$39', strCache=<openpyxl.chart.data_source.StrData obj",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M03_Reservoir
+Production Profile,0,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f=""'Production Profile'!$P$23"", strCache=<openpyxl.chart.data_source.StrData object>
+Paramet","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Rates_Charts', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=1.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=2.449489742783178, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=6.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=6.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=6.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=6.0, <openpyxl.chart.data_source.NumVal object>",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+Production Profile,1,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f=""'Production Profile'!$S$23"", strCache=<openpyxl.chart.data_source.StrData object>
+Paramet","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf=\""'Production Profile'!AG_Chart_Rates\"", numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=2.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=4.898979485566356, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=12.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=12.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=12.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=12.0, <openpyxl.chart.d",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+OML123_Oil_S1,0,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='OML123_Oil_S1!$CP$4:$CP$45', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=42, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParamet",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+Prod_Summary,0,LineChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=None, spcFirs","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Prod_Summary!$C$5:$C$46', numCache=None"", ""cat"": ""None"", ""title"": ""None""}]",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+Prod_Summary,1,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f='Prod_Summary!$AI$22', strCache=<openpyxl.chart.data_source.StrData object>
+Parameters:
+pt","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Annual_Oil', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.36525, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.7869072705341456, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=1.6953403214770675, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=3.6524999999999994, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=3.6525, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=2.84283047185045, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=2.2",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+Prod_Summary,2,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=<openpyxl.chart.data_source.StrRef object>
+Parameters:
+f='Prod_Summary!$AF$22', strCache=<openpyxl.chart.data_source.StrData object>
+Parameters:
+pt","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",2,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Cum_Gas', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.658793104896479, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=2.078119823639267, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=5.135966542987855, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=9.515966542987858, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=13.390241159166274, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M04_Production
+Block_TC,0,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",4,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Expl_Appr.', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=35.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=7",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M05_Cost_CapAllow
+Block_TC,1,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",5,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Block_TC!$GT$5:$GT$23', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=19, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M05_Cost_CapAllow
+Block_TC_Gas,0,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Gas_Expl_Appr.', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_-* #,##0.00_-;\\\\-* #,##0.00_-;_-* \""-\""??_-;_-@_-', ptCount=15, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nid",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M05_Cost_CapAllow
+FLGT,0,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",7,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='FLGT!$AA$7:$AA$28', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='General', ptCount=22, pt=[]"", ""cat"": ""<openpyxl.chart.data_source.AxDataSource object>\nParameters:\nmultiLvlStrRef=None, numLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='FLGT!$A$7:$A$28', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='General', ptCount=22, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=2026.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=2027.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=2028.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=2029.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\ni",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M06_Royalty_FLGT
+Project_NCF_Con (2),0,AreaChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='[0]!Cum_DNCF', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='General', ptCount=16, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=3.2400012363013833, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=-95.92658723823713, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=-96.92677244041896, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=-49.53335691149462, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=-3.4876966574615764, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=26.09701004567349, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=44.81408002817034, <openp",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M07_Tax_NCF_Cashflow
+Equity_NCF_Con,0,BarChart,"<openpyxl.chart.text.Text object>
+Parameters:
+strRef=None, rich=<openpyxl.chart.text.RichText object>
+Parameters:
+bodyPr=<openpyxl.drawing.text.RichTextProperties object>
+Parameters:
+rot=0, spcFirstLa","<openpyxl.drawing.spreadsheet_drawing.TwoCellAnchor object>
+Parameters:
+editAs=None, contentPart=None, _from=<openpyxl.d",1,"[{""val"": ""<openpyxl.chart.data_source.NumDataSource object>\nParameters:\nnumLit=None, numRef=<openpyxl.chart.data_source.NumRef object>\nParameters:\nf='Equity_NCF_Con!$AH$5:$AH$34', numCache=<openpyxl.chart.data_source.NumData object>\nParameters:\nformatCode='_(* #,##0.00_);_(* \\\\(#,##0.00\\\\);_(* \""-\""??_);_(@_)', ptCount=30, pt=[<openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=0, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=1, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=2, formatCode=None, v=0.0, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=3, formatCode=None, v=1.587600605787678, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=4, formatCode=None, v=-48.59162835252388, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=5, formatCode=None, v=-0.4900907490690941, <openpyxl.chart.data_source.NumVal object>\nParameters:\nidx=6, formatCode=None, v=23.22",PRESENTATION_LIKELY — verify series formulas; not calc engine unless linked cells are inputs,M07_Tax_NCF_Cashflow

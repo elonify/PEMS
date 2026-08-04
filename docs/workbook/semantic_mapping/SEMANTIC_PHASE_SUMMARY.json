@@ -1,0 +1,555 @@
+{
+  "sha256": "F6A1992F6A3CC27EC587779ADE6CF667B246FB1587296EFD0CD14B47A6783006",
+  "literal_register_rows": 10727,
+  "literal_by_domain": {
+    "M01_Input_Control": 4359,
+    "M99_Unclassified_YTD_Budget": 2174,
+    "M02_Fiscal_Terms": 124,
+    "M09_Sensitivity_Analysis": 2210,
+    "M03_Reservoir": 540,
+    "M04_Production": 340,
+    "M05_Cost_CapAllow": 626,
+    "M06_Royalty_FLGT": 90,
+    "M08_Results_Economics": 15,
+    "M07_Tax_NCF_Cashflow": 210,
+    "M99_Unclassified_Nav": 39
+  },
+  "literal_candidate_hints_nonbinding": {
+    "INPUT_SHEET_LITERAL_CANDIDATE": 4319,
+    "UNCLASSIFIED_LITERAL": 6014,
+    "PARAMETER_OR_INPUT_CANDIDATE": 184,
+    "LIKELY_HARDCODED_OR_SEED_ON_CALC_SHEET": 210
+  },
+  "all_literals_classification": "UNCLASSIFIED_LITERAL (none promoted to INPUT without evidence)",
+  "cr_econ_formula_total": 948,
+  "cr_econ_no_cache": 60,
+  "cr_econ_with_cache": 888,
+  "cr_econ_upstream_sheets": {
+    "Ec_IO": 92,
+    "FLGT": 323,
+    "Cap_Allow": 127,
+    "CIT_NCF_Oil": 46,
+    "Fiscal Terms_PIA": 90
+  },
+  "cr_econ_referenced_by_sheets": {
+    "HT_NCF": 136,
+    "CIT_NCF": 45,
+    "HT_NCF_Oil": 93,
+    "CIT_NCF_Oil": 92,
+    "Project_NCF_Con": 46,
+    "CIT_NCF_Gas": 92,
+    "Project_NCF_Con (2)": 46,
+    "HT_NCF_Oil Equity": 47,
+    "CIT_NCF_Oil Equity": 47,
+    "CIT_NCF_Gas Equity": 47,
+    "Equity_NCF_Con": 46
+  },
+  "hashref_occurrences": 28,
+  "hashref_by_sheet": {
+    "START": 28
+  },
+  "cross_sheet_edge_types": 212,
+  "charts_openpyxl": 41,
+  "charts_by_sheet": {
+    "Ec_IO": 6,
+    "Analysis": 15,
+    "STOIIP": 4,
+    "GIIP": 4,
+    "Production Profile": 2,
+    "OML123_Oil_S1": 1,
+    "Prod_Summary": 3,
+    "Block_TC": 2,
+    "Block_TC_Gas": 1,
+    "FLGT": 1,
+    "Project_NCF_Con (2)": 1,
+    "Equity_NCF_Con": 1
+  },
+  "vba": {
+    "file_extension": ".xlsx",
+    "vba_archive_present": true,
+    "package_vbaProject": false,
+    "chart_xml_count": 41
+  },
+  "formula_count_by_sheet": {
+    "Oil Input": 16808,
+    "Gas Input": 17709,
+    "YTD Budget APN (2)": 1053,
+    "START": 30,
+    "Checklist": 35,
+    "Fiscal Terms_PIA": 5,
+    "Ec_IO": 91,
+    "RESULTS Equity": 62,
+    "Analysis": 2066,
+    "STOIIP": 267,
+    "GIIP": 267,
+    "Production Profile": 310,
+    "Block_Oil Data": 1618,
+    "Block_Gas Data": 1463,
+    "OML123_Oil_S1": 337,
+    "Prod_Summary": 849,
+    "Block_TC": 3356,
+    "Block_TC_Gas": 3253,
+    "Cap_Allow": 8136,
+    "Cap_Allow Gas": 8103,
+    "Royalties": 712,
+    "FLGT": 1435,
+    "Equity Dash": 15,
+    "CR Econ": 948,
+    "HT_NCF": 1901,
+    "CIT_NCF": 1391,
+    "HT_NCF_Oil": 1960,
+    "CIT_NCF_Oil": 1470,
+    "Project_NCF_Con": 1629,
+    "CIT_NCF_Gas": 1454,
+    "Project_NCF_Con (2)": 1615,
+    "HT_NCF_Oil Equity": 2097,
+    "CIT_NCF_Oil Equity": 1689,
+    "CIT_NCF_Gas Equity": 1723,
+    "Equity_NCF_Con": 1588,
+    "Sheet1": 46
+  },
+  "model_map_sample_rows": [
+    [
+      "OML 123 PIA BASED ECONOMIC EVALUATION MODEL"
+    ],
+    [
+      "MODEL NOMENCLATURE & DEFINITIONS"
+    ],
+    [
+      "$",
+      "United States Dollar (USD)"
+    ],
+    [
+      "$mln",
+      "Million USD"
+    ],
+    [
+      "$mm",
+      "Million USD"
+    ],
+    [
+      "Aband.",
+      "Abandonment",
+      "Author",
+      "Emmanuel Onwuka"
+    ],
+    [
+      "AG",
+      "Associated Gas",
+      "Phone",
+      "08067552172"
+    ],
+    [
+      "AGR",
+      "Access to Gross Revenue",
+      "Email"
+    ],
+    [
+      "AIT",
+      "After Income Tax",
+      "Date"
+    ],
+    [
+      "AITx",
+      "After Companies Income Tax",
+      "Afiliation",
+      "H46 Resources Ltd"
+    ],
+    [
+      "APL",
+      "Antan Producing Limited"
+    ],
+    [
+      "Ave.",
+      "Average",
+      "Country",
+      "Nigeria"
+    ],
+    [
+      "B4ITx",
+      "Before Companies Income Tax",
+      "Project Name",
+      "OML 123 PIA Economic Model "
+    ],
+    [
+      "BIT",
+      "Before Income Tax"
+    ],
+    [
+      "Boe",
+      "Barrel of Oil Equivalent",
+      "Model Purpose"
+    ],
+    [
+      "bscf",
+      "Billion Standard Cubic Feet ",
+      "To build from basics, suitable economic models for OML 123 assets viability eval"
+    ],
+    [
+      "C/F",
+      "Carry Forward"
+    ],
+    [
+      "CAL. ",
+      "Calculated",
+      "Model Structure"
+    ],
+    [
+      "CAPEX",
+      "Capital Expenditure",
+      "The overall structure of the model is illustrated on the Influence Diagram Tab. "
+    ],
+    [
+      "CIT",
+      "Companies Income Tax"
+    ],
+    [
+      "CITA",
+      "Companies Income Tax Act 1961 (Amended 2007)",
+      "Table of Contents"
+    ],
+    [
+      "CNCF",
+      "Cumulative Net Cash Flow",
+      "Worksheet name",
+      "Worksheet description",
+      "Worksheet type",
+      "Notes on worksheets"
+    ],
+    [
+      "CPR",
+      "Cost Price Ratio",
+      "Fiscal Terms_PIA",
+      "Petroleum Fiscal Regime - PIA 2021",
+      "Data Input",
+      "Legislated fiscal data input guiding the model"
+    ],
+    [
+      "CRL",
+      "Cost Recovery Limit",
+      "Ec_IO",
+      "OML Dashboard",
+      "Input/Output",
+      "Interactive Inputs and Outputs with Charts"
+    ],
+    [
+      "Cum.",
+      "Cumulative",
+      "OML 123_Gas",
+      "Gas Production Profile",
+      "Input/Calculation",
+      "Transposition calculations on Production data"
+    ],
+    [
+      "Decom",
+      "Decommisioning",
+      "Production Profile_123",
+      "Combined Production Profile",
+      "calculation",
+      "Feeds from transposed production data and start year toggling calculations"
+    ],
+    [
+      "Depr",
+      "Depreciation",
+      "OML 123_COST",
+      "Technical Cost Outlay",
+      "Input/Calculation",
+      "Transposition calculations on Technical Cost data"
+    ],
+    [
+      "Disc.",
+      "Discounted",
+      "Royalties_123",
+      "Royalties Computation",
+      "calculation",
+      "Royalty calculations"
+    ],
+    [
+      "DNCF",
+      "Discounted Net Cash Flow",
+      "FLGT_123",
+      "Front-End Loaded Govt Payments",
+      "calculation",
+      "Bonuses, concession rental, HCDT, NDDC & effective royalty rate calculations"
+    ],
+    [
+      "Dom",
+      "Domestic",
+      "Capital Allowance_123",
+      "Cost Treatment for Tax",
+      "calculation",
+      "Depreciaton, Depletion and Amortization calculations + Abandonment/decom retenti"
+    ],
+    [
+      "Ec_IO",
+      "Economic Model Input Output ",
+      "B4ITx_123",
+      "Before Income Tax NCF",
+      "calculation",
+      "Before companies income tax calculations"
+    ],
+    [
+      "ECR",
+      "Excess Cost Recovery",
+      "AITx_123",
+      "After Income Tax NCF",
+      "calculation",
+      "Companies income tax calculations + Tertiary education tax calculations"
+    ],
+    [
+      "EDT",
+      "Tertiary Education Tax",
+      "RESULTS_123",
+      "Profitability Indicators",
+      "Output",
+      "Summary of all base case objective functions"
+    ],
+    [
+      "ERR",
+      "Effective Royalty Rate",
+      "Master",
+      "Model Navigation ",
+      "Link",
+      "Establishes link to all the relevant worksheets"
+    ],
+    [
+      "FLGT",
+      "Front-End Loaded Government Take",
+      "Capital Allowance_123",
+      "PSC Cost Recovery Economics",
+      "calculation",
+      "Calculation of host government profit oil share"
+    ],
+    [
+      "FLI",
+      "Front Loaded Index",
+      "OML 123_Oil",
+      "Oil Production Profile",
+      "Input/Calculation",
+      "Transposition calculations on Production data"
+    ],
+    [
+      "FPSO",
+      "Floating Production Storage and Offloading",
+      "OML 123_Oil_S1",
+      "Scenario 1 Oil Production Incremental",
+      "Input/Calculation",
+      "Transposition calculations on Production data"
+    ],
+    [
+      "GRR",
+      "Growth Rate of Return"
+    ],
+    [
+      "H46R",
+      "H46 Resources Limited"
+    ],
+    [
+      "HCDT",
+      "Host Community Development Trust",
+      "Color Code"
+    ]
+  ],
+  "ecio_label_sample": [
+    {
+      "cell": "B1",
+      "label": "DASHBOARD"
+    },
+    {
+      "cell": "A3",
+      "label": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "B3",
+      "label": "INPUT ASSUMPTIONS "
+    },
+    {
+      "cell": "A4",
+      "label": "Master"
+    },
+    {
+      "cell": "B4",
+      "label": "Asset Analysis Type"
+    },
+    {
+      "cell": "C4",
+      "label": "Forecast"
+    },
+    {
+      "cell": "A5",
+      "label": "Fiscal Terms_PIA"
+    },
+    {
+      "cell": "B5",
+      "label": "Project Start Year"
+    },
+    {
+      "cell": "M5",
+      "label": "Metric Systems Measures"
+    },
+    {
+      "cell": "P5",
+      "label": "Host Govt.  BIT $ MM"
+    },
+    {
+      "cell": "Q5",
+      "label": "Contractor    BIT $MM"
+    },
+    {
+      "cell": "S5",
+      "label": "Host Govt.  AIT $ MM"
+    },
+    {
+      "cell": "A6",
+      "label": "OML 123_Oil"
+    },
+    {
+      "cell": "B6",
+      "label": "Project Life "
+    },
+    {
+      "cell": "A7",
+      "label": "OML 123_Gas"
+    },
+    {
+      "cell": "B7",
+      "label": "Production days in a year"
+    },
+    {
+      "cell": "M7",
+      "label": "Net Present Value @"
+    },
+    {
+      "cell": "A8",
+      "label": "OML 123_Oil_S1"
+    },
+    {
+      "cell": "B8",
+      "label": "Annual Production Level"
+    },
+    {
+      "cell": "C8",
+      "label": "NA"
+    },
+    {
+      "cell": "F8",
+      "label": "GRR"
+    },
+    {
+      "cell": "M8",
+      "label": "Internal Rate of Return"
+    },
+    {
+      "cell": "A9",
+      "label": "Production Profile_123"
+    },
+    {
+      "cell": "B9",
+      "label": "Injection wrt Production"
+    },
+    {
+      "cell": "C9",
+      "label": "NA"
+    },
+    {
+      "cell": "F9",
+      "label": "PVR"
+    },
+    {
+      "cell": "M9",
+      "label": "Present Value Ratio"
+    },
+    {
+      "cell": "A10",
+      "label": "OML 123_COST"
+    },
+    {
+      "cell": "B10",
+      "label": "Average Line Losses"
+    },
+    {
+      "cell": "C10",
+      "label": "NA"
+    },
+    {
+      "cell": "F10",
+      "label": "PI"
+    },
+    {
+      "cell": "M10",
+      "label": "Profitability Index"
+    },
+    {
+      "cell": "A11",
+      "label": "Royalties_123"
+    },
+    {
+      "cell": "B11",
+      "label": "BASE CASE ECONOMIC & FISCAL INPUTS"
+    },
+    {
+      "cell": "F11",
+      "label": "ERR"
+    },
+    {
+      "cell": "M11",
+      "label": "Growth Rate of Return"
+    },
+    {
+      "cell": "A12",
+      "label": "FLGT_123"
+    },
+    {
+      "cell": "B12",
+      "label": "Crude Oil Price, $/bbl"
+    },
+    {
+      "cell": "F12",
+      "label": "FLI"
+    },
+    {
+      "cell": "M12",
+      "label": "Undiscounted Take Statistics"
+    },
+    {
+      "cell": "A13",
+      "label": "Capital Allowance_123"
+    },
+    {
+      "cell": "B13",
+      "label": "Price Format"
+    },
+    {
+      "cell": "F13",
+      "label": "AGR"
+    },
+    {
+      "cell": "M13",
+      "label": "Discounted Take Statistics"
+    },
+    {
+      "cell": "A14",
+      "label": "CR Economics_123"
+    },
+    {
+      "cell": "B14",
+      "label": "Escalator"
+    },
+    {
+      "cell": "F14",
+      "label": "Tax"
+    },
+    {
+      "cell": "H14",
+      "label": "Million"
+    },
+    {
+      "cell": "M14",
+      "label": "Disc. Payout Period, Years"
+    },
+    {
+      "cell": "A15",
+      "label": "B4ITx_123"
+    }
+  ]
+}

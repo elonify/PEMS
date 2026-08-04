@@ -1,0 +1,1698 @@
+{
+  "authoritative_golden_master": {
+    "path": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Workbook_History\\Econ_Model_PEMS_confirmed_2026-08-03.xlsx",
+    "sha256": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB",
+    "size": 4841353
+  },
+  "live_workbook": {
+    "path": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Econ_Model_PEMS.xlsx",
+    "sha256": "9F7257A073F37A5822EC8B71882183915E044C768696C5380DC248B98DFCF5D5",
+    "size": 4840793
+  },
+  "byte_identical": false,
+  "zip_parts_only_in_confirmed": [],
+  "zip_parts_only_in_live": [],
+  "zip_parts_size_diffs_top": [
+    {
+      "part": "xl/styles.xml",
+      "confirmed_size": 253229,
+      "live_size": 254055,
+      "delta": 826
+    },
+    {
+      "part": "customXml/itemProps1.xml",
+      "confirmed_size": 954,
+      "live_size": 335,
+      "delta": -619
+    },
+    {
+      "part": "customXml/itemProps3.xml",
+      "confirmed_size": 335,
+      "live_size": 954,
+      "delta": 619
+    },
+    {
+      "part": "xl/worksheets/sheet33.xml",
+      "confirmed_size": 10713,
+      "live_size": 11230,
+      "delta": 517
+    },
+    {
+      "part": "xl/calcChain.xml",
+      "confirmed_size": 1796702,
+      "live_size": 1796870,
+      "delta": 168
+    },
+    {
+      "part": "xl/worksheets/sheet22.xml",
+      "confirmed_size": 139475,
+      "live_size": 139336,
+      "delta": -139
+    },
+    {
+      "part": "xl/worksheets/sheet31.xml",
+      "confirmed_size": 2109159,
+      "live_size": 2109036,
+      "delta": -123
+    },
+    {
+      "part": "xl/worksheets/sheet27.xml",
+      "confirmed_size": 139146,
+      "live_size": 139064,
+      "delta": -82
+    },
+    {
+      "part": "xl/worksheets/sheet35.xml",
+      "confirmed_size": 161554,
+      "live_size": 161474,
+      "delta": -80
+    },
+    {
+      "part": "customXml/item1.xml",
+      "confirmed_size": 290,
+      "live_size": 219,
+      "delta": -71
+    },
+    {
+      "part": "customXml/item3.xml",
+      "confirmed_size": 219,
+      "live_size": 290,
+      "delta": 71
+    },
+    {
+      "part": "xl/worksheets/sheet23.xml",
+      "confirmed_size": 129743,
+      "live_size": 129705,
+      "delta": -38
+    },
+    {
+      "part": "xl/charts/chart35.xml",
+      "confirmed_size": 21608,
+      "live_size": 21624,
+      "delta": 16
+    },
+    {
+      "part": "xl/charts/chart37.xml",
+      "confirmed_size": 25209,
+      "live_size": 25225,
+      "delta": 16
+    },
+    {
+      "part": "xl/worksheets/sheet28.xml",
+      "confirmed_size": 158587,
+      "live_size": 158599,
+      "delta": 12
+    },
+    {
+      "part": "xl/worksheets/sheet37.xml",
+      "confirmed_size": 156762,
+      "live_size": 156755,
+      "delta": -7
+    },
+    {
+      "part": "xl/worksheets/sheet9.xml",
+      "confirmed_size": 15707646,
+      "live_size": 15707653,
+      "delta": 7
+    },
+    {
+      "part": "xl/charts/chart28.xml",
+      "confirmed_size": 9904,
+      "live_size": 9909,
+      "delta": 5
+    },
+    {
+      "part": "xl/charts/chart31.xml",
+      "confirmed_size": 20776,
+      "live_size": 20780,
+      "delta": 4
+    },
+    {
+      "part": "xl/charts/chart32.xml",
+      "confirmed_size": 21672,
+      "live_size": 21676,
+      "delta": 4
+    },
+    {
+      "part": "xl/charts/chart34.xml",
+      "confirmed_size": 20715,
+      "live_size": 20712,
+      "delta": -3
+    },
+    {
+      "part": "xl/worksheets/sheet12.xml",
+      "confirmed_size": 35639,
+      "live_size": 35642,
+      "delta": 3
+    },
+    {
+      "part": "xl/charts/chart1.xml",
+      "confirmed_size": 16684,
+      "live_size": 16682,
+      "delta": -2
+    },
+    {
+      "part": "xl/charts/chart24.xml",
+      "confirmed_size": 14965,
+      "live_size": 14963,
+      "delta": -2
+    },
+    {
+      "part": "xl/charts/chart30.xml",
+      "confirmed_size": 11476,
+      "live_size": 11474,
+      "delta": -2
+    },
+    {
+      "part": "xl/charts/chart33.xml",
+      "confirmed_size": 10734,
+      "live_size": 10736,
+      "delta": 2
+    },
+    {
+      "part": "xl/charts/chart39.xml",
+      "confirmed_size": 15480,
+      "live_size": 15482,
+      "delta": 2
+    },
+    {
+      "part": "xl/charts/chart40.xml",
+      "confirmed_size": 17236,
+      "live_size": 17234,
+      "delta": -2
+    },
+    {
+      "part": "xl/charts/chart6.xml",
+      "confirmed_size": 14986,
+      "live_size": 14984,
+      "delta": -2
+    },
+    {
+      "part": "xl/worksheets/sheet16.xml",
+      "confirmed_size": 88937,
+      "live_size": 88935,
+      "delta": -2
+    }
+  ],
+  "equity_dash": {
+    "formula_diff_count": 0,
+    "value_diff_count": 21,
+    "only_confirmed_cells": 13,
+    "only_live_cells": 1,
+    "formula_diffs": [],
+    "value_diffs": [
+      {
+        "sheet": "Equity Dash",
+        "cell": "M4",
+        "confirmed": "'<ArrayFormula:M4:M9:=_xlfn.SEQUENCE(COUNT(_xlfn.ANCHORARRAY(N4)),1,Ec_IO!C5)>'",
+        "live": "'<ArrayFormula:M4:M7:=_xlfn.SEQUENCE(COUNT(_xlfn.ANCHORARRAY(N4)),1,Ec_IO!C5)>'",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "N4",
+        "confirmed": "'<ArrayFormula:N4:N9:=IF($A$8=\"Project\",0,_xlfn.SEQUENCE($C$9*$C$10+1,1,0))>'",
+        "live": "'<ArrayFormula:N4:N7:=IF($A$8=\"Project\",0,_xlfn.SEQUENCE($C$9*$C$10+1,1,0))>'",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "O4",
+        "confirmed": "'<ArrayFormula:O4:O9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PMT(C8/C10,",
+        "live": "'<ArrayFormula:O4:O7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PMT(C8/C10,",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "P4",
+        "confirmed": "'<ArrayFormula:P4:P9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PPMT(C8/C10",
+        "live": "'<ArrayFormula:P4:P7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PPMT(C8/C10",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "Q4",
+        "confirmed": "'<ArrayFormula:Q4:Q9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,IPMT(C8/C10",
+        "live": "'<ArrayFormula:Q4:Q7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,IPMT(C8/C10",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "R4",
+        "confirmed": "'<ArrayFormula:R4:R9:=IF($A$8=\"Project\",0,_xlfn.SCAN(C11,_xlfn.ANCHORARRAY(P4),_",
+        "live": "'<ArrayFormula:R4:R7:=IF($A$8=\"Project\",0,_xlfn.SCAN(C11,_xlfn.ANCHORARRAY(P4),_",
+        "kinds": "ArrayFormula/ArrayFormula"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "O5",
+        "confirmed": "-206.03979961587996",
+        "live": "-335558.02058070415",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "P5",
+        "confirmed": "-196.03979961587996",
+        "live": "-332224.6872473708",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "Q5",
+        "confirmed": "-9.999999999999998",
+        "live": "-3333.3333333333335",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "R5",
+        "confirmed": "803.9602003841201",
+        "live": "667775.3127526292",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "O6",
+        "confirmed": "-206.03979961587996",
+        "live": "-335558.02058070415",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "P6",
+        "confirmed": "-198.0001976120388",
+        "live": "-333332.1028715287",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "Q6",
+        "confirmed": "-8.039602003841198",
+        "live": "-2225.917709175431",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "R6",
+        "confirmed": "605.9600027720812",
+        "live": "334443.20988110045",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "O7",
+        "confirmed": "-206.03979961587996",
+        "live": "-335558.02058070415",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "P7",
+        "confirmed": "-199.98019958815917",
+        "live": "-334443.20988110045",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "Q7",
+        "confirmed": "-6.059600027720811",
+        "live": "-1114.8106996036684",
+        "kinds": "float/float"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "R7",
+        "confirmed": "405.97980318392206",
+        "live": "0",
+        "kinds": "float/int"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "C9",
+        "confirmed": "5",
+        "live": "1",
+        "kinds": "int/int"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "C10",
+        "confirmed": "1",
+        "live": "3",
+        "kinds": "int/int"
+      },
+      {
+        "sheet": "Equity Dash",
+        "cell": "C11",
+        "confirmed": "1000",
+        "live": "1000000",
+        "kinds": "int/int"
+      }
+    ],
+    "format": {
+      "merges_confirmed": [
+        "B3:C3",
+        "D3:E3",
+        "F1:L1",
+        "F3:G3",
+        "M2:R2"
+      ],
+      "merges_live": [
+        "B3:C3",
+        "D3:E3",
+        "F1:L1",
+        "G3:I3",
+        "J3:L3",
+        "M2:R2"
+      ],
+      "merges_equal": false,
+      "merges_only_confirmed": [
+        "F3:G3"
+      ],
+      "merges_only_live": [
+        "G3:I3",
+        "J3:L3"
+      ],
+      "dims_confirmed": {
+        "max_row": 35,
+        "max_col": 19
+      },
+      "dims_live": {
+        "max_row": 35,
+        "max_col": 19
+      },
+      "format_sample_diffs_count": 26,
+      "format_sample_diffs": [
+        {
+          "cell": "A4",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "A8",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "E5",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            true,
+            true
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            true,
+            false
+          ]
+        },
+        {
+          "cell": "F1",
+          "confirmed_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F3",
+          "confirmed_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F4",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F5",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F6",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F7",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "F8",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G3",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G4",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G5",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G6",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G7",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "G8",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "I4",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "J3",
+          "confirmed_fmt": [
+            "General",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "J8",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "L4",
+          "confirmed_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)",
+            null,
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "M3",
+          "confirmed_fmt": [
+            "General",
+            "center",
+            "center",
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            "center",
+            "center",
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "N3",
+          "confirmed_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "General",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "O3",
+          "confirmed_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "P3",
+          "confirmed_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "Q3",
+          "confirmed_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        },
+        {
+          "cell": "R3",
+          "confirmed_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            false
+          ],
+          "live_fmt": [
+            "\"$\"#,##0.00_);[Red]\\(\"$\"#,##0.00\\)",
+            "center",
+            null,
+            false,
+            "Century Gothic",
+            11.0,
+            false,
+            true
+          ]
+        }
+      ]
+    },
+    "C4_confirmed": 0.49,
+    "C4_live": 0.49,
+    "C4_match": true,
+    "C5_confirmed": "=C6-C4",
+    "C5_live": "=C6-C4",
+    "C5_match": true,
+    "C6_confirmed": 1,
+    "C6_live": 1,
+    "domain_decision": "C4 INPUT 0.49; C5 DERIVED =C6-C4 \u2014 not reopened"
+  },
+  "workbook_formula_diff_total": 0,
+  "workbook_value_diff_total": 1521,
+  "sheets_with_formula_diffs": [],
+  "sheets_with_value_diffs": [
+    "Ec_IO",
+    "STOIIP",
+    "GIIP",
+    "Analysis",
+    "Equity Dash"
+  ],
+  "sheet_summaries": {
+    "Oil Input": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 23541,
+      "live_nonempty": 23541,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Gas Input": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 22590,
+      "live_nonempty": 22590,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "YTD Budget APN (2)": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 4033,
+      "live_nonempty": 4033,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "START": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1,
+      "live_nonempty": 1,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Checklist": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 87,
+      "live_nonempty": 87,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Model Map": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 260,
+      "live_nonempty": 260,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Master": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 15,
+      "live_nonempty": 15,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Fiscal Terms_PIA": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 303,
+      "live_nonempty": 303,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Ec_IO": {
+      "formula_diff_count": 0,
+      "value_diff_count": 38,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 318,
+      "live_nonempty": 318,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": [
+        {
+          "sheet": "Ec_IO",
+          "cell": "D69",
+          "confirmed": "'<DataTableFormula:D69:D79:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:D69:D79:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "F69",
+          "confirmed": "'<DataTableFormula:F69:F79:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:F69:F79:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "D70",
+          "confirmed": "-89.22025967885703",
+          "live": "-88.9867235023333",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "D71",
+          "confirmed": "-48.37652115772216",
+          "live": "-48.14184530084383",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "D72",
+          "confirmed": "-12.840115208052188",
+          "live": "-12.605268294666592",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "D73",
+          "confirmed": "18.961666305422714",
+          "live": "19.19647072529819",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "F73",
+          "confirmed": "7.3513995658642735",
+          "live": "7.329337592769788",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Ec_IO",
+          "cell": "D74",
+          "confirmed": "48.402617958465115",
+          "live": "48.63740024453352",
+          "kinds": "float/float"
+        }
+      ]
+    },
+    "STOIIP": {
+      "formula_diff_count": 0,
+      "value_diff_count": 2,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 568,
+      "live_nonempty": 568,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": [
+        {
+          "sheet": "STOIIP",
+          "cell": "D16",
+          "confirmed": "'<DataTableFormula:D16:L24:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:D16:L24:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        },
+        {
+          "sheet": "STOIIP",
+          "cell": "D28",
+          "confirmed": "'<DataTableFormula:D28:L36:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:D28:L36:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        }
+      ]
+    },
+    "GIIP": {
+      "formula_diff_count": 0,
+      "value_diff_count": 2,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 572,
+      "live_nonempty": 572,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": [
+        {
+          "sheet": "GIIP",
+          "cell": "D16",
+          "confirmed": "'<DataTableFormula:D16:L24:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:D16:L24:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        },
+        {
+          "sheet": "GIIP",
+          "cell": "D28",
+          "confirmed": "'<DataTableFormula:D28:L36:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:D28:L36:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        }
+      ]
+    },
+    "Production Profile": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 400,
+      "live_nonempty": 400,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Block_Oil Data": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1874,
+      "live_nonempty": 1874,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Block_Gas Data": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1704,
+      "live_nonempty": 1704,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "OML123_Oil_S1": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 610,
+      "live_nonempty": 610,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Prod_Summary": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 882,
+      "live_nonempty": 882,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Block_TC": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 3524,
+      "live_nonempty": 3524,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Block_TC_Gas": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 3366,
+      "live_nonempty": 3366,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Cap_Allow": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 8637,
+      "live_nonempty": 8637,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Cap_Allow Gas": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 8604,
+      "live_nonempty": 8604,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Royalties": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 725,
+      "live_nonempty": 725,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "FLGT": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1582,
+      "live_nonempty": 1582,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CR Econ": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 979,
+      "live_nonempty": 979,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "HT_NCF": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 2011,
+      "live_nonempty": 2011,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CIT_NCF": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1455,
+      "live_nonempty": 1455,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "HT_NCF_Oil": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 2042,
+      "live_nonempty": 2042,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CIT_NCF_Oil": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1522,
+      "live_nonempty": 1522,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Project_NCF_Con": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1725,
+      "live_nonempty": 1725,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CIT_NCF_Gas": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1515,
+      "live_nonempty": 1515,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Project_NCF": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1661,
+      "live_nonempty": 1661,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Analysis": {
+      "formula_diff_count": 0,
+      "value_diff_count": 1458,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 4486,
+      "live_nonempty": 4486,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": [
+        {
+          "sheet": "Analysis",
+          "cell": "K22",
+          "confirmed": "'<DataTableFormula:K22:S30:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "live": "'<DataTableFormula:K22:S30:<openpyxl.worksheet.formula.DataTableFormula object a",
+          "kinds": "DataTableFormula/DataTableFormula"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "L22",
+          "confirmed": "-19.53205599034879",
+          "live": "-19.297209076963224",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "M22",
+          "confirmed": "-6.106725581094631",
+          "live": "-5.871878667709028",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "N22",
+          "confirmed": "6.559817121488618",
+          "live": "6.794664034874224",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "O22",
+          "confirmed": "18.961666305422714",
+          "live": "19.19647072529819",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "P22",
+          "confirmed": "31.516045832041055",
+          "live": "31.750843877890045",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "Q22",
+          "confirmed": "43.93362877557274",
+          "live": "44.1684194912912",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Analysis",
+          "cell": "R22",
+          "confirmed": "55.65853902199273",
+          "live": "55.89332130806117",
+          "kinds": "float/float"
+        }
+      ]
+    },
+    "END": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1,
+      "live_nonempty": 1,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Equity Dash": {
+      "formula_diff_count": 0,
+      "value_diff_count": 21,
+      "only_confirmed": 13,
+      "only_live": 1,
+      "confirmed_nonempty": 89,
+      "live_nonempty": 77,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": [
+        {
+          "sheet": "Equity Dash",
+          "cell": "M4",
+          "confirmed": "'<ArrayFormula:M4:M9:=_xlfn.SEQUENCE(COUNT(_xlfn.ANCHORARRAY(N4)),1,Ec_IO!C5)>'",
+          "live": "'<ArrayFormula:M4:M7:=_xlfn.SEQUENCE(COUNT(_xlfn.ANCHORARRAY(N4)),1,Ec_IO!C5)>'",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "N4",
+          "confirmed": "'<ArrayFormula:N4:N9:=IF($A$8=\"Project\",0,_xlfn.SEQUENCE($C$9*$C$10+1,1,0))>'",
+          "live": "'<ArrayFormula:N4:N7:=IF($A$8=\"Project\",0,_xlfn.SEQUENCE($C$9*$C$10+1,1,0))>'",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "O4",
+          "confirmed": "'<ArrayFormula:O4:O9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PMT(C8/C10,",
+          "live": "'<ArrayFormula:O4:O7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PMT(C8/C10,",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "P4",
+          "confirmed": "'<ArrayFormula:P4:P9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PPMT(C8/C10",
+          "live": "'<ArrayFormula:P4:P7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,PPMT(C8/C10",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "Q4",
+          "confirmed": "'<ArrayFormula:Q4:Q9:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,IPMT(C8/C10",
+          "live": "'<ArrayFormula:Q4:Q7:=IF($A$8=\"Project\",0,IF(_xlfn.ANCHORARRAY(N4)>0,IPMT(C8/C10",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "R4",
+          "confirmed": "'<ArrayFormula:R4:R9:=IF($A$8=\"Project\",0,_xlfn.SCAN(C11,_xlfn.ANCHORARRAY(P4),_",
+          "live": "'<ArrayFormula:R4:R7:=IF($A$8=\"Project\",0,_xlfn.SCAN(C11,_xlfn.ANCHORARRAY(P4),_",
+          "kinds": "ArrayFormula/ArrayFormula"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "O5",
+          "confirmed": "-206.03979961587996",
+          "live": "-335558.02058070415",
+          "kinds": "float/float"
+        },
+        {
+          "sheet": "Equity Dash",
+          "cell": "P5",
+          "confirmed": "-196.03979961587996",
+          "live": "-332224.6872473708",
+          "kinds": "float/float"
+        }
+      ]
+    },
+    "HT_NCF_Oil Equity": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 2184,
+      "live_nonempty": 2184,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CIT_NCF_Oil Equity": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1760,
+      "live_nonempty": 1760,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "CIT_NCF_Gas Equity": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1785,
+      "live_nonempty": 1785,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "Equity_NCF_Con": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 1640,
+      "live_nonempty": 1640,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    },
+    "RESULTS Equity": {
+      "formula_diff_count": 0,
+      "value_diff_count": 0,
+      "only_confirmed": 0,
+      "only_live": 0,
+      "confirmed_nonempty": 107,
+      "live_nonempty": 107,
+      "sample_formula_diffs": [],
+      "sample_value_diffs": []
+    }
+  },
+  "named_ranges": {
+    "confirmed_count": 192,
+    "live_count": 192,
+    "only_confirmed": [],
+    "only_live": [],
+    "changed_definitions_sample": []
+  },
+  "vba_project_confirmed": false,
+  "vba_project_live": false,
+  "key_economic_cells": [
+    {
+      "sheet": "Equity Dash",
+      "cell": "C4",
+      "confirmed_formula": "0.49",
+      "live_formula": "0.49",
+      "confirmed_cached": "0.49",
+      "live_cached": "0.49",
+      "formula_match": true,
+      "cache_match": true
+    },
+    {
+      "sheet": "Equity Dash",
+      "cell": "C5",
+      "confirmed_formula": "=C6-C4",
+      "live_formula": "=C6-C4",
+      "confirmed_cached": "0.51",
+      "live_cached": "0.51",
+      "formula_match": true,
+      "cache_match": true
+    },
+    {
+      "sheet": "Equity Dash",
+      "cell": "C6",
+      "confirmed_formula": "1",
+      "live_formula": "1",
+      "confirmed_cached": "1",
+      "live_cached": "1",
+      "formula_match": true,
+      "cache_match": true
+    },
+    {
+      "sheet": "Project_NCF",
+      "cell": "AU14",
+      "confirmed_formula": "=IRR(AK5:AK49)",
+      "live_formula": "=IRR(AK5:AK49)",
+      "confirmed_cached": "#NUM!",
+      "live_cached": "#NUM!",
+      "formula_match": true,
+      "cache_match": true
+    },
+    {
+      "sheet": "Project_NCF",
+      "cell": "AU12",
+      "confirmed_formula": "=IRR(AF5:AF40)",
+      "live_formula": "=IRR(AF5:AF40)",
+      "confirmed_cached": "0.34860104983893425",
+      "live_cached": "0.35061988197880645",
+      "formula_match": true,
+      "cache_match": false
+    },
+    {
+      "sheet": "RESULTS Equity",
+      "cell": "K7",
+      "confirmed_formula": "='HT_NCF_Oil Equity'!AT51",
+      "live_formula": "='HT_NCF_Oil Equity'!AT51",
+      "confirmed_cached": "73.01820194249497",
+      "live_cached": "73.01828105255127",
+      "formula_match": true,
+      "cache_match": false
+    },
+    {
+      "sheet": "RESULTS Equity",
+      "cell": "K8",
+      "confirmed_formula": "=IRR('HT_NCF_Oil Equity'!AR5:AR49)",
+      "live_formula": "=IRR('HT_NCF_Oil Equity'!AR5:AR49)",
+      "confirmed_cached": "0.5046935060649764",
+      "live_cached": "0.5046938694164731",
+      "formula_match": true,
+      "cache_match": false
+    },
+    {
+      "sheet": "RESULTS Equity",
+      "cell": "N7",
+      "confirmed_formula": "=Equity_NCF_Con!AH51",
+      "live_formula": "=Equity_NCF_Con!AH51",
+      "confirmed_cached": "38.26368872280852",
+      "live_cached": "38.37880216634711",
+      "formula_match": true,
+      "cache_match": false
+    },
+    {
+      "sheet": "FLGT",
+      "cell": "AB51",
+      "confirmed_formula": "=SUM(AB5:AB49)",
+      "live_formula": "=SUM(AB5:AB49)",
+      "confirmed_cached": "61.313817716951526",
+      "live_cached": "61.313817716951526",
+      "formula_match": true,
+      "cache_match": true
+    }
+  ],
+  "affects_pems_economic_logic": false,
+  "disposition_code": "A",
+  "disposition_label": "NON-SUBSTANTIVE \u2014 PATH INTEGRITY CLOSED",
+  "disposition_reason": "No calculation formula differences and no named-range definition differences. Value-only diffs on sheets: ['Ec_IO', 'STOIIP', 'GIIP', 'Analysis', 'Equity Dash']. Treated as presentation/working-copy residual; live not promoted as new GM.",
+  "status_note": "HISTORICAL_COMPARE_EVIDENCE \u2014 superseded for active disposition by re-freeze 2026-08-03; ACTIVE GM SHA D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "active_golden_master_sha256_after_refreeze": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "previous_documented_gm_sha256_superseded": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB",
+  "final_disposition": "CLOSED_NON_SUBSTANTIVE_CURRENT_WORKBOOK_DIFFERENCE"
+}

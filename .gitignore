@@ -1,0 +1,45 @@
+# Local agent / editor
+.aider*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Secrets / local env (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa
+id_rsa.pub
+credentials.json
+secrets.json
+
+# OS / junk
+desktop.ini

@@ -1,0 +1,33 @@
+{
+  "active_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "historical_sha256": "F6A1992F6A3CC27EC587779ADE6CF667B246FB1587296EFD0CD14B47A6783006",
+  "worksheets": 38,
+  "formula_cells": 86973,
+  "nonempty_cells": 109157,
+  "formulas_with_cache": 86973,
+  "formulas_without_cache": 0,
+  "defined_names": 192,
+  "gtc_formula_expected": 86973,
+  "gtc_kpi_rows": 102,
+  "gtc_input_rows": 621,
+  "diff": {
+    "formulas_added": 1714,
+    "formulas_removed": 2232,
+    "formulas_changed": 401,
+    "sheets_added": [
+      "Project_NCF"
+    ],
+    "sheets_removed": [
+      "Project_NCF_Con (2)",
+      "Sheet1"
+    ]
+  },
+  "au14": {
+    "result": "#NUM!",
+    "sign_change": false,
+    "numeric_count": 0,
+    "capable": false
+  },
+  "analysis_datatable_count": 18,
+  "excel_error_strings_in_formula_expected": 1
+}

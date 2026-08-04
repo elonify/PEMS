@@ -1,0 +1,39 @@
+worksheet,sheet_state,module_area,max_row,max_col,dimension,nonempty_cells,formula_cells,label_or_text_cells,constant_or_input_cells,data_validations
+Oil Input,hidden,Input / Control,2179,55,A1:BC2179,23541,16808,3648,3085,0
+Gas Input,hidden,Input / Control,2178,72,A1:BT2178,22590,17709,3647,1234,0
+YTD Budget APN (2),hidden,Unclassified — needs human review,437,23,A1:W437,4033,1053,806,2174,156
+START,visible,Input / Control,3445,6,A1:F3445,1,0,0,1,1
+Checklist,visible,Input / Control,32,9,A1:I32,87,35,36,16,0
+Model Map,hidden,Input / Control,103,36,A1:AJ103,260,0,254,6,7
+Master,visible,Input / Control,18,13,A1:M18,15,0,15,0,0
+Fiscal Terms_PIA,visible,Fiscal Terms,107,42,A1:AP107,303,5,174,124,0
+Ec_IO,visible,Input / Control,2454,317,A1:LE2454,318,105,125,88,3
+STOIIP,visible,Reservoir,48,23,A1:W48,568,267,36,265,0
+GIIP,visible,Reservoir,48,23,A1:W48,572,266,36,270,0
+Production Profile,visible,Production,54,39,A1:AM54,400,310,62,28,1
+Block_Oil Data,visible,Production,48,111,A1:DG48,1874,1618,161,95,0
+Block_Gas Data,visible,Production,49,102,A1:CX49,1704,1463,129,112,0
+OML123_Oil_S1,hidden,Production,45,107,A1:DC45,610,337,168,105,1
+Prod_Summary,visible,Production,50,36,A1:AJ50,882,849,32,1,0
+Block_TC,visible,Cost / Capital Allowance,70,206,A1:GX70,3524,3115,305,104,1
+Block_TC_Gas,visible,Cost / Capital Allowance,70,185,A1:GC70,3366,3013,297,56,0
+Cap_Allow,visible,Cost / Capital Allowance,58,211,A1:HC58,8637,8136,338,163,1
+Cap_Allow Gas,visible,Cost / Capital Allowance,54,211,A1:HC54,8604,8103,338,163,1
+Royalties,visible,Fiscal / Royalty,46,29,A1:AC46,725,712,13,0,0
+FLGT,visible,Fiscal / Royalty,56,58,A1:BF56,1582,1435,56,91,1
+CR Econ,visible,Results / Dashboard,50,27,A1:AA50,979,948,31,0,0
+HT_NCF,hidden,Cash Flow / Tax NCF,80,246,A1:IL80,2011,1901,89,21,0
+CIT_NCF,hidden,Cash Flow / Tax NCF,69,35,A1:AI69,1455,1391,64,0,0
+HT_NCF_Oil,visible,Cash Flow / Tax NCF,80,263,A1:JC80,2042,1945,96,1,1
+CIT_NCF_Oil,visible,Cash Flow / Tax NCF,80,254,A1:IT80,1522,1456,63,3,1
+Project_NCF_Con,hidden,Cash Flow / Tax NCF,80,240,A1:IF80,1725,1629,77,19,0
+CIT_NCF_Gas,visible,Cash Flow / Tax NCF,80,241,A1:IG80,1515,1451,63,1,0
+Project_NCF,visible,Cash Flow / Tax NCF,80,242,A1:IH80,1661,1579,63,19,0
+Analysis,visible,Results / Dashboard,1781,48,A1:AV1781,4485,2185,123,2177,1
+END,visible,Unclassified / Navigation,1,1,A1:A1,1,0,0,1,0
+Equity Dash,visible,Results / Dashboard,35,19,A1:S35,89,15,29,45,2
+HT_NCF_Oil Equity,visible,Cash Flow / Tax NCF,80,263,A1:JC80,2184,2088,96,0,0
+CIT_NCF_Oil Equity,visible,Cash Flow / Tax NCF,80,254,A1:IT80,1760,1682,77,1,0
+CIT_NCF_Gas Equity,visible,Cash Flow / Tax NCF,80,241,A1:IG80,1785,1721,63,1,0
+Equity_NCF_Con,visible,Cash Flow / Tax NCF,80,238,A1:ID80,1640,1581,59,0,0
+RESULTS Equity,visible,Results / Dashboard,36,15,A1:O36,107,62,45,0,0

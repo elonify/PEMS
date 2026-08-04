@@ -1,0 +1,565 @@
+{
+  "active_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "historical_sha256": "F6A1992F6A3CC27EC587779ADE6CF667B246FB1587296EFD0CD14B47A6783006",
+  "active_formula_count": 86973,
+  "historical_formula_count": 87491,
+  "formulas_added": 1714,
+  "formulas_removed": 2232,
+  "formulas_changed": 401,
+  "formulas_unchanged": 84858,
+  "worksheets_active": 38,
+  "worksheets_historical": 39,
+  "worksheets_added": [
+    "Project_NCF"
+  ],
+  "worksheets_removed": [
+    "Project_NCF_Con (2)",
+    "Sheet1"
+  ],
+  "sample_added": [
+    {
+      "worksheet": "Analysis",
+      "cell": "B111",
+      "formula": "=Ec_IO!C80"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B112",
+      "formula": "=Ec_IO!C81"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B113",
+      "formula": "=Ec_IO!C82"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B114",
+      "formula": "=Ec_IO!C83"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B115",
+      "formula": "=Ec_IO!C84"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B116",
+      "formula": "=Ec_IO!C85"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B117",
+      "formula": "=Ec_IO!C86"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B118",
+      "formula": "=Ec_IO!C87"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B119",
+      "formula": "=Ec_IO!C88"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B120",
+      "formula": "=Ec_IO!C89"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B121",
+      "formula": "=Ec_IO!C90"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B122",
+      "formula": "=Ec_IO!C91"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B123",
+      "formula": "=Ec_IO!C92"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B124",
+      "formula": "=Ec_IO!C93"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B125",
+      "formula": "=Ec_IO!C94"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B126",
+      "formula": "=Ec_IO!C95"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B127",
+      "formula": "=Ec_IO!C96"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B128",
+      "formula": "=Ec_IO!C97"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B129",
+      "formula": "=Ec_IO!C98"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B130",
+      "formula": "=Ec_IO!C99"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "B131",
+      "formula": "=Ec_IO!C100"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C111",
+      "formula": "=Ec_IO!D80"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C112",
+      "formula": "=Ec_IO!D81"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C113",
+      "formula": "=Ec_IO!D82"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C114",
+      "formula": "=Ec_IO!D83"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C115",
+      "formula": "=Ec_IO!D84"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C116",
+      "formula": "=Ec_IO!D85"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C117",
+      "formula": "=Ec_IO!D86"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C118",
+      "formula": "=Ec_IO!D87"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "C119",
+      "formula": "=Ec_IO!D88"
+    }
+  ],
+  "sample_removed": [
+    {
+      "worksheet": "Block_TC",
+      "cell": "A54",
+      "formula": "=A53+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A55",
+      "formula": "=A54+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A56",
+      "formula": "=A55+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A57",
+      "formula": "=A56+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A58",
+      "formula": "=A57+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A59",
+      "formula": "=A58+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "A60",
+      "formula": "=A59+1"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE54",
+      "formula": "=AJ54"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE55",
+      "formula": "=AJ55"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE56",
+      "formula": "=AJ56"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE57",
+      "formula": "=AJ57"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE58",
+      "formula": "=AJ58"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE59",
+      "formula": "=AJ59"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AE60",
+      "formula": "=AJ60"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ54",
+      "formula": "=AO54"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ55",
+      "formula": "=AO55"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ56",
+      "formula": "=AO56"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ57",
+      "formula": "=AO57"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ58",
+      "formula": "=AO58"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ59",
+      "formula": "=AO59"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AJ60",
+      "formula": "=AO60"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO54",
+      "formula": "=AT54"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO55",
+      "formula": "=AT55"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO56",
+      "formula": "=AT56"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO57",
+      "formula": "=AT57"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO58",
+      "formula": "=AT58"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO59",
+      "formula": "=AT59"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AO60",
+      "formula": "=AT60"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AT54",
+      "formula": "=AY54"
+    },
+    {
+      "worksheet": "Block_TC",
+      "cell": "AT55",
+      "formula": "=AY55"
+    }
+  ],
+  "sample_changed": [
+    {
+      "worksheet": "Analysis",
+      "cell": "D112",
+      "historical_formula": "=J117",
+      "active_formula": "=Ec_IO!E81"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "D21",
+      "historical_formula": "=J21",
+      "active_formula": "=Ec_IO!D67"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E22",
+      "historical_formula": "=C22",
+      "active_formula": "=Ec_IO!E68"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E23",
+      "historical_formula": "=C23",
+      "active_formula": "=Ec_IO!E69"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E24",
+      "historical_formula": "=C24",
+      "active_formula": "=Ec_IO!E70"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E25",
+      "historical_formula": "=C25",
+      "active_formula": "=Ec_IO!E71"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E26",
+      "historical_formula": "=C26",
+      "active_formula": "=Ec_IO!E72"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E27",
+      "historical_formula": "=C27",
+      "active_formula": "=Ec_IO!E73"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E28",
+      "historical_formula": "=C28",
+      "active_formula": "=Ec_IO!E74"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E29",
+      "historical_formula": "=C29",
+      "active_formula": "=Ec_IO!E75"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E30",
+      "historical_formula": "=C30",
+      "active_formula": "=Ec_IO!E76"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E31",
+      "historical_formula": "=C31",
+      "active_formula": "=Ec_IO!E77"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "E32",
+      "historical_formula": "=C32",
+      "active_formula": "=Ec_IO!E78"
+    },
+    {
+      "worksheet": "Analysis",
+      "cell": "F21",
+      "historical_formula": "=Ec_IO!G6",
+      "active_formula": "=Ec_IO!F67"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G10",
+      "historical_formula": "=Cap_Allow!FP7",
+      "active_formula": "=Cap_Allow!FP7+'Cap_Allow Gas'!FP7"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G11",
+      "historical_formula": "=Cap_Allow!FP8",
+      "active_formula": "=Cap_Allow!FP8+'Cap_Allow Gas'!FP8"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G12",
+      "historical_formula": "=Cap_Allow!FP9",
+      "active_formula": "=Cap_Allow!FP9+'Cap_Allow Gas'!FP9"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G13",
+      "historical_formula": "=Cap_Allow!FP10",
+      "active_formula": "=Cap_Allow!FP10+'Cap_Allow Gas'!FP10"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G14",
+      "historical_formula": "=Cap_Allow!FP11",
+      "active_formula": "=Cap_Allow!FP11+'Cap_Allow Gas'!FP11"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G15",
+      "historical_formula": "=Cap_Allow!FP12",
+      "active_formula": "=Cap_Allow!FP12+'Cap_Allow Gas'!FP12"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G16",
+      "historical_formula": "=Cap_Allow!FP13",
+      "active_formula": "=Cap_Allow!FP13+'Cap_Allow Gas'!FP13"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G17",
+      "historical_formula": "=Cap_Allow!FP14",
+      "active_formula": "=Cap_Allow!FP14+'Cap_Allow Gas'!FP14"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G18",
+      "historical_formula": "=Cap_Allow!FP15",
+      "active_formula": "=Cap_Allow!FP15+'Cap_Allow Gas'!FP15"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G19",
+      "historical_formula": "=Cap_Allow!FP16",
+      "active_formula": "=Cap_Allow!FP16+'Cap_Allow Gas'!FP16"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G20",
+      "historical_formula": "=Cap_Allow!FP17",
+      "active_formula": "=Cap_Allow!FP17+'Cap_Allow Gas'!FP17"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G21",
+      "historical_formula": "=Cap_Allow!FP18",
+      "active_formula": "=Cap_Allow!FP18+'Cap_Allow Gas'!FP18"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G22",
+      "historical_formula": "=Cap_Allow!FP19",
+      "active_formula": "=Cap_Allow!FP19+'Cap_Allow Gas'!FP19"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G23",
+      "historical_formula": "=Cap_Allow!FP20",
+      "active_formula": "=Cap_Allow!FP20+'Cap_Allow Gas'!FP20"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G24",
+      "historical_formula": "=Cap_Allow!FP21",
+      "active_formula": "=Cap_Allow!FP21+'Cap_Allow Gas'!FP21"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G25",
+      "historical_formula": "=Cap_Allow!FP22",
+      "active_formula": "=Cap_Allow!FP22+'Cap_Allow Gas'!FP22"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G26",
+      "historical_formula": "=Cap_Allow!FP23",
+      "active_formula": "=Cap_Allow!FP23+'Cap_Allow Gas'!FP23"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G27",
+      "historical_formula": "=Cap_Allow!FP24",
+      "active_formula": "=Cap_Allow!FP24+'Cap_Allow Gas'!FP24"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G28",
+      "historical_formula": "=Cap_Allow!FP25",
+      "active_formula": "=Cap_Allow!FP25+'Cap_Allow Gas'!FP25"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G29",
+      "historical_formula": "=Cap_Allow!FP26",
+      "active_formula": "=Cap_Allow!FP26+'Cap_Allow Gas'!FP26"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G30",
+      "historical_formula": "=Cap_Allow!FP27",
+      "active_formula": "=Cap_Allow!FP27+'Cap_Allow Gas'!FP27"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G31",
+      "historical_formula": "=Cap_Allow!FP28",
+      "active_formula": "=Cap_Allow!FP28+'Cap_Allow Gas'!FP28"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G32",
+      "historical_formula": "=Cap_Allow!FP29",
+      "active_formula": "=Cap_Allow!FP29+'Cap_Allow Gas'!FP29"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G33",
+      "historical_formula": "=Cap_Allow!FP30",
+      "active_formula": "=Cap_Allow!FP30+'Cap_Allow Gas'!FP30"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G34",
+      "historical_formula": "=Cap_Allow!FP31",
+      "active_formula": "=Cap_Allow!FP31+'Cap_Allow Gas'!FP31"
+    },
+    {
+      "worksheet": "CR Econ",
+      "cell": "G35",
+      "historical_formula": "=Cap_Allow!FP32",
+      "active_formula": "=Cap_Allow!FP32+'Cap_Allow Gas'!FP32"
+    }
+  ]
+}

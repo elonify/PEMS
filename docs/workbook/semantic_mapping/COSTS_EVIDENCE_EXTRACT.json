@@ -1,0 +1,4490 @@
+{
+  "block_tc_layout": [
+    {
+      "cell": "A1",
+      "class": "label_or_tex",
+      "v": "FIELD NAME:"
+    },
+    {
+      "cell": "C1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!B1"
+    },
+    {
+      "cell": "I1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!E1"
+    },
+    {
+      "cell": "O1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!H1"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "C2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "D2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_tex",
+      "v": "OPEX"
+    },
+    {
+      "cell": "F2",
+      "class": "label_or_tex",
+      "v": "Abandonment"
+    },
+    {
+      "cell": "H2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "J2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "K2",
+      "class": "label_or_tex",
+      "v": "OPEX"
+    },
+    {
+      "cell": "L2",
+      "class": "label_or_tex",
+      "v": "Abandonment"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "O2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "P2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "Q2",
+      "class": "label_or_tex",
+      "v": "OPEX"
+    },
+    {
+      "cell": "R2",
+      "class": "label_or_tex",
+      "v": "Abandonment"
+    },
+    {
+      "cell": "T2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "B3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "C3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "D3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "F3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "H3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "J3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "K3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "L3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "N3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "O3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "P3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "Q3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "T3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "A4",
+      "class": "constant_or_",
+      "v": "2023"
+    },
+    {
+      "cell": "G4",
+      "class": "formula",
+      "v": "=M4"
+    },
+    {
+      "cell": "K4",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E4<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E4,0)"
+    },
+    {
+      "cell": "M4",
+      "class": "formula",
+      "v": "=S4"
+    },
+    {
+      "cell": "Q4",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H4<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I4,0)"
+    },
+    {
+      "cell": "S4",
+      "class": "formula",
+      "v": "=Y4"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=A4+1"
+    },
+    {
+      "cell": "G5",
+      "class": "formula",
+      "v": "=M5"
+    },
+    {
+      "cell": "K5",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E5<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E5,0)"
+    },
+    {
+      "cell": "M5",
+      "class": "formula",
+      "v": "=S5"
+    },
+    {
+      "cell": "Q5",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H5<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I5,0)"
+    },
+    {
+      "cell": "S5",
+      "class": "formula",
+      "v": "=Y5"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=A5+1"
+    },
+    {
+      "cell": "G6",
+      "class": "formula",
+      "v": "=M6"
+    },
+    {
+      "cell": "K6",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E6<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E6,0)"
+    },
+    {
+      "cell": "M6",
+      "class": "formula",
+      "v": "=S6"
+    },
+    {
+      "cell": "Q6",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H6<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I6,0)"
+    },
+    {
+      "cell": "S6",
+      "class": "formula",
+      "v": "=Y6"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=A6+1"
+    },
+    {
+      "cell": "B7",
+      "class": "constant_or_",
+      "v": "0.995"
+    },
+    {
+      "cell": "C7",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D7",
+      "class": "constant_or_",
+      "v": "2.69689914482246"
+    },
+    {
+      "cell": "E7",
+      "class": "constant_or_",
+      "v": "110.2458045"
+    },
+    {
+      "cell": "G7",
+      "class": "formula",
+      "v": "=M7"
+    },
+    {
+      "cell": "H7",
+      "class": "constant_or_",
+      "v": "14"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E7<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E7,0)"
+    },
+    {
+      "cell": "M7",
+      "class": "formula",
+      "v": "=S7"
+    },
+    {
+      "cell": "N7",
+      "class": "constant_or_",
+      "v": "9"
+    },
+    {
+      "cell": "Q7",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H7<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I7,0)"
+    },
+    {
+      "cell": "S7",
+      "class": "formula",
+      "v": "=Y7"
+    },
+    {
+      "cell": "T7",
+      "class": "constant_or_",
+      "v": "10"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=A7+1"
+    },
+    {
+      "cell": "B8",
+      "class": "constant_or_",
+      "v": "32.753"
+    },
+    {
+      "cell": "C8",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D8",
+      "class": "constant_or_",
+      "v": "16.5820901840491"
+    },
+    {
+      "cell": "E8",
+      "class": "constant_or_",
+      "v": "97.645924185"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "=M8"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E8<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E8,0)"
+    },
+    {
+      "cell": "M8",
+      "class": "formula",
+      "v": "=S8"
+    },
+    {
+      "cell": "N8",
+      "class": "constant_or_",
+      "v": "7"
+    },
+    {
+      "cell": "Q8",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H8<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I8,0)"
+    },
+    {
+      "cell": "S8",
+      "class": "formula",
+      "v": "=Y8"
+    },
+    {
+      "cell": "T8",
+      "class": "constant_or_",
+      "v": "9"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=A8+1"
+    },
+    {
+      "cell": "B9",
+      "class": "constant_or_",
+      "v": "1.8636"
+    },
+    {
+      "cell": "C9",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D9",
+      "class": "constant_or_",
+      "v": "41.6960299907046"
+    },
+    {
+      "cell": "E9",
+      "class": "constant_or_",
+      "v": "83.0211809328765"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "=M9"
+    },
+    {
+      "cell": "H9",
+      "class": "constant_or_",
+      "v": "35"
+    },
+    {
+      "cell": "J9",
+      "class": "constant_or_",
+      "v": "80"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E9<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E9,0)"
+    },
+    {
+      "cell": "M9",
+      "class": "formula",
+      "v": "=S9"
+    },
+    {
+      "cell": "N9",
+      "class": "constant_or_",
+      "v": "35"
+    },
+    {
+      "cell": "Q9",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H9<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I9,0)"
+    },
+    {
+      "cell": "S9",
+      "class": "formula",
+      "v": "=Y9"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=A9+1"
+    },
+    {
+      "cell": "C10",
+      "class": "constant_or_",
+      "v": "144.687738804936"
+    },
+    {
+      "cell": "D10",
+      "class": "constant_or_",
+      "v": "85.8137516266964"
+    },
+    {
+      "cell": "E10",
+      "class": "constant_or_",
+      "v": "90.9877157493137"
+    },
+    {
+      "cell": "G10",
+      "class": "formula",
+      "v": "=M10"
+    },
+    {
+      "cell": "I10",
+      "class": "constant_or_",
+      "v": "35"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E10<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E10,0)"
+    },
+    {
+      "cell": "M10",
+      "class": "formula",
+      "v": "=S10"
+    },
+    {
+      "cell": "O10",
+      "class": "constant_or_",
+      "v": "35"
+    },
+    {
+      "cell": "P10",
+      "class": "constant_or_",
+      "v": "50"
+    },
+    {
+      "cell": "Q10",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!H10<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I10,0)"
+    },
+    {
+      "cell": "S10",
+      "class": "formula",
+      "v": "=Y10"
+    }
+  ],
+  "block_tc_gas_layout": [
+    {
+      "cell": "A1",
+      "class": "label_or_tex",
+      "v": "FIELD NAME:"
+    },
+    {
+      "cell": "C1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!B1"
+    },
+    {
+      "cell": "I1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!E1"
+    },
+    {
+      "cell": "N1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!H1"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "C2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "D2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_tex",
+      "v": "OPEX"
+    },
+    {
+      "cell": "F2",
+      "class": "label_or_tex",
+      "v": "Unit OPEX"
+    },
+    {
+      "cell": "H2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "J2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "K2",
+      "class": "label_or_tex",
+      "v": "OPEX"
+    },
+    {
+      "cell": "M2",
+      "class": "label_or_tex",
+      "v": "Exploration"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_tex",
+      "v": "CAPEX Wells"
+    },
+    {
+      "cell": "O2",
+      "class": "label_or_tex",
+      "v": "CAPEX Facilities"
+    },
+    {
+      "cell": "B3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "C3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "D3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "F3",
+      "class": "label_or_tex",
+      "v": "$/bbl"
+    },
+    {
+      "cell": "H3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "J3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "K3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "M3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "N3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "O3",
+      "class": "label_or_tex",
+      "v": "$mm"
+    },
+    {
+      "cell": "A4",
+      "class": "constant_or_",
+      "v": "2023"
+    },
+    {
+      "cell": "G4",
+      "class": "formula",
+      "v": "=L4"
+    },
+    {
+      "cell": "K4",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E4<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L4",
+      "class": "formula",
+      "v": "=Q4"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=A4+1"
+    },
+    {
+      "cell": "G5",
+      "class": "formula",
+      "v": "=L5"
+    },
+    {
+      "cell": "K5",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E5<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=Q5"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=A5+1"
+    },
+    {
+      "cell": "G6",
+      "class": "formula",
+      "v": "=L6"
+    },
+    {
+      "cell": "K6",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E6<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=Q6"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=A6+1"
+    },
+    {
+      "cell": "C7",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D7",
+      "class": "constant_or_",
+      "v": "17.2161008551775"
+    },
+    {
+      "cell": "G7",
+      "class": "formula",
+      "v": "=L7"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E7<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=Q7"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=A7+1"
+    },
+    {
+      "cell": "C8",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D8",
+      "class": "constant_or_",
+      "v": "105.854509815951"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "=L8"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E8<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=Q8"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=A8+1"
+    },
+    {
+      "cell": "C9",
+      "class": "constant_or_",
+      "v": "0"
+    },
+    {
+      "cell": "D9",
+      "class": "constant_or_",
+      "v": "266.173490009295"
+    },
+    {
+      "cell": "E9",
+      "class": "constant_or_",
+      "v": "29.9158686888834"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "=L9"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E9<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=Q9"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=A9+1"
+    },
+    {
+      "cell": "C10",
+      "class": "constant_or_",
+      "v": "383.733861195064"
+    },
+    {
+      "cell": "D10",
+      "class": "constant_or_",
+      "v": "547.806248373304"
+    },
+    {
+      "cell": "E10",
+      "class": "constant_or_",
+      "v": "32.7865314136963"
+    },
+    {
+      "cell": "G10",
+      "class": "formula",
+      "v": "=L10"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=IF('Block_Oil Data'!E10<>0,$K$49*Block_TC!$I$49,0)"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=Q10"
+    }
+  ],
+  "block_tc_col_a": [
+    {
+      "cell": "A1",
+      "class": "label_or_t",
+      "v": "FIELD NAME:"
+    },
+    {
+      "cell": "A4",
+      "class": "constant_o",
+      "v": "2023"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=A4+1"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=A5+1"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=A6+1"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=A7+1"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=A8+1"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=A9+1"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=A10+1"
+    },
+    {
+      "cell": "A12",
+      "class": "formula",
+      "v": "=A11+1"
+    },
+    {
+      "cell": "A13",
+      "class": "formula",
+      "v": "=A12+1"
+    },
+    {
+      "cell": "A14",
+      "class": "formula",
+      "v": "=A13+1"
+    },
+    {
+      "cell": "A15",
+      "class": "formula",
+      "v": "=A14+1"
+    },
+    {
+      "cell": "A16",
+      "class": "formula",
+      "v": "=A15+1"
+    },
+    {
+      "cell": "A17",
+      "class": "formula",
+      "v": "=A16+1"
+    },
+    {
+      "cell": "A18",
+      "class": "formula",
+      "v": "=A17+1"
+    },
+    {
+      "cell": "A19",
+      "class": "formula",
+      "v": "=A18+1"
+    },
+    {
+      "cell": "A20",
+      "class": "formula",
+      "v": "=A19+1"
+    },
+    {
+      "cell": "A21",
+      "class": "formula",
+      "v": "=A20+1"
+    },
+    {
+      "cell": "A22",
+      "class": "formula",
+      "v": "=A21+1"
+    },
+    {
+      "cell": "A23",
+      "class": "formula",
+      "v": "=A22+1"
+    },
+    {
+      "cell": "A24",
+      "class": "formula",
+      "v": "=A23+1"
+    },
+    {
+      "cell": "A25",
+      "class": "formula",
+      "v": "=A24+1"
+    },
+    {
+      "cell": "A26",
+      "class": "formula",
+      "v": "=A25+1"
+    },
+    {
+      "cell": "A27",
+      "class": "formula",
+      "v": "=A26+1"
+    },
+    {
+      "cell": "A28",
+      "class": "formula",
+      "v": "=A27+1"
+    },
+    {
+      "cell": "A29",
+      "class": "formula",
+      "v": "=A28+1"
+    },
+    {
+      "cell": "A30",
+      "class": "formula",
+      "v": "=A29+1"
+    },
+    {
+      "cell": "A31",
+      "class": "formula",
+      "v": "=A30+1"
+    },
+    {
+      "cell": "A32",
+      "class": "formula",
+      "v": "=A31+1"
+    },
+    {
+      "cell": "A33",
+      "class": "formula",
+      "v": "=A32+1"
+    },
+    {
+      "cell": "A34",
+      "class": "formula",
+      "v": "=A33+1"
+    },
+    {
+      "cell": "A35",
+      "class": "formula",
+      "v": "=A34+1"
+    },
+    {
+      "cell": "A36",
+      "class": "formula",
+      "v": "=A35+1"
+    },
+    {
+      "cell": "A37",
+      "class": "formula",
+      "v": "=A36+1"
+    },
+    {
+      "cell": "A38",
+      "class": "formula",
+      "v": "=A37+1"
+    },
+    {
+      "cell": "A39",
+      "class": "formula",
+      "v": "=A38+1"
+    },
+    {
+      "cell": "A40",
+      "class": "formula",
+      "v": "=A39+1"
+    },
+    {
+      "cell": "A41",
+      "class": "formula",
+      "v": "=A40+1"
+    },
+    {
+      "cell": "A42",
+      "class": "formula",
+      "v": "=A41+1"
+    },
+    {
+      "cell": "A43",
+      "class": "formula",
+      "v": "=A42+1"
+    },
+    {
+      "cell": "A44",
+      "class": "formula",
+      "v": "=A43+1"
+    },
+    {
+      "cell": "A45",
+      "class": "formula",
+      "v": "=A44+1"
+    },
+    {
+      "cell": "A46",
+      "class": "formula",
+      "v": "=A45+1"
+    },
+    {
+      "cell": "A47",
+      "class": "formula",
+      "v": "=A46+1"
+    },
+    {
+      "cell": "A48",
+      "class": "formula",
+      "v": "=A47+1"
+    },
+    {
+      "cell": "A49",
+      "class": "formula",
+      "v": "=A48+1"
+    },
+    {
+      "cell": "A50",
+      "class": "formula",
+      "v": "=A49+1"
+    },
+    {
+      "cell": "A51",
+      "class": "formula",
+      "v": "=A50+1"
+    },
+    {
+      "cell": "A52",
+      "class": "formula",
+      "v": "=A51+1"
+    },
+    {
+      "cell": "A53",
+      "class": "formula",
+      "v": "=A52+1"
+    }
+  ],
+  "cap_allow_keys": {
+    "Cap_Allow": {
+      "A1": {
+        "class": "label_or_text",
+        "v": "FIELD NAME:",
+        "cached": "FIELD NAME:"
+      },
+      "B2": {
+        "class": "label_or_text",
+        "v": "Exploration",
+        "cached": "Exploration"
+      },
+      "B3": {
+        "class": "label_or_text",
+        "v": "$mm",
+        "cached": "$mm"
+      },
+      "A4": {
+        "class": "constant_or_input_value",
+        "v": "2002",
+        "cached": "2002"
+      },
+      "B4": {
+        "class": "formula",
+        "v": "=Block_TC!B4",
+        "cached": "0"
+      },
+      "A5": {
+        "class": "constant_or_input_value",
+        "v": "2003",
+        "cached": "2003"
+      },
+      "B5": {
+        "class": "formula",
+        "v": "=Block_TC!B5",
+        "cached": "0"
+      },
+      "FI48": {
+        "class": "formula",
+        "v": "=SUM(FI5:FI46)",
+        "cached": "361.503330356603"
+      },
+      "FK48": {
+        "class": "formula",
+        "v": "=SUM(FK5:FK46)",
+        "cached": "142.902934166187"
+      },
+      "FL48": {
+        "class": "formula",
+        "v": "=SUM(FL5:FL46)",
+        "cached": "185.584322008296"
+      },
+      "FP48": {
+        "class": "formula",
+        "v": "=SUM(FP5:FP46)",
+        "cached": "35"
+      },
+      "FQ48": {
+        "class": "formula",
+        "v": "=SUM(FQ5:FQ46)",
+        "cached": "140"
+      },
+      "GX1": {
+        "class": "constant_or_input_value",
+        "v": "0",
+        "cached": "0"
+      },
+      "labels_ABC": [
+        {
+          "cell": "A1",
+          "v": "FIELD NAME:"
+        },
+        {
+          "cell": "C1",
+          "v": "ORON WEST - OML 123"
+        },
+        {
+          "cell": "B2",
+          "v": "Exploration"
+        },
+        {
+          "cell": "C2",
+          "v": "CAPEX Wells"
+        },
+        {
+          "cell": "B3",
+          "v": "$mm"
+        },
+        {
+          "cell": "C3",
+          "v": "$mm"
+        }
+      ]
+    },
+    "Cap_Allow Gas": {
+      "A1": {
+        "class": "label_or_text",
+        "v": "FIELD NAME:",
+        "cached": "FIELD NAME:"
+      },
+      "B2": {
+        "class": "label_or_text",
+        "v": "Exploration",
+        "cached": "Exploration"
+      },
+      "B3": {
+        "class": "label_or_text",
+        "v": "$mm",
+        "cached": "$mm"
+      },
+      "A4": {
+        "class": "constant_or_input_value",
+        "v": "2002",
+        "cached": "2002"
+      },
+      "B4": {
+        "class": "formula",
+        "v": "=Block_TC_Gas!B4",
+        "cached": "0"
+      },
+      "A5": {
+        "class": "constant_or_input_value",
+        "v": "2003",
+        "cached": "2003"
+      },
+      "B5": {
+        "class": "formula",
+        "v": "=Block_TC_Gas!B5",
+        "cached": "0"
+      },
+      "FI48": {
+        "class": "formula",
+        "v": "=SUM(FI5:FI46)",
+        "cached": "56.7"
+      },
+      "FK48": {
+        "class": "formula",
+        "v": "=SUM(FK5:FK46)",
+        "cached": "0"
+      },
+      "FL48": {
+        "class": "formula",
+        "v": "=SUM(FL5:FL46)",
+        "cached": "25.4185178187494"
+      },
+      "FP48": {
+        "class": "formula",
+        "v": "=SUM(FP5:FP46)",
+        "cached": "0"
+      },
+      "FQ48": {
+        "class": "formula",
+        "v": "=SUM(FQ5:FQ46)",
+        "cached": "0"
+      },
+      "GX1": {
+        "class": "constant_or_input_value",
+        "v": "0",
+        "cached": "0"
+      },
+      "labels_ABC": [
+        {
+          "cell": "A1",
+          "v": "FIELD NAME:"
+        },
+        {
+          "cell": "C1",
+          "v": "ORON WEST - OML 123"
+        },
+        {
+          "cell": "B2",
+          "v": "Exploration"
+        },
+        {
+          "cell": "C2",
+          "v": "CAPEX Wells"
+        },
+        {
+          "cell": "B3",
+          "v": "$mm"
+        },
+        {
+          "cell": "C3",
+          "v": "$mm"
+        }
+      ]
+    }
+  },
+  "register": [
+    {
+      "ws": "Block_TC",
+      "cell": "FV1",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "FW3",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "A4",
+      "val": "2023",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B7",
+      "val": "0.995",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D7",
+      "val": "2.69689914482246",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E7",
+      "val": "110.2458045",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "H7",
+      "val": "14",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "N7",
+      "val": "9",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "T7",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B8",
+      "val": "32.753",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C8",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D8",
+      "val": "16.5820901840491",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E8",
+      "val": "97.645924185",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "N8",
+      "val": "7",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "T8",
+      "val": "9",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "V8",
+      "val": "50",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA8",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD8",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B9",
+      "val": "1.8636",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C9",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D9",
+      "val": "41.6960299907046",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E9",
+      "val": "83.0211809328765",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "H9",
+      "val": "35",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "J9",
+      "val": "80",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "N9",
+      "val": "35",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "U9",
+      "val": "50",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "V9",
+      "val": "20",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA9",
+      "val": "94",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AB9",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD9",
+      "val": "15",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C10",
+      "val": "144.687738804936",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D10",
+      "val": "85.8137516266964",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E10",
+      "val": "90.9877157493137",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "I10",
+      "val": "35",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "O10",
+      "val": "35",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "P10",
+      "val": "50",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "U10",
+      "val": "50",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "Z10",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA10",
+      "val": "112",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AB10",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD10",
+      "val": "20.1",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C11",
+      "val": "168.177780396506",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D11",
+      "val": "127.687211117308",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E11",
+      "val": "107.191146553542",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "J11",
+      "val": "25",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "P11",
+      "val": "50",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA11",
+      "val": "24",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD11",
+      "val": "1.8",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C12",
+      "val": "24.6430056841813",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D12",
+      "val": "16.9292619445994",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E12",
+      "val": "135.226422096393",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "O12",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "Z12",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA12",
+      "val": "126",
+      "class": "ASSUMPTION",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AB12",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD12",
+      "val": "22.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C13",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D13",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E13",
+      "val": "130.680085608994",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA13",
+      "val": "146",
+      "class": "ASSUMPTION",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AB13",
+      "val": "30",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD13",
+      "val": "25.8",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C14",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D14",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E14",
+      "val": "121.063467798929",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA14",
+      "val": "90",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AB14",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AD14",
+      "val": "14.4",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Abandonment | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "C15",
+      "val": "57.5003465964231",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "D15",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E15",
+      "val": "152.362356077496",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA15",
+      "val": "4",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E16",
+      "val": "139.505160304204",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AA16",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E17",
+      "val": "124.908101456936",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E18",
+      "val": "113.039284314778",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E19",
+      "val": "102.834928100657",
+      "class": "ASSUMPTION",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E20",
+      "val": "94.0492895336816",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E21",
+      "val": "93.089303893063",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E22",
+      "val": "93.1611150332542",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E23",
+      "val": "74.2654052253091",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E24",
+      "val": "68.5801486732107",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E25",
+      "val": "57.7872298565662",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E26",
+      "val": "53.6882038755967",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "FJ26",
+      "val": "2.40142604677782",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": ""
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E27",
+      "val": "50.0922350223292",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E28",
+      "val": "42.8488823648651",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E29",
+      "val": "40.67241668327",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E30",
+      "val": "38.7272258587158",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E31",
+      "val": "36.9835820234511",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E32",
+      "val": "35.4159561051845",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "E33",
+      "val": "0.777973575141114",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B49",
+      "val": "0.995",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "K49",
+      "val": "0.05",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Fixed | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "Q49",
+      "val": "0.06",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Fixed | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "W49",
+      "val": "0.02",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AC49",
+      "val": "0.02",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B50",
+      "val": "32.753",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "K50",
+      "val": "2",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "Q50",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "W50",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "AC50",
+      "val": "5.411",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC",
+      "cell": "B51",
+      "val": "1.8636",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "EP1",
+      "val": "0.1",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Abandonment | FIELD NAME:"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "FS3",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "A4",
+      "val": "2023",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D7",
+      "val": "17.2161008551775",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C8",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D8",
+      "val": "105.854509815951",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C9",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D9",
+      "val": "266.173490009295",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E9",
+      "val": "29.9158686888834",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C10",
+      "val": "383.733861195064",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D10",
+      "val": "547.806248373304",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E10",
+      "val": "32.7865314136963",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C11",
+      "val": "446.033019603494",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D11",
+      "val": "815.112388882692",
+      "class": "ASSUMPTION",
+      "ctx": "$mm | CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E11",
+      "val": "38.6252788610571",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "$mm | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C12",
+      "val": "65.3569943158187",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D12",
+      "val": "108.070738055401",
+      "class": "ASSUMPTION",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E12",
+      "val": "48.7275155718873",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C13",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D13",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E13",
+      "val": "47.0892877865891",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C14",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D14",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E14",
+      "val": "43.6240338308585",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "C15",
+      "val": "152.499653403577",
+      "class": "ASSUMPTION",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "D15",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "CAPEX Facilities | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E15",
+      "val": "54.9022813976653",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E16",
+      "val": "50.2693169404138",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E17",
+      "val": "45.009409880409",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E18",
+      "val": "40.7325979737673",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E19",
+      "val": "37.0555582457606",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E20",
+      "val": "33.8897395141511",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E21",
+      "val": "33.5438180993356",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E22",
+      "val": "33.5696945397357",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E23",
+      "val": "26.7608107459149",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E24",
+      "val": "24.7121842801856",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E25",
+      "val": "20.8230617880644",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E26",
+      "val": "19.3460179587535",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "FF26",
+      "val": "2.40142604677782",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": ""
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E27",
+      "val": "18.050245833919",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E28",
+      "val": "15.4401747107056",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E29",
+      "val": "14.6559066383314",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E30",
+      "val": "13.9549761934943",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E31",
+      "val": "13.3266712304737",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E32",
+      "val": "12.7617925983319",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "E33",
+      "val": "0.280335151293015",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "K49",
+      "val": "0.02",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "P49",
+      "val": "0.02",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Fixed | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "U49",
+      "val": "0.01",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Fixed | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "Z49",
+      "val": "0.01",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Fixed | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "P50",
+      "val": "0.5",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "U50",
+      "val": "0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "Z50",
+      "val": "0.9925",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Vopex | OPEX | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "DS63",
+      "val": "14.1727843333333",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Exploration | $mm"
+    },
+    {
+      "ws": "Block_TC_Gas",
+      "cell": "DT63",
+      "val": "42.4054686666667",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "CAPEX Wells | $mm"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GX1",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "HA1",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Life | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FS2",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FT2",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FU2",
+      "val": "2",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FV2",
+      "val": "3",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FW2",
+      "val": "4",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FX2",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FY2",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FZ2",
+      "val": "7",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GA2",
+      "val": "8",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GB2",
+      "val": "9",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GC2",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GD2",
+      "val": "11",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GE2",
+      "val": "12",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GF2",
+      "val": "13",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GG2",
+      "val": "14",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GH2",
+      "val": "15",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GI2",
+      "val": "16",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GJ2",
+      "val": "17",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GK2",
+      "val": "18",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GL2",
+      "val": "19",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GM2",
+      "val": "20",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GN2",
+      "val": "21",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GO2",
+      "val": "22",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GP2",
+      "val": "23",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GQ2",
+      "val": "24",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GR2",
+      "val": "25",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GS2",
+      "val": "26",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GT2",
+      "val": "27",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GU2",
+      "val": "28",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "GV2",
+      "val": "29",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A4",
+      "val": "2002",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A5",
+      "val": "2003",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FR5",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A6",
+      "val": "2004",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FR6",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A7",
+      "val": "2005",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FR7",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A8",
+      "val": "2006",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FR8",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A9",
+      "val": "2007",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "FR9",
+      "val": "0.19",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A10",
+      "val": "2008",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A11",
+      "val": "2009",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A12",
+      "val": "2010",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A13",
+      "val": "2011",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A14",
+      "val": "2012",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A15",
+      "val": "2013",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A16",
+      "val": "2014",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A17",
+      "val": "2015",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A18",
+      "val": "2016",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A19",
+      "val": "2017",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A20",
+      "val": "2018",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A21",
+      "val": "2019",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A22",
+      "val": "2020",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A23",
+      "val": "2021",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A24",
+      "val": "2022",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A25",
+      "val": "2023",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A26",
+      "val": "2024",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A27",
+      "val": "2025",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A28",
+      "val": "2026",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A29",
+      "val": "2027",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A30",
+      "val": "2028",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A31",
+      "val": "2029",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A32",
+      "val": "2030",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A33",
+      "val": "2031",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A34",
+      "val": "2032",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A35",
+      "val": "2033",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A36",
+      "val": "2034",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A37",
+      "val": "2035",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A38",
+      "val": "2036",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A39",
+      "val": "2037",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A40",
+      "val": "2038",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A41",
+      "val": "2039",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A42",
+      "val": "2040",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A43",
+      "val": "2041",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A44",
+      "val": "2042",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow",
+      "cell": "A45",
+      "val": "2043",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GX1",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "HA1",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Life | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FS2",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FT2",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FU2",
+      "val": "2",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FV2",
+      "val": "3",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FW2",
+      "val": "4",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FX2",
+      "val": "5",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FY2",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FZ2",
+      "val": "7",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Capital Allowance Rates | Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GA2",
+      "val": "8",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GB2",
+      "val": "9",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GC2",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GD2",
+      "val": "11",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GE2",
+      "val": "12",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GF2",
+      "val": "13",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GG2",
+      "val": "14",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GH2",
+      "val": "15",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GI2",
+      "val": "16",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GJ2",
+      "val": "17",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GK2",
+      "val": "18",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GL2",
+      "val": "19",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GM2",
+      "val": "20",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GN2",
+      "val": "21",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GO2",
+      "val": "22",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GP2",
+      "val": "23",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GQ2",
+      "val": "24",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GR2",
+      "val": "25",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GS2",
+      "val": "26",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GT2",
+      "val": "27",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GU2",
+      "val": "28",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "GV2",
+      "val": "29",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Exploration"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A4",
+      "val": "2002",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A5",
+      "val": "2003",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FR5",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A6",
+      "val": "2004",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FR6",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A7",
+      "val": "2005",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FR7",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A8",
+      "val": "2006",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FR8",
+      "val": "0.2",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A9",
+      "val": "2007",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME: | FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "FR9",
+      "val": "0.19",
+      "class": "ASSUMPTION",
+      "ctx": "% | Capital Allowance Rates | %"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A10",
+      "val": "2008",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A11",
+      "val": "2009",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A12",
+      "val": "2010",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A13",
+      "val": "2011",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A14",
+      "val": "2012",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A15",
+      "val": "2013",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A16",
+      "val": "2014",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A17",
+      "val": "2015",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A18",
+      "val": "2016",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A19",
+      "val": "2017",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A20",
+      "val": "2018",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A21",
+      "val": "2019",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A22",
+      "val": "2020",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A23",
+      "val": "2021",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A24",
+      "val": "2022",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A25",
+      "val": "2023",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A26",
+      "val": "2024",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A27",
+      "val": "2025",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A28",
+      "val": "2026",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A29",
+      "val": "2027",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A30",
+      "val": "2028",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A31",
+      "val": "2029",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A32",
+      "val": "2030",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A33",
+      "val": "2031",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A34",
+      "val": "2032",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A35",
+      "val": "2033",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A36",
+      "val": "2034",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A37",
+      "val": "2035",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A38",
+      "val": "2036",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A39",
+      "val": "2037",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A40",
+      "val": "2038",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A41",
+      "val": "2039",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A42",
+      "val": "2040",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A43",
+      "val": "2041",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A44",
+      "val": "2042",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    },
+    {
+      "ws": "Cap_Allow Gas",
+      "cell": "A45",
+      "val": "2043",
+      "class": "ASSUMPTION",
+      "ctx": "FIELD NAME:"
+    }
+  ],
+  "register_counts": {
+    "Block_TC|DEFAULT/STRUCTURAL": 46,
+    "Block_TC|ASSUMPTION": 17,
+    "Block_TC|FORMULA COEFFICIENT": 41,
+    "Block_TC_Gas|FORMULA COEFFICIENT": 38,
+    "Block_TC_Gas|DEFAULT/STRUCTURAL": 9,
+    "Block_TC_Gas|ASSUMPTION": 9,
+    "Cap_Allow|DEFAULT/STRUCTURAL": 32,
+    "Cap_Allow|ASSUMPTION": 47,
+    "Cap_Allow Gas|DEFAULT/STRUCTURAL": 32,
+    "Cap_Allow Gas|ASSUMPTION": 47
+  },
+  "formula_samples": {
+    "Block_TC": [
+      {
+        "cell": "C1",
+        "f": "='Block_Oil Data'!B1",
+        "c": "OML 86/88"
+      },
+      {
+        "cell": "I1",
+        "f": "='Block_Oil Data'!E1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "O1",
+        "f": "='Block_Oil Data'!H1",
+        "c": "Nsung Field"
+      },
+      {
+        "cell": "U1",
+        "f": "='Block_Oil Data'!K1",
+        "c": "Generic Field"
+      },
+      {
+        "cell": "AA1",
+        "f": "='Block_Oil Data'!N1",
+        "c": "OML 20"
+      },
+      {
+        "cell": "AG1",
+        "f": "='Block_Oil Data'!Q1",
+        "c": "ADANGA WEST - OML 123"
+      },
+      {
+        "cell": "AL1",
+        "f": "='Block_Oil Data'!T1",
+        "c": "ADNH - OML 123"
+      },
+      {
+        "cell": "AQ1",
+        "f": "='Block_Oil Data'!W1",
+        "c": "NORTH ORON - OML 123"
+      },
+      {
+        "cell": "AV1",
+        "f": "='Block_Oil Data'!Z1",
+        "c": "EBUGHU MAIN - OML123"
+      },
+      {
+        "cell": "BA1",
+        "f": "='Block_Oil Data'!AC1",
+        "c": "EBUGHU NORTH EAST - OML 123"
+      },
+      {
+        "cell": "BF1",
+        "f": "='Block_Oil Data'!AF1",
+        "c": "KITA MARINE - OML 123"
+      },
+      {
+        "cell": "BK1",
+        "f": "='Block_Oil Data'!AI1",
+        "c": "ORON WEST CONTIGENT DEVELOPMENT DRILLING"
+      },
+      {
+        "cell": "BP1",
+        "f": "='Block_Oil Data'!AL1",
+        "c": "ORON WEST C CONTIGENT - OML 123"
+      },
+      {
+        "cell": "BU1",
+        "f": "='Block_Oil Data'!AO1",
+        "c": "ADANGA WEST CONTINGENT - OML 123 "
+      },
+      {
+        "cell": "BZ1",
+        "f": "='Block_Oil Data'!AR1",
+        "c": "ADNH Contingent Phase 1 - OML 123 "
+      },
+      {
+        "cell": "CE1",
+        "f": "='Block_Oil Data'!AU1",
+        "c": "ADNH Contingent Phase 2 - OML 123 "
+      },
+      {
+        "cell": "CJ1",
+        "f": "='Block_Oil Data'!AX1",
+        "c": "Antan Contingent Phase 1 - OML 123 "
+      },
+      {
+        "cell": "CO1",
+        "f": "='Block_Oil Data'!BA1",
+        "c": "ANTAN CONTINGENT PHASE 2 - OML 123 "
+      },
+      {
+        "cell": "CT1",
+        "f": "='Block_Oil Data'!BD1",
+        "c": "Adanga Main Contingent  - OML 123 "
+      },
+      {
+        "cell": "CY1",
+        "f": "='Block_Oil Data'!BG1",
+        "c": "Adanga East Contingent Phase 1 (1P+4H) -"
+      },
+      {
+        "cell": "DD1",
+        "f": "='Block_Oil Data'!BJ1",
+        "c": "AKAM REDEVELOPMENT CONTINGENT - OML 123 "
+      },
+      {
+        "cell": "DI1",
+        "f": "='Block_Oil Data'!BM1",
+        "c": "Akam Deep Contingent- OML 123 "
+      },
+      {
+        "cell": "DN1",
+        "f": "='Block_Oil Data'!BP1",
+        "c": "Kita Marine NW Contingent  - OML 123 "
+      },
+      {
+        "cell": "DS1",
+        "f": "='Block_Oil Data'!BS1",
+        "c": "Kita Marine Phase 2 Contingent - OML 123"
+      },
+      {
+        "cell": "DX1",
+        "f": "='Block_Oil Data'!BV1",
+        "c": "Adanga East Contingent Phase 2 - OML 123"
+      },
+      {
+        "cell": "EC1",
+        "f": "='Block_Oil Data'!BY1",
+        "c": "Inagha Contingent - OML 123"
+      },
+      {
+        "cell": "EH1",
+        "f": "='Block_Oil Data'!CB1",
+        "c": "Adanga South_1 - OML 123"
+      },
+      {
+        "cell": "EW1",
+        "f": "='Block_Oil Data'!CK1",
+        "c": "OML 123 TOTAL CONTINGENT"
+      },
+      {
+        "cell": "FB1",
+        "f": "='Block_Oil Data'!CH1",
+        "c": "OML 123 TOTAL COPIED"
+      },
+      {
+        "cell": "FG1",
+        "f": "=OML123_Oil_S1!CH1",
+        "c": "OML 123 SCENARIO 1"
+      },
+      {
+        "cell": "FM1",
+        "f": "='Block_Oil Data'!CE1",
+        "c": "OML  COMBINED"
+      },
+      {
+        "cell": "FQ1",
+        "f": "=Ec_IO!G23",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FY1",
+        "f": "=Prod_Summary!T2",
+        "c": "Forecast"
+      },
+      {
+        "cell": "FZ1",
+        "f": "=Prod_Summary!X2",
+        "c": "Base Analysis"
+      },
+      {
+        "cell": "G4",
+        "f": "=M4",
+        "c": "2023"
+      },
+      {
+        "cell": "K4",
+        "f": "=IF('Block_Oil Data'!E4<>0,Block_TC!$I$49*Block_TC!$K$49+$K$50*'Block_Oil Data'!E4,0)",
+        "c": "0"
+      },
+      {
+        "cell": "M4",
+        "f": "=S4",
+        "c": "2023"
+      },
+      {
+        "cell": "Q4",
+        "f": "=IF('Block_Oil Data'!H4<>0,$Q$49*$O$49+$Q$50*'Block_Oil Data'!I4,0)",
+        "c": "0"
+      },
+      {
+        "cell": "S4",
+        "f": "=Y4",
+        "c": "2023"
+      },
+      {
+        "cell": "W4",
+        "f": "=IF('Block_Oil Data'!L4<>0,$W$49*$U$49+$W$50*'Block_Oil Data'!L4,0)",
+        "c": "0"
+      }
+    ],
+    "Block_TC_Gas": [
+      {
+        "cell": "C1",
+        "f": "='Block_Oil Data'!B1",
+        "c": "OML 86/88"
+      },
+      {
+        "cell": "I1",
+        "f": "='Block_Oil Data'!E1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "N1",
+        "f": "='Block_Oil Data'!H1",
+        "c": "Nsung Field"
+      },
+      {
+        "cell": "S1",
+        "f": "='Block_Oil Data'!K1",
+        "c": "Generic Field"
+      },
+      {
+        "cell": "X1",
+        "f": "='Block_Oil Data'!N1",
+        "c": "OML 20"
+      },
+      {
+        "cell": "AC1",
+        "f": "='Block_Oil Data'!Q1",
+        "c": "ADANGA WEST - OML 123"
+      },
+      {
+        "cell": "AH1",
+        "f": "='Block_Oil Data'!T1",
+        "c": "ADNH - OML 123"
+      },
+      {
+        "cell": "AM1",
+        "f": "='Block_Oil Data'!W1",
+        "c": "NORTH ORON - OML 123"
+      },
+      {
+        "cell": "AR1",
+        "f": "='Block_Oil Data'!Z1",
+        "c": "EBUGHU MAIN - OML123"
+      },
+      {
+        "cell": "AW1",
+        "f": "='Block_Oil Data'!AC1",
+        "c": "EBUGHU NORTH EAST - OML 123"
+      },
+      {
+        "cell": "BB1",
+        "f": "='Block_Oil Data'!AF1",
+        "c": "KITA MARINE - OML 123"
+      },
+      {
+        "cell": "BG1",
+        "f": "='Block_Oil Data'!AI1",
+        "c": "ORON WEST CONTIGENT DEVELOPMENT DRILLING"
+      },
+      {
+        "cell": "BL1",
+        "f": "='Block_Oil Data'!AL1",
+        "c": "ORON WEST C CONTIGENT - OML 123"
+      },
+      {
+        "cell": "BQ1",
+        "f": "='Block_Oil Data'!AO1",
+        "c": "ADANGA WEST CONTINGENT - OML 123 "
+      },
+      {
+        "cell": "BV1",
+        "f": "='Block_Oil Data'!AR1",
+        "c": "ADNH Contingent Phase 1 - OML 123 "
+      },
+      {
+        "cell": "CA1",
+        "f": "='Block_Oil Data'!AU1",
+        "c": "ADNH Contingent Phase 2 - OML 123 "
+      },
+      {
+        "cell": "CF1",
+        "f": "='Block_Oil Data'!AX1",
+        "c": "Antan Contingent Phase 1 - OML 123 "
+      },
+      {
+        "cell": "CK1",
+        "f": "='Block_Oil Data'!BA1",
+        "c": "ANTAN CONTINGENT PHASE 2 - OML 123 "
+      },
+      {
+        "cell": "CP1",
+        "f": "='Block_Oil Data'!BD1",
+        "c": "Adanga Main Contingent  - OML 123 "
+      },
+      {
+        "cell": "CU1",
+        "f": "='Block_Oil Data'!BG1",
+        "c": "Adanga East Contingent Phase 1 (1P+4H) -"
+      },
+      {
+        "cell": "CZ1",
+        "f": "='Block_Oil Data'!BJ1",
+        "c": "AKAM REDEVELOPMENT CONTINGENT - OML 123 "
+      },
+      {
+        "cell": "DE1",
+        "f": "='Block_Oil Data'!BM1",
+        "c": "Akam Deep Contingent- OML 123 "
+      },
+      {
+        "cell": "DJ1",
+        "f": "='Block_Oil Data'!BP1",
+        "c": "Kita Marine NW Contingent  - OML 123 "
+      },
+      {
+        "cell": "DO1",
+        "f": "='Block_Oil Data'!BS1",
+        "c": "Kita Marine Phase 2 Contingent - OML 123"
+      },
+      {
+        "cell": "DT1",
+        "f": "='Block_Oil Data'!BV1",
+        "c": "Adanga East Contingent Phase 2 - OML 123"
+      },
+      {
+        "cell": "DY1",
+        "f": "='Block_Oil Data'!BY1",
+        "c": "Inagha Contingent - OML 123"
+      },
+      {
+        "cell": "ED1",
+        "f": "='Block_Oil Data'!CB1",
+        "c": "Adanga South_1 - OML 123"
+      },
+      {
+        "cell": "ES1",
+        "f": "='Block_Oil Data'!CK1",
+        "c": "OML 123 TOTAL CONTINGENT"
+      },
+      {
+        "cell": "EX1",
+        "f": "='Block_Oil Data'!CH1",
+        "c": "OML 123 TOTAL COPIED"
+      },
+      {
+        "cell": "FC1",
+        "f": "=OML123_Oil_S1!CH1",
+        "c": "OML 123 SCENARIO 1"
+      },
+      {
+        "cell": "FI1",
+        "f": "='Block_Oil Data'!CE1",
+        "c": "OML  COMBINED"
+      },
+      {
+        "cell": "FM1",
+        "f": "=Ec_IO!G23",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FU1",
+        "f": "=Prod_Summary!T2",
+        "c": "Forecast"
+      },
+      {
+        "cell": "FV1",
+        "f": "=Prod_Summary!X2",
+        "c": "Base Analysis"
+      },
+      {
+        "cell": "G4",
+        "f": "=L4",
+        "c": "2023"
+      },
+      {
+        "cell": "K4",
+        "f": "=IF('Block_Oil Data'!E4<>0,$K$49*Block_TC!$I$49,0)",
+        "c": "0"
+      },
+      {
+        "cell": "L4",
+        "f": "=Q4",
+        "c": "2023"
+      },
+      {
+        "cell": "P4",
+        "f": "=IF('Block_Gas Data'!H4<>0,$P$49*$N$49+$P$50*'Block_Gas Data'!I4,0)",
+        "c": "0"
+      },
+      {
+        "cell": "Q4",
+        "f": "=V4",
+        "c": "2023"
+      },
+      {
+        "cell": "U4",
+        "f": "=IF('Block_Gas Data'!L4<>0,$U$49*$S$49+$U$50*'Block_Gas Data'!L4,0)",
+        "c": "0"
+      }
+    ],
+    "Cap_Allow": [
+      {
+        "cell": "EW1",
+        "f": "=Ec_IO!G23",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FE1",
+        "f": "=EW1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FF1",
+        "f": "=Prod_Summary!T2",
+        "c": "Forecast"
+      },
+      {
+        "cell": "FG1",
+        "f": "=Prod_Summary!X2",
+        "c": "Base Analysis"
+      },
+      {
+        "cell": "B4",
+        "f": "=Block_TC!B4",
+        "c": "0"
+      },
+      {
+        "cell": "C4",
+        "f": "=Block_TC!C4",
+        "c": "0"
+      },
+      {
+        "cell": "D4",
+        "f": "=Block_TC!D4",
+        "c": "0"
+      },
+      {
+        "cell": "E4",
+        "f": "=Block_TC!E4",
+        "c": "0"
+      },
+      {
+        "cell": "F4",
+        "f": "=Block_TC!G4",
+        "c": "2023"
+      },
+      {
+        "cell": "G4",
+        "f": "=Block_TC!H4",
+        "c": "0"
+      },
+      {
+        "cell": "H4",
+        "f": "=Block_TC!I4",
+        "c": "0"
+      },
+      {
+        "cell": "I4",
+        "f": "=Block_TC!J4",
+        "c": "0"
+      },
+      {
+        "cell": "J4",
+        "f": "=Block_TC!K4",
+        "c": "0"
+      },
+      {
+        "cell": "K4",
+        "f": "=Block_TC!M4",
+        "c": "2023"
+      },
+      {
+        "cell": "L4",
+        "f": "=Block_TC!N4",
+        "c": "0"
+      },
+      {
+        "cell": "M4",
+        "f": "=Block_TC!O4",
+        "c": "0"
+      },
+      {
+        "cell": "N4",
+        "f": "=Block_TC!P4",
+        "c": "0"
+      },
+      {
+        "cell": "O4",
+        "f": "=Block_TC!Q4",
+        "c": "0"
+      },
+      {
+        "cell": "P4",
+        "f": "=Block_TC!S4",
+        "c": "2023"
+      },
+      {
+        "cell": "Q4",
+        "f": "=Block_TC!T4",
+        "c": "0"
+      },
+      {
+        "cell": "R4",
+        "f": "=Block_TC!U4",
+        "c": "0"
+      },
+      {
+        "cell": "S4",
+        "f": "=Block_TC!V4",
+        "c": "0"
+      },
+      {
+        "cell": "T4",
+        "f": "=Block_TC!W4",
+        "c": "0"
+      },
+      {
+        "cell": "U4",
+        "f": "=Block_TC!Y4",
+        "c": "2023"
+      },
+      {
+        "cell": "V4",
+        "f": "=Block_TC!Z4",
+        "c": "0"
+      },
+      {
+        "cell": "W4",
+        "f": "=Block_TC!AA4",
+        "c": "0"
+      },
+      {
+        "cell": "X4",
+        "f": "=Block_TC!AB4",
+        "c": "0"
+      },
+      {
+        "cell": "Y4",
+        "f": "=Block_TC!AC4",
+        "c": "0"
+      },
+      {
+        "cell": "Z4",
+        "f": "=Block_TC!AE4",
+        "c": "2023"
+      },
+      {
+        "cell": "AA4",
+        "f": "=Block_TC!AF4",
+        "c": "0"
+      },
+      {
+        "cell": "AB4",
+        "f": "=Block_TC!AG4",
+        "c": "0"
+      },
+      {
+        "cell": "AC4",
+        "f": "=Block_TC!AH4",
+        "c": "0"
+      },
+      {
+        "cell": "AD4",
+        "f": "=Block_TC!AI4",
+        "c": "0"
+      },
+      {
+        "cell": "AE4",
+        "f": "=Block_TC!AJ4",
+        "c": "2023"
+      },
+      {
+        "cell": "AF4",
+        "f": "=Block_TC!AK4",
+        "c": "0"
+      },
+      {
+        "cell": "AG4",
+        "f": "=Block_TC!AL4",
+        "c": "0"
+      },
+      {
+        "cell": "AH4",
+        "f": "=Block_TC!AM4",
+        "c": "0"
+      },
+      {
+        "cell": "AI4",
+        "f": "=Block_TC!AN4",
+        "c": "0"
+      },
+      {
+        "cell": "AJ4",
+        "f": "=Block_TC!AO4",
+        "c": "2023"
+      },
+      {
+        "cell": "AK4",
+        "f": "=Block_TC!AP4",
+        "c": "0"
+      }
+    ],
+    "Cap_Allow Gas": [
+      {
+        "cell": "EW1",
+        "f": "=Ec_IO!G23",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FE1",
+        "f": "=EW1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "FF1",
+        "f": "=Prod_Summary!T2",
+        "c": "Forecast"
+      },
+      {
+        "cell": "FG1",
+        "f": "=Prod_Summary!X2",
+        "c": "Base Analysis"
+      },
+      {
+        "cell": "B4",
+        "f": "=Block_TC_Gas!B4",
+        "c": "0"
+      },
+      {
+        "cell": "C4",
+        "f": "=Block_TC_Gas!C4",
+        "c": "0"
+      },
+      {
+        "cell": "D4",
+        "f": "=Block_TC_Gas!D4",
+        "c": "0"
+      },
+      {
+        "cell": "E4",
+        "f": "=Block_TC_Gas!E4",
+        "c": "0"
+      },
+      {
+        "cell": "F4",
+        "f": "=Block_TC_Gas!G4",
+        "c": "2023"
+      },
+      {
+        "cell": "G4",
+        "f": "=Block_TC_Gas!H4",
+        "c": "0"
+      },
+      {
+        "cell": "H4",
+        "f": "=Block_TC_Gas!I4",
+        "c": "0"
+      },
+      {
+        "cell": "I4",
+        "f": "=Block_TC_Gas!J4",
+        "c": "0"
+      },
+      {
+        "cell": "J4",
+        "f": "=Block_TC_Gas!K4",
+        "c": "0"
+      },
+      {
+        "cell": "K4",
+        "f": "=Block_TC_Gas!L4",
+        "c": "2023"
+      },
+      {
+        "cell": "L4",
+        "f": "=Block_TC_Gas!M4",
+        "c": "0"
+      },
+      {
+        "cell": "M4",
+        "f": "=Block_TC_Gas!N4",
+        "c": "0"
+      },
+      {
+        "cell": "N4",
+        "f": "=Block_TC_Gas!O4",
+        "c": "0"
+      },
+      {
+        "cell": "O4",
+        "f": "=Block_TC_Gas!P4",
+        "c": "0"
+      },
+      {
+        "cell": "P4",
+        "f": "=Block_TC_Gas!Q4",
+        "c": "2023"
+      },
+      {
+        "cell": "Q4",
+        "f": "=Block_TC_Gas!R4",
+        "c": "0"
+      },
+      {
+        "cell": "R4",
+        "f": "=Block_TC_Gas!S4",
+        "c": "0"
+      },
+      {
+        "cell": "S4",
+        "f": "=Block_TC_Gas!T4",
+        "c": "0"
+      },
+      {
+        "cell": "T4",
+        "f": "=Block_TC_Gas!U4",
+        "c": "0"
+      },
+      {
+        "cell": "U4",
+        "f": "=Block_TC_Gas!V4",
+        "c": "2023"
+      },
+      {
+        "cell": "V4",
+        "f": "=Block_TC_Gas!W4",
+        "c": "0"
+      },
+      {
+        "cell": "W4",
+        "f": "=Block_TC_Gas!X4",
+        "c": "0"
+      },
+      {
+        "cell": "X4",
+        "f": "=Block_TC_Gas!Y4",
+        "c": "0"
+      },
+      {
+        "cell": "Y4",
+        "f": "=Block_TC_Gas!Z4",
+        "c": "0"
+      },
+      {
+        "cell": "Z4",
+        "f": "=Block_TC_Gas!AA4",
+        "c": "2023"
+      },
+      {
+        "cell": "AA4",
+        "f": "=Block_TC_Gas!AB4",
+        "c": "0"
+      },
+      {
+        "cell": "AB4",
+        "f": "=Block_TC_Gas!AC4",
+        "c": "0"
+      },
+      {
+        "cell": "AC4",
+        "f": "=Block_TC_Gas!AD4",
+        "c": "0"
+      },
+      {
+        "cell": "AD4",
+        "f": "=Block_TC_Gas!AE4",
+        "c": "0"
+      },
+      {
+        "cell": "AE4",
+        "f": "=Block_TC_Gas!AF4",
+        "c": "2023"
+      },
+      {
+        "cell": "AF4",
+        "f": "=Block_TC_Gas!AG4",
+        "c": "0"
+      },
+      {
+        "cell": "AG4",
+        "f": "=Block_TC_Gas!AH4",
+        "c": "0"
+      },
+      {
+        "cell": "AH4",
+        "f": "=Block_TC_Gas!AI4",
+        "c": "0"
+      },
+      {
+        "cell": "AI4",
+        "f": "=Block_TC_Gas!AJ4",
+        "c": "0"
+      },
+      {
+        "cell": "AJ4",
+        "f": "=Block_TC_Gas!AK4",
+        "c": "2023"
+      },
+      {
+        "cell": "AK4",
+        "f": "=Block_TC_Gas!AL4",
+        "c": "0"
+      }
+    ]
+  },
+  "ec_refs_from_costs": {
+    "Ec_IO!$G$23": 11004,
+    "Ec_IO!$E$30": 3206,
+    "Ec_IO!$C$4": 336,
+    "Ec_IO!$D$28": 336,
+    "Ec_IO!$E$28": 336,
+    "Ec_IO!$C$15": 252,
+    "Ec_IO!$C$5": 86,
+    "Ec_IO!$C$6": 86,
+    "Ec_IO!$C$20": 84,
+    "Ec_IO!$C$21": 84,
+    "Ec_IO!G23": 4
+  },
+  "prod_refs_from_costs": {
+    "Prod_Summary": 274
+  },
+  "downstream_consumers_count": {
+    "HT_NCF_Oil": 171,
+    "via_Block_TC:FLGT": 135,
+    "CR Econ": 127,
+    "HT_NCF": 126,
+    "CIT_NCF_Gas": 100,
+    "Project_NCF": 85,
+    "via_Block_TC:HT_NCF": 84,
+    "Project_NCF_Con": 66,
+    "via_Block_TC:CIT_NCF_Gas": 66,
+    "FLGT": 45,
+    "CIT_NCF_Oil": 45,
+    "HT_NCF_Oil Equity": 45,
+    "CIT_NCF_Oil Equity": 45,
+    "CIT_NCF_Gas Equity": 45,
+    "via_Block_TC:Block_Oil Data": 42,
+    "via_Block_TC:Block_Gas Data": 42,
+    "via_Block_TC:CIT_NCF": 42,
+    "via_Block_TC:HT_NCF_Oil": 42,
+    "via_Block_TC:CIT_NCF_Oil": 42,
+    "via_Block_TC:Project_NCF_Con": 42,
+    "Ec_IO": 4
+  },
+  "kpis": [
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M19",
+      "exp": "15.8726247896521",
+      "fml": "=M16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H19",
+      "exp": "8.00847019384067",
+      "fml": "=H16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M20",
+      "exp": "6.64200673825471",
+      "fml": "=M17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H20",
+      "exp": "5.42378429513249",
+      "fml": "=H17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M21",
+      "exp": "22.5146315279068",
+      "fml": "=M18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H21",
+      "exp": "13.4322544889732",
+      "fml": "=H18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe"
+    }
+  ],
+  "ec_io_cost_formulas": [
+    {
+      "cell": "N16",
+      "f": "=Cap_Allow!FL48+'Cap_Allow Gas'!FL48",
+      "c": "211.002839827046"
+    },
+    {
+      "cell": "S16",
+      "f": "=Cap_Allow!FI48+'Cap_Allow Gas'!FI48",
+      "c": "418.203330356603"
+    },
+    {
+      "cell": "N17",
+      "f": "=Cap_Allow!FK48+'Cap_Allow Gas'!FK48",
+      "c": "142.902934166187"
+    },
+    {
+      "cell": "S17",
+      "f": "=Cap_Allow!FP48+Cap_Allow!FQ48+'Cap_Allow Gas'!FP48+'Cap_Allow Gas'!FQ48",
+      "c": "175"
+    }
+  ],
+  "named_ranges": [
+    {
+      "name": "Expl_Appr.",
+      "ref": "OFFSET(Block_TC!$FY$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Fac_CAP",
+      "ref": "OFFSET(Block_TC!$GA$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Gas_Expl_Appr.",
+      "ref": "OFFSET(Block_TC_Gas!$FU$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Gas_Fac_CAP",
+      "ref": "OFFSET(Block_TC_Gas!$FW$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Gas_OPEX",
+      "ref": "OFFSET(Block_TC_Gas!$FX$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Gas_Wells_CAP",
+      "ref": "OFFSET(Block_TC_Gas!$FV$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "OPEX",
+      "ref": "OFFSET(Block_TC!$GB$5,0,0,Prod_Summary!$AF$26,1)"
+    },
+    {
+      "name": "Wells_CAP",
+      "ref": "OFFSET(Block_TC!$FZ$5,0,0,Prod_Summary!$AF$26,1)"
+    }
+  ]
+}

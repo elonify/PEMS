@@ -1,0 +1,193 @@
+name,attr_text,hidden
+___mds_allowwriteback___,"""""",False
+___mds_asyncwriteback___,FALSE,False
+___mds_description___,"""""",True
+___mds_spreading___,FALSE,False
+__123Graph_A,#REF!,True
+__123Graph_B,#REF!,True
+__123Graph_C,#REF!,True
+__123Graph_D,#REF!,True
+__123Graph_E,#REF!,True
+__123Graph_F,#REF!,True
+__IntlFixup,TRUE,True
+_AtRisk_SimSetting_AutomaticallyGenerateReports,FALSE,True
+_AtRisk_SimSetting_AutomaticResultsDisplayMode,0,True
+_AtRisk_SimSetting_ConvergenceConfidenceLevel,0.95,True
+_AtRisk_SimSetting_ConvergencePercentileToTest,0.9,True
+_AtRisk_SimSetting_ConvergencePerformMeanTest,TRUE,True
+_AtRisk_SimSetting_ConvergencePerformPercentileTest,FALSE,True
+_AtRisk_SimSetting_ConvergencePerformStdDeviationTest,FALSE,True
+_AtRisk_SimSetting_ConvergenceTestAllOutputs,TRUE,True
+_AtRisk_SimSetting_ConvergenceTestingPeriod,100,True
+_AtRisk_SimSetting_ConvergenceTolerance,0.03,True
+_AtRisk_SimSetting_GoalSeekTargetValue,0,True
+_AtRisk_SimSetting_LiveUpdate,TRUE,True
+_AtRisk_SimSetting_LiveUpdatePeriod,-1,True
+_AtRisk_SimSetting_MacroMode,0,True
+_AtRisk_SimSetting_MacroRecalculationBehavior,0,True
+_AtRisk_SimSetting_MaxAutoIterations,50000,True
+_AtRisk_SimSetting_MultipleCPUCount,-1,True
+_AtRisk_SimSetting_MultipleCPUManualCount,4,True
+_AtRisk_SimSetting_MultipleCPUMode,0,True
+_AtRisk_SimSetting_MultipleCPUModeV8,2,True
+_AtRisk_SimSetting_RandomNumberGenerator,0,True
+_AtRisk_SimSetting_ReportOptionCustomItemsCount,0,True
+_AtRisk_SimSetting_ReportOptionDataMode,1,True
+_AtRisk_SimSetting_ReportOptionReportMultiSimType,1,True
+_AtRisk_SimSetting_ReportOptionReportPlacement,1,True
+_AtRisk_SimSetting_ReportOptionReportSelection,1,True
+_AtRisk_SimSetting_ReportOptionReportsFileType,1,True
+_AtRisk_SimSetting_ReportOptionReportStyle,1,True
+_AtRisk_SimSetting_ReportOptionSelectiveQR,FALSE,True
+_AtRisk_SimSetting_ReportsList,1,True
+_AtRisk_SimSetting_ShowSimulationProgressWindow,TRUE,True
+_AtRisk_SimSetting_SimNameCount,0,True
+_AtRisk_SimSetting_SmartSensitivityAnalysisEnabled,TRUE,True
+_AtRisk_SimSetting_StatisticFunctionUpdating,1,True
+_AtRisk_SimSetting_StdRecalcActiveSimulationNumber,1,True
+_AtRisk_SimSetting_StdRecalcBehavior,0,True
+_AtRisk_SimSetting_StdRecalcWithoutRiskStatic,0,True
+_AtRisk_SimSetting_StdRecalcWithoutRiskStaticPercentile,0.5,True
+_Fill,#REF!,True
+_Key1,#REF!,True
+_Key2,#REF!,True
+_ofa1,"{TRUE,FALSE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,46,#N/A,7.45588235294118,61.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3short."",""ACwvu.week3short."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",FALSE,FALSE,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+_Order1,0,True
+_Order2,255,True
+_Parse_In,#REF!,True
+_Sort,#REF!,True
+ACwvu.normal.,#REF!,True
+ACwvu.short.,#REF!,True
+ACwvu.week3.,#REF!,True
+ACwvu.week3short.,#REF!,True
+AG_Chart_Cum,"OFFSET('Production Profile'!$I$23,0,0,'Production Profile'!$P$27,1)",False
+Annual_DNCF,"_xlfn.TAKE(_xlfn._xlws.FILTER('Project_NCF_Con (2)'!$AH$5:$AH$49,'Project_NCF_Con (2)'!$AH$5:$AH$49<>0),1+Ec_IO!$C$6)",False
+Annual_Gas,"OFFSET(Prod_Summary!$X$5,0,0,Prod_Summary!$AF$26,1)",False
+Annual_Oil,"OFFSET(Prod_Summary!$U$5,0,0,Prod_Summary!$AF$26,1)",False
+AS2DocOpenMode,"""AS2DocumentEdit""",True
+CBWorkbookPriority,-1482662388,True
+Chart_Cum,"OFFSET('Production Profile'!$F$23,0,0,'Production Profile'!$P$27,1)",False
+Chart_Years,"OFFSET('Production Profile'!$B$23, 0, 0, 'Production Profile'!$P$27,1)",False
+CT_Acct,#REF!,True
+CT_CoLo,#REF!,True
+CT_Cur,#REF!,True
+Cum_DNCF,"_xlfn.TAKE(_xlfn._xlws.FILTER('Project_NCF_Con (2)'!$AI$5:$AI$49,'Project_NCF_Con (2)'!$AI$5:$AI$49<>0),1+Ec_IO!$C$6)",False
+Cum_Gas,"OFFSET(Prod_Summary!$Y$5,0,0,Prod_Summary!$AF$26,1)",False
+Cum_Oil,"OFFSET(Prod_Summary!$V$5,0,0,Prod_Summary!$AF$26,1)",False
+Cwvu.week3.,#REF!,True
+Data.Dump,"OFFSET(#REF!,1,0)",True
+End,END!$A$1,False
+Ent_Alias_List,"OFFSET(Data,0,1,,1)",False
+Ent_Name_List,"OFFSET(Data,0,0,,1)",False
+EssAliasTable,"""Default""",False
+ev.Calculation,-4105,True
+ev.Initialized,FALSE,True
+Expl_Appr.,"OFFSET(Block_TC!$FY$5,0,0,Prod_Summary!$AF$26,1)",False
+Fac_CAP,"OFFSET(Block_TC!$GA$5,0,0,Prod_Summary!$AF$26,1)",False
+frequency,"{""Annually"";""Semi-Annually"";""Quarterly"";""Bi-Monthly"";""Monthly"";""Semi-Monthly"";""Bi-Weekly"";""Weekly""}",False
+Gas_Expl_Appr.,"OFFSET(Block_TC_Gas!$FU$5,0,0,Prod_Summary!$AF$26,1)",False
+Gas_Fac_CAP,"OFFSET(Block_TC_Gas!$FW$5,0,0,Prod_Summary!$AF$26,1)",False
+Gas_OPEX,"OFFSET(Block_TC_Gas!$FX$5,0,0,Prod_Summary!$AF$26,1)",False
+Gas_Wells_CAP,"OFFSET(Block_TC_Gas!$FV$5,0,0,Prod_Summary!$AF$26,1)",False
+h,STOIIP!$D$6,False
+hn.ExtDb,FALSE,True
+hn.ModelType,"""DEAL""",True
+hn.ModelVersion,1,True
+hn.NoUpload,0,True
+HTML_CodePage,1252,True
+HTML_Control,"{""'Leverage'!$B$2:$M$418""}",True
+HTML_Description,"""""",True
+HTML_Email,"""""",True
+HTML_Header,"""Leverage""",True
+HTML_LastUpdate,"""8/21/00""",True
+HTML_LineAfter,FALSE,True
+HTML_LineBefore,FALSE,True
+HTML_Name,"""Frank Vickers""",True
+HTML_OBDlg2,TRUE,True
+HTML_OBDlg4,TRUE,True
+HTML_OS,0,True
+HTML_PathFile,"""C:\my documents\lever.htm""",True
+HTML_Title,"""leverage""",True
+IQ_ADDIN,"""AUTO""",True
+IQ_CH,110000,True
+IQ_CQ,5000,True
+IQ_CY,10000,True
+IQ_FH,100000,True
+IQ_FQ,500,True
+IQ_FWD_CY,10001,True
+IQ_FWD_CY1,10002,True
+IQ_FWD_CY2,10003,True
+IQ_FWD_FY,1001,True
+IQ_FWD_FY1,1002,True
+IQ_FWD_FY2,1003,True
+IQ_FWD_Q,501,True
+IQ_FWD_Q1,502,True
+IQ_FWD_Q2,503,True
+IQ_FY,1000,True
+IQ_LATESTK,1000,True
+IQ_LATESTQ,500,True
+IQ_LTM,2000,True
+IQ_MONTH,15000,True
+IQ_NAMES_REVISION_DATE_,40219.4072685185,True
+IQ_NTM,6000,True
+IQ_TODAY,0,True
+IQ_WEEK,50000,True
+IQ_YTD,3000,True
+IsColHidden,FALSE,True
+IsLTMColHidden,FALSE,True
+Level,"OFFSET(Data,0,5,,1)",False
+LT_Acct,#REF!,True
+OFA,"{TRUE,FALSE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,46,#N/A,7.45588235294118,61.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3short."",""ACwvu.week3short."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",FALSE,FALSE,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+ofai,"{TRUE,TRUE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,154,#N/A,7.45588235294118,17.1111111111111,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.normal."",""ACwvu.normal."",#N/A,FALSE,FALSE,0.5,0.38,0.57,0.54,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",#N/A,#N/A,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+OML123_PROD,'Block_Oil Data'!$CU$52,False
+OML123_RATE,'Block_Oil Data'!$CU$51,False
+OPEX,"OFFSET(Block_TC!$GB$5,0,0,Prod_Summary!$AF$26,1)",False
+Ownership,"OFFSET(#REF!,1,0)",True
+Pal_Workbook_GUID,"""25ZWS4F4929RB36B5XV6PY55""",True
+Production_Days,'Oil Input'!$G$2,False
+Rates_Charts,"OFFSET('Production Profile'!$D$23,0,0,'Production Profile'!$P$27,1)",False
+Rates_Gas,"OFFSET(Prod_Summary!$W$5,0,0,Prod_Summary!$AF$26,1)",False
+Rates_Oil,"OFFSET(Prod_Summary!$T$5,0,0,Prod_Summary!$AF$26,1)",False
+reserves_boe_conv,6,False
+RiskAfterRecalcMacro,"""""",True
+RiskAfterSimMacro,"""""",True
+RiskBeforeRecalcMacro,"""""",True
+RiskBeforeSimMacro,"""""",True
+RiskCollectDistributionSamples,2,True
+RiskFixedSeed,1,True
+RiskHasSettings,7,True
+RiskIsOptimization,FALSE,True
+RiskIsStatistics,FALSE,True
+RiskMinimizeOnStart,FALSE,True
+RiskMonitorConvergence,FALSE,True
+RiskMultipleCPUSupportEnabled,TRUE,True
+RiskNumIterations,100,True
+RiskNumSimulations,1,True
+RiskPauseOnError,FALSE,True
+RiskRunAfterRecalcMacro,FALSE,True
+RiskRunAfterSimMacro,FALSE,True
+RiskRunBeforeRecalcMacro,FALSE,True
+RiskRunBeforeSimMacro,FALSE,True
+RiskSamplingType,3,True
+RiskStandardRecalc,1,True
+RiskUpdateDisplay,FALSE,True
+RiskUseDifferentSeedForEachSim,FALSE,True
+RiskUseFixedSeed,FALSE,True
+RiskUseMultipleCPUs,TRUE,True
+rplce,#REF!,True
+Schl,"{TRUE,TRUE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,50,#N/A,7.45588235294118,16.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3."",""ACwvu.week3."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",#N/A,""Cwvu.week3."",FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+Start,START!$A$1,False
+Swvu.normal.,#REF!,True
+Swvu.short.,#REF!,True
+Swvu.week3.,#REF!,True
+Swvu.week3short.,#REF!,True
+UploadList,"OFFSET(Data,0,6,,1)",False
+Wells_CAP,"OFFSET(Block_TC!$FZ$5,0,0,Prod_Summary!$AF$26,1)",False
+wrn.index.,"{#N/A,#N/A,FALSE,""Sheet1""}",True
+wvu.normal.,"{TRUE,TRUE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,154,#N/A,7.45588235294118,17.1111111111111,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.normal."",""ACwvu.normal."",#N/A,FALSE,FALSE,0.5,0.38,0.57,0.54,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",#N/A,#N/A,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+wvu.short.,"{TRUE,FALSE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,9,#N/A,7.45588235294118,32.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.short."",""ACwvu.short."",#N/A,FALSE,FALSE,0.5,0.38,0.57,0.54,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",FALSE,FALSE,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+wvu.week3.,"{TRUE,TRUE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,50,#N/A,7.45588235294118,16.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3."",""ACwvu.week3."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",#N/A,""Cwvu.week3."",FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+wvu.week3short.,"{TRUE,FALSE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,46,#N/A,7.45588235294118,61.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3short."",""ACwvu.week3short."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",FALSE,FALSE,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+xxxxxxx,"{TRUE,FALSE,-1.25,-15.5,484.5,255.75,FALSE,TRUE,TRUE,TRUE,0,1,#N/A,46,#N/A,7.45588235294118,61.6470588235294,1,FALSE,FALSE,3,TRUE,1,FALSE,100,""Swvu.week3short."",""ACwvu.week3short."",#N/A,FALSE,FALSE,0.42,0.38,0.73,0.56,2,""&A"",""Page &P"",FALSE,FALSE,FALSE,FALSE,1,63,#N/A,#N/A,FALSE,""=R1:R7"",FALSE,FALSE,FALSE,FALSE,TRUE,9,600,600,FALSE,FALSE,TRUE,TRUE,TRUE}",True
+Years_Charts,"OFFSET('Production Profile'!$B$23, 0, 0, 'Production Profile'!$P$27,1)",False
+Years_Prod,"OFFSET(Prod_Summary!$S$5,0,0,Prod_Summary!$AF$26,1)",False

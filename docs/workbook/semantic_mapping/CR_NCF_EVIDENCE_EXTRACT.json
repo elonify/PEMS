@@ -1,0 +1,2503 @@
+{
+  "cr_layout": [
+    {
+      "cell": "L1",
+      "class": "formula",
+      "v": "=Ec_IO!G22"
+    },
+    {
+      "cell": "U1",
+      "class": "formula",
+      "v": "=Ec_IO!$G$24"
+    },
+    {
+      "cell": "A3",
+      "class": "formula",
+      "v": "=FLGT!A3"
+    },
+    {
+      "cell": "B3",
+      "class": "formula",
+      "v": "=FLGT!W3"
+    },
+    {
+      "cell": "C3",
+      "class": "formula",
+      "v": "=FLGT!X3"
+    },
+    {
+      "cell": "D3",
+      "class": "formula",
+      "v": "=FLGT!Y3"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_t",
+      "v": "Royalties"
+    },
+    {
+      "cell": "F3",
+      "class": "label_or_t",
+      "v": "FL Govt Pmt"
+    },
+    {
+      "cell": "G3",
+      "class": "formula",
+      "v": "=Cap_Allow!FP2"
+    },
+    {
+      "cell": "H3",
+      "class": "label_or_t",
+      "v": "CAPEX DEPR"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_t",
+      "v": "OPEX"
+    },
+    {
+      "cell": "J3",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z3"
+    },
+    {
+      "cell": "K3",
+      "class": "label_or_t",
+      "v": "Eligible Total Cost"
+    },
+    {
+      "cell": "L3",
+      "class": "label_or_t",
+      "v": "Cost Recovery Limit"
+    },
+    {
+      "cell": "M3",
+      "class": "label_or_t",
+      "v": "Profit Oil"
+    },
+    {
+      "cell": "N3",
+      "class": "label_or_t",
+      "v": "Cost to Recover C/F"
+    },
+    {
+      "cell": "O3",
+      "class": "label_or_t",
+      "v": "ECR"
+    },
+    {
+      "cell": "P3",
+      "class": "label_or_t",
+      "v": "Project Total Oil"
+    },
+    {
+      "cell": "Q3",
+      "class": "formula",
+      "v": "=FLGT!D3"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_t",
+      "v": "HG Profit Oil Split"
+    },
+    {
+      "cell": "S3",
+      "class": "label_or_t",
+      "v": "Contractor Profit Split"
+    },
+    {
+      "cell": "T3",
+      "class": "label_or_t",
+      "v": "Contractor Oil"
+    },
+    {
+      "cell": "U3",
+      "class": "label_or_t",
+      "v": "Government Oil"
+    },
+    {
+      "cell": "B4",
+      "class": "formula",
+      "v": "=FLGT!W4"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=FLGT!X4"
+    },
+    {
+      "cell": "D4",
+      "class": "formula",
+      "v": "=FLGT!Y4"
+    },
+    {
+      "cell": "E4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "F4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "G4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "H4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "I4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "J4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "K4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "L4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "M4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "N4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "O4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "P4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "Q4",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "R4",
+      "class": "label_or_t",
+      "v": "%"
+    },
+    {
+      "cell": "S4",
+      "class": "label_or_t",
+      "v": "%"
+    },
+    {
+      "cell": "T4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "U4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=FLGT!A5"
+    },
+    {
+      "cell": "B5",
+      "class": "formula",
+      "v": "=FLGT!W5"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "v": "=FLGT!X5"
+    },
+    {
+      "cell": "D5",
+      "class": "formula",
+      "v": "=FLGT!Y5"
+    },
+    {
+      "cell": "E5",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB5:AD5)"
+    },
+    {
+      "cell": "F5",
+      "class": "formula",
+      "v": "=FLGT!AE5+FLGT!AF5+FLGT!AG5+FLGT!AH5+FLGT!Z5"
+    },
+    {
+      "cell": "J5",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z5"
+    },
+    {
+      "cell": "K5",
+      "class": "formula",
+      "v": "=F5+H5+I5+G5+J5"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D5-E5),'Fiscal Terms_PIA'!$U$60*(D5-E5))"
+    },
+    {
+      "cell": "M5",
+      "class": "formula",
+      "v": "=D5-E5-L5"
+    },
+    {
+      "cell": "N5",
+      "class": "formula",
+      "v": "=IF(AND(G5=0,D5=0),0,IF(L5-K5+N4<0,L5-K5+N4,0))"
+    },
+    {
+      "cell": "O5",
+      "class": "formula",
+      "v": "=IF(AND(G5=0,D5=0),0,IF(L5-K5+N4>0,L5-K5+N4,0))"
+    },
+    {
+      "cell": "P5",
+      "class": "formula",
+      "v": "=O5+M5"
+    },
+    {
+      "cell": "Q5",
+      "class": "formula",
+      "v": "=FLGT!D5"
+    },
+    {
+      "cell": "R5",
+      "class": "formula",
+      "v": "=IF(Q5=0,0,IF(Q5<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q5>'Fiscal Terms_PIA'!$W$60,Q5<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PI"
+    },
+    {
+      "cell": "S5",
+      "class": "formula",
+      "v": "=IF(Q5=0,0,100%-R5)"
+    },
+    {
+      "cell": "T5",
+      "class": "formula",
+      "v": "=IFERROR(S5*P5,0)"
+    },
+    {
+      "cell": "U5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P5-T5),0)"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=FLGT!A6"
+    },
+    {
+      "cell": "B6",
+      "class": "formula",
+      "v": "=FLGT!W6"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "=FLGT!X6"
+    },
+    {
+      "cell": "D6",
+      "class": "formula",
+      "v": "=FLGT!Y6"
+    },
+    {
+      "cell": "E6",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB6:AD6)"
+    },
+    {
+      "cell": "F6",
+      "class": "formula",
+      "v": "=FLGT!AE6+FLGT!AF6+FLGT!AG6+FLGT!AH6+FLGT!Z6"
+    },
+    {
+      "cell": "J6",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z6"
+    },
+    {
+      "cell": "K6",
+      "class": "formula",
+      "v": "=F6+H6+I6+G6+J6"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D6-E6),'Fiscal Terms_PIA'!$U$60*(D6-E6))"
+    },
+    {
+      "cell": "M6",
+      "class": "formula",
+      "v": "=D6-E6-L6"
+    },
+    {
+      "cell": "N6",
+      "class": "formula",
+      "v": "=IF(AND(G6=0,D6=0),0,IF(L6-K6+N5<0,L6-K6+N5,0))"
+    },
+    {
+      "cell": "O6",
+      "class": "formula",
+      "v": "=IF(AND(G6=0,D6=0),0,IF(L6-K6+N5>0,L6-K6+N5,0))"
+    },
+    {
+      "cell": "P6",
+      "class": "formula",
+      "v": "=O6+M6"
+    },
+    {
+      "cell": "Q6",
+      "class": "formula",
+      "v": "=FLGT!D6"
+    },
+    {
+      "cell": "R6",
+      "class": "formula",
+      "v": "=IF(Q6=0,0,IF(Q6<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q6>'Fiscal Terms_PIA'!$W$60,Q6<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PI"
+    },
+    {
+      "cell": "S6",
+      "class": "formula",
+      "v": "=IF(Q6=0,0,100%-R6)"
+    },
+    {
+      "cell": "T6",
+      "class": "formula",
+      "v": "=IFERROR(S6*P6,0)"
+    },
+    {
+      "cell": "U6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P6-T6),0)"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=FLGT!A7"
+    },
+    {
+      "cell": "B7",
+      "class": "formula",
+      "v": "=FLGT!W7"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "v": "=FLGT!X7"
+    },
+    {
+      "cell": "D7",
+      "class": "formula",
+      "v": "=FLGT!Y7"
+    },
+    {
+      "cell": "E7",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB7:AD7)"
+    },
+    {
+      "cell": "F7",
+      "class": "formula",
+      "v": "=FLGT!AE7+FLGT!AF7+FLGT!AG7+FLGT!AH7+FLGT!Z7"
+    },
+    {
+      "cell": "J7",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z7"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=F7+H7+I7+G7+J7"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D7-E7),'Fiscal Terms_PIA'!$U$60*(D7-E7))"
+    },
+    {
+      "cell": "M7",
+      "class": "formula",
+      "v": "=D7-E7-L7"
+    },
+    {
+      "cell": "N7",
+      "class": "formula",
+      "v": "=IF(AND(G7=0,D7=0),0,IF(L7-K7+N6<0,L7-K7+N6,0))"
+    },
+    {
+      "cell": "O7",
+      "class": "formula",
+      "v": "=IF(AND(G7=0,D7=0),0,IF(L7-K7+N6>0,L7-K7+N6,0))"
+    },
+    {
+      "cell": "P7",
+      "class": "formula",
+      "v": "=O7+M7"
+    },
+    {
+      "cell": "Q7",
+      "class": "formula",
+      "v": "=FLGT!D7"
+    },
+    {
+      "cell": "R7",
+      "class": "formula",
+      "v": "=IF(Q7=0,0,IF(Q7<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q7>'Fiscal Terms_PIA'!$W$60,Q7<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PI"
+    },
+    {
+      "cell": "S7",
+      "class": "formula",
+      "v": "=IF(Q7=0,0,100%-R7)"
+    },
+    {
+      "cell": "T7",
+      "class": "formula",
+      "v": "=IFERROR(S7*P7,0)"
+    },
+    {
+      "cell": "U7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P7-T7),0)"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=FLGT!A8"
+    },
+    {
+      "cell": "B8",
+      "class": "formula",
+      "v": "=FLGT!W8"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "=FLGT!X8"
+    },
+    {
+      "cell": "D8",
+      "class": "formula",
+      "v": "=FLGT!Y8"
+    },
+    {
+      "cell": "E8",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB8:AD8)"
+    },
+    {
+      "cell": "F8",
+      "class": "formula",
+      "v": "=FLGT!AE8+FLGT!AF8+FLGT!AG8+FLGT!AH8+FLGT!Z8"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "=Cap_Allow!FP5+'Cap_Allow Gas'!FP5"
+    },
+    {
+      "cell": "H8",
+      "class": "formula",
+      "v": "=Cap_Allow!GX5+Cap_Allow!HC5+'Cap_Allow Gas'!GX5+'Cap_Allow Gas'!HC5"
+    },
+    {
+      "cell": "I8",
+      "class": "formula",
+      "v": "=Cap_Allow!FI5+'Cap_Allow Gas'!FI5"
+    },
+    {
+      "cell": "J8",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z8"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=F8+H8+I8+G8+J8"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D8-E8),'Fiscal Terms_PIA'!$U$60*(D8-E8))"
+    },
+    {
+      "cell": "M8",
+      "class": "formula",
+      "v": "=D8-E8-L8"
+    },
+    {
+      "cell": "N8",
+      "class": "formula",
+      "v": "=IF(AND(G8=0,D8=0),0,IF(L8-K8+N7<0,L8-K8+N7,0))"
+    },
+    {
+      "cell": "O8",
+      "class": "formula",
+      "v": "=IF(AND(G8=0,D8=0),0,IF(L8-K8+N7>0,L8-K8+N7,0))"
+    },
+    {
+      "cell": "P8",
+      "class": "formula",
+      "v": "=O8+M8"
+    },
+    {
+      "cell": "Q8",
+      "class": "formula",
+      "v": "=FLGT!D8"
+    },
+    {
+      "cell": "R8",
+      "class": "formula",
+      "v": "=IF(Q8=0,0,IF(Q8<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q8>'Fiscal Terms_PIA'!$W$60,Q8<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PI"
+    },
+    {
+      "cell": "S8",
+      "class": "formula",
+      "v": "=IF(Q8=0,0,100%-R8)"
+    },
+    {
+      "cell": "T8",
+      "class": "formula",
+      "v": "=IFERROR(S8*P8,0)"
+    },
+    {
+      "cell": "U8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P8-T8),0)"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=FLGT!A9"
+    },
+    {
+      "cell": "B9",
+      "class": "formula",
+      "v": "=FLGT!W9"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "=FLGT!X9"
+    },
+    {
+      "cell": "D9",
+      "class": "formula",
+      "v": "=FLGT!Y9"
+    },
+    {
+      "cell": "E9",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB9:AD9)"
+    },
+    {
+      "cell": "F9",
+      "class": "formula",
+      "v": "=FLGT!AE9+FLGT!AF9+FLGT!AG9+FLGT!AH9+FLGT!Z9"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "=Cap_Allow!FP6+'Cap_Allow Gas'!FP6"
+    },
+    {
+      "cell": "H9",
+      "class": "formula",
+      "v": "=Cap_Allow!GX6+Cap_Allow!HC6+'Cap_Allow Gas'!GX6+'Cap_Allow Gas'!HC6"
+    },
+    {
+      "cell": "I9",
+      "class": "formula",
+      "v": "=Cap_Allow!FI6+'Cap_Allow Gas'!FI6"
+    },
+    {
+      "cell": "J9",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z9"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=F9+H9+I9+G9+J9"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D9-E9),'Fiscal Terms_PIA'!$U$60*(D9-E9))"
+    },
+    {
+      "cell": "M9",
+      "class": "formula",
+      "v": "=D9-E9-L9"
+    },
+    {
+      "cell": "N9",
+      "class": "formula",
+      "v": "=IF(AND(G9=0,D9=0),0,IF(L9-K9+N8<0,L9-K9+N8,0))"
+    },
+    {
+      "cell": "O9",
+      "class": "formula",
+      "v": "=IF(AND(G9=0,D9=0),0,IF(L9-K9+N8>0,L9-K9+N8,0))"
+    },
+    {
+      "cell": "P9",
+      "class": "formula",
+      "v": "=O9+M9"
+    },
+    {
+      "cell": "Q9",
+      "class": "formula",
+      "v": "=FLGT!D9"
+    },
+    {
+      "cell": "R9",
+      "class": "formula",
+      "v": "=IF(Q9=0,0,IF(Q9<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q9>'Fiscal Terms_PIA'!$W$60,Q9<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PI"
+    },
+    {
+      "cell": "S9",
+      "class": "formula",
+      "v": "=IF(Q9=0,0,100%-R9)"
+    },
+    {
+      "cell": "T9",
+      "class": "formula",
+      "v": "=IFERROR(S9*P9,0)"
+    },
+    {
+      "cell": "U9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P9-T9),0)"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=FLGT!A10"
+    },
+    {
+      "cell": "B10",
+      "class": "formula",
+      "v": "=FLGT!W10"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "=FLGT!X10"
+    },
+    {
+      "cell": "D10",
+      "class": "formula",
+      "v": "=FLGT!Y10"
+    },
+    {
+      "cell": "E10",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB10:AD10)"
+    },
+    {
+      "cell": "F10",
+      "class": "formula",
+      "v": "=FLGT!AE10+FLGT!AF10+FLGT!AG10+FLGT!AH10+FLGT!Z10"
+    },
+    {
+      "cell": "G10",
+      "class": "formula",
+      "v": "=Cap_Allow!FP7+'Cap_Allow Gas'!FP7"
+    },
+    {
+      "cell": "H10",
+      "class": "formula",
+      "v": "=Cap_Allow!GX7+Cap_Allow!HC7+'Cap_Allow Gas'!GX7+'Cap_Allow Gas'!HC7"
+    },
+    {
+      "cell": "I10",
+      "class": "formula",
+      "v": "=Cap_Allow!FI7+'Cap_Allow Gas'!FI7"
+    },
+    {
+      "cell": "J10",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z10"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=F10+H10+I10+G10+J10"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D10-E10),'Fiscal Terms_PIA'!$U$60*(D10-E10))"
+    },
+    {
+      "cell": "M10",
+      "class": "formula",
+      "v": "=D10-E10-L10"
+    },
+    {
+      "cell": "N10",
+      "class": "formula",
+      "v": "=IF(AND(G10=0,D10=0),0,IF(L10-K10+N9<0,L10-K10+N9,0))"
+    },
+    {
+      "cell": "O10",
+      "class": "formula",
+      "v": "=IF(AND(G10=0,D10=0),0,IF(L10-K10+N9>0,L10-K10+N9,0))"
+    },
+    {
+      "cell": "P10",
+      "class": "formula",
+      "v": "=O10+M10"
+    },
+    {
+      "cell": "Q10",
+      "class": "formula",
+      "v": "=FLGT!D10"
+    },
+    {
+      "cell": "R10",
+      "class": "formula",
+      "v": "=IF(Q10=0,0,IF(Q10<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q10>'Fiscal Terms_PIA'!$W$60,Q10<='Fiscal Terms_PIA'!$W$61),('Fiscal Term"
+    },
+    {
+      "cell": "S10",
+      "class": "formula",
+      "v": "=IF(Q10=0,0,100%-R10)"
+    },
+    {
+      "cell": "T10",
+      "class": "formula",
+      "v": "=IFERROR(S10*P10,0)"
+    },
+    {
+      "cell": "U10",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P10-T10),0)"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=FLGT!A11"
+    },
+    {
+      "cell": "B11",
+      "class": "formula",
+      "v": "=FLGT!W11"
+    },
+    {
+      "cell": "C11",
+      "class": "formula",
+      "v": "=FLGT!X11"
+    },
+    {
+      "cell": "D11",
+      "class": "formula",
+      "v": "=FLGT!Y11"
+    },
+    {
+      "cell": "E11",
+      "class": "formula",
+      "v": "=SUM(FLGT!AB11:AD11)"
+    },
+    {
+      "cell": "F11",
+      "class": "formula",
+      "v": "=FLGT!AE11+FLGT!AF11+FLGT!AG11+FLGT!AH11+FLGT!Z11"
+    },
+    {
+      "cell": "G11",
+      "class": "formula",
+      "v": "=Cap_Allow!FP8+'Cap_Allow Gas'!FP8"
+    },
+    {
+      "cell": "H11",
+      "class": "formula",
+      "v": "=Cap_Allow!GX8+Cap_Allow!HC8+'Cap_Allow Gas'!GX8+'Cap_Allow Gas'!HC8"
+    },
+    {
+      "cell": "I11",
+      "class": "formula",
+      "v": "=Cap_Allow!FI8+'Cap_Allow Gas'!FI8"
+    },
+    {
+      "cell": "J11",
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!Z11"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "v": "=F11+H11+I11+G11+J11"
+    },
+    {
+      "cell": "L11",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D11-E11),'Fiscal Terms_PIA'!$U$60*(D11-E11))"
+    },
+    {
+      "cell": "M11",
+      "class": "formula",
+      "v": "=D11-E11-L11"
+    },
+    {
+      "cell": "N11",
+      "class": "formula",
+      "v": "=IF(AND(G11=0,D11=0),0,IF(L11-K11+N10<0,L11-K11+N10,0))"
+    },
+    {
+      "cell": "O11",
+      "class": "formula",
+      "v": "=IF(AND(G11=0,D11=0),0,IF(L11-K11+N10>0,L11-K11+N10,0))"
+    },
+    {
+      "cell": "P11",
+      "class": "formula",
+      "v": "=O11+M11"
+    },
+    {
+      "cell": "Q11",
+      "class": "formula",
+      "v": "=FLGT!D11"
+    },
+    {
+      "cell": "R11",
+      "class": "formula",
+      "v": "=IF(Q11=0,0,IF(Q11<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q11>'Fiscal Terms_PIA'!$W$60,Q11<='Fiscal Terms_PIA'!$W$61),('Fiscal Term"
+    },
+    {
+      "cell": "S11",
+      "class": "formula",
+      "v": "=IF(Q11=0,0,100%-R11)"
+    },
+    {
+      "cell": "T11",
+      "class": "formula",
+      "v": "=IFERROR(S11*P11,0)"
+    },
+    {
+      "cell": "U11",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P11-T11),0)"
+    }
+  ],
+  "cr_labels": [
+    {
+      "cell": "E3",
+      "v": "Royalties"
+    },
+    {
+      "cell": "E4",
+      "v": "$mm"
+    },
+    {
+      "cell": "F3",
+      "v": "FL Govt Pmt"
+    },
+    {
+      "cell": "F4",
+      "v": "$mm"
+    },
+    {
+      "cell": "G4",
+      "v": "$mm"
+    },
+    {
+      "cell": "H3",
+      "v": "CAPEX DEPR"
+    },
+    {
+      "cell": "H4",
+      "v": "$mm"
+    },
+    {
+      "cell": "I3",
+      "v": "OPEX"
+    },
+    {
+      "cell": "I4",
+      "v": "$mm"
+    },
+    {
+      "cell": "J4",
+      "v": "$mm"
+    },
+    {
+      "cell": "K3",
+      "v": "Eligible Total Cost"
+    },
+    {
+      "cell": "K4",
+      "v": "$mm"
+    },
+    {
+      "cell": "L3",
+      "v": "Cost Recovery Limit"
+    },
+    {
+      "cell": "L4",
+      "v": "$mm"
+    },
+    {
+      "cell": "M3",
+      "v": "Profit Oil"
+    },
+    {
+      "cell": "M4",
+      "v": "$mm"
+    },
+    {
+      "cell": "N3",
+      "v": "Cost to Recover C/F"
+    },
+    {
+      "cell": "N4",
+      "v": "$mm"
+    },
+    {
+      "cell": "O3",
+      "v": "ECR"
+    },
+    {
+      "cell": "O4",
+      "v": "$mm"
+    },
+    {
+      "cell": "P3",
+      "v": "Project Total Oil"
+    },
+    {
+      "cell": "P4",
+      "v": "$mm"
+    },
+    {
+      "cell": "Q4",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "R3",
+      "v": "HG Profit Oil Split"
+    },
+    {
+      "cell": "R4",
+      "v": "%"
+    },
+    {
+      "cell": "S3",
+      "v": "Contractor Profit Split"
+    },
+    {
+      "cell": "S4",
+      "v": "%"
+    },
+    {
+      "cell": "T3",
+      "v": "Contractor Oil"
+    },
+    {
+      "cell": "T4",
+      "v": "$mm"
+    },
+    {
+      "cell": "U3",
+      "v": "Government Oil"
+    },
+    {
+      "cell": "U4",
+      "v": "$mm"
+    }
+  ],
+  "cr_formulas_sample": [
+    {
+      "cell": "L1",
+      "f": "=Ec_IO!G22",
+      "c": "New Acreage"
+    },
+    {
+      "cell": "U1",
+      "f": "=Ec_IO!$G$24",
+      "c": "PSC/SC"
+    },
+    {
+      "cell": "A5",
+      "f": "=FLGT!A5",
+      "c": "2024"
+    },
+    {
+      "cell": "B5",
+      "f": "=FLGT!W5",
+      "c": "0"
+    },
+    {
+      "cell": "C5",
+      "f": "=FLGT!X5",
+      "c": "0"
+    },
+    {
+      "cell": "D5",
+      "f": "=FLGT!Y5",
+      "c": "0"
+    },
+    {
+      "cell": "E5",
+      "f": "=SUM(FLGT!AB5:AD5)",
+      "c": "0"
+    },
+    {
+      "cell": "F5",
+      "f": "=FLGT!AE5+FLGT!AF5+FLGT!AG5+FLGT!AH5+FLGT!Z5",
+      "c": "0"
+    },
+    {
+      "cell": "J5",
+      "f": "=CIT_NCF_Oil!Z5",
+      "c": "0"
+    },
+    {
+      "cell": "K5",
+      "f": "=F5+H5+I5+G5+J5",
+      "c": "0"
+    },
+    {
+      "cell": "L5",
+      "f": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D5-E5),'Fiscal Terms_PIA'!$U$60*(D5-E5))",
+      "c": "0"
+    },
+    {
+      "cell": "M5",
+      "f": "=D5-E5-L5",
+      "c": "0"
+    },
+    {
+      "cell": "N5",
+      "f": "=IF(AND(G5=0,D5=0),0,IF(L5-K5+N4<0,L5-K5+N4,0))",
+      "c": "0"
+    },
+    {
+      "cell": "O5",
+      "f": "=IF(AND(G5=0,D5=0),0,IF(L5-K5+N4>0,L5-K5+N4,0))",
+      "c": "0"
+    },
+    {
+      "cell": "P5",
+      "f": "=O5+M5",
+      "c": "0"
+    },
+    {
+      "cell": "Q5",
+      "f": "=FLGT!D5",
+      "c": "0"
+    },
+    {
+      "cell": "R5",
+      "f": "=IF(Q5=0,0,IF(Q5<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q5>'Fiscal Terms_PIA'!$W$60,Q5<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PIA'!$X$60*'Fiscal Terms_PIA'!$W$60+(Q5-'Fiscal Term",
+      "c": "0"
+    },
+    {
+      "cell": "S5",
+      "f": "=IF(Q5=0,0,100%-R5)",
+      "c": "0"
+    },
+    {
+      "cell": "T5",
+      "f": "=IFERROR(S5*P5,0)",
+      "c": "0"
+    },
+    {
+      "cell": "U5",
+      "f": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P5-T5),0)",
+      "c": "0"
+    },
+    {
+      "cell": "A6",
+      "f": "=FLGT!A6",
+      "c": "2025"
+    },
+    {
+      "cell": "B6",
+      "f": "=FLGT!W6",
+      "c": "0"
+    },
+    {
+      "cell": "C6",
+      "f": "=FLGT!X6",
+      "c": "0"
+    },
+    {
+      "cell": "D6",
+      "f": "=FLGT!Y6",
+      "c": "0"
+    },
+    {
+      "cell": "E6",
+      "f": "=SUM(FLGT!AB6:AD6)",
+      "c": "0"
+    },
+    {
+      "cell": "F6",
+      "f": "=FLGT!AE6+FLGT!AF6+FLGT!AG6+FLGT!AH6+FLGT!Z6",
+      "c": "0"
+    },
+    {
+      "cell": "J6",
+      "f": "=CIT_NCF_Oil!Z6",
+      "c": "0"
+    },
+    {
+      "cell": "K6",
+      "f": "=F6+H6+I6+G6+J6",
+      "c": "0"
+    },
+    {
+      "cell": "L6",
+      "f": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D6-E6),'Fiscal Terms_PIA'!$U$60*(D6-E6))",
+      "c": "0"
+    },
+    {
+      "cell": "M6",
+      "f": "=D6-E6-L6",
+      "c": "0"
+    },
+    {
+      "cell": "N6",
+      "f": "=IF(AND(G6=0,D6=0),0,IF(L6-K6+N5<0,L6-K6+N5,0))",
+      "c": "0"
+    },
+    {
+      "cell": "O6",
+      "f": "=IF(AND(G6=0,D6=0),0,IF(L6-K6+N5>0,L6-K6+N5,0))",
+      "c": "0"
+    },
+    {
+      "cell": "P6",
+      "f": "=O6+M6",
+      "c": "0"
+    },
+    {
+      "cell": "Q6",
+      "f": "=FLGT!D6",
+      "c": "0"
+    },
+    {
+      "cell": "R6",
+      "f": "=IF(Q6=0,0,IF(Q6<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q6>'Fiscal Terms_PIA'!$W$60,Q6<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PIA'!$X$60*'Fiscal Terms_PIA'!$W$60+(Q6-'Fiscal Term",
+      "c": "0"
+    },
+    {
+      "cell": "S6",
+      "f": "=IF(Q6=0,0,100%-R6)",
+      "c": "0"
+    },
+    {
+      "cell": "T6",
+      "f": "=IFERROR(S6*P6,0)",
+      "c": "0"
+    },
+    {
+      "cell": "U6",
+      "f": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P6-T6),0)",
+      "c": "0"
+    },
+    {
+      "cell": "A7",
+      "f": "=FLGT!A7",
+      "c": "2026"
+    },
+    {
+      "cell": "B7",
+      "f": "=FLGT!W7",
+      "c": "0"
+    },
+    {
+      "cell": "C7",
+      "f": "=FLGT!X7",
+      "c": "0"
+    },
+    {
+      "cell": "D7",
+      "f": "=FLGT!Y7",
+      "c": "0"
+    },
+    {
+      "cell": "E7",
+      "f": "=SUM(FLGT!AB7:AD7)",
+      "c": "0"
+    },
+    {
+      "cell": "F7",
+      "f": "=FLGT!AE7+FLGT!AF7+FLGT!AG7+FLGT!AH7+FLGT!Z7",
+      "c": "0"
+    },
+    {
+      "cell": "J7",
+      "f": "=CIT_NCF_Oil!Z7",
+      "c": "0"
+    },
+    {
+      "cell": "K7",
+      "f": "=F7+H7+I7+G7+J7",
+      "c": "0"
+    },
+    {
+      "cell": "L7",
+      "f": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D7-E7),'Fiscal Terms_PIA'!$U$60*(D7-E7))",
+      "c": "0"
+    },
+    {
+      "cell": "M7",
+      "f": "=D7-E7-L7",
+      "c": "0"
+    },
+    {
+      "cell": "N7",
+      "f": "=IF(AND(G7=0,D7=0),0,IF(L7-K7+N6<0,L7-K7+N6,0))",
+      "c": "0"
+    },
+    {
+      "cell": "O7",
+      "f": "=IF(AND(G7=0,D7=0),0,IF(L7-K7+N6>0,L7-K7+N6,0))",
+      "c": "0"
+    },
+    {
+      "cell": "P7",
+      "f": "=O7+M7",
+      "c": "0"
+    },
+    {
+      "cell": "Q7",
+      "f": "=FLGT!D7",
+      "c": "0"
+    },
+    {
+      "cell": "R7",
+      "f": "=IF(Q7=0,0,IF(Q7<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q7>'Fiscal Terms_PIA'!$W$60,Q7<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PIA'!$X$60*'Fiscal Terms_PIA'!$W$60+(Q7-'Fiscal Term",
+      "c": "0"
+    },
+    {
+      "cell": "S7",
+      "f": "=IF(Q7=0,0,100%-R7)",
+      "c": "0"
+    },
+    {
+      "cell": "T7",
+      "f": "=IFERROR(S7*P7,0)",
+      "c": "0"
+    },
+    {
+      "cell": "U7",
+      "f": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P7-T7),0)",
+      "c": "0"
+    },
+    {
+      "cell": "A8",
+      "f": "=FLGT!A8",
+      "c": "2027"
+    },
+    {
+      "cell": "B8",
+      "f": "=FLGT!W8",
+      "c": "18.2625"
+    },
+    {
+      "cell": "C8",
+      "f": "=FLGT!X8",
+      "c": "0"
+    },
+    {
+      "cell": "D8",
+      "f": "=FLGT!Y8",
+      "c": "18.2625"
+    },
+    {
+      "cell": "E8",
+      "f": "=SUM(FLGT!AB8:AD8)",
+      "c": "0.913125"
+    },
+    {
+      "cell": "F8",
+      "f": "=FLGT!AE8+FLGT!AF8+FLGT!AG8+FLGT!AH8+FLGT!Z8",
+      "c": "0.519243164114933"
+    },
+    {
+      "cell": "G8",
+      "f": "=Cap_Allow!FP5+'Cap_Allow Gas'!FP5",
+      "c": "0"
+    },
+    {
+      "cell": "H8",
+      "f": "=Cap_Allow!GX5+Cap_Allow!HC5+'Cap_Allow Gas'!GX5+'Cap_Allow Gas'!HC5",
+      "c": "0.408163265306122"
+    },
+    {
+      "cell": "I8",
+      "f": "=Cap_Allow!FI5+'Cap_Allow Gas'!FI5",
+      "c": "15.23"
+    },
+    {
+      "cell": "J8",
+      "f": "=CIT_NCF_Oil!Z8",
+      "c": "0"
+    },
+    {
+      "cell": "K8",
+      "f": "=F8+H8+I8+G8+J8",
+      "c": "16.1574064294211"
+    },
+    {
+      "cell": "L8",
+      "f": "=IF(Ec_IO!$G$22='Fiscal Terms_PIA'!$T$59,'Fiscal Terms_PIA'!$T$60*(D8-E8),'Fiscal Terms_PIA'!$U$60*(D8-E8))",
+      "c": "12.1445625"
+    },
+    {
+      "cell": "M8",
+      "f": "=D8-E8-L8",
+      "c": "5.2048125"
+    },
+    {
+      "cell": "N8",
+      "f": "=IF(AND(G8=0,D8=0),0,IF(L8-K8+N7<0,L8-K8+N7,0))",
+      "c": "-4.01284392942106"
+    },
+    {
+      "cell": "O8",
+      "f": "=IF(AND(G8=0,D8=0),0,IF(L8-K8+N7>0,L8-K8+N7,0))",
+      "c": "0"
+    },
+    {
+      "cell": "P8",
+      "f": "=O8+M8",
+      "c": "5.2048125"
+    },
+    {
+      "cell": "Q8",
+      "f": "=FLGT!D8",
+      "c": "0.36525"
+    },
+    {
+      "cell": "R8",
+      "f": "=IF(Q8=0,0,IF(Q8<='Fiscal Terms_PIA'!$W$60,'Fiscal Terms_PIA'!$X$60,IF(AND(Q8>'Fiscal Terms_PIA'!$W$60,Q8<='Fiscal Terms_PIA'!$W$61),('Fiscal Terms_PIA'!$X$60*'Fiscal Terms_PIA'!$W$60+(Q8-'Fiscal Term",
+      "c": "0.05"
+    },
+    {
+      "cell": "S8",
+      "f": "=IF(Q8=0,0,100%-R8)",
+      "c": "0.95"
+    },
+    {
+      "cell": "T8",
+      "f": "=IFERROR(S8*P8,0)",
+      "c": "4.944571875"
+    },
+    {
+      "cell": "U8",
+      "f": "=IF(Ec_IO!$G$24=\"PSC/SC\",(P8-T8),0)",
+      "c": "0.260240625000001"
+    },
+    {
+      "cell": "A9",
+      "f": "=FLGT!A9",
+      "c": "2028"
+    },
+    {
+      "cell": "B9",
+      "f": "=FLGT!W9",
+      "c": "39.3453635267073"
+    },
+    {
+      "cell": "C9",
+      "f": "=FLGT!X9",
+      "c": "1.43616896867432"
+    }
+  ],
+  "pn_labels_sample": [
+    {
+      "cell": "AA3",
+      "v": "Allowed Chargeable Profit"
+    },
+    {
+      "cell": "AA4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AB3",
+      "v": "CIT"
+    },
+    {
+      "cell": "AB4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AC3",
+      "v": "Education Tax/Devt Levy"
+    },
+    {
+      "cell": "AC4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AD3",
+      "v": "Htax"
+    },
+    {
+      "cell": "AD4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AE2",
+      "v": "AITX NET CASH FLOW"
+    },
+    {
+      "cell": "AE3",
+      "v": "Host Govt"
+    },
+    {
+      "cell": "AE4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AF3",
+      "v": "Contractor"
+    },
+    {
+      "cell": "AF4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AF58",
+      "v": "IRR"
+    },
+    {
+      "cell": "AG3",
+      "v": "Discounted Host Govt"
+    },
+    {
+      "cell": "AG4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AH3",
+      "v": "Discounted Contractor"
+    },
+    {
+      "cell": "AH4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AI3",
+      "v": "Contractor Disc. CNCF"
+    },
+    {
+      "cell": "AI4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AJ3",
+      "v": "Payout Period"
+    },
+    {
+      "cell": "AJ4",
+      "v": "Years"
+    },
+    {
+      "cell": "AP3",
+      "v": "BOBO-Business Operated by Others -NUIMS"
+    },
+    {
+      "cell": "AS12",
+      "v": "Contractor"
+    },
+    {
+      "cell": "AS14",
+      "v": "Project"
+    },
+    {
+      "cell": "AU11",
+      "v": "IRR"
+    },
+    {
+      "cell": "B2",
+      "v": "S.262(1)"
+    },
+    {
+      "cell": "B3",
+      "v": "Nominal Oil & Gas Revenue"
+    },
+    {
+      "cell": "B4",
+      "v": "$mm"
+    },
+    {
+      "cell": "C3",
+      "v": "Field Condensates Revenue"
+    },
+    {
+      "cell": "C4",
+      "v": "$mm"
+    },
+    {
+      "cell": "D3",
+      "v": "Natural Gas Liquids Revenue"
+    },
+    {
+      "cell": "D4",
+      "v": "$mm"
+    },
+    {
+      "cell": "E2",
+      "v": "Allowable Deductions S.263 "
+    },
+    {
+      "cell": "E3",
+      "v": "Gas  Cost of Prod S.260(2)"
+    },
+    {
+      "cell": "E4",
+      "v": "$mm"
+    },
+    {
+      "cell": "IH8",
+      "v": " "
+    },
+    {
+      "cell": "J3",
+      "v": "Repairs for Plants, Machinery etc S.263(1 c )"
+    },
+    {
+      "cell": "K3",
+      "v": "1 Exploration Well & 2 Appraisal Well Cost S.263 (1)(d)"
+    },
+    {
+      "cell": "L3",
+      "v": "Aband. & Decom Fund S.263 (1)(e)"
+    },
+    {
+      "cell": "L4",
+      "v": "$mm"
+    },
+    {
+      "cell": "M3",
+      "v": "Govt Levies, Stamp Duties & Fees S.263 (1)(f)"
+    },
+    {
+      "cell": "M4",
+      "v": "$mm"
+    },
+    {
+      "cell": "N3",
+      "v": "Gas Reinjection Cost S.263(1)(g)"
+    },
+    {
+      "cell": "N4",
+      "v": "$mm"
+    },
+    {
+      "cell": "S3",
+      "v": "Total Allowable Cost"
+    },
+    {
+      "cell": "T2",
+      "v": "Assessable Income"
+    },
+    {
+      "cell": "T3",
+      "v": "Adjusted Oil Profit S.263(1)"
+    },
+    {
+      "cell": "T4",
+      "v": "$mm"
+    },
+    {
+      "cell": "U3",
+      "v": "Loss C/F S.265(1)"
+    },
+    {
+      "cell": "U4",
+      "v": "$mm"
+    },
+    {
+      "cell": "V3",
+      "v": "Assessable Oil Profit S.265"
+    },
+    {
+      "cell": "V4",
+      "v": "$mm"
+    },
+    {
+      "cell": "W2",
+      "v": "CAPEX"
+    },
+    {
+      "cell": "W3",
+      "v": "Intangible CAPEX"
+    },
+    {
+      "cell": "W4",
+      "v": "$mm"
+    },
+    {
+      "cell": "X3",
+      "v": "Tangible CAPEX"
+    },
+    {
+      "cell": "X4",
+      "v": "$mm"
+    },
+    {
+      "cell": "Y2",
+      "v": "Companies Income Tax Base"
+    },
+    {
+      "cell": "Y3",
+      "v": "Min. Tax (0.5% of Coy GTO)"
+    },
+    {
+      "cell": "Y4",
+      "v": "$mm"
+    },
+    {
+      "cell": "Z3",
+      "v": "Chargeable profit"
+    },
+    {
+      "cell": "Z4",
+      "v": "$mm"
+    }
+  ],
+  "pn_key": {
+    "AG51": {
+      "class": "formula",
+      "v": "=SUM(AG5:AG49)",
+      "cached": "149.557072245101"
+    },
+    "AH51": {
+      "class": "formula",
+      "v": "=SUM(AH5:AH49)",
+      "cached": "78.0891606587929"
+    },
+    "AJ51": {
+      "class": "formula",
+      "v": "=SUM(AJ5:AJ49)",
+      "cached": "5.13925728744526"
+    },
+    "AG58": {
+      "class": "formula",
+      "v": "=IRR(AF5:AF49)",
+      "cached": "0.348601049838934"
+    },
+    "AU12": {
+      "class": "formula",
+      "v": "=IRR(AF5:AF40)",
+      "cached": "0.348601049838934"
+    },
+    "AU14": {
+      "class": "formula",
+      "v": "=IRR(AK5:AK49)",
+      "cached": "#NUM!"
+    },
+    "A5": {
+      "class": "formula",
+      "v": "='CR Econ'!A5",
+      "cached": "2024"
+    },
+    "B5": {
+      "class": "formula",
+      "v": "=CIT_NCF_Oil!B5+CIT_NCF_Gas!B5",
+      "cached": "0"
+    }
+  },
+  "gtc_cells": [
+    {
+      "ws": "Project_NCF",
+      "cell": "AG51",
+      "exp": "149.557072245101",
+      "fml": "=SUM(AG5:AG49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AH51",
+      "exp": "78.0891606587929",
+      "fml": "=SUM(AH5:AH49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AJ51",
+      "exp": "5.13925728744526",
+      "fml": "=SUM(AJ5:AJ49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AE51",
+      "exp": "310.69425355464",
+      "fml": "=SUM(AE5:AE49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AF51",
+      "exp": "250.725376476001",
+      "fml": "=SUM(AF5:AF49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AB51",
+      "exp": "148.760486089522",
+      "fml": "=SUM(AB5:AB49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AC51",
+      "exp": "26.4540677567758",
+      "fml": "=SUM(AC5:AC49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AD51",
+      "exp": "42.0829559477558",
+      "fml": "=SUM(AD5:AD49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AG58",
+      "exp": "0.348601049838934",
+      "fml": "=IRR(AF5:AF49)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AU12",
+      "exp": "0.348601049838934",
+      "fml": "=IRR(AF5:AF40)"
+    },
+    {
+      "ws": "Project_NCF",
+      "cell": "AU14",
+      "exp": "#NUM!",
+      "fml": "=IRR(AK5:AK49)"
+    },
+    {
+      "ws": "HT_NCF_Oil",
+      "cell": "AS51",
+      "exp": "75.9402489464068",
+      "fml": "=SUM(AS5:AS49)"
+    },
+    {
+      "ws": "HT_NCF_Oil",
+      "cell": "AT51",
+      "exp": "149.322861107133",
+      "fml": "=SUM(AT5:AT49)"
+    },
+    {
+      "ws": "HT_NCF_Oil",
+      "cell": "AV51",
+      "exp": "3.39443793901067",
+      "fml": "=SUM(AV5:AV49)"
+    },
+    {
+      "ws": "CIT_NCF",
+      "cell": "U55",
+      "exp": "IRR",
+      "fml": "",
+      "src": "catalogue"
+    },
+    {
+      "ws": "CIT_NCF",
+      "cell": "U56",
+      "exp": "Disc. Host Govt Take",
+      "fml": "",
+      "src": "catalogue"
+    },
+    {
+      "ws": "CIT_NCF",
+      "cell": "U57",
+      "exp": "Disc. Contractor Take",
+      "fml": "",
+      "src": "catalogue"
+    },
+    {
+      "ws": "CIT_NCF",
+      "cell": "U58",
+      "exp": "Disc. Pay Back Period",
+      "fml": "",
+      "src": "catalogue"
+    },
+    {
+      "ws": "CIT_NCF",
+      "cell": "U59",
+      "exp": "NPV",
+      "fml": "",
+      "src": "catalogue"
+    },
+    {
+      "ws": "CR Econ",
+      "cell": "G8",
+      "exp": "0",
+      "fml": "=Cap_Allow!FP5+'Cap_Allow Gas'!FP5"
+    },
+    {
+      "ws": "CR Econ",
+      "cell": "H8",
+      "exp": "0.408163265306122",
+      "fml": "=Cap_Allow!GX5+Cap_Allow!HC5+'Cap_Allow Gas'!GX5+'Cap_Allow Gas'!HC5"
+    },
+    {
+      "ws": "CR Econ",
+      "cell": "I8",
+      "exp": "15.23",
+      "fml": "=Cap_Allow!FI5+'Cap_Allow Gas'!FI5"
+    },
+    {
+      "ws": "Equity_NCF_Con",
+      "cell": "AG51",
+      "exp": "73.2829654000993",
+      "fml": "=SUM(AG5:AG49)"
+    },
+    {
+      "ws": "Equity_NCF_Con",
+      "cell": "AH51",
+      "exp": "38.2636887228085",
+      "fml": "=SUM(AH5:AH49)"
+    }
+  ],
+  "kpi_pack": [
+    {
+      "ws": "RESULTS Equity",
+      "cell": "L2",
+      "exp": "Nigeria",
+      "fml": "=Ec_IO!R2",
+      "label": ""
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "L3",
+      "exp": "PIA 2021",
+      "fml": "=Ec_IO!R3",
+      "label": ""
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "L5",
+      "exp": "PSC/SC",
+      "fml": "=Ec_IO!R5",
+      "label": "Metric Systems Measures"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J7",
+      "exp": "37.2107219837393",
+      "fml": "='HT_NCF_Oil Equity'!AS51",
+      "label": "Net Present Value @"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K7",
+      "exp": "73.018201942495",
+      "fml": "='HT_NCF_Oil Equity'!AT51",
+      "label": "Net Present Value @"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M7",
+      "exp": "73.2829654000993",
+      "fml": "=Equity_NCF_Con!AG51",
+      "label": "Net Present Value @"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N7",
+      "exp": "38.2636887228085",
+      "fml": "=Equity_NCF_Con!AH51",
+      "label": "Net Present Value @"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H7",
+      "exp": "0.15",
+      "fml": "=Ec_IO!C15",
+      "label": "Net Present Value @"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K8",
+      "exp": "0.504693506064976",
+      "fml": "=IRR('HT_NCF_Oil Equity'!AR5:AR49)",
+      "label": "Internal Rate of Return"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N8",
+      "exp": "0.348601049838934",
+      "fml": "=IRR(Equity_NCF_Con!AF5:AF49)",
+      "label": "Internal Rate of Return"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K9",
+      "exp": "0.421063315742914",
+      "fml": "=K7/H18",
+      "label": "Present Value Ratio"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N9",
+      "exp": "0.220649580756165",
+      "fml": "=N7/H18",
+      "label": "Present Value Ratio"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K10",
+      "exp": "1.42106331574291",
+      "fml": "=1+K9",
+      "label": "Profitability Index"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N10",
+      "exp": "1.22064958075617",
+      "fml": "=1+N9",
+      "label": "Profitability Index"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K11",
+      "exp": "0.177259134616414",
+      "fml": "=K10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "label": "Growth Rate of Return"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N11",
+      "exp": "0.165388086566337",
+      "fml": "=N10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "label": "Growth Rate of Return"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J12",
+      "exp": "0.275365415622534",
+      "fml": "='HT_NCF_Oil Equity'!AQ51/('HT_NCF_Oil Equity'!AQ51+'HT_NCF_Oil Equity'!AR51)",
+      "label": "Undiscounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K12",
+      "exp": "0.724634584377466",
+      "fml": "=1-J12",
+      "label": "Undiscounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M12",
+      "exp": "0.553408247477352",
+      "fml": "=Equity_NCF_Con!AE51/(Equity_NCF_Con!AE51+Equity_NCF_Con!AF51)",
+      "label": "Undiscounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N12",
+      "exp": "0.446591752522648",
+      "fml": "=1-M12",
+      "label": "Undiscounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J13",
+      "exp": "0.337576750804906",
+      "fml": "=J7/(J7+K7)",
+      "label": "Discounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K13",
+      "exp": "0.662423249195094",
+      "fml": "=1-J13",
+      "label": "Discounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M13",
+      "exp": "0.656971434744716",
+      "fml": "=M7/(M7+N7)",
+      "label": "Discounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N13",
+      "exp": "0.343028565255284",
+      "fml": "=1-M13",
+      "label": "Discounted Take Statistics"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "K14",
+      "exp": "4.87387900694515",
+      "fml": "='HT_NCF_Oil Equity'!AV51",
+      "label": "Disc. Payout Period, Years"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N14",
+      "exp": "5.13925728744526",
+      "fml": "=Equity_NCF_Con!AJ51",
+      "label": "Disc. Payout Period, Years"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H15",
+      "exp": "0.187137050702524",
+      "fml": "=M13/M12-1",
+      "label": "Front End Loading Index, FLI"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J16",
+      "exp": "538.94584168118",
+      "fml": "=Ec_IO!P16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M16",
+      "exp": "204.919631874736",
+      "fml": "=Ec_IO!S16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H16",
+      "exp": "103.391391515252",
+      "fml": "=Ec_IO!N16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J17",
+      "exp": "26.9672237060786",
+      "fml": "=Ec_IO!P17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M17",
+      "exp": "85.75",
+      "fml": "=Ec_IO!S17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H17",
+      "exp": "70.0224377414318",
+      "fml": "=Ec_IO!N17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J18",
+      "exp": "565.913065387258",
+      "fml": "=SUM(J16:J17)",
+      "label": "=Ec_IO!M18"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M18",
+      "exp": "290.669631874736",
+      "fml": "=M16+M17",
+      "label": "=Ec_IO!M18"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H18",
+      "exp": "173.413829256684",
+      "fml": "=H16+H17",
+      "label": "=Ec_IO!M18"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M19",
+      "exp": "15.8726247896521",
+      "fml": "=M16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H19",
+      "exp": "8.00847019384067",
+      "fml": "=H16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M20",
+      "exp": "6.64200673825471",
+      "fml": "=M17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H20",
+      "exp": "5.42378429513249",
+      "fml": "=H17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    }
+  ],
+  "refs_in": {
+    "CR Econ": {
+      "FLGT": 503,
+      "Cap_Allow": 169,
+      "Ec_IO": 92
+    },
+    "HT_NCF_Oil": {
+      "Ec_IO": 677,
+      "FLGT": 471,
+      "Cap_Allow": 171
+    },
+    "Project_NCF": {
+      "Ec_IO": 492,
+      "FLGT": 175,
+      "Cap_Allow": 85
+    }
+  },
+  "consumers": {
+    "EquityDash\u2192HT_NCF_Oil Equity": 943,
+    "EquityDash\u2192CIT_NCF_Gas Equity": 855,
+    "EquityDash\u2192CIT_NCF_Oil Equity": 765,
+    "EquityDash\u2192Equity_NCF_Con": 135,
+    "Project_NCF\u2192Equity_NCF_Con": 90,
+    "EquityDash\u2192RESULTS Equity": 19,
+    "Project_NCF\u2192Ec_IO": 10
+  },
+  "equity_samples": [
+    {
+      "cell": "W5",
+      "f": "=Project_NCF!W5*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "X5",
+      "f": "=Project_NCF!X5*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "AF5",
+      "f": "=(B5-AE5-W5-X5-E5-J5-(FLGT!AO5+FLGT!AP5-FLGT!AN5)*'Equity Dash'!$C$4-'Equity Dash'!I1)*(A5<=Ec_IO!$D$22)",
+      "c": "0"
+    },
+    {
+      "cell": "W6",
+      "f": "=Project_NCF!W6*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "X6",
+      "f": "=Project_NCF!X6*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "AF6",
+      "f": "=(B6-AE6-W6-X6-E6-J6-(FLGT!AO6+FLGT!AP6-FLGT!AN6)*'Equity Dash'!$C$4-'Equity Dash'!I2)*(A6<=Ec_IO!$D$22)",
+      "c": "0"
+    },
+    {
+      "cell": "W7",
+      "f": "=Project_NCF!W7*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "X7",
+      "f": "=Project_NCF!X7*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "AF7",
+      "f": "=(B7-AE7-W7-X7-E7-J7-(FLGT!AO7+FLGT!AP7-FLGT!AN7)*'Equity Dash'!$C$4-'Equity Dash'!I3)*(A7<=Ec_IO!$D$22)",
+      "c": "0"
+    },
+    {
+      "cell": "W8",
+      "f": "=Project_NCF!W8*'Equity Dash'!$C$4",
+      "c": "0"
+    },
+    {
+      "cell": "X8",
+      "f": "=Project_NCF!X8*'Equity Dash'!$C$4",
+      "c": "1"
+    },
+    {
+      "cell": "AF8",
+      "f": "=(B8-AE8-W8-X8-E8-J8-(FLGT!AO8+FLGT!AP8-FLGT!AN8)*'Equity Dash'!$C$4-'Equity Dash'!I4)*(A8<=Ec_IO!$D$22)",
+      "c": "-0.264526336399821"
+    },
+    {
+      "cell": "W9",
+      "f": "=Project_NCF!W9*'Equity Dash'!$C$4",
+      "c": "17.15"
+    },
+    {
+      "cell": "X9",
+      "f": "=Project_NCF!X9*'Equity Dash'!$C$4",
+      "c": "39.2"
+    },
+    {
+      "cell": "AF9",
+      "f": "=(B9-AE9-W9-X9-E9-J9-(FLGT!AO9+FLGT!AP9-FLGT!AN9)*'Equity Dash'!$C$4-'Equity Dash'!I5)*(A9<=Ec_IO!$D$22)",
+      "c": "-55.8377204228997"
+    }
+  ],
+  "ht_labels": [
+    {
+      "cell": "AA3",
+      "v": "Eligible Allowance"
+    },
+    {
+      "cell": "AA4",
+      "v": "$/bbl"
+    },
+    {
+      "cell": "AB3",
+      "v": "Allowance"
+    },
+    {
+      "cell": "AB4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AC4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AD3",
+      "v": "Acquisition Cost Allowance S.266(1)( c)"
+    },
+    {
+      "cell": "AD4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AE3",
+      "v": "Chargeable Income"
+    },
+    {
+      "cell": "AE4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AF3",
+      "v": " Chargeable Loss C/F"
+    },
+    {
+      "cell": "AF4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AG3",
+      "v": "Cost Price Ratio Limit 6th Sch"
+    },
+    {
+      "cell": "AG4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AH3",
+      "v": "CPR Costs S.263 (1)-(a,b&h) 6th Sch 2(1)"
+    },
+    {
+      "cell": "AH4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AI3",
+      "v": "CPR Loss C/F (Excess Cost) 6th Sch 2(2)(a)(b)\u00a9"
+    },
+    {
+      "cell": "AI4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AJ3",
+      "v": "CPR Allowable Cost, 6th Sch 2(2)(a)(b)"
+    },
+    {
+      "cell": "AJ4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AK3",
+      "v": "CPR Cost Allowed"
+    },
+    {
+      "cell": "AK4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AL3",
+      "v": "CPR chargeable Income"
+    },
+    {
+      "cell": "AL4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AM3",
+      "v": "CPR Chargeable Loss C/F"
+    },
+    {
+      "cell": "AM4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AN3",
+      "v": "Allowed Chargeable income"
+    },
+    {
+      "cell": "AN4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AO3",
+      "v": "Hydrocarbon Tax"
+    },
+    {
+      "cell": "AO4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AP3",
+      "v": "Education Tax"
+    },
+    {
+      "cell": "AP4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AQ2",
+      "v": "BITX NET CASH FLOW"
+    },
+    {
+      "cell": "AQ3",
+      "v": "Host Govt"
+    },
+    {
+      "cell": "AQ4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AR3",
+      "v": "Contractor"
+    },
+    {
+      "cell": "AR4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AS3",
+      "v": "Discounted Host Govt"
+    },
+    {
+      "cell": "AS4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AT3",
+      "v": "Discounted Contractor"
+    },
+    {
+      "cell": "AT4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AU3",
+      "v": "Contractor Disc. CNCF"
+    },
+    {
+      "cell": "AU4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AV3",
+      "v": "Payout Period"
+    },
+    {
+      "cell": "AV4",
+      "v": "Years"
+    },
+    {
+      "cell": "B2",
+      "v": "S.262(1)"
+    },
+    {
+      "cell": "B4",
+      "v": "$mm"
+    },
+    {
+      "cell": "BK10",
+      "v": "OML 123_Oil"
+    },
+    {
+      "cell": "BK11",
+      "v": "OML 123_Gas"
+    },
+    {
+      "cell": "BK12",
+      "v": "OML 123_Oil_S1"
+    },
+    {
+      "cell": "BK13",
+      "v": "Production Profile_123"
+    },
+    {
+      "cell": "BK14",
+      "v": "OML 123_COST"
+    },
+    {
+      "cell": "BK15",
+      "v": "Royalties_123"
+    },
+    {
+      "cell": "BK6",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "BK7",
+      "v": "Master"
+    },
+    {
+      "cell": "BK8",
+      "v": "Ec_IO"
+    },
+    {
+      "cell": "BK9",
+      "v": "Fiscal Terms_PIA"
+    },
+    {
+      "cell": "C3",
+      "v": "Field Condensates Revenue"
+    },
+    {
+      "cell": "C4",
+      "v": "$mm"
+    }
+  ]
+}

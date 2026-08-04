@@ -1,0 +1,134 @@
+{
+  "cell": "Project_NCF!AU14",
+  "formula": "=IRR(AK5:AK49)",
+  "cached_result": "#NUM!",
+  "status": "UNRESOLVED_OPEN_PENDING_PO_DOMAIN",
+  "disposition_options": [
+    "A. Excel model correction required",
+    "B. PO/domain explicitly accepts #NUM! as expected behaviour"
+  ],
+  "disposition_selected": null,
+  "do_not": [
+    "convert to numeric expected value",
+    "invent IRR",
+    "replace formula",
+    "assume #NUM! is expected without PO/domain decision"
+  ],
+  "ak5_ak49": {
+    "range": "AK5:AK49",
+    "cells_examined": 45,
+    "cached_numeric_count": 0,
+    "cached_none_or_nonnumeric_count": 45,
+    "numeric_values_sample": [],
+    "sign_set_nonzero": [],
+    "sign_change_detected_in_cached_nonzero_sequence": false,
+    "mathematically_capable_of_irr_from_cached_series": false,
+    "evidence_note": "If cached AK series has no sign change or is empty/non-numeric, Excel IRR commonly returns #NUM!. Empty cache cells do not prove the live Excel series is empty without Excel-native review.",
+    "cell_detail_csv": "docs/workbook/semantic_mapping/PROJECT_NCF_AU14_AK_SERIES.csv"
+  },
+  "corroborating_irr_cells_on_Project_NCF": [
+    {
+      "cell": "AU12",
+      "formula": "=IRR(AF5:AF40)",
+      "cached_value": "0.348601049838934",
+      "is_error": false
+    },
+    {
+      "cell": "AU14",
+      "formula": "=IRR(AK5:AK49)",
+      "cached_value": "#NUM!",
+      "is_error": true
+    },
+    {
+      "cell": "AG58",
+      "formula": "=IRR(AF5:AF49)",
+      "cached_value": "0.348601049838934",
+      "is_error": false
+    }
+  ],
+  "au12_irr_af5_af40": {
+    "formula": "=IRR(AF5:AF40)",
+    "cached_result": "0.348601049838934",
+    "af_cached_numeric_count": 36,
+    "af_sign_change": true
+  },
+  "alternative_metrics_observed_labels_near_irr_block": [
+    {
+      "cell": "AE2",
+      "label": "AITX NET CASH FLOW"
+    },
+    {
+      "cell": "AD3",
+      "label": "Htax"
+    },
+    {
+      "cell": "AE3",
+      "label": "Host Govt"
+    },
+    {
+      "cell": "AF3",
+      "label": "Contractor"
+    },
+    {
+      "cell": "AG3",
+      "label": "Discounted Host Govt"
+    },
+    {
+      "cell": "AH3",
+      "label": "Discounted Contractor"
+    },
+    {
+      "cell": "AI3",
+      "label": "Contractor Disc. CNCF"
+    },
+    {
+      "cell": "AJ3",
+      "label": "Payout Period"
+    },
+    {
+      "cell": "AP3",
+      "label": "BOBO-Business Operated by Others -NUIMS"
+    },
+    {
+      "cell": "AD4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AE4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AF4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AG4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AH4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AI4",
+      "label": "$mm"
+    },
+    {
+      "cell": "AJ4",
+      "label": "Years"
+    },
+    {
+      "cell": "AU11",
+      "label": "IRR"
+    },
+    {
+      "cell": "AS12",
+      "label": "Contractor"
+    },
+    {
+      "cell": "AS14",
+      "label": "Project"
+    }
+  ],
+  "business_decision": "NOT_INFERRED \u2014 requires PO/domain disposition A or B"
+}

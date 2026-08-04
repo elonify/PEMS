@@ -1,0 +1,531 @@
+gtc_id,worksheet,cell,cell_class,formula,value,role
+GTC-001,Ec_IO,B1,label_or_text,,DASHBOARD,ec_io_label
+GTC-001,Ec_IO,R2,formula,=Ec_IO!G25,Nigeria,ec_io_formula
+GTC-001,Ec_IO,A3,label_or_text,,MODEL NAVIGATION,ec_io_label
+GTC-001,Ec_IO,B3,label_or_text,,INPUT ASSUMPTIONS ,ec_io_label
+GTC-001,Ec_IO,F3,formula,=CIT_NCF!U55,IRR,ec_io_formula
+GTC-001,Ec_IO,G3,formula,=Ec_IO!T8,0.353703545014072,ec_io_formula
+GTC-001,Ec_IO,R3,formula,=Ec_IO!G26,PIA 2021,ec_io_formula
+GTC-001,Ec_IO,A4,label_or_text,,Master,ec_io_label
+GTC-001,Ec_IO,B4,label_or_text,,Asset Analysis Type,ec_io_label
+GTC-001,Ec_IO,C4,label_or_text,,Forecast,ec_io_label
+GTC-001,Ec_IO,F4,formula,=CIT_NCF!U56,Disc. Host Govt Take,ec_io_formula
+GTC-001,Ec_IO,G4,formula,=Ec_IO!S13,0.670539065543547,ec_io_formula
+GTC-001,Ec_IO,A5,label_or_text,,Fiscal Terms_PIA,ec_io_label
+GTC-001,Ec_IO,B5,label_or_text,,Project Start Year,ec_io_label
+GTC-001,Ec_IO,C5,constant_or_input_value,,2027,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F5,formula,=CIT_NCF!U57,Disc. Contractor Take,ec_io_formula
+GTC-001,Ec_IO,G5,formula,=Ec_IO!T13,0.329460934456453,ec_io_formula
+GTC-001,Ec_IO,I5,formula,=Ec_IO!G23,Ebiya Field,ec_io_formula
+GTC-001,Ec_IO,M5,label_or_text,,Metric Systems Measures,ec_io_label
+GTC-001,Ec_IO,P5,label_or_text,,Host Govt.  BIT $ MM,ec_io_label
+GTC-001,Ec_IO,Q5,label_or_text,,Contractor    BIT $MM,ec_io_label
+GTC-001,Ec_IO,R5,formula,=Ec_IO!G24,R/T (SR),ec_io_formula
+GTC-001,Ec_IO,S5,label_or_text,,Host Govt.  AIT $ MM,ec_io_label
+GTC-001,Ec_IO,T5,label_or_text,,Contractor    AIT $MM,ec_io_label
+GTC-001,Ec_IO,A6,label_or_text,,OML 123_Oil,ec_io_label
+GTC-001,Ec_IO,B6,label_or_text,,Project Life ,ec_io_label
+GTC-001,Ec_IO,C6,formula,=Prod_Summary!AF26,15,ec_io_formula
+GTC-001,Ec_IO,F6,formula,=CIT_NCF!U58,Disc. Pay Back Period,ec_io_formula
+GTC-001,Ec_IO,G6,formula,='Project_NCF_Con (2)'!AJ51,4.11788849869152,ec_io_formula
+GTC-001,Ec_IO,H6,formula,=CIT_NCF!W58,Years,ec_io_formula
+GTC-001,Ec_IO,I6,formula,='RESULTS Equity'!C6,New Acreage,ec_io_formula
+GTC-001,Ec_IO,A7,label_or_text,,OML 123_Gas,ec_io_label
+GTC-001,Ec_IO,B7,label_or_text,,Production days in a year,ec_io_label
+GTC-001,Ec_IO,C7,constant_or_input_value,,365,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F7,formula,=CIT_NCF!U59,NPV,ec_io_formula
+GTC-001,Ec_IO,G7,formula,=Ec_IO!T7,76.345177216269,ec_io_formula
+GTC-001,Ec_IO,H7,formula,=CIT_NCF!W59,Million,ec_io_formula
+GTC-001,Ec_IO,I7,formula,='RESULTS Equity'!C7,Shallow Water (<200m water depth),ec_io_formula
+GTC-001,Ec_IO,M7,label_or_text,,Net Present Value @,ec_io_label
+GTC-001,Ec_IO,N7,formula,=Ec_IO!C15,0.15,ec_io_formula
+GTC-001,Ec_IO,P7,formula,=HT_NCF_Oil!AS51,66.9145897162266,ec_io_formula
+GTC-001,Ec_IO,Q7,formula,=HT_NCF_Oil!AT51,160.389336663843,ec_io_formula
+GTC-001,Ec_IO,S7,formula,='Project_NCF_Con (2)'!AG51,155.38237901805,ec_io_formula
+GTC-001,Ec_IO,T7,formula,='Project_NCF_Con (2)'!AH51,76.345177216269,ec_io_formula
+GTC-001,Ec_IO,A8,label_or_text,,OML 123_Oil_S1,ec_io_label
+GTC-001,Ec_IO,B8,label_or_text,,Annual Production Level,ec_io_label
+GTC-001,Ec_IO,C8,label_or_text,,NA,ec_io_label
+GTC-001,Ec_IO,F8,label_or_text,,GRR,ec_io_label
+GTC-001,Ec_IO,G8,formula,=Ec_IO!T11,0.165073845767381,ec_io_formula
+GTC-001,Ec_IO,I8,formula,"=""Equity Share = 100%""",Equity Share = 100%,ec_io_formula
+GTC-001,Ec_IO,M8,label_or_text,,Internal Rate of Return,ec_io_label
+GTC-001,Ec_IO,Q8,formula,=HT_NCF_Oil!AS59,0.546509064060968,ec_io_formula
+GTC-001,Ec_IO,T8,formula,='Project_NCF_Con (2)'!AG58,0.353703545014072,ec_io_formula
+GTC-001,Ec_IO,A9,label_or_text,,Production Profile_123,ec_io_label
+GTC-001,Ec_IO,B9,label_or_text,,Injection wrt Production,ec_io_label
+GTC-001,Ec_IO,C9,label_or_text,,NA,ec_io_label
+GTC-001,Ec_IO,F9,label_or_text,,PVR,ec_io_label
+GTC-001,Ec_IO,G9,formula,=Ec_IO!T9,0.215721762193484,ec_io_formula
+GTC-001,Ec_IO,M9,label_or_text,,Present Value Ratio,ec_io_label
+GTC-001,Ec_IO,Q9,formula,=Q7/N18,0.453197852225237,ec_io_formula
+GTC-001,Ec_IO,T9,formula,=T7/N18,0.215721762193484,ec_io_formula
+GTC-001,Ec_IO,A10,label_or_text,,OML 123_COST,ec_io_label
+GTC-001,Ec_IO,B10,label_or_text,,Average Line Losses,ec_io_label
+GTC-001,Ec_IO,C10,label_or_text,,NA,ec_io_label
+GTC-001,Ec_IO,F10,label_or_text,,PI,ec_io_label
+GTC-001,Ec_IO,G10,formula,=Ec_IO!T10,1.21572176219348,ec_io_formula
+GTC-001,Ec_IO,M10,label_or_text,,Profitability Index,ec_io_label
+GTC-001,Ec_IO,Q10,formula,=1+Q9,1.45319785222524,ec_io_formula
+GTC-001,Ec_IO,T10,formula,=1+T9,1.21572176219348,ec_io_formula
+GTC-001,Ec_IO,A11,label_or_text,,Royalties_123,ec_io_label
+GTC-001,Ec_IO,B11,label_or_text,,BASE CASE ECONOMIC & FISCAL INPUTS,ec_io_label
+GTC-001,Ec_IO,F11,label_or_text,,ERR,ec_io_label
+GTC-001,Ec_IO,G11,formula,=FLGT!AM51,0.0542803358903504,ec_io_formula
+GTC-001,Ec_IO,M11,label_or_text,,Growth Rate of Return,ec_io_label
+GTC-001,Ec_IO,Q11,formula,=Q10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1,0.179015433659069,ec_io_formula
+GTC-001,Ec_IO,T11,formula,=T10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1,0.165073845767381,ec_io_formula
+GTC-001,Ec_IO,A12,label_or_text,,FLGT_123,ec_io_label
+GTC-001,Ec_IO,B12,label_or_text,,"Crude Oil Price, $/bbl",ec_io_label
+GTC-001,Ec_IO,C12,constant_or_input_value,,50,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F12,label_or_text,,FLI,ec_io_label
+GTC-001,Ec_IO,G12,formula,=Ec_IO!N15,0.175680264053375,ec_io_formula
+GTC-001,Ec_IO,M12,label_or_text,,Undiscounted Take Statistics,ec_io_label
+GTC-001,Ec_IO,P12,formula,=HT_NCF_Oil!AQ51/(HT_NCF_Oil!AQ51+HT_NCF_Oil!AR51),0.239723578538787,ec_io_formula
+GTC-001,Ec_IO,Q12,formula,=1-P12,0.760276421461213,ec_io_formula
+GTC-001,Ec_IO,S12,formula,='Project_NCF_Con (2)'!AE51/('Project_NCF_Con (2)'!AE51+'Project_NCF_Con (2)'!AF51),0.570341347086784,ec_io_formula
+GTC-001,Ec_IO,T12,formula,=1-S12,0.429658652913216,ec_io_formula
+GTC-001,Ec_IO,A13,label_or_text,,Capital Allowance_123,ec_io_label
+GTC-001,Ec_IO,B13,label_or_text,,Price Format,ec_io_label
+GTC-001,Ec_IO,C13,formula,"=IF(C14=0%,""Real"",""Nominal"")",Real,ec_io_formula
+GTC-001,Ec_IO,F13,label_or_text,,AGR,ec_io_label
+GTC-001,Ec_IO,G13,formula,=1-G11,0.94571966410965,ec_io_formula
+GTC-001,Ec_IO,M13,label_or_text,,Discounted Take Statistics,ec_io_label
+GTC-001,Ec_IO,P13,formula,=P7/(P7+Q7),0.294383782901929,ec_io_formula
+GTC-001,Ec_IO,Q13,formula,=1-P13,0.705616217098071,ec_io_formula
+GTC-001,Ec_IO,S13,formula,=S7/(S7+T7),0.670539065543547,ec_io_formula
+GTC-001,Ec_IO,T13,formula,=1-S13,0.329460934456453,ec_io_formula
+GTC-001,Ec_IO,A14,label_or_text,,CR Economics_123,ec_io_label
+GTC-001,Ec_IO,B14,label_or_text,,Escalator,ec_io_label
+GTC-001,Ec_IO,C14,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F14,label_or_text,,Tax,ec_io_label
+GTC-001,Ec_IO,G14,formula,='Project_NCF_Con (2)'!AB51+'Project_NCF_Con (2)'!AC51+'Project_NCF_Con (2)'!AD51,229.132025401451,ec_io_formula
+GTC-001,Ec_IO,H14,label_or_text,,Million,ec_io_label
+GTC-001,Ec_IO,M14,label_or_text,,"Disc. Payout Period, Years",ec_io_label
+GTC-001,Ec_IO,Q14,formula,=HT_NCF_Oil!AV51,3.30815816242885,ec_io_formula
+GTC-001,Ec_IO,T14,formula,='Project_NCF_Con (2)'!AJ51,4.11788849869152,ec_io_formula
+GTC-001,Ec_IO,A15,label_or_text,,B4ITx_123,ec_io_label
+GTC-001,Ec_IO,B15,label_or_text,,Hurdle Rate,ec_io_label
+GTC-001,Ec_IO,C15,constant_or_input_value,,0.15,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F15,label_or_text,,Royalties,ec_io_label
+GTC-001,Ec_IO,G15,formula,=FLGT!AB51+FLGT!AC51+FLGT!AD51,62.6896964774657,ec_io_formula
+GTC-001,Ec_IO,H15,label_or_text,,Million,ec_io_label
+GTC-001,Ec_IO,M15,label_or_text,,"Front End Loading Index, FLI",ec_io_label
+GTC-001,Ec_IO,N15,formula,=S13/S12-1,0.175680264053375,ec_io_formula
+GTC-001,Ec_IO,A16,label_or_text,,AITx_123,ec_io_label
+GTC-001,Ec_IO,B16,label_or_text,,Discount Period,ec_io_label
+GTC-001,Ec_IO,C16,label_or_text,,                                                                                                                                                                                       ,ec_io_label
+GTC-001,Ec_IO,M16,formula,"=""PV@""&TEXT($N$7,""0.0%"")&"" of OPEX, $MM""","PV@15.0% of OPEX, $MM",ec_io_formula
+GTC-001,Ec_IO,N16,formula,=Cap_Allow!FL48+'Cap_Allow Gas'!FL48,211.002839827046,ec_io_formula
+GTC-001,Ec_IO,O16,label_or_text,,Oil Revenue,ec_io_label
+GTC-001,Ec_IO,P16,formula,=FLGT!W51,1099.88947281873,ec_io_formula
+GTC-001,Ec_IO,Q16,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R16,label_or_text,,"PV@0% of OPEX, $MM",ec_io_label
+GTC-001,Ec_IO,S16,formula,=Cap_Allow!FI48+'Cap_Allow Gas'!FI48,418.203330356603,ec_io_formula
+GTC-001,Ec_IO,A17,label_or_text,,RESULTS_123,ec_io_label
+GTC-001,Ec_IO,B17,label_or_text,,"Gas Price, $/Mscf",ec_io_label
+GTC-001,Ec_IO,C17,constant_or_input_value,,2.18,ec_io_literal_candidate_input
+GTC-001,Ec_IO,M17,formula,"=""PV@""&TEXT($N$7,""0.0%"")&"" of CAPEX, $MM""","PV@15.0% of CAPEX, $MM",ec_io_formula
+GTC-001,Ec_IO,N17,formula,=Cap_Allow!FK48+'Cap_Allow Gas'!FK48,142.902934166187,ec_io_formula
+GTC-001,Ec_IO,O17,label_or_text,,Gas Revenue,ec_io_label
+GTC-001,Ec_IO,P17,formula,=FLGT!X51,55.0351504205685,ec_io_formula
+GTC-001,Ec_IO,Q17,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R17,label_or_text,,"PV@0% of CAPEX, $MM",ec_io_label
+GTC-001,Ec_IO,S17,formula,=Cap_Allow!FP48+Cap_Allow!FQ48+'Cap_Allow Gas'!FP48+'Cap_Allow Gas'!FQ48,175,ec_io_formula
+GTC-001,Ec_IO,B18,label_or_text,,"Gas Flare Penalty, $/Mscf",ec_io_label
+GTC-001,Ec_IO,C18,constant_or_input_value,,0.5,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F18,label_or_text,,Block/Field (Oil),ec_io_label
+GTC-001,Ec_IO,G18,label_or_text,,Ebiya Field,ec_io_label
+GTC-001,Ec_IO,M18,formula,"=""PV@""&TEXT($N$7,""0.0%"")&"" of TC, $MM""","PV@15.0% of TC, $MM",ec_io_formula
+GTC-001,Ec_IO,N18,formula,=N16+N17,353.905773993233,ec_io_formula
+GTC-001,Ec_IO,O18,label_or_text,,Gross Revenue,ec_io_label
+GTC-001,Ec_IO,P18,formula,=SUM(P16:P17),1154.9246232393,ec_io_formula
+GTC-001,Ec_IO,Q18,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R18,label_or_text,,"PV@0% of TC, $MM",ec_io_label
+GTC-001,Ec_IO,S18,formula,=S16+S17,593.203330356603,ec_io_formula
+GTC-001,Ec_IO,B19,label_or_text,,Dom_Gas,ec_io_label
+GTC-001,Ec_IO,C19,constant_or_input_value,,0.5,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F19,label_or_text,,Block/Field (Gas),ec_io_label
+GTC-001,Ec_IO,G19,formula,=G18,Ebiya Field,ec_io_formula
+GTC-001,Ec_IO,M19,label_or_text,,"Unit CAPEX, S/Boe",ec_io_label
+GTC-001,Ec_IO,N19,formula,=N16/Prod_Summary!$AA$48,8.00847019384067,ec_io_formula
+GTC-001,Ec_IO,R19,label_or_text,,"Unit CAPEX, S/Boe",ec_io_label
+GTC-001,Ec_IO,S19,formula,=S16/Prod_Summary!$AA$48,15.8726247896521,ec_io_formula
+GTC-001,Ec_IO,B20,label_or_text,,Duties,ec_io_label
+GTC-001,Ec_IO,C20,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F20,label_or_text,,Terrain,ec_io_label
+GTC-001,Ec_IO,G20,label_or_text,,Shallow Water (<200m water depth),ec_io_label
+GTC-001,Ec_IO,M20,label_or_text,,"Unit OPEX, S/Boe",ec_io_label
+GTC-001,Ec_IO,N20,formula,=N17/Prod_Summary!$AA$48,5.42378429513249,ec_io_formula
+GTC-001,Ec_IO,R20,label_or_text,,"Unit OPEX, S/Boe",ec_io_label
+GTC-001,Ec_IO,S20,formula,=S17/Prod_Summary!$AA$48,6.64200673825471,ec_io_formula
+GTC-001,Ec_IO,B21,label_or_text,,VAT,ec_io_label
+GTC-001,Ec_IO,C21,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F21,label_or_text,,Gas Utilization,ec_io_label
+GTC-001,Ec_IO,G21,label_or_text,,In-Country (Dom Gas),ec_io_label
+GTC-001,Ec_IO,M21,label_or_text,,"Unit Technical Cost, S/Boe",ec_io_label
+GTC-001,Ec_IO,N21,formula,=N18/Prod_Summary!$AA$48,13.4322544889732,ec_io_formula
+GTC-001,Ec_IO,R21,label_or_text,,"Unit Technical Cost, S/Boe",ec_io_label
+GTC-001,Ec_IO,S21,formula,=S18/Prod_Summary!$AA$48,22.5146315279068,ec_io_formula
+GTC-001,Ec_IO,B22,label_or_text,,"Asset Salvage Value, % of Retention for Decom.",ec_io_label
+GTC-001,Ec_IO,C22,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,D22,formula,=E29,2042,ec_io_formula
+GTC-001,Ec_IO,F22,label_or_text,,Licence/Lease Status,ec_io_label
+GTC-001,Ec_IO,G22,label_or_text,,New Acreage,ec_io_label
+GTC-001,Ec_IO,M22,label_or_text,,"Oil Royalty, $MM",ec_io_label
+GTC-001,Ec_IO,N22,formula,=FLGT!AB51,61.3138177169515,ec_io_formula
+GTC-001,Ec_IO,O22,label_or_text,,HT,ec_io_label
+GTC-001,Ec_IO,P22,formula,='Project_NCF_Con (2)'!AD51,46.2112771701135,ec_io_formula
+GTC-001,Ec_IO,Q22,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R22,label_or_text,,"Oil Production, MMbbls",ec_io_label
+GTC-001,Ec_IO,T22,formula,=Prod_Summary!V47,21.9977894563747,ec_io_formula
+GTC-001,Ec_IO,B23,label_or_text,,NAG CRL,ec_io_label
+GTC-001,Ec_IO,C23,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F23,label_or_text,,Cost Mode,ec_io_label
+GTC-001,Ec_IO,G23,formula,=G18,Ebiya Field,ec_io_formula
+GTC-001,Ec_IO,M23,label_or_text,,"Gas Royalty, $MM",ec_io_label
+GTC-001,Ec_IO,N23,formula,=FLGT!AC51,1.37587876051421,ec_io_formula
+GTC-001,Ec_IO,O23,label_or_text,,CIT,ec_io_label
+GTC-001,Ec_IO,P23,formula,='Project_NCF_Con (2)'!AB51,156.466680474562,ec_io_formula
+GTC-001,Ec_IO,Q23,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R23,label_or_text,,"Gas Production, Mmboe",ec_io_label
+GTC-001,Ec_IO,S23,formula,"=""(""&TEXT(Prod_Summary!Y47,""0.00"")&"" Bscf""&"")""",(25.25 Bscf),ec_io_formula
+GTC-001,Ec_IO,T23,formula,=Prod_Summary!Y48,4.34966951142272,ec_io_formula
+GTC-001,Ec_IO,B24,label_or_text,,NAG ITA,ec_io_label
+GTC-001,Ec_IO,C24,constant_or_input_value,,0.1,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F24,label_or_text,,PFS,ec_io_label
+GTC-001,Ec_IO,G24,label_or_text,,R/T (SR),ec_io_label
+GTC-001,Ec_IO,M24,label_or_text,,"Price Royalty,  $MM",ec_io_label
+GTC-001,Ec_IO,N24,formula,=FLGT!AD51,0,ec_io_formula
+GTC-001,Ec_IO,O24,label_or_text,,Etx,ec_io_label
+GTC-001,Ec_IO,P24,formula,='Project_NCF_Con (2)'!AC51,26.4540677567758,ec_io_formula
+GTC-001,Ec_IO,Q24,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,R24,label_or_text,,"Total Production, Mmboe",ec_io_label
+GTC-001,Ec_IO,T24,formula,=T22+T23,26.3474589677974,ec_io_formula
+GTC-001,Ec_IO,B25,label_or_text,,NAG Min. Tax Rate,ec_io_label
+GTC-001,Ec_IO,C25,constant_or_input_value,,0.005,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F25,label_or_text,,Country,ec_io_label
+GTC-001,Ec_IO,G25,label_or_text,,Nigeria,ec_io_label
+GTC-001,Ec_IO,M25,label_or_text,,Total Royalty  $MM,ec_io_label
+GTC-001,Ec_IO,N25,formula,=SUM(N22:N24),62.6896964774657,ec_io_formula
+GTC-001,Ec_IO,O25,label_or_text,,Total,ec_io_label
+GTC-001,Ec_IO,P25,formula,=SUM(P22:P24),229.132025401451,ec_io_formula
+GTC-001,Ec_IO,Q25,label_or_text,,$MM,ec_io_label
+GTC-001,Ec_IO,B26,label_or_text,,NAG CPR,ec_io_label
+GTC-001,Ec_IO,C26,constant_or_input_value,,0,ec_io_literal_candidate_input
+GTC-001,Ec_IO,F26,label_or_text,,Fiscal Regime,ec_io_label
+GTC-001,Ec_IO,G26,label_or_text,,PIA 2021,ec_io_label
+GTC-001,Ec_IO,M26,label_or_text,,ERR,ec_io_label
+GTC-001,Ec_IO,N26,formula,=FLGT!AM51,0.0542803358903504,ec_io_formula
+GTC-001,Ec_IO,C28,label_or_text,,History,ec_io_label
+GTC-001,Ec_IO,D28,constant_or_input_value,,2002,ec_io_literal_candidate_input
+GTC-001,Ec_IO,E28,formula,=C5-1,2026,ec_io_formula
+GTC-001,Ec_IO,C29,label_or_text,,Forecast,ec_io_label
+GTC-001,Ec_IO,D29,formula,=E28+1,2027,ec_io_formula
+GTC-001,Ec_IO,E29,formula,=C5+C6,2042,ec_io_formula
+GTC-001,Ec_IO,C30,label_or_text,,Complete,ec_io_label
+GTC-001,Ec_IO,D30,constant_or_input_value,,2002,ec_io_literal_candidate_input
+GTC-001,Ec_IO,E30,formula,=D22,2042,ec_io_formula
+GTC-001,Fiscal Terms_PIA,S1,label_or_text,,RENTALS,fiscal_label
+GTC-001,Fiscal Terms_PIA,T2,label_or_text,,LICENSE/LEASE,fiscal_label
+GTC-001,Fiscal Terms_PIA,U2,label_or_text,,TERRAIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,V2,label_or_text,,"INITIAL DURATION, YRS",fiscal_label
+GTC-001,Fiscal Terms_PIA,W2,label_or_text,,"EXTENDED DURATION, YRS",fiscal_label
+GTC-001,Fiscal Terms_PIA,X2,label_or_text,,"AREA, sqKm",fiscal_label
+GTC-001,Fiscal Terms_PIA,Y2,label_or_text,,"RENTAL FEE, $/sqKm",fiscal_label
+GTC-001,Fiscal Terms_PIA,L3,label_or_text,,MODEL NAVIGATION,fiscal_label
+GTC-001,Fiscal Terms_PIA,T3,label_or_text,,PEL,fiscal_label
+GTC-001,Fiscal Terms_PIA,U3,label_or_text,,Onshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V3,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W3,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L4,label_or_text,,Master,fiscal_label
+GTC-001,Fiscal Terms_PIA,U4,label_or_text,,Shallow,fiscal_label
+GTC-001,Fiscal Terms_PIA,V4,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W4,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L5,label_or_text,,Ec_IO,fiscal_label
+GTC-001,Fiscal Terms_PIA,U5,label_or_text,,Deep Offshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V5,constant_or_input_value,,5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W5,constant_or_input_value,,5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L6,label_or_text,,OML 123_Oil,fiscal_label
+GTC-001,Fiscal Terms_PIA,U6,label_or_text,,Frontier,fiscal_label
+GTC-001,Fiscal Terms_PIA,L7,label_or_text,,OML 123_Gas,fiscal_label
+GTC-001,Fiscal Terms_PIA,T7,label_or_text,,PPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,U7,label_or_text,,Onshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V7,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W7,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X7,constant_or_input_value,,350,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L8,label_or_text,,OML 123_Oil_S1,fiscal_label
+GTC-001,Fiscal Terms_PIA,U8,label_or_text,,Shallow,fiscal_label
+GTC-001,Fiscal Terms_PIA,V8,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W8,constant_or_input_value,,3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X8,constant_or_input_value,,350,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L9,label_or_text,,Production Profile_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,U9,label_or_text,,Deep Offshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V9,constant_or_input_value,,5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W9,constant_or_input_value,,5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X9,constant_or_input_value,,1000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z9,constant_or_input_value,,24822,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AB9,constant_or_input_value,,31068,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L10,label_or_text,,OML 123_COST,fiscal_label
+GTC-001,Fiscal Terms_PIA,U10,label_or_text,,Frontier,fiscal_label
+GTC-001,Fiscal Terms_PIA,X10,constant_or_input_value,,1500,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z10,label_or_text,,OML 20,fiscal_label
+GTC-001,Fiscal Terms_PIA,AA10,label_or_text,,OML 124,fiscal_label
+GTC-001,Fiscal Terms_PIA,AB10,label_or_text,,OML 126,fiscal_label
+GTC-001,Fiscal Terms_PIA,AC10,label_or_text,,OML 137,fiscal_label
+GTC-001,Fiscal Terms_PIA,L11,label_or_text,,Royalties_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,T11,label_or_text,,PML,fiscal_label
+GTC-001,Fiscal Terms_PIA,U11,label_or_text,,Onshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V11,constant_or_input_value,,20,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X11,label_or_text,,40% 0F PPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z11,constant_or_input_value,,405.33,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AA11,constant_or_input_value,,300,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AB11,constant_or_input_value,,722,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AC11,constant_or_input_value,,979,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AH11,constant_or_input_value,,5.33,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L12,label_or_text,,FLGT_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,U12,label_or_text,,Shallow,fiscal_label
+GTC-001,Fiscal Terms_PIA,V12,constant_or_input_value,,20,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X12,label_or_text,,40% OF PPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z12,constant_or_input_value,,153.808413181687,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AB12,formula,=AB9/(AC11+AB11),18.2645502645503,fiscal_formula
+GTC-001,Fiscal Terms_PIA,AD12,label_or_text,,$/sqKm,fiscal_label
+GTC-001,Fiscal Terms_PIA,L13,label_or_text,,Capital Allowance_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,U13,label_or_text,,Deep Offshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,V13,constant_or_input_value,,20,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X13,label_or_text,,40% OF PPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,AH13,formula,=AH11/Z11*1000000,13149.7791922631,fiscal_formula
+GTC-001,Fiscal Terms_PIA,L14,label_or_text,,CR Economics_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,U14,label_or_text,,Frontier,fiscal_label
+GTC-001,Fiscal Terms_PIA,V14,constant_or_input_value,,20,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X14,label_or_text,,40% OF PPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z14,formula,=Z12*Z11,62343.1641149332,fiscal_formula
+GTC-001,Fiscal Terms_PIA,AA14,formula,=Z12*AA11,46142.5239545061,fiscal_formula
+GTC-001,Fiscal Terms_PIA,L15,label_or_text,,B4ITx_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z15,label_or_text,,100/sq mile,fiscal_label
+GTC-001,Fiscal Terms_PIA,AA15,constant_or_input_value,,200,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,L16,label_or_text,,AITx_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,S16,label_or_text,,OIL ROYALTIES,fiscal_label
+GTC-001,Fiscal Terms_PIA,T16,label_or_text,,TERRAIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,U16,label_or_text,,"OIL PRODUCTION, BOPD",fiscal_label
+GTC-001,Fiscal Terms_PIA,W16,label_or_text,,PIA RATE,fiscal_label
+GTC-001,Fiscal Terms_PIA,X16,label_or_text,,MECHANISM,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y16,label_or_text,,PRE-PIA,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z16,label_or_text,,OPL,fiscal_label
+GTC-001,Fiscal Terms_PIA,AA16,label_or_text,,OML,fiscal_label
+GTC-001,Fiscal Terms_PIA,L17,label_or_text,,RESULTS_123,fiscal_label
+GTC-001,Fiscal Terms_PIA,U17,label_or_text,,MIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,V17,label_or_text,,MAX,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y17,label_or_text,,Fixed Rate,fiscal_label
+GTC-001,Fiscal Terms_PIA,AH17,formula,=AH13/27,487.028858972707,fiscal_formula
+GTC-001,Fiscal Terms_PIA,T18,label_or_text,,Onshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,U18,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V18,constant_or_input_value,,5000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W18,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X18,label_or_text,,Sliding,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y18,constant_or_input_value,,0.2,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U19,constant_or_input_value,,5001,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V19,constant_or_input_value,,10000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W19,constant_or_input_value,,0.075,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U20,label_or_text,,Above,fiscal_label
+GTC-001,Fiscal Terms_PIA,V20,constant_or_input_value,,10000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W20,constant_or_input_value,,0.15,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T21,label_or_text,,Shallow Water (<200m water depth),fiscal_label
+GTC-001,Fiscal Terms_PIA,U21,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V21,constant_or_input_value,,5000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W21,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X21,label_or_text,,Sliding,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y21,constant_or_input_value,,0.185,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U22,constant_or_input_value,,5001,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V22,constant_or_input_value,,10000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W22,constant_or_input_value,,0.075,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U23,label_or_text,,Above,fiscal_label
+GTC-001,Fiscal Terms_PIA,V23,constant_or_input_value,,10000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W23,constant_or_input_value,,0.125,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T24,label_or_text,,Deep Offshore (>200m water depth),fiscal_label
+GTC-001,Fiscal Terms_PIA,U24,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V24,constant_or_input_value,,50000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W24,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X24,label_or_text,,Sliding,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y24,constant_or_input_value,,0.1,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U25,label_or_text,,Above,fiscal_label
+GTC-001,Fiscal Terms_PIA,V25,constant_or_input_value,,50000,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W25,constant_or_input_value,,0.075,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T26,label_or_text,,Frontier Basin,fiscal_label
+GTC-001,Fiscal Terms_PIA,W26,constant_or_input_value,,0.075,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X26,label_or_text,,Flat,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y26,constant_or_input_value,,0.075,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S28,label_or_text,,GAS ROYALTIES,fiscal_label
+GTC-001,Fiscal Terms_PIA,T28,label_or_text,,TERRAIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,U28,label_or_text,,PIA RATE,fiscal_label
+GTC-001,Fiscal Terms_PIA,W28,label_or_text,,PRE-PIA,fiscal_label
+GTC-001,Fiscal Terms_PIA,U29,label_or_text,,Out-Country,fiscal_label
+GTC-001,Fiscal Terms_PIA,V29,label_or_text,,In-Country (Dom Gas),fiscal_label
+GTC-001,Fiscal Terms_PIA,T30,label_or_text,,Onshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,U30,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V30,constant_or_input_value,,0.025,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W30,constant_or_input_value,,0.07,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T31,label_or_text,,Shallow Water,fiscal_label
+GTC-001,Fiscal Terms_PIA,U31,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V31,constant_or_input_value,,0.025,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W31,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T32,label_or_text,,Deep Offshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,U32,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V32,constant_or_input_value,,0.025,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W32,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S34,label_or_text,,PRICE ROYALTIES,fiscal_label
+GTC-001,Fiscal Terms_PIA,T34,label_or_text,,"2020 PRICE LEVEL, $/BBL",fiscal_label
+GTC-001,Fiscal Terms_PIA,V34,label_or_text,,PIA RATE,fiscal_label
+GTC-001,Fiscal Terms_PIA,W34,label_or_text,,MECHANISM,fiscal_label
+GTC-001,Fiscal Terms_PIA,X34,label_or_text,,PRE-PIA,fiscal_label
+GTC-001,Fiscal Terms_PIA,T35,label_or_text,,MIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,U35,label_or_text,,MAX,fiscal_label
+GTC-001,Fiscal Terms_PIA,T36,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U36,constant_or_input_value,,50,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V36,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W36,label_or_text,,Linear Interpolation,fiscal_label
+GTC-001,Fiscal Terms_PIA,X36,label_or_text,,0 to $20,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y36,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T37,constant_or_input_value,,51,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U37,constant_or_input_value,,100,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V37,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X37,label_or_text,,$20 to $60,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y37,constant_or_input_value,,0.025,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T38,constant_or_input_value,,101,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U38,constant_or_input_value,,150,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V38,constant_or_input_value,,0.1,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X38,label_or_text,,$60 to $100,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y38,constant_or_input_value,,0.04,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T39,label_or_text,,No Royalty by Price for Frontier Acreages,fiscal_label
+GTC-001,Fiscal Terms_PIA,X39,label_or_text,,$100 to $150,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y39,constant_or_input_value,,0.08,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T40,label_or_text,,Price Escalation,fiscal_label
+GTC-001,Fiscal Terms_PIA,V40,constant_or_input_value,,0.02,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X40,label_or_text,,Above $150,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y40,constant_or_input_value,,0.1,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S42,label_or_text,,PRODUCTION ALLOWANCES,fiscal_label
+GTC-001,Fiscal Terms_PIA,T42,label_or_text,,PRODUCTION ALLOWANCES AFTER COMMENCEMENT,fiscal_label
+GTC-001,Fiscal Terms_PIA,T43,label_or_text,,TERRAIN,fiscal_label
+GTC-001,Fiscal Terms_PIA,U43,label_or_text,,ALLOWANCE,fiscal_label
+GTC-001,Fiscal Terms_PIA,W43,label_or_text,,CUM. PROD (MMBbl),fiscal_label
+GTC-001,Fiscal Terms_PIA,Y43,label_or_text,,"Min Price, $/bbl",fiscal_label
+GTC-001,Fiscal Terms_PIA,Z43,label_or_text,,6TH Schedule,fiscal_label
+GTC-001,Fiscal Terms_PIA,T44,label_or_text,,ONSHORE,fiscal_label
+GTC-001,Fiscal Terms_PIA,U44,label_or_text,,"min($8/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W44,label_or_text,,<=50,fiscal_label
+GTC-001,Fiscal Terms_PIA,X44,constant_or_input_value,,50,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y44,constant_or_input_value,,8,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z44,label_or_text,,Jumping Scale,fiscal_label
+GTC-001,Fiscal Terms_PIA,U45,label_or_text,,"min($4/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W45,label_or_text,,>50,fiscal_label
+GTC-001,Fiscal Terms_PIA,X45,constant_or_input_value,,50,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y45,constant_or_input_value,,4,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T46,label_or_text,,SHALLOW WATER,fiscal_label
+GTC-001,Fiscal Terms_PIA,U46,label_or_text,,"min($8/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W46,label_or_text,,<=100,fiscal_label
+GTC-001,Fiscal Terms_PIA,X46,constant_or_input_value,,100,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y46,constant_or_input_value,,8,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U47,label_or_text,,"min($4/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W47,label_or_text,,>100,fiscal_label
+GTC-001,Fiscal Terms_PIA,X47,constant_or_input_value,,100,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y47,constant_or_input_value,,4,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z47,constant_or_input_value,,0.2,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T48,label_or_text,,DEEP WATER,fiscal_label
+GTC-001,Fiscal Terms_PIA,U48,label_or_text,,"min($8/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W48,label_or_text,,<=500,fiscal_label
+GTC-001,Fiscal Terms_PIA,X48,constant_or_input_value,,500,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y48,constant_or_input_value,,8,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U49,label_or_text,,"min($4/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W49,label_or_text,,>500,fiscal_label
+GTC-001,Fiscal Terms_PIA,X49,constant_or_input_value,,500,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y49,constant_or_input_value,,4,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T50,label_or_text,,PRODUCTION ALLOWANCES FOR  CONVERTED OML,fiscal_label
+GTC-001,Fiscal Terms_PIA,T51,label_or_text,,ALL TERRAINS,fiscal_label
+GTC-001,Fiscal Terms_PIA,U51,label_or_text,,"min($2.5/Bbl, 20% of Price)",fiscal_label
+GTC-001,Fiscal Terms_PIA,W51,label_or_text,,ALL CUM PROD,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y51,constant_or_input_value,,2.5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S53,label_or_text,,DUAL TIER TAXATION,fiscal_label
+GTC-001,Fiscal Terms_PIA,T53,label_or_text,,Stage of Development,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y53,label_or_text,,Note,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z53,label_or_text,,Pre-PIA Onshore & Shallow,fiscal_label
+GTC-001,Fiscal Terms_PIA,AB53,label_or_text,,Deep Offshore,fiscal_label
+GTC-001,Fiscal Terms_PIA,T54,label_or_text,,Tax Type,fiscal_label
+GTC-001,Fiscal Terms_PIA,U54,label_or_text,,Before Appraisal ,fiscal_label
+GTC-001,Fiscal Terms_PIA,V54,label_or_text,,"Upon Appraisal, Commercial Discovery or significant gas/crude discovery",fiscal_label
+GTC-001,Fiscal Terms_PIA,W54,label_or_text,,Upon Field Development or commercial production,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y54,label_or_text,,30% CIT across all terrains for oil and gas operations. HT of 15% for New PML & 30% for Converted OML across all terrains except Deep Offshore and Frontier ,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z54,label_or_text,,First 5 yrs,fiscal_label
+GTC-001,Fiscal Terms_PIA,AA54,label_or_text,,>5 Yrs,fiscal_label
+GTC-001,Fiscal Terms_PIA,T55,label_or_text,,HT,fiscal_label
+GTC-001,Fiscal Terms_PIA,U55,constant_or_input_value,,0,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V55,constant_or_input_value,,0.15,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W55,constant_or_input_value,,0.3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z55,constant_or_input_value,,0.6575,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AA55,constant_or_input_value,,0.85,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,AB55,constant_or_input_value,,0.5,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,T56,label_or_text,,CIT,fiscal_label
+GTC-001,Fiscal Terms_PIA,U56,constant_or_input_value,,0.3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V56,constant_or_input_value,,0.3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,W56,constant_or_input_value,,0.3,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S58,label_or_text,,PSC COST OIL & PROFIT OIL,fiscal_label
+GTC-001,Fiscal Terms_PIA,T58,label_or_text,,Cost Recovery Limit,fiscal_label
+GTC-001,Fiscal Terms_PIA,V58,label_or_text,,HG Profit Oil Share for New Acreage,fiscal_label
+GTC-001,Fiscal Terms_PIA,T59,label_or_text,,New Acreage,fiscal_label
+GTC-001,Fiscal Terms_PIA,U59,label_or_text,,Converted OML,fiscal_label
+GTC-001,Fiscal Terms_PIA,V59,label_or_text,,"Cumulative Production, mmbbls",fiscal_label
+GTC-001,Fiscal Terms_PIA,X59,label_or_text,,"Split,%",fiscal_label
+GTC-001,Fiscal Terms_PIA,Y59,label_or_text,,Mechanism,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z59,label_or_text,,Section 93,fiscal_label
+GTC-001,Fiscal Terms_PIA,T60,constant_or_input_value,,0.7,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U60,constant_or_input_value,,0.6,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V60,label_or_text,,<=,fiscal_label
+GTC-001,Fiscal Terms_PIA,W60,constant_or_input_value,,50,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X60,constant_or_input_value,,0.05,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Y60,label_or_text,,Sliding Scale,fiscal_label
+GTC-001,Fiscal Terms_PIA,Z60,label_or_text,,section 104 (2),fiscal_label
+GTC-001,Fiscal Terms_PIA,V61,label_or_text,,<=,fiscal_label
+GTC-001,Fiscal Terms_PIA,W61,constant_or_input_value,,100,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X61,constant_or_input_value,,0.1,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,Z61,label_or_text,,"7th Schedule, Part IV (14)",fiscal_label
+GTC-001,Fiscal Terms_PIA,V62,label_or_text,,<=,fiscal_label
+GTC-001,Fiscal Terms_PIA,W62,constant_or_input_value,,250,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X62,constant_or_input_value,,0.15,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V63,label_or_text,,<=,fiscal_label
+GTC-001,Fiscal Terms_PIA,W63,constant_or_input_value,,750,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X63,constant_or_input_value,,0.25,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V64,label_or_text,,<=,fiscal_label
+GTC-001,Fiscal Terms_PIA,W64,constant_or_input_value,,1500,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X64,constant_or_input_value,,0.35,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V65,label_or_text,,>,fiscal_label
+GTC-001,Fiscal Terms_PIA,W65,constant_or_input_value,,1500,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X65,constant_or_input_value,,0.45,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V66,label_or_text,,HG Profit Oil Share for Converted OML negotiable,fiscal_label
+GTC-001,Fiscal Terms_PIA,S69,label_or_text,,OTHER SALIENT PROVISIONS,fiscal_label
+GTC-001,Fiscal Terms_PIA,S70,label_or_text,,COST PRICE RATIO,fiscal_label
+GTC-001,Fiscal Terms_PIA,T70,constant_or_input_value,,0.65,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U70,label_or_text,,of gross revenue,fiscal_label
+GTC-001,Fiscal Terms_PIA,S71,label_or_text,,COST CONSOLIDATION,fiscal_label
+GTC-001,Fiscal Terms_PIA,T71,label_or_text,,Across all terrains,fiscal_label
+GTC-001,Fiscal Terms_PIA,S72,label_or_text,,HCDT,fiscal_label
+GTC-001,Fiscal Terms_PIA,T72,constant_or_input_value,,0.03,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U72,label_or_text,,of preceding year's operating expenditure,fiscal_label
+GTC-001,Fiscal Terms_PIA,S73,label_or_text,,NDDC ,fiscal_label
+GTC-001,Fiscal Terms_PIA,T73,constant_or_input_value,,0.03,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U73,label_or_text,,of total annual budget,fiscal_label
+GTC-001,Fiscal Terms_PIA,S74,label_or_text,,NC,fiscal_label
+GTC-001,Fiscal Terms_PIA,T74,constant_or_input_value,,0.01,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U74,label_or_text,,of every contract,fiscal_label
+GTC-001,Fiscal Terms_PIA,S75,label_or_text,,EDUCATION TAX,fiscal_label
+GTC-001,Fiscal Terms_PIA,T75,constant_or_input_value,,0.04,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,U75,label_or_text,,of assessable profit,fiscal_label
+GTC-001,Fiscal Terms_PIA,S76,label_or_text,,CAPITAL ALLOWANCE,fiscal_label
+GTC-001,Fiscal Terms_PIA,T76,label_or_text,,Years 1 - 4,fiscal_label
+GTC-001,Fiscal Terms_PIA,U76,constant_or_input_value,,0.2,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,V76,label_or_text,,Year 5,fiscal_label
+GTC-001,Fiscal Terms_PIA,W76,constant_or_input_value,,0.19,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,X76,label_or_text,,Retention ,fiscal_label
+GTC-001,Fiscal Terms_PIA,Y76,constant_or_input_value,,0.01,fiscal_literal_candidate_input
+GTC-001,Fiscal Terms_PIA,S77,label_or_text,,BONUS,fiscal_label
+GTC-001,Fiscal Terms_PIA,T77,label_or_text,,SIGNATURE,fiscal_label
+GTC-001,Fiscal Terms_PIA,U77,label_or_text,,PRODUCTION,fiscal_label
+GTC-001,Fiscal Terms_PIA,V77,label_or_text,,RENEWAL,fiscal_label

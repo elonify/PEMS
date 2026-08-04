@@ -1,0 +1,104 @@
+gtc_id,metric_label_source,context_C,worksheet,cell,formula,expected_value,value_type,role
+GTC-001,,,RESULTS Equity,L2,=Ec_IO!R2,Nigeria,str,kpi_or_result
+GTC-001,,,RESULTS Equity,L3,=Ec_IO!R3,PIA 2021,str,kpi_or_result
+GTC-001,Metric Systems Measures,=Ec_IO!I5,RESULTS Equity,L5,=Ec_IO!R5,R/T (SR),str,kpi_or_result
+GTC-001,Net Present Value @,=Ec_IO!G20,RESULTS Equity,J7,='HT_NCF_Oil Equity'!AS51,32.7881489609511,float,kpi_or_result
+GTC-001,Net Present Value @,=Ec_IO!G20,RESULTS Equity,K7,='HT_NCF_Oil Equity'!AT51,78.5907749652833,float,kpi_or_result
+GTC-001,Net Present Value @,=Ec_IO!G20,RESULTS Equity,M7,=Equity_NCF_Con!AG51,76.1373657188447,float,kpi_or_result
+GTC-001,Net Present Value @,=Ec_IO!G20,RESULTS Equity,N7,=Equity_NCF_Con!AH51,37.4091368359718,float,kpi_or_result
+GTC-001,Net Present Value @,=Ec_IO!G20,RESULTS Equity,H7,=Ec_IO!C15,0.15,float,kpi_or_result
+GTC-001,Internal Rate of Return,"=""Equity Share =""&TEXT('Equity Dash'!$C$4,""0%"")",RESULTS Equity,K8,=IRR('HT_NCF_Oil Equity'!AR5:AR49),0.546509064060968,float,kpi_or_result
+GTC-001,Internal Rate of Return,"=""Equity Share =""&TEXT('Equity Dash'!$C$4,""0%"")",RESULTS Equity,N8,=IRR(Equity_NCF_Con!AF5:AF49),0.353703545014072,float,kpi_or_result
+GTC-001,Present Value Ratio,,RESULTS Equity,K9,=K7/H18,0.453197852225237,float,kpi_or_result
+GTC-001,Present Value Ratio,,RESULTS Equity,N9,=N7/H18,0.215721762193484,float,kpi_or_result
+GTC-001,Profitability Index,,RESULTS Equity,K10,=1+K9,1.45319785222524,float,kpi_or_result
+GTC-001,Profitability Index,,RESULTS Equity,N10,=1+N9,1.21572176219348,float,kpi_or_result
+GTC-001,Growth Rate of Return,,RESULTS Equity,K11,=K10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1,0.179015433659069,float,kpi_or_result
+GTC-001,Growth Rate of Return,,RESULTS Equity,N11,=N10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1,0.165073845767381,float,kpi_or_result
+GTC-001,Undiscounted Take Statistics,,RESULTS Equity,J12,='HT_NCF_Oil Equity'!AQ51/('HT_NCF_Oil Equity'!AQ51+'HT_NCF_Oil Equity'!AR51),0.239723578538787,float,kpi_or_result
+GTC-001,Undiscounted Take Statistics,,RESULTS Equity,K12,=1-J12,0.760276421461213,float,kpi_or_result
+GTC-001,Undiscounted Take Statistics,,RESULTS Equity,M12,=Equity_NCF_Con!AE51/(Equity_NCF_Con!AE51+Equity_NCF_Con!AF51),0.570341347086784,float,kpi_or_result
+GTC-001,Undiscounted Take Statistics,,RESULTS Equity,N12,=1-M12,0.429658652913216,float,kpi_or_result
+GTC-001,Discounted Take Statistics,,RESULTS Equity,J13,=J7/(J7+K7),0.294383782901929,float,kpi_or_result
+GTC-001,Discounted Take Statistics,,RESULTS Equity,K13,=1-J13,0.705616217098071,float,kpi_or_result
+GTC-001,Discounted Take Statistics,,RESULTS Equity,M13,=M7/(M7+N7),0.670539065543548,float,kpi_or_result
+GTC-001,Discounted Take Statistics,,RESULTS Equity,N13,=1-M13,0.329460934456452,float,kpi_or_result
+GTC-001,"Disc. Payout Period, Years",,RESULTS Equity,K14,='HT_NCF_Oil Equity'!AV51,3.30815816242885,float,kpi_or_result
+GTC-001,"Disc. Payout Period, Years",,RESULTS Equity,N14,=Equity_NCF_Con!AJ51,4.11788849869152,float,kpi_or_result
+GTC-001,"Front End Loading Index, FLI",,RESULTS Equity,H15,=M13/M12-1,0.175680264053375,float,kpi_or_result
+GTC-001,=Ec_IO!M16,,RESULTS Equity,J16,=Ec_IO!P16*'Equity Dash'!$C$4,538.94584168118,float,kpi_or_result
+GTC-001,=Ec_IO!M16,,RESULTS Equity,M16,=Ec_IO!S16*'Equity Dash'!$C$4,204.919631874736,float,kpi_or_result
+GTC-001,=Ec_IO!M16,,RESULTS Equity,H16,=Ec_IO!N16*'Equity Dash'!$C$4,103.391391515252,float,kpi_or_result
+GTC-001,=Ec_IO!M17,,RESULTS Equity,J17,=Ec_IO!P17*'Equity Dash'!$C$4,26.9672237060786,float,kpi_or_result
+GTC-001,=Ec_IO!M17,,RESULTS Equity,M17,=Ec_IO!S17*'Equity Dash'!$C$4,85.75,float,kpi_or_result
+GTC-001,=Ec_IO!M17,,RESULTS Equity,H17,=Ec_IO!N17*'Equity Dash'!$C$4,70.0224377414318,float,kpi_or_result
+GTC-001,=Ec_IO!M18,,RESULTS Equity,J18,=SUM(J16:J17),565.913065387258,float,kpi_or_result
+GTC-001,=Ec_IO!M18,,RESULTS Equity,M18,=M16+M17,290.669631874736,float,kpi_or_result
+GTC-001,=Ec_IO!M18,,RESULTS Equity,H18,=H16+H17,173.413829256684,float,kpi_or_result
+GTC-001,"Unit CAPEX, S/Boe",,RESULTS Equity,M19,=M16/Prod_Summary!$AA$48/'Equity Dash'!$C$4,15.8726247896521,float,kpi_or_result
+GTC-001,"Unit CAPEX, S/Boe",,RESULTS Equity,H19,=H16/Prod_Summary!$AA$48/'Equity Dash'!$C$4,8.00847019384067,float,kpi_or_result
+GTC-001,"Unit OPEX, S/Boe",,RESULTS Equity,M20,=M17/Prod_Summary!$AA$48/'Equity Dash'!$C$4,6.64200673825471,float,kpi_or_result
+GTC-001,"Unit OPEX, S/Boe",,RESULTS Equity,H20,=H17/Prod_Summary!$AA$48/'Equity Dash'!$C$4,5.42378429513249,float,kpi_or_result
+GTC-001,"Unit Technical Cost, S/Boe",,RESULTS Equity,M21,=M18/Prod_Summary!$AA$48/'Equity Dash'!$C$4,22.5146315279068,float,kpi_or_result
+GTC-001,"Unit Technical Cost, S/Boe",,RESULTS Equity,H21,=H18/Prod_Summary!$AA$48/'Equity Dash'!$C$4,13.4322544889732,float,kpi_or_result
+GTC-001,"Oil Royalty, $MM",,RESULTS Equity,J22,='HT_NCF_Oil Equity'!AO51,22.6435258133556,float,kpi_or_result
+GTC-001,"Oil Royalty, $MM",,RESULTS Equity,N22,=Prod_Summary!V47*'Equity Dash'!$C$4,10.7789168336236,float,kpi_or_result
+GTC-001,"Oil Royalty, $MM",,RESULTS Equity,H22,=FLGT!AB51*'Equity Dash'!$C$4,30.0437706813062,float,kpi_or_result
+GTC-001,"Gas Royalty, $MM",,RESULTS Equity,J23,='CIT_NCF_Oil Equity'!AF51+'CIT_NCF_Gas Equity'!AF51,76.6686734325352,float,kpi_or_result
+GTC-001,"Gas Royalty, $MM",,RESULTS Equity,M23,"=""(""&TEXT(Prod_Summary!Y47*'Equity Dash'!$C$4,""0.00"")&"" Bscf""&"")""",(12.37 Bscf),str,kpi_or_result
+GTC-001,"Gas Royalty, $MM",,RESULTS Equity,N23,=Prod_Summary!Y48*'Equity Dash'!$C$4,2.13133806059713,float,kpi_or_result
+GTC-001,"Gas Royalty, $MM",,RESULTS Equity,H23,=FLGT!AC51*'Equity Dash'!$C$4,0.674180592651965,float,kpi_or_result
+GTC-001,"Price Royalty,  $MM",,RESULTS Equity,J24,='CIT_NCF_Oil Equity'!AG51+'CIT_NCF_Gas Equity'!AG51,12.9624932008202,float,kpi_or_result
+GTC-001,"Price Royalty,  $MM",,RESULTS Equity,N24,=N22+N23,12.9102548942207,float,kpi_or_result
+GTC-001,"Price Royalty,  $MM",,RESULTS Equity,H24,=FLGT!AD51*'Equity Dash'!$C$4,0,int,kpi_or_result
+GTC-001,Total Royalty  $MM,,RESULTS Equity,J25,=SUM(J22:J24),112.274692446711,float,kpi_or_result
+GTC-001,Total Royalty  $MM,,RESULTS Equity,H25,=SUM(H22:H24),30.7179512739582,float,kpi_or_result
+GTC-001,ERR,,RESULTS Equity,H26,=H25/J18,0.0542803358903504,float,kpi_or_result
+GTC-001,header/context,,RESULTS Equity,L2,=Ec_IO!R2,Nigeria,str,scenario_context
+GTC-001,header/context,,RESULTS Equity,L3,=Ec_IO!R3,PIA 2021,str,scenario_context
+GTC-001,header/context,,RESULTS Equity,C5,=Ec_IO!I5,Ebiya Field,str,scenario_context
+GTC-001,header/context,,RESULTS Equity,C6,=Ec_IO!G22,New Acreage,str,scenario_context
+GTC-001,header/context,,RESULTS Equity,C7,=Ec_IO!G20,Shallow Water (<200m water depth),str,scenario_context
+GTC-001,header/context,,RESULTS Equity,L5,=Ec_IO!R5,R/T (SR),str,scenario_context
+GTC-001,header/context,,RESULTS Equity,C8,"=""Equity Share =""&TEXT('Equity Dash'!$C$4,""0%"")",Equity Share =49%,str,scenario_context
+GTC-001,header/context,,RESULTS Equity,H7,=Ec_IO!C15,0.15,float,scenario_context
+GTC-001,Company 1,,Equity Dash,C4,,0.49,float,equity_dash
+GTC-001,0.49,,Equity Dash,D4,,70,int,equity_dash
+GTC-001,YR1,,Equity Dash,G4,=$I$4*20%,0,int,equity_dash
+GTC-001,=$I$4*20%,,Equity Dash,H4,,2026,int,equity_dash
+GTC-001,2026,,Equity Dash,I4,"=IF($A$4=""Acquisition"",D4,0)",0,int,equity_dash
+GTC-001,Company 2,,Equity Dash,C5,=C6-C4,0.51,float,equity_dash
+GTC-001,=C6-C4,,Equity Dash,D5,=C5*D6,0,int,equity_dash
+GTC-001,YR2,,Equity Dash,G5,=$I$4*20%,0,int,equity_dash
+GTC-001,Project,,Equity Dash,C6,,1,int,equity_dash
+GTC-001,1,,Equity Dash,D6,"=IF($A$4=""Acquisition"",D4/C4,0)",0,int,equity_dash
+GTC-001,YR3,,Equity Dash,G6,=$I$4*20%,0,int,equity_dash
+GTC-001,YR4,,Equity Dash,G7,=$I$4*20%,0,int,equity_dash
+GTC-001,Interest Rate,,Equity Dash,C8,,0.15,float,equity_dash
+GTC-001,YR5,,Equity Dash,G8,=$I$4*19%,0,int,equity_dash
+GTC-001,Loan Duration,,Equity Dash,C9,,5,int,equity_dash
+GTC-001,Payments per Year,,Equity Dash,C10,,1,int,equity_dash
+GTC-001,"Loan Amount, $",,Equity Dash,C11,,10000000,int,equity_dash
+GTC-001,Prod_Summary key cell,,Prod_Summary,V47,=MAX(V5:V36),21.9977894563747,float,production_summary
+GTC-001,Prod_Summary key cell,,Prod_Summary,Y47,=MAX(Y5:Y46),25.2454818442975,float,production_summary
+GTC-001,Prod_Summary key cell,,Prod_Summary,Y48,=MAX(Y5:Y46)/5.804,4.34966951142272,float,production_summary
+GTC-001,Prod_Summary key cell,,Prod_Summary,AA48,=V47+Y48,26.3474589677974,float,production_summary
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AS51,=SUM(AS5:AS49),32.7881489609511,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AT51,=SUM(AT5:AT49),78.5907749652833,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AQ51,=SUM(AQ5:AQ49),66.1779016633907,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AO51,=SUM(AO5:AO49),22.6435258133556,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AV51,=SUM(AV5:AV49),3.30815816242885,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,HT_NCF_Oil Equity,AR5,"=IFERROR(B5-AQ5-Cap_Allow!FJ2*'Equity Dash'!$C$4-'Equity Dash'!I1,0)",0,int,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AG51,=SUM(AG5:AG49),76.1373657188447,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AH51,=SUM(AH5:AH49),37.4091368359718,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AE51,=SUM(AE5:AE49),158.039096889398,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AF51,=SUM(AF5:AF49),119.056536623125,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AJ51,=SUM(AJ5:AJ49),4.11788849869152,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,Equity_NCF_Con,AF5,=(B5-AE5-W5-X5-E5-J5-(FLGT!AO5+FLGT!AP5-FLGT!AN5)*'Equity Dash'!$C$4-'Equity Dash'!I1)*(A5<=Ec_IO!$D$22),0,int,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,FLGT,AB51,=SUM(AB5:AB49),61.3138177169515,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,FLGT,AC51,=SUM(AC5:AC49),1.37587876051421,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,FLGT,AD51,=SUM(AD5:AD49),0,int,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,CIT_NCF_Oil Equity,AF51,=SUM(AF5:AF49),74.9324246133069,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,CIT_NCF_Oil Equity,AG51,=SUM(AG5:AG49),12.7309933582564,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,CIT_NCF_Gas Equity,AF51,=SUM(AF5:AF49),1.73624881922836,float,intermediate_calculation
+GTC-001,intermediate_referenced_by_RESULTS_Equity,,CIT_NCF_Gas Equity,AG51,=SUM(AG5:AG49),0.231499842563781,float,intermediate_calculation

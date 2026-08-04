@@ -1,0 +1,5578 @@
+{
+  "active_gm_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "ec_io_nonempty": 318,
+  "ec_io_formulas": 105,
+  "ec_io_literals": 88,
+  "ec_io_labels": 125,
+  "cp_classified_count": 85,
+  "gtc_input_rows": 318,
+  "kpi_rows": 0,
+  "literals": [
+    {
+      "cell": "C5",
+      "row": 5,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "2027",
+      "number_format": "General",
+      "cp": {
+        "value": "2027",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Project Start Year | Forecast",
+        "evidence": "Year-like integer; labels=project start year forecast"
+      },
+      "nearby_labels": [
+        "A5=Fiscal Terms_PIA",
+        "B5=Project Start Year",
+        "M5=Metric Systems Measures",
+        "P5=Host Govt.  BIT $ MM",
+        "Q5=Contractor    BIT $MM",
+        "S5=Host Govt.  AIT $ MM",
+        "T5=Contractor    AIT $MM"
+      ]
+    },
+    {
+      "cell": "C7",
+      "row": 7,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "365",
+      "number_format": "General",
+      "cp": {
+        "value": "365",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Production days in a year | Forecast",
+        "evidence": "Economic magnitude with label; labels=production days in a year forecast"
+      },
+      "nearby_labels": [
+        "A7=OML 123_Gas",
+        "B7=Production days in a year",
+        "M7=Net Present Value @"
+      ]
+    },
+    {
+      "cell": "C12",
+      "row": 12,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "50",
+      "number_format": "General",
+      "cp": {
+        "value": "50",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Crude Oil Price, $/bbl | NA",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": [
+        "A12=FLGT_123",
+        "B12=Crude Oil Price, $/bbl",
+        "F12=FLI",
+        "M12=Undiscounted Take Statistics"
+      ]
+    },
+    {
+      "cell": "C14",
+      "row": 14,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Escalator | NA",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "A14=CR Economics_123",
+        "B14=Escalator",
+        "F14=Tax",
+        "H14=Million",
+        "M14=Disc. Payout Period, Years"
+      ]
+    },
+    {
+      "cell": "C15",
+      "row": 15,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0.15",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0.15",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Hurdle Rate | NA",
+        "evidence": "Fractional with label/DV; labels=hurdle rate na"
+      },
+      "nearby_labels": [
+        "A15=B4ITx_123",
+        "B15=Hurdle Rate",
+        "F15=Royalties",
+        "H15=Million",
+        "M15=Front End Loading Index, FLI"
+      ]
+    },
+    {
+      "cell": "C17",
+      "row": 17,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "2.18",
+      "number_format": "0.00",
+      "cp": {
+        "value": "2.18",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Gas Price, $/Mscf",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": [
+        "A17=RESULTS_123",
+        "B17=Gas Price, $/Mscf",
+        "O17=Gas Revenue",
+        "Q17=$MM",
+        "R17=PV@0% of CAPEX, $MM"
+      ]
+    },
+    {
+      "cell": "C18",
+      "row": 18,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0.5",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.5",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Gas Flare Penalty, $/Mscf",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": [
+        "B18=Gas Flare Penalty, $/Mscf",
+        "F18=Block/Field (Oil)",
+        "G18=Ebiya Field",
+        "O18=Gross Revenue",
+        "Q18=$MM",
+        "R18=PV@0% of TC, $MM"
+      ]
+    },
+    {
+      "cell": "C19",
+      "row": 19,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0.5",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0.5",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Dom_Gas",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": [
+        "B19=Dom_Gas",
+        "F19=Block/Field (Gas)",
+        "M19=Unit CAPEX, S/Boe",
+        "R19=Unit CAPEX, S/Boe"
+      ]
+    },
+    {
+      "cell": "C20",
+      "row": 20,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Duties",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "B20=Duties",
+        "F20=Terrain",
+        "G20=Shallow Water (<200m water depth)",
+        "M20=Unit OPEX, S/Boe",
+        "R20=Unit OPEX, S/Boe"
+      ]
+    },
+    {
+      "cell": "C21",
+      "row": 21,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "VAT",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "B21=VAT",
+        "F21=Gas Utilization",
+        "G21=In-Country (Dom Gas)",
+        "M21=Unit Technical Cost, S/Boe",
+        "R21=Unit Technical Cost, S/Boe"
+      ]
+    },
+    {
+      "cell": "C22",
+      "row": 22,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Asset Salvage Value, % of Retention for Decom.",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "B22=Asset Salvage Value, % of Retention for Decom.",
+        "F22=Licence/Lease Status",
+        "G22=New Acreage",
+        "M22=Oil Royalty, $MM",
+        "O22=HT",
+        "Q22=$MM",
+        "R22=Oil Production, MMbbls"
+      ]
+    },
+    {
+      "cell": "C23",
+      "row": 23,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NAG CRL",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "B23=NAG CRL",
+        "F23=Cost Mode",
+        "M23=Gas Royalty, $MM",
+        "O23=CIT",
+        "Q23=$MM",
+        "R23=Gas Production, Mmboe"
+      ]
+    },
+    {
+      "cell": "C24",
+      "row": 24,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0.1",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0.1",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NAG ITA",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": [
+        "B24=NAG ITA",
+        "F24=PFS",
+        "G24=PSC/SC",
+        "M24=Price Royalty,  $MM",
+        "O24=Etx",
+        "Q24=$MM",
+        "R24=Total Production, Mmboe"
+      ]
+    },
+    {
+      "cell": "C25",
+      "row": 25,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0.005",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0.005",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "NAG Min. Tax Rate",
+        "evidence": "Fractional with label/DV; labels=nag min. tax rate"
+      },
+      "nearby_labels": [
+        "B25=NAG Min. Tax Rate",
+        "F25=Country",
+        "G25=Nigeria",
+        "M25=Total Royalty  $MM",
+        "O25=Total",
+        "Q25=$MM"
+      ]
+    },
+    {
+      "cell": "C26",
+      "row": 26,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "0",
+      "number_format": "0.00%",
+      "cp": {
+        "value": "0",
+        "classification": "DEFAULT_STRUCTURAL_VALUE",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NAG CPR",
+        "evidence": "Zero literal; not INPUT without further evidence"
+      },
+      "nearby_labels": [
+        "B26=NAG CPR",
+        "F26=Fiscal Regime",
+        "G26=PIA 2021",
+        "M26=ERR"
+      ]
+    },
+    {
+      "cell": "D28",
+      "row": 28,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "2002",
+      "number_format": "General",
+      "cp": {
+        "value": "2002",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "History",
+        "evidence": "Year-like integer; labels=history"
+      },
+      "nearby_labels": [
+        "C28=History"
+      ]
+    },
+    {
+      "cell": "D30",
+      "row": 30,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "2002",
+      "number_format": "General",
+      "cp": {
+        "value": "2002",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Complete",
+        "evidence": "Year-like integer; labels=complete"
+      },
+      "nearby_labels": [
+        "C30=Complete"
+      ]
+    },
+    {
+      "cell": "C69",
+      "row": 69,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "20",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "20",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D69",
+      "row": 69,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x00000260F6AA9280>",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": null,
+      "nearby_labels": []
+    },
+    {
+      "cell": "F69",
+      "row": 69,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x00000260F6AA9370>",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": null,
+      "nearby_labels": []
+    },
+    {
+      "cell": "C70",
+      "row": 70,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "25",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "25",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D70",
+      "row": 70,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "-89.220259678857",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-89.220259678857",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "NPV, $mm",
+        "evidence": "Economic magnitude with label; labels=npv, $mm"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F70",
+      "row": 70,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "16",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "16",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Disc. Payout, Yrs",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C71",
+      "row": 71,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "30",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "30",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D71",
+      "row": 71,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "-48.3765211577222",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-48.3765211577222",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "NPV, $mm",
+        "evidence": "Economic magnitude with label; labels=npv, $mm"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F71",
+      "row": 71,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "16",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "16",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Disc. Payout, Yrs",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C72",
+      "row": 72,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "35",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "35",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D72",
+      "row": 72,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "-12.8401152080522",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-12.8401152080522",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "NPV, $mm",
+        "evidence": "Economic magnitude with label; labels=npv, $mm"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F72",
+      "row": 72,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "16",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "16",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Disc. Payout, Yrs",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C73",
+      "row": 73,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "40",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "40",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D73",
+      "row": 73,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "18.9616663054227",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "18.9616663054227",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NPV, $mm",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F73",
+      "row": 73,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "7.35139956586427",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "7.35139956586427",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Disc. Payout, Yrs",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C74",
+      "row": 74,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "45",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "45",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "Oil Price, $/bbl",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D74",
+      "row": 74,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "48.4026179584651",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "48.4026179584651",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F74",
+      "row": 74,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "5.86150831155389",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "5.86150831155389",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C75",
+      "row": 75,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "50",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "50",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D75",
+      "row": 75,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "78.0891606587929",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "78.0891606587929",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F75",
+      "row": 75,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "5.13925728744526",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "5.13925728744526",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C76",
+      "row": 76,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "55",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "55",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D76",
+      "row": 76,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "104.298805951977",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "104.298805951977",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F76",
+      "row": 76,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "3.77381266172407",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "3.77381266172407",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C77",
+      "row": 77,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "60",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "60",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D77",
+      "row": 77,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "130.260055363186",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "130.260055363186",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F77",
+      "row": 77,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "3.51473757975241",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "3.51473757975241",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C78",
+      "row": 78,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "65",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "65",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D78",
+      "row": 78,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "155.939233690556",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "155.939233690556",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F78",
+      "row": 78,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "3.29834878375621",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "3.29834878375621",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "C79",
+      "row": 79,
+      "col": 3,
+      "cell_class": "constant_or_input_value",
+      "value": "70",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "70",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D79",
+      "row": 79,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "181.395638559108",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "181.395638559108",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "F79",
+      "row": 79,
+      "col": 6,
+      "cell_class": "constant_or_input_value",
+      "value": "3.11401062104188",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "3.11401062104188",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D82",
+      "row": 82,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.05",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.05",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Rate",
+        "evidence": "Fractional with label/DV; labels=rate"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E82",
+      "row": 82,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x00000260F6B73E90>",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": null,
+      "nearby_labels": []
+    },
+    {
+      "cell": "D83",
+      "row": 83,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.075",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.075",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Rate",
+        "evidence": "Fractional with label/DV; labels=rate"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E83",
+      "row": 83,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "142.521927428062",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "142.521927428062",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NPV",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D84",
+      "row": 84,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.1",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.1",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Rate",
+        "evidence": "Fractional with label/DV; labels=rate"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E84",
+      "row": 84,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "117.426031435895",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "117.426031435895",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NPV",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D85",
+      "row": 85,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.125",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.125",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Rate",
+        "evidence": "Fractional with label/DV; labels=rate"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E85",
+      "row": 85,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "96.1751839710722",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "96.1751839710722",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NPV",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D86",
+      "row": 86,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.15",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.15",
+        "classification": "ASSUMPTION",
+        "understanding": "UNDERSTOOD",
+        "nearby_labels": "Rate",
+        "evidence": "Fractional with label/DV; labels=rate"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E86",
+      "row": 86,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "78.0891606587929",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "78.0891606587929",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "NPV",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D87",
+      "row": 87,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.175",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.175",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E87",
+      "row": 87,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "62.6252214158992",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "62.6252214158992",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D88",
+      "row": 88,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.2",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.2",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E88",
+      "row": 88,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "49.3470941375003",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "49.3470941375003",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D89",
+      "row": 89,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.225",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.225",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E89",
+      "row": 89,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "37.9016185025435",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "37.9016185025435",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D90",
+      "row": 90,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.25",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.25",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E90",
+      "row": 90,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "28.0010093238785",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "28.0010093238785",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D91",
+      "row": 91,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.275",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.275",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E91",
+      "row": 91,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "19.4092786339426",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "19.4092786339426",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D92",
+      "row": 92,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.3",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.3",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E92",
+      "row": 92,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "11.9317612933976",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "11.9317612933976",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D93",
+      "row": 93,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.325",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.325",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E93",
+      "row": 93,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "5.40697528565144",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "5.40697528565144",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric 1-100 role unclear"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D94",
+      "row": 94,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.35",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.35",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E94",
+      "row": 94,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-0.299748143119898",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-0.299748143119898",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "No evidence-based class"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D95",
+      "row": 95,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.375",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.375",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E95",
+      "row": 95,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-5.30128278186981",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-5.30128278186981",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D96",
+      "row": 96,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.4",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.4",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E96",
+      "row": 96,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-9.69268631793874",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-9.69268631793874",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D97",
+      "row": 97,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.425",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.425",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E97",
+      "row": 97,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-13.5543743930911",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-13.5543743930911",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D98",
+      "row": 98,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.45",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.45",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E98",
+      "row": 98,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-16.9546674699772",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-16.9546674699772",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D99",
+      "row": 99,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.475",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.475",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E99",
+      "row": 99,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-19.9518458828025",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-19.9518458828025",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "D100",
+      "row": 100,
+      "col": 4,
+      "cell_class": "constant_or_input_value",
+      "value": "0.5",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "0.5",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Fractional literal without strong input evidence"
+      },
+      "nearby_labels": []
+    },
+    {
+      "cell": "E100",
+      "row": 100,
+      "col": 5,
+      "cell_class": "constant_or_input_value",
+      "value": "-22.5958169230492",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-",
+      "cp": {
+        "value": "-22.5958169230492",
+        "classification": "UNRESOLVED",
+        "understanding": "EXTRACTED",
+        "nearby_labels": "",
+        "evidence": "Numeric magnitude; role unclear without further evidence"
+      },
+      "nearby_labels": []
+    }
+  ],
+  "formulas": [
+    {
+      "cell": "R2",
+      "formula": "=Ec_IO!G25",
+      "cached_value": "Nigeria",
+      "number_format": "General"
+    },
+    {
+      "cell": "F3",
+      "formula": "=CIT_NCF!U55",
+      "cached_value": "IRR",
+      "number_format": "General"
+    },
+    {
+      "cell": "G3",
+      "formula": "=Ec_IO!T8",
+      "cached_value": "0.348601049838934",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "R3",
+      "formula": "=Ec_IO!G26",
+      "cached_value": "PIA 2021",
+      "number_format": "General"
+    },
+    {
+      "cell": "F4",
+      "formula": "=CIT_NCF!U56",
+      "cached_value": "Disc. Host Govt Take",
+      "number_format": "General"
+    },
+    {
+      "cell": "G4",
+      "formula": "=Ec_IO!S13",
+      "cached_value": "0.656971434744716",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "F5",
+      "formula": "=CIT_NCF!U57",
+      "cached_value": "Disc. Contractor Take",
+      "number_format": "General"
+    },
+    {
+      "cell": "G5",
+      "formula": "=Ec_IO!T13",
+      "cached_value": "0.343028565255284",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "I5",
+      "formula": "=Ec_IO!G23",
+      "cached_value": "Ebiya Field",
+      "number_format": "General"
+    },
+    {
+      "cell": "R5",
+      "formula": "=Ec_IO!G24",
+      "cached_value": "PSC/SC",
+      "number_format": "General"
+    },
+    {
+      "cell": "C6",
+      "formula": "=Prod_Summary!AF26",
+      "cached_value": "15",
+      "number_format": "0"
+    },
+    {
+      "cell": "F6",
+      "formula": "=CIT_NCF!U58",
+      "cached_value": "Disc. Pay Back Period",
+      "number_format": "General"
+    },
+    {
+      "cell": "G6",
+      "formula": "=Project_NCF!AJ51",
+      "cached_value": "5.13925728744526",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "H6",
+      "formula": "=CIT_NCF!W58",
+      "cached_value": "Years",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I6",
+      "formula": "='RESULTS Equity'!C6",
+      "cached_value": "New Acreage",
+      "number_format": "General"
+    },
+    {
+      "cell": "F7",
+      "formula": "=CIT_NCF!U59",
+      "cached_value": "NPV",
+      "number_format": "General"
+    },
+    {
+      "cell": "G7",
+      "formula": "=Ec_IO!T7",
+      "cached_value": "78.0891606587929",
+      "number_format": "[$$-409]#,##0.00_);[Red]\\([$$-409]#,##0.00\\)"
+    },
+    {
+      "cell": "H7",
+      "formula": "=CIT_NCF!W59",
+      "cached_value": "Million",
+      "number_format": "[$$-409]#,##0.00_);[Red]\\([$$-409]#,##0.00\\)"
+    },
+    {
+      "cell": "I7",
+      "formula": "='RESULTS Equity'!C7",
+      "cached_value": "Shallow Water (<200m water depth)",
+      "number_format": "General"
+    },
+    {
+      "cell": "N7",
+      "formula": "=Ec_IO!C15",
+      "cached_value": "0.15",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "P7",
+      "formula": "=HT_NCF_Oil!AS51",
+      "cached_value": "75.9402489464068",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "Q7",
+      "formula": "=HT_NCF_Oil!AT51",
+      "cached_value": "149.322861107133",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "S7",
+      "formula": "=Project_NCF!AG51",
+      "cached_value": "149.557072245101",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "T7",
+      "formula": "=Project_NCF!AH51",
+      "cached_value": "78.0891606587929",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G8",
+      "formula": "=Ec_IO!T11",
+      "cached_value": "0.165388086566337",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "I8",
+      "formula": "=\"Equity Share = 100%\"",
+      "cached_value": "Equity Share = 100%",
+      "number_format": "General"
+    },
+    {
+      "cell": "Q8",
+      "formula": "=HT_NCF_Oil!AS59",
+      "cached_value": "0",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "T8",
+      "formula": "=Project_NCF!AG58",
+      "cached_value": "0.348601049838934",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "G9",
+      "formula": "=Ec_IO!T9",
+      "cached_value": "0.220649580756165",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "Q9",
+      "formula": "=Q7/N18",
+      "cached_value": "0.421928298660614",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "T9",
+      "formula": "=T7/N18",
+      "cached_value": "0.220649580756165",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "G10",
+      "formula": "=Ec_IO!T10",
+      "cached_value": "1.22064958075617",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "Q10",
+      "formula": "=1+Q9",
+      "cached_value": "1.42192829866061",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "T10",
+      "formula": "=1+T9",
+      "cached_value": "1.22064958075617",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "G11",
+      "formula": "=FLGT!AM51",
+      "cached_value": "0.0542803358903504",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "Q11",
+      "formula": "=Q10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "cached_value": "0.177306893215605",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "T11",
+      "formula": "=T10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "cached_value": "0.165388086566337",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "G12",
+      "formula": "=Ec_IO!N15",
+      "cached_value": "0.187137050702524",
+      "number_format": "0.00000"
+    },
+    {
+      "cell": "P12",
+      "formula": "=HT_NCF_Oil!AQ51/(HT_NCF_Oil!AQ51+HT_NCF_Oil!AR51)",
+      "cached_value": "0.275365415622534",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "Q12",
+      "formula": "=1-P12",
+      "cached_value": "0.724634584377466",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "S12",
+      "formula": "=Project_NCF!AE51/(Project_NCF!AE51+Project_NCF!AF51)",
+      "cached_value": "0.553408247477352",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "T12",
+      "formula": "=1-S12",
+      "cached_value": "0.446591752522648",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "C13",
+      "formula": "=IF(C14=0%,\"Real\",\"Nominal\")",
+      "cached_value": "Real",
+      "number_format": "0.00"
+    },
+    {
+      "cell": "G13",
+      "formula": "=1-G11",
+      "cached_value": "0.94571966410965",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "P13",
+      "formula": "=P7/(P7+Q7)",
+      "cached_value": "0.337117999162658",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "Q13",
+      "formula": "=1-P13",
+      "cached_value": "0.662882000837342",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "S13",
+      "formula": "=S7/(S7+T7)",
+      "cached_value": "0.656971434744716",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "T13",
+      "formula": "=1-S13",
+      "cached_value": "0.343028565255284",
+      "number_format": "0.0%"
+    },
+    {
+      "cell": "G14",
+      "formula": "=Project_NCF!AB51+Project_NCF!AC51+Project_NCF!AD51",
+      "cached_value": "217.297509794054",
+      "number_format": "[$$-409]#,##0.00_);[Red]\\([$$-409]#,##0.00\\)"
+    },
+    {
+      "cell": "Q14",
+      "formula": "=HT_NCF_Oil!AV51",
+      "cached_value": "3.39443793901067",
+      "number_format": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "T14",
+      "formula": "=Project_NCF!AJ51",
+      "cached_value": "5.13925728744526",
+      "number_format": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G15",
+      "formula": "=FLGT!AB51+FLGT!AC51+FLGT!AD51",
+      "cached_value": "62.6896964774657",
+      "number_format": "[$$-409]#,##0.00_);[Red]\\([$$-409]#,##0.00\\)"
+    },
+    {
+      "cell": "N15",
+      "formula": "=S13/S12-1",
+      "cached_value": "0.187137050702524",
+      "number_format": "0.00000"
+    },
+    {
+      "cell": "M16",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of OPEX, $MM\"",
+      "cached_value": "PV@15.0% of OPEX, $MM",
+      "number_format": "0%"
+    },
+    {
+      "cell": "N16",
+      "formula": "=Cap_Allow!FL48+'Cap_Allow Gas'!FL48",
+      "cached_value": "211.002839827046",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P16",
+      "formula": "=FLGT!W51",
+      "cached_value": "1099.88947281873",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S16",
+      "formula": "=Cap_Allow!FI48+'Cap_Allow Gas'!FI48",
+      "cached_value": "418.203330356603",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "M17",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of CAPEX, $MM\"",
+      "cached_value": "PV@15.0% of CAPEX, $MM",
+      "number_format": "General"
+    },
+    {
+      "cell": "N17",
+      "formula": "=Cap_Allow!FK48+'Cap_Allow Gas'!FK48",
+      "cached_value": "142.902934166187",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P17",
+      "formula": "=FLGT!X51",
+      "cached_value": "55.0351504205685",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S17",
+      "formula": "=Cap_Allow!FP48+Cap_Allow!FQ48+'Cap_Allow Gas'!FP48+'Cap_Allow Gas'!FQ48",
+      "cached_value": "175",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "M18",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of TC, $MM\"",
+      "cached_value": "PV@15.0% of TC, $MM",
+      "number_format": "General"
+    },
+    {
+      "cell": "N18",
+      "formula": "=N16+N17",
+      "cached_value": "353.905773993233",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P18",
+      "formula": "=SUM(P16:P17)",
+      "cached_value": "1154.9246232393",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S18",
+      "formula": "=S16+S17",
+      "cached_value": "593.203330356603",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G19",
+      "formula": "=G18",
+      "cached_value": "Ebiya Field",
+      "number_format": "General"
+    },
+    {
+      "cell": "N19",
+      "formula": "=N16/Prod_Summary!$Y$50",
+      "cached_value": "8.00847019384067",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S19",
+      "formula": "=S16/Prod_Summary!$Y$50",
+      "cached_value": "15.8726247896521",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "N20",
+      "formula": "=N17/Prod_Summary!$Y$50",
+      "cached_value": "5.42378429513249",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S20",
+      "formula": "=S17/Prod_Summary!$Y$50",
+      "cached_value": "6.64200673825471",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "N21",
+      "formula": "=N18/Prod_Summary!$Y$50",
+      "cached_value": "13.4322544889732",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "S21",
+      "formula": "=S18/Prod_Summary!$Y$50",
+      "cached_value": "22.5146315279068",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "D22",
+      "formula": "=E29",
+      "cached_value": "2042",
+      "number_format": "0"
+    },
+    {
+      "cell": "N22",
+      "formula": "=FLGT!AB51",
+      "cached_value": "61.3138177169515",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P22",
+      "formula": "=Project_NCF!AD51",
+      "cached_value": "42.0829559477558",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "T22",
+      "formula": "=Prod_Summary!V47",
+      "cached_value": "21.9977894563747",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G23",
+      "formula": "=G18",
+      "cached_value": "Ebiya Field",
+      "number_format": "General"
+    },
+    {
+      "cell": "N23",
+      "formula": "=FLGT!AC51",
+      "cached_value": "1.37587876051421",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P23",
+      "formula": "=Project_NCF!AB51",
+      "cached_value": "148.760486089522",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "S23",
+      "formula": "=\"(\"&TEXT(Prod_Summary!Y47,\"0.00\")&\" Bscf\"&\")\"",
+      "cached_value": "(25.25 Bscf)",
+      "number_format": "General"
+    },
+    {
+      "cell": "T23",
+      "formula": "=Prod_Summary!Y49",
+      "cached_value": "4.34966951142272",
+      "number_format": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "N24",
+      "formula": "=FLGT!AD51",
+      "cached_value": "0",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P24",
+      "formula": "=Project_NCF!AC51",
+      "cached_value": "26.4540677567758",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "T24",
+      "formula": "=T22+T23",
+      "cached_value": "26.3474589677974",
+      "number_format": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "N25",
+      "formula": "=SUM(N22:N24)",
+      "cached_value": "62.6896964774657",
+      "number_format": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P25",
+      "formula": "=SUM(P22:P24)",
+      "cached_value": "217.297509794054",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "N26",
+      "formula": "=FLGT!AM51",
+      "cached_value": "0.0542803358903504",
+      "number_format": "0.00%"
+    },
+    {
+      "cell": "E28",
+      "formula": "=C5-1",
+      "cached_value": "2026",
+      "number_format": "General"
+    },
+    {
+      "cell": "D29",
+      "formula": "=E28+1",
+      "cached_value": "2027",
+      "number_format": "General"
+    },
+    {
+      "cell": "E29",
+      "formula": "=C5+C6",
+      "cached_value": "2042",
+      "number_format": "0"
+    },
+    {
+      "cell": "E30",
+      "formula": "=D22",
+      "cached_value": "2042",
+      "number_format": "General"
+    },
+    {
+      "cell": "D68",
+      "formula": "=T7",
+      "cached_value": "78.0891606587929",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F68",
+      "formula": "=T14",
+      "cached_value": "5.13925728744526",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E69",
+      "formula": "=C69",
+      "cached_value": "20",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E70",
+      "formula": "=C70",
+      "cached_value": "25",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E71",
+      "formula": "=C71",
+      "cached_value": "30",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E72",
+      "formula": "=C72",
+      "cached_value": "35",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E73",
+      "formula": "=C73",
+      "cached_value": "40",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E74",
+      "formula": "=C74",
+      "cached_value": "45",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E75",
+      "formula": "=C75",
+      "cached_value": "50",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E76",
+      "formula": "=C76",
+      "cached_value": "55",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E77",
+      "formula": "=C77",
+      "cached_value": "60",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E78",
+      "formula": "=C78",
+      "cached_value": "65",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E79",
+      "formula": "=C79",
+      "cached_value": "70",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E81",
+      "formula": "=T7",
+      "cached_value": "78.0891606587929",
+      "number_format": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    }
+  ],
+  "cp_map": {
+    "C5": {
+      "value": "2027",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Project Start Year | Forecast",
+      "evidence": "Year-like integer; labels=project start year forecast"
+    },
+    "C7": {
+      "value": "365",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Production days in a year | Forecast",
+      "evidence": "Economic magnitude with label; labels=production days in a year forecast"
+    },
+    "C12": {
+      "value": "50",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Crude Oil Price, $/bbl | NA",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C14": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Escalator | NA",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "C15": {
+      "value": "0.15",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Hurdle Rate | NA",
+      "evidence": "Fractional with label/DV; labels=hurdle rate na"
+    },
+    "C17": {
+      "value": "2.18",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Gas Price, $/Mscf",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C18": {
+      "value": "0.5",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Gas Flare Penalty, $/Mscf",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "C19": {
+      "value": "0.5",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Dom_Gas",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "C20": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Duties",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "C21": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "VAT",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "C22": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Asset Salvage Value, % of Retention for Decom.",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "C23": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NAG CRL",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "C24": {
+      "value": "0.1",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NAG ITA",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "C25": {
+      "value": "0.005",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "NAG Min. Tax Rate",
+      "evidence": "Fractional with label/DV; labels=nag min. tax rate"
+    },
+    "C26": {
+      "value": "0",
+      "classification": "DEFAULT_STRUCTURAL_VALUE",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NAG CPR",
+      "evidence": "Zero literal; not INPUT without further evidence"
+    },
+    "D28": {
+      "value": "2002",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "History",
+      "evidence": "Year-like integer; labels=history"
+    },
+    "D30": {
+      "value": "2002",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Complete",
+      "evidence": "Year-like integer; labels=complete"
+    },
+    "C69": {
+      "value": "20",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C70": {
+      "value": "25",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D70": {
+      "value": "-89.220259678857",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "NPV, $mm",
+      "evidence": "Economic magnitude with label; labels=npv, $mm"
+    },
+    "F70": {
+      "value": "16",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Disc. Payout, Yrs",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C71": {
+      "value": "30",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D71": {
+      "value": "-48.3765211577222",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "NPV, $mm",
+      "evidence": "Economic magnitude with label; labels=npv, $mm"
+    },
+    "F71": {
+      "value": "16",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Disc. Payout, Yrs",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C72": {
+      "value": "35",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D72": {
+      "value": "-12.8401152080522",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "NPV, $mm",
+      "evidence": "Economic magnitude with label; labels=npv, $mm"
+    },
+    "F72": {
+      "value": "16",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Disc. Payout, Yrs",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C73": {
+      "value": "40",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D73": {
+      "value": "18.9616663054227",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NPV, $mm",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "F73": {
+      "value": "7.35139956586427",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Disc. Payout, Yrs",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C74": {
+      "value": "45",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "Oil Price, $/bbl",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D74": {
+      "value": "48.4026179584651",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "F74": {
+      "value": "5.86150831155389",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C75": {
+      "value": "50",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D75": {
+      "value": "78.0891606587929",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "F75": {
+      "value": "5.13925728744526",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C76": {
+      "value": "55",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D76": {
+      "value": "104.298805951977",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "F76": {
+      "value": "3.77381266172407",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C77": {
+      "value": "60",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D77": {
+      "value": "130.260055363186",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "F77": {
+      "value": "3.51473757975241",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C78": {
+      "value": "65",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D78": {
+      "value": "155.939233690556",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "F78": {
+      "value": "3.29834878375621",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "C79": {
+      "value": "70",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D79": {
+      "value": "181.395638559108",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "F79": {
+      "value": "3.11401062104188",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D82": {
+      "value": "0.05",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Rate",
+      "evidence": "Fractional with label/DV; labels=rate"
+    },
+    "D83": {
+      "value": "0.075",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Rate",
+      "evidence": "Fractional with label/DV; labels=rate"
+    },
+    "E83": {
+      "value": "142.521927428062",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NPV",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D84": {
+      "value": "0.1",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Rate",
+      "evidence": "Fractional with label/DV; labels=rate"
+    },
+    "E84": {
+      "value": "117.426031435895",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NPV",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D85": {
+      "value": "0.125",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Rate",
+      "evidence": "Fractional with label/DV; labels=rate"
+    },
+    "E85": {
+      "value": "96.1751839710722",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NPV",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D86": {
+      "value": "0.15",
+      "classification": "ASSUMPTION",
+      "understanding": "UNDERSTOOD",
+      "nearby_labels": "Rate",
+      "evidence": "Fractional with label/DV; labels=rate"
+    },
+    "E86": {
+      "value": "78.0891606587929",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "NPV",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D87": {
+      "value": "0.175",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E87": {
+      "value": "62.6252214158992",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D88": {
+      "value": "0.2",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E88": {
+      "value": "49.3470941375003",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D89": {
+      "value": "0.225",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E89": {
+      "value": "37.9016185025435",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D90": {
+      "value": "0.25",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E90": {
+      "value": "28.0010093238785",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D91": {
+      "value": "0.275",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E91": {
+      "value": "19.4092786339426",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D92": {
+      "value": "0.3",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E92": {
+      "value": "11.9317612933976",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D93": {
+      "value": "0.325",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E93": {
+      "value": "5.40697528565144",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric 1-100 role unclear"
+    },
+    "D94": {
+      "value": "0.35",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E94": {
+      "value": "-0.299748143119898",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "No evidence-based class"
+    },
+    "D95": {
+      "value": "0.375",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E95": {
+      "value": "-5.30128278186981",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D96": {
+      "value": "0.4",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E96": {
+      "value": "-9.69268631793874",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D97": {
+      "value": "0.425",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E97": {
+      "value": "-13.5543743930911",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D98": {
+      "value": "0.45",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E98": {
+      "value": "-16.9546674699772",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D99": {
+      "value": "0.475",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E99": {
+      "value": "-19.9518458828025",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    },
+    "D100": {
+      "value": "0.5",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Fractional literal without strong input evidence"
+    },
+    "E100": {
+      "value": "-22.5958169230492",
+      "classification": "UNRESOLVED",
+      "understanding": "EXTRACTED",
+      "nearby_labels": "",
+      "evidence": "Numeric magnitude; role unclear without further evidence"
+    }
+  },
+  "gtc_inputs": [
+    {
+      "cell": "B1",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "DASHBOARD",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R2",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!G25",
+      "value": "Nigeria",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A3",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "MODEL NAVIGATION",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B3",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "INPUT ASSUMPTIONS ",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F3",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!U55",
+      "value": "IRR",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "G3",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T8",
+      "value": "0.348601049838934",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "R3",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!G26",
+      "value": "PIA 2021",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A4",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Master",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B4",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Asset Analysis Type",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C4",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Forecast",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F4",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!U56",
+      "value": "Disc. Host Govt Take",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "G4",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!S13",
+      "value": "0.656971434744716",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Fiscal Terms_PIA",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Project Start Year",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C5",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "2027",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F5",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!U57",
+      "value": "Disc. Contractor Take",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "G5",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T13",
+      "value": "0.343028565255284",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "I5",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!G23",
+      "value": "Ebiya Field",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Metric Systems Measures",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Host Govt.  BIT $ MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Contractor    BIT $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R5",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!G24",
+      "value": "PSC/SC",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "S5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Host Govt.  AIT $ MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "T5",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Contractor    AIT $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "A6",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "OML 123_Oil",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B6",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Project Life ",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C6",
+      "cell_class": "formula",
+      "formula": "=Prod_Summary!AF26",
+      "value": "15",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F6",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!U58",
+      "value": "Disc. Pay Back Period",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "G6",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AJ51",
+      "value": "5.13925728744526",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "H6",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!W58",
+      "value": "Years",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "I6",
+      "cell_class": "formula",
+      "formula": "='RESULTS Equity'!C6",
+      "value": "New Acreage",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A7",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "OML 123_Gas",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B7",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Production days in a year",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C7",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "365",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F7",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!U59",
+      "value": "NPV",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "G7",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T7",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "H7",
+      "cell_class": "formula",
+      "formula": "=CIT_NCF!W59",
+      "value": "Million",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "I7",
+      "cell_class": "formula",
+      "formula": "='RESULTS Equity'!C7",
+      "value": "Shallow Water (<200m water depth)",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M7",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Net Present Value @",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N7",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!C15",
+      "value": "0.15",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "P7",
+      "cell_class": "formula",
+      "formula": "=HT_NCF_Oil!AS51",
+      "value": "75.9402489464068",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q7",
+      "cell_class": "formula",
+      "formula": "=HT_NCF_Oil!AT51",
+      "value": "149.322861107133",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "S7",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AG51",
+      "value": "149.557072245101",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T7",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AH51",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A8",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "OML 123_Oil_S1",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B8",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Annual Production Level",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C8",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NA",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F8",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "GRR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G8",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T11",
+      "value": "0.165388086566337",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "I8",
+      "cell_class": "formula",
+      "formula": "=\"Equity Share = 100%\"",
+      "value": "Equity Share = 100%",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M8",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Internal Rate of Return",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q8",
+      "cell_class": "formula",
+      "formula": "=HT_NCF_Oil!AS59",
+      "value": "0",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T8",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AG58",
+      "value": "0.348601049838934",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A9",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Production Profile_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B9",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Injection wrt Production",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C9",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NA",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F9",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PVR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G9",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T9",
+      "value": "0.220649580756165",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M9",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Present Value Ratio",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q9",
+      "cell_class": "formula",
+      "formula": "=Q7/N18",
+      "value": "0.421928298660614",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T9",
+      "cell_class": "formula",
+      "formula": "=T7/N18",
+      "value": "0.220649580756165",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A10",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "OML 123_COST",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B10",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Average Line Losses",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C10",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NA",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F10",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PI",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G10",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!T10",
+      "value": "1.22064958075617",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M10",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Profitability Index",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q10",
+      "cell_class": "formula",
+      "formula": "=1+Q9",
+      "value": "1.42192829866061",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T10",
+      "cell_class": "formula",
+      "formula": "=1+T9",
+      "value": "1.22064958075617",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A11",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Royalties_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B11",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "BASE CASE ECONOMIC & FISCAL INPUTS",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F11",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "ERR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G11",
+      "cell_class": "formula",
+      "formula": "=FLGT!AM51",
+      "value": "0.0542803358903504",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M11",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Growth Rate of Return",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q11",
+      "cell_class": "formula",
+      "formula": "=Q10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "value": "0.177306893215605",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T11",
+      "cell_class": "formula",
+      "formula": "=T10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "value": "0.165388086566337",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A12",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "FLGT_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B12",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Crude Oil Price, $/bbl",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C12",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "50",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F12",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "FLI",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G12",
+      "cell_class": "formula",
+      "formula": "=Ec_IO!N15",
+      "value": "0.187137050702524",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M12",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Undiscounted Take Statistics",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P12",
+      "cell_class": "formula",
+      "formula": "=HT_NCF_Oil!AQ51/(HT_NCF_Oil!AQ51+HT_NCF_Oil!AR51)",
+      "value": "0.275365415622534",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q12",
+      "cell_class": "formula",
+      "formula": "=1-P12",
+      "value": "0.724634584377466",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "S12",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AE51/(Project_NCF!AE51+Project_NCF!AF51)",
+      "value": "0.553408247477352",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T12",
+      "cell_class": "formula",
+      "formula": "=1-S12",
+      "value": "0.446591752522648",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A13",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Capital Allowance_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B13",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Price Format",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C13",
+      "cell_class": "formula",
+      "formula": "=IF(C14=0%,\"Real\",\"Nominal\")",
+      "value": "Real",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F13",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "AGR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G13",
+      "cell_class": "formula",
+      "formula": "=1-G11",
+      "value": "0.94571966410965",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M13",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Discounted Take Statistics",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P13",
+      "cell_class": "formula",
+      "formula": "=P7/(P7+Q7)",
+      "value": "0.337117999162658",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q13",
+      "cell_class": "formula",
+      "formula": "=1-P13",
+      "value": "0.662882000837342",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "S13",
+      "cell_class": "formula",
+      "formula": "=S7/(S7+T7)",
+      "value": "0.656971434744716",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T13",
+      "cell_class": "formula",
+      "formula": "=1-S13",
+      "value": "0.343028565255284",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A14",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "CR Economics_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B14",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Escalator",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C14",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F14",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Tax",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G14",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AB51+Project_NCF!AC51+Project_NCF!AD51",
+      "value": "217.297509794054",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "H14",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Million",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M14",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Disc. Payout Period, Years",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "Q14",
+      "cell_class": "formula",
+      "formula": "=HT_NCF_Oil!AV51",
+      "value": "3.39443793901067",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T14",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AJ51",
+      "value": "5.13925728744526",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A15",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "B4ITx_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B15",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Hurdle Rate",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C15",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.15",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F15",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Royalties",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G15",
+      "cell_class": "formula",
+      "formula": "=FLGT!AB51+FLGT!AC51+FLGT!AD51",
+      "value": "62.6896964774657",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "H15",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Million",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M15",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Front End Loading Index, FLI",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N15",
+      "cell_class": "formula",
+      "formula": "=S13/S12-1",
+      "value": "0.187137050702524",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "AITx_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Discount Period",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "                                                                                                                                                                                       ",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M16",
+      "cell_class": "formula",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of OPEX, $MM\"",
+      "value": "PV@15.0% of OPEX, $MM",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "N16",
+      "cell_class": "formula",
+      "formula": "=Cap_Allow!FL48+'Cap_Allow Gas'!FL48",
+      "value": "211.002839827046",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Oil Revenue",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P16",
+      "cell_class": "formula",
+      "formula": "=FLGT!W51",
+      "value": "1099.88947281873",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R16",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of OPEX, $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S16",
+      "cell_class": "formula",
+      "formula": "=Cap_Allow!FI48+'Cap_Allow Gas'!FI48",
+      "value": "418.203330356603",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "A17",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "RESULTS_123",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B17",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Price, $/Mscf",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C17",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "2.18",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "M17",
+      "cell_class": "formula",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of CAPEX, $MM\"",
+      "value": "PV@15.0% of CAPEX, $MM",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "N17",
+      "cell_class": "formula",
+      "formula": "=Cap_Allow!FK48+'Cap_Allow Gas'!FK48",
+      "value": "142.902934166187",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O17",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Revenue",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P17",
+      "cell_class": "formula",
+      "formula": "=FLGT!X51",
+      "value": "55.0351504205685",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q17",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R17",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of CAPEX, $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S17",
+      "cell_class": "formula",
+      "formula": "=Cap_Allow!FP48+Cap_Allow!FQ48+'Cap_Allow Gas'!FP48+'Cap_Allow Gas'!FQ48",
+      "value": "175",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Flare Penalty, $/Mscf",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C18",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.5",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Block/Field (Oil)",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Ebiya Field",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M18",
+      "cell_class": "formula",
+      "formula": "=\"PV@\"&TEXT($N$7,\"0.0%\")&\" of TC, $MM\"",
+      "value": "PV@15.0% of TC, $MM",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "N18",
+      "cell_class": "formula",
+      "formula": "=N16+N17",
+      "value": "353.905773993233",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gross Revenue",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P18",
+      "cell_class": "formula",
+      "formula": "=SUM(P16:P17)",
+      "value": "1154.9246232393",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R18",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of TC, $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S18",
+      "cell_class": "formula",
+      "formula": "=S16+S17",
+      "value": "593.203330356603",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B19",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Dom_Gas",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C19",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.5",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F19",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Block/Field (Gas)",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G19",
+      "cell_class": "formula",
+      "formula": "=G18",
+      "value": "Ebiya Field",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M19",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit CAPEX, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N19",
+      "cell_class": "formula",
+      "formula": "=N16/Prod_Summary!$Y$50",
+      "value": "8.00847019384067",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "R19",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit CAPEX, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S19",
+      "cell_class": "formula",
+      "formula": "=S16/Prod_Summary!$Y$50",
+      "value": "15.8726247896521",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B20",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Duties",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C20",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F20",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Terrain",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G20",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Shallow Water (<200m water depth)",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M20",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit OPEX, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N20",
+      "cell_class": "formula",
+      "formula": "=N17/Prod_Summary!$Y$50",
+      "value": "5.42378429513249",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "R20",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit OPEX, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S20",
+      "cell_class": "formula",
+      "formula": "=S17/Prod_Summary!$Y$50",
+      "value": "6.64200673825471",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B21",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "VAT",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C21",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F21",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Utilization",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G21",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "In-Country (Dom Gas)",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M21",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit Technical Cost, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N21",
+      "cell_class": "formula",
+      "formula": "=N18/Prod_Summary!$Y$50",
+      "value": "13.4322544889732",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "R21",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Unit Technical Cost, S/Boe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S21",
+      "cell_class": "formula",
+      "formula": "=S18/Prod_Summary!$Y$50",
+      "value": "22.5146315279068",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Asset Salvage Value, % of Retention for Decom.",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C22",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D22",
+      "cell_class": "formula",
+      "formula": "=E29",
+      "value": "2042",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Licence/Lease Status",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "New Acreage",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Oil Royalty, $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N22",
+      "cell_class": "formula",
+      "formula": "=FLGT!AB51",
+      "value": "61.3138177169515",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "HT",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P22",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AD51",
+      "value": "42.0829559477558",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R22",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Oil Production, MMbbls",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "T22",
+      "cell_class": "formula",
+      "formula": "=Prod_Summary!V47",
+      "value": "21.9977894563747",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NAG CRL",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C23",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Cost Mode",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G23",
+      "cell_class": "formula",
+      "formula": "=G18",
+      "value": "Ebiya Field",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "M23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Royalty, $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N23",
+      "cell_class": "formula",
+      "formula": "=FLGT!AC51",
+      "value": "1.37587876051421",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "CIT",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P23",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AB51",
+      "value": "148.760486089522",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R23",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Gas Production, Mmboe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "S23",
+      "cell_class": "formula",
+      "formula": "=\"(\"&TEXT(Prod_Summary!Y47,\"0.00\")&\" Bscf\"&\")\"",
+      "value": "(25.25 Bscf)",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "T23",
+      "cell_class": "formula",
+      "formula": "=Prod_Summary!Y49",
+      "value": "4.34966951142272",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NAG ITA",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C24",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.1",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PFS",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PSC/SC",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Price Royalty,  $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N24",
+      "cell_class": "formula",
+      "formula": "=FLGT!AD51",
+      "value": "0",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Etx",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P24",
+      "cell_class": "formula",
+      "formula": "=Project_NCF!AC51",
+      "value": "26.4540677567758",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "R24",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Total Production, Mmboe",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "T24",
+      "cell_class": "formula",
+      "formula": "=T22+T23",
+      "value": "26.3474589677974",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "B25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NAG Min. Tax Rate",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C25",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.005",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Country",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Nigeria",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Total Royalty  $MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N25",
+      "cell_class": "formula",
+      "formula": "=SUM(N22:N24)",
+      "value": "62.6896964774657",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "O25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Total",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "P25",
+      "cell_class": "formula",
+      "formula": "=SUM(P22:P24)",
+      "value": "217.297509794054",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "Q25",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "B26",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NAG CPR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C26",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "F26",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Fiscal Regime",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "G26",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "PIA 2021",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "M26",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "ERR",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "N26",
+      "cell_class": "formula",
+      "formula": "=FLGT!AM51",
+      "value": "0.0542803358903504",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "C28",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "History",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "D28",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "2002",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E28",
+      "cell_class": "formula",
+      "formula": "=C5-1",
+      "value": "2026",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "C29",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Forecast",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "D29",
+      "cell_class": "formula",
+      "formula": "=E28+1",
+      "value": "2027",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "E29",
+      "cell_class": "formula",
+      "formula": "=C5+C6",
+      "value": "2042",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "C30",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Complete",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "D30",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "2002",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E30",
+      "cell_class": "formula",
+      "formula": "=D22",
+      "value": "2042",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "D67",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NPV, $mm",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F67",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Disc. Payout, Yrs",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "C68",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Oil Price, $/bbl",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "D68",
+      "cell_class": "formula",
+      "formula": "=T7",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "E68",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Oil Price, $/bbl",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "F68",
+      "cell_class": "formula",
+      "formula": "=T14",
+      "value": "5.13925728744526",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "C69",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "20",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D69",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x0000020267AC9E20>",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E69",
+      "cell_class": "formula",
+      "formula": "=C69",
+      "value": "20",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F69",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x0000020267AC9F10>",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C70",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "25",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D70",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-89.220259678857",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E70",
+      "cell_class": "formula",
+      "formula": "=C70",
+      "value": "25",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F70",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "16",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C71",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "30",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D71",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-48.3765211577222",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E71",
+      "cell_class": "formula",
+      "formula": "=C71",
+      "value": "30",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F71",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "16",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C72",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "35",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D72",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-12.8401152080522",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E72",
+      "cell_class": "formula",
+      "formula": "=C72",
+      "value": "35",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F72",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "16",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C73",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "40",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D73",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "18.9616663054227",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E73",
+      "cell_class": "formula",
+      "formula": "=C73",
+      "value": "40",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F73",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "7.35139956586427",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C74",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "45",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D74",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "48.4026179584651",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E74",
+      "cell_class": "formula",
+      "formula": "=C74",
+      "value": "45",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F74",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "5.86150831155389",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C75",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "50",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D75",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E75",
+      "cell_class": "formula",
+      "formula": "=C75",
+      "value": "50",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F75",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "5.13925728744526",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C76",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "55",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D76",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "104.298805951977",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E76",
+      "cell_class": "formula",
+      "formula": "=C76",
+      "value": "55",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F76",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "3.77381266172407",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C77",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "60",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D77",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "130.260055363186",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E77",
+      "cell_class": "formula",
+      "formula": "=C77",
+      "value": "60",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F77",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "3.51473757975241",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C78",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "65",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D78",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "155.939233690556",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E78",
+      "cell_class": "formula",
+      "formula": "=C78",
+      "value": "65",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F78",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "3.29834878375621",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "C79",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "70",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D79",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "181.395638559108",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E79",
+      "cell_class": "formula",
+      "formula": "=C79",
+      "value": "70",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "F79",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "3.11401062104188",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D80",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "Rate",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "E80",
+      "cell_class": "label_or_text",
+      "formula": "",
+      "value": "NPV",
+      "role": "Ec_IO_label"
+    },
+    {
+      "cell": "E81",
+      "cell_class": "formula",
+      "formula": "=T7",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_formula"
+    },
+    {
+      "cell": "D82",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.05",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E82",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "<openpyxl.worksheet.formula.DataTableFormula object at 0x0000020267B94A70>",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D83",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.075",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E83",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "142.521927428062",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D84",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.1",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E84",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "117.426031435895",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D85",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.125",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E85",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "96.1751839710722",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D86",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.15",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E86",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "78.0891606587929",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D87",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.175",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E87",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "62.6252214158992",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D88",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.2",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E88",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "49.3470941375003",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D89",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.225",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E89",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "37.9016185025435",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D90",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.25",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E90",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "28.0010093238785",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D91",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.275",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E91",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "19.4092786339426",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D92",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.3",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E92",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "11.9317612933976",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D93",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.325",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E93",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "5.40697528565144",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D94",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.35",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E94",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-0.299748143119898",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D95",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.375",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E95",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-5.30128278186981",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D96",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.4",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E96",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-9.69268631793874",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D97",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.425",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E97",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-13.5543743930911",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D98",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.45",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E98",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-16.9546674699772",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D99",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.475",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E99",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-19.9518458828025",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "D100",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "0.5",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    },
+    {
+      "cell": "E100",
+      "cell_class": "constant_or_input_value",
+      "formula": "",
+      "value": "-22.5958169230492",
+      "role": "Ec_IO_literal_candidate_unclassified"
+    }
+  ],
+  "kpis": [],
+  "equity_dash_key_cells": [
+    {
+      "cell": "B3",
+      "class": "label_or_text",
+      "value": "EQUITY HOLDING",
+      "formula": ""
+    },
+    {
+      "cell": "A4",
+      "class": "label_or_text",
+      "value": "Acquisition",
+      "formula": ""
+    },
+    {
+      "cell": "B4",
+      "class": "label_or_text",
+      "value": "Company 1",
+      "formula": ""
+    },
+    {
+      "cell": "C4",
+      "class": "constant_or_input_value",
+      "value": "0.49",
+      "formula": ""
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "value": "0.51",
+      "formula": "=C6-C4"
+    },
+    {
+      "cell": "C6",
+      "class": "constant_or_input_value",
+      "value": "1",
+      "formula": ""
+    },
+    {
+      "cell": "A8",
+      "class": "label_or_text",
+      "value": "Equity",
+      "formula": ""
+    }
+  ],
+  "consumer_sheets_from_edges": {
+    "Cap_Allow": [
+      1
+    ],
+    "Cap_Allow Gas": [
+      1
+    ],
+    "Project_NCF_Con": [
+      1
+    ],
+    "HT_NCF_Oil": [
+      1
+    ],
+    "HT_NCF_Oil Equity": [
+      1
+    ],
+    "CIT_NCF": [
+      1
+    ],
+    "Block_TC": [
+      1
+    ],
+    "Block_TC_Gas": [
+      1
+    ],
+    "CIT_NCF_Oil Equity": [
+      1
+    ],
+    "Project_NCF_Con (2)": [
+      1
+    ],
+    "Royalties": [
+      1
+    ],
+    "CIT_NCF_Oil": [
+      1
+    ],
+    "Equity_NCF_Con": [
+      1
+    ],
+    "HT_NCF": [
+      1
+    ],
+    "CIT_NCF_Gas": [
+      1
+    ],
+    "CIT_NCF_Gas Equity": [
+      1
+    ],
+    "Prod_Summary": [
+      1
+    ],
+    "CR Econ": [
+      1
+    ],
+    "Block_Oil Data": [
+      1
+    ],
+    "Block_Gas Data": [
+      1
+    ],
+    "FLGT": [
+      1
+    ],
+    "RESULTS Equity": [
+      1
+    ],
+    "Analysis": [
+      1
+    ],
+    "Oil Input": [
+      1
+    ]
+  },
+  "label_snapshot": [
+    {
+      "cell": "B1",
+      "value": "DASHBOARD"
+    },
+    {
+      "cell": "A3",
+      "value": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "B3",
+      "value": "INPUT ASSUMPTIONS "
+    },
+    {
+      "cell": "A4",
+      "value": "Master"
+    },
+    {
+      "cell": "B4",
+      "value": "Asset Analysis Type"
+    },
+    {
+      "cell": "C4",
+      "value": "Forecast"
+    },
+    {
+      "cell": "A5",
+      "value": "Fiscal Terms_PIA"
+    },
+    {
+      "cell": "B5",
+      "value": "Project Start Year"
+    },
+    {
+      "cell": "M5",
+      "value": "Metric Systems Measures"
+    },
+    {
+      "cell": "P5",
+      "value": "Host Govt.  BIT $ MM"
+    },
+    {
+      "cell": "Q5",
+      "value": "Contractor    BIT $MM"
+    },
+    {
+      "cell": "S5",
+      "value": "Host Govt.  AIT $ MM"
+    },
+    {
+      "cell": "T5",
+      "value": "Contractor    AIT $MM"
+    },
+    {
+      "cell": "A6",
+      "value": "OML 123_Oil"
+    },
+    {
+      "cell": "B6",
+      "value": "Project Life "
+    },
+    {
+      "cell": "A7",
+      "value": "OML 123_Gas"
+    },
+    {
+      "cell": "B7",
+      "value": "Production days in a year"
+    },
+    {
+      "cell": "M7",
+      "value": "Net Present Value @"
+    },
+    {
+      "cell": "A8",
+      "value": "OML 123_Oil_S1"
+    },
+    {
+      "cell": "B8",
+      "value": "Annual Production Level"
+    },
+    {
+      "cell": "C8",
+      "value": "NA"
+    },
+    {
+      "cell": "F8",
+      "value": "GRR"
+    },
+    {
+      "cell": "M8",
+      "value": "Internal Rate of Return"
+    },
+    {
+      "cell": "A9",
+      "value": "Production Profile_123"
+    },
+    {
+      "cell": "B9",
+      "value": "Injection wrt Production"
+    },
+    {
+      "cell": "C9",
+      "value": "NA"
+    },
+    {
+      "cell": "F9",
+      "value": "PVR"
+    },
+    {
+      "cell": "M9",
+      "value": "Present Value Ratio"
+    },
+    {
+      "cell": "A10",
+      "value": "OML 123_COST"
+    },
+    {
+      "cell": "B10",
+      "value": "Average Line Losses"
+    },
+    {
+      "cell": "C10",
+      "value": "NA"
+    },
+    {
+      "cell": "F10",
+      "value": "PI"
+    },
+    {
+      "cell": "M10",
+      "value": "Profitability Index"
+    },
+    {
+      "cell": "A11",
+      "value": "Royalties_123"
+    },
+    {
+      "cell": "B11",
+      "value": "BASE CASE ECONOMIC & FISCAL INPUTS"
+    },
+    {
+      "cell": "F11",
+      "value": "ERR"
+    },
+    {
+      "cell": "M11",
+      "value": "Growth Rate of Return"
+    },
+    {
+      "cell": "A12",
+      "value": "FLGT_123"
+    },
+    {
+      "cell": "B12",
+      "value": "Crude Oil Price, $/bbl"
+    },
+    {
+      "cell": "F12",
+      "value": "FLI"
+    },
+    {
+      "cell": "M12",
+      "value": "Undiscounted Take Statistics"
+    },
+    {
+      "cell": "A13",
+      "value": "Capital Allowance_123"
+    },
+    {
+      "cell": "B13",
+      "value": "Price Format"
+    },
+    {
+      "cell": "F13",
+      "value": "AGR"
+    },
+    {
+      "cell": "M13",
+      "value": "Discounted Take Statistics"
+    },
+    {
+      "cell": "A14",
+      "value": "CR Economics_123"
+    },
+    {
+      "cell": "B14",
+      "value": "Escalator"
+    },
+    {
+      "cell": "F14",
+      "value": "Tax"
+    },
+    {
+      "cell": "H14",
+      "value": "Million"
+    },
+    {
+      "cell": "M14",
+      "value": "Disc. Payout Period, Years"
+    },
+    {
+      "cell": "A15",
+      "value": "B4ITx_123"
+    },
+    {
+      "cell": "B15",
+      "value": "Hurdle Rate"
+    },
+    {
+      "cell": "F15",
+      "value": "Royalties"
+    },
+    {
+      "cell": "H15",
+      "value": "Million"
+    },
+    {
+      "cell": "M15",
+      "value": "Front End Loading Index, FLI"
+    },
+    {
+      "cell": "A16",
+      "value": "AITx_123"
+    },
+    {
+      "cell": "B16",
+      "value": "Discount Period"
+    },
+    {
+      "cell": "C16",
+      "value": "                                                                                                                                                                                       "
+    },
+    {
+      "cell": "O16",
+      "value": "Oil Revenue"
+    },
+    {
+      "cell": "Q16",
+      "value": "$MM"
+    },
+    {
+      "cell": "R16",
+      "value": "PV@0% of OPEX, $MM"
+    },
+    {
+      "cell": "A17",
+      "value": "RESULTS_123"
+    },
+    {
+      "cell": "B17",
+      "value": "Gas Price, $/Mscf"
+    },
+    {
+      "cell": "O17",
+      "value": "Gas Revenue"
+    },
+    {
+      "cell": "Q17",
+      "value": "$MM"
+    },
+    {
+      "cell": "R17",
+      "value": "PV@0% of CAPEX, $MM"
+    },
+    {
+      "cell": "B18",
+      "value": "Gas Flare Penalty, $/Mscf"
+    },
+    {
+      "cell": "F18",
+      "value": "Block/Field (Oil)"
+    },
+    {
+      "cell": "G18",
+      "value": "Ebiya Field"
+    },
+    {
+      "cell": "O18",
+      "value": "Gross Revenue"
+    },
+    {
+      "cell": "Q18",
+      "value": "$MM"
+    },
+    {
+      "cell": "R18",
+      "value": "PV@0% of TC, $MM"
+    },
+    {
+      "cell": "B19",
+      "value": "Dom_Gas"
+    },
+    {
+      "cell": "F19",
+      "value": "Block/Field (Gas)"
+    },
+    {
+      "cell": "M19",
+      "value": "Unit CAPEX, S/Boe"
+    },
+    {
+      "cell": "R19",
+      "value": "Unit CAPEX, S/Boe"
+    },
+    {
+      "cell": "B20",
+      "value": "Duties"
+    },
+    {
+      "cell": "F20",
+      "value": "Terrain"
+    },
+    {
+      "cell": "G20",
+      "value": "Shallow Water (<200m water depth)"
+    },
+    {
+      "cell": "M20",
+      "value": "Unit OPEX, S/Boe"
+    },
+    {
+      "cell": "R20",
+      "value": "Unit OPEX, S/Boe"
+    },
+    {
+      "cell": "B21",
+      "value": "VAT"
+    },
+    {
+      "cell": "F21",
+      "value": "Gas Utilization"
+    },
+    {
+      "cell": "G21",
+      "value": "In-Country (Dom Gas)"
+    },
+    {
+      "cell": "M21",
+      "value": "Unit Technical Cost, S/Boe"
+    },
+    {
+      "cell": "R21",
+      "value": "Unit Technical Cost, S/Boe"
+    },
+    {
+      "cell": "B22",
+      "value": "Asset Salvage Value, % of Retention for Decom."
+    },
+    {
+      "cell": "F22",
+      "value": "Licence/Lease Status"
+    },
+    {
+      "cell": "G22",
+      "value": "New Acreage"
+    },
+    {
+      "cell": "M22",
+      "value": "Oil Royalty, $MM"
+    },
+    {
+      "cell": "O22",
+      "value": "HT"
+    },
+    {
+      "cell": "Q22",
+      "value": "$MM"
+    },
+    {
+      "cell": "R22",
+      "value": "Oil Production, MMbbls"
+    },
+    {
+      "cell": "B23",
+      "value": "NAG CRL"
+    },
+    {
+      "cell": "F23",
+      "value": "Cost Mode"
+    },
+    {
+      "cell": "M23",
+      "value": "Gas Royalty, $MM"
+    },
+    {
+      "cell": "O23",
+      "value": "CIT"
+    },
+    {
+      "cell": "Q23",
+      "value": "$MM"
+    },
+    {
+      "cell": "R23",
+      "value": "Gas Production, Mmboe"
+    },
+    {
+      "cell": "B24",
+      "value": "NAG ITA"
+    },
+    {
+      "cell": "F24",
+      "value": "PFS"
+    },
+    {
+      "cell": "G24",
+      "value": "PSC/SC"
+    },
+    {
+      "cell": "M24",
+      "value": "Price Royalty,  $MM"
+    },
+    {
+      "cell": "O24",
+      "value": "Etx"
+    },
+    {
+      "cell": "Q24",
+      "value": "$MM"
+    },
+    {
+      "cell": "R24",
+      "value": "Total Production, Mmboe"
+    },
+    {
+      "cell": "B25",
+      "value": "NAG Min. Tax Rate"
+    },
+    {
+      "cell": "F25",
+      "value": "Country"
+    },
+    {
+      "cell": "G25",
+      "value": "Nigeria"
+    },
+    {
+      "cell": "M25",
+      "value": "Total Royalty  $MM"
+    },
+    {
+      "cell": "O25",
+      "value": "Total"
+    },
+    {
+      "cell": "Q25",
+      "value": "$MM"
+    },
+    {
+      "cell": "B26",
+      "value": "NAG CPR"
+    },
+    {
+      "cell": "F26",
+      "value": "Fiscal Regime"
+    },
+    {
+      "cell": "G26",
+      "value": "PIA 2021"
+    },
+    {
+      "cell": "M26",
+      "value": "ERR"
+    },
+    {
+      "cell": "C28",
+      "value": "History"
+    },
+    {
+      "cell": "C29",
+      "value": "Forecast"
+    },
+    {
+      "cell": "C30",
+      "value": "Complete"
+    },
+    {
+      "cell": "D67",
+      "value": "NPV, $mm"
+    },
+    {
+      "cell": "F67",
+      "value": "Disc. Payout, Yrs"
+    },
+    {
+      "cell": "C68",
+      "value": "Oil Price, $/bbl"
+    },
+    {
+      "cell": "E68",
+      "value": "Oil Price, $/bbl"
+    },
+    {
+      "cell": "D80",
+      "value": "Rate"
+    },
+    {
+      "cell": "E80",
+      "value": "NPV"
+    }
+  ]
+}

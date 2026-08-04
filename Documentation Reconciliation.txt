@@ -1,0 +1,495 @@
+You have already completed the documentation audit for this PEMS repository.
+
+NOW PERFORM THE DOCUMENTATION RECONCILIATION AND REPAIR.
+
+This is an implementation-preparation task only.
+
+DO NOT:
+- modify application source code
+- modify the Excel Golden Master
+- begin implementing application modules
+- invent new business logic
+- discard valid project-specific requirements
+- leave competing v2.0 and v2.1 documents in the active documentation structure
+- ask me to manually copy or recreate files
+- stop after identifying problems
+
+Your job is to FIX the documentation repository completely.
+
+==================================================
+AUTHORITATIVE TARGET
+==================================================
+
+The target is:
+
+PEMS Documentation Baseline v2.1
+
+The PEMS documentation suite must contain ONE coherent, internally consistent documentation system.
+
+Version 2.1 supersedes Version 2.0.
+
+Where v2.0 and v2.1 contain different information:
+
+1. Treat v2.1 as the current structural and governance baseline.
+2. Preserve any valid project-specific technical or business requirements that exist only in v2.0.
+3. Integrate those valid requirements into the appropriate v2.1 document.
+4. Do NOT retain the old v2.0 document as a competing authoritative document.
+5. Do NOT lose information merely because it originated in v2.0.
+6. Do NOT blindly concatenate documents.
+7. Resolve duplication and contradictions explicitly.
+
+==================================================
+USE THE AUDIT YOU ALREADY CREATED
+==================================================
+
+Read the documentation audit you previously produced.
+
+Use it as the starting point for reconciliation.
+
+Do not repeat the audit unnecessarily.
+
+For every finding in the audit:
+
+- resolve it
+- update the appropriate document
+- create a missing document where required
+- move misplaced documentation to the correct location
+- merge duplicated content
+- eliminate conflicting authority
+- preserve valid technical requirements
+- record unresolved issues if genuinely impossible to resolve from available evidence
+
+==================================================
+TARGET DIRECTORY STRUCTURE
+==================================================
+
+The final active documentation structure shall be:
+
+PEMS/
+│
+├── README.md
+│
+└── docs/
+    │
+    ├── 00_GOVERNANCE/
+    │   ├── MASTER_IMPLEMENTATION_DIRECTIVE.md
+    │   ├── AI_AGENT_BOOTSTRAP.md
+    │   ├── CODING_AGENT_WORKFLOW.md
+    │   ├── GOVERNANCE.md
+    │   └── ARCHITECTURAL_DECISIONS.md
+    │
+    ├── 01_ARCHITECTURE/
+    │   ├── ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md
+    │   ├── SYSTEM_DESIGN.md
+    │   ├── TECHNOLOGY_STACK.md
+    │   ├── DIRECTORY_STRUCTURE.md
+    │   └── PROJECT_ROADMAP.md
+    │
+    ├── 02_SPECIFICATIONS/
+    │   ├── DATA_MODEL.md
+    │   ├── INPUT_SYSTEM_SPECIFICATION.md
+    │   ├── API_SPECIFICATION.md
+    │   ├── UI_ARCHITECTURE.md
+    │   ├── CONFIGURATION.md
+    │   ├── CHART_SPECIFICATION.md
+    │   ├── REPORT_SPECIFICATION.md
+    │   └── WORKBOOK_MAPPING_SPECIFICATION.md
+    │
+    ├── 03_IMPLEMENTATION/
+    │   ├── IMPLEMENTATION_SEQUENCE.md
+    │   └── MODULE_IMPLEMENTATION_TEMPLATE.md
+    │
+    ├── 04_QUALITY/
+    │   ├── VALIDATION_FRAMEWORK.md
+    │   └── BUILD_AND_DEPLOYMENT.md
+    │
+    └── 05_PROJECT_CONTROL/
+        ├── IMPLEMENTATION_TRACKER.md
+        └── CHANGELOG.md
+
+This is the required baseline structure.
+
+==================================================
+DOCUMENT COUNT
+==================================================
+
+The active Version 2.1 suite shall contain exactly 25 core Markdown documents:
+
+1. README.md
+
+2. MASTER_IMPLEMENTATION_DIRECTIVE.md
+3. AI_AGENT_BOOTSTRAP.md
+4. CODING_AGENT_WORKFLOW.md
+5. GOVERNANCE.md
+6. ARCHITECTURAL_DECISIONS.md
+
+7. ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md
+8. SYSTEM_DESIGN.md
+9. TECHNOLOGY_STACK.md
+10. DIRECTORY_STRUCTURE.md
+11. PROJECT_ROADMAP.md
+
+12. DATA_MODEL.md
+13. INPUT_SYSTEM_SPECIFICATION.md
+14. API_SPECIFICATION.md
+15. UI_ARCHITECTURE.md
+16. CONFIGURATION.md
+17. CHART_SPECIFICATION.md
+18. REPORT_SPECIFICATION.md
+19. WORKBOOK_MAPPING_SPECIFICATION.md
+
+20. IMPLEMENTATION_SEQUENCE.md
+21. MODULE_IMPLEMENTATION_TEMPLATE.md
+
+22. VALIDATION_FRAMEWORK.md
+23. BUILD_AND_DEPLOYMENT.md
+
+24. IMPLEMENTATION_TRACKER.md
+25. CHANGELOG.md
+
+==================================================
+IMPORTANT: OTHER VALID MARKDOWN FILES
+==================================================
+
+The audit identified that additional Markdown files may exist or may be required.
+
+Do NOT automatically delete them.
+
+For every additional .md file:
+
+A. Determine whether it contains unique valid project requirements.
+B. Determine whether its content belongs inside one of the 25 core documents.
+C. If yes, integrate the relevant content into the appropriate core document.
+D. If it is genuinely a module-specific implementation specification, preserve it under an appropriate module-specification location.
+E. If it is an agent-specific configuration file required by a particular coding agent, preserve it separately and clearly classify its authority.
+F. If it is obsolete, archive it rather than silently deleting it.
+G. Do not allow obsolete documents to remain active sources of truth.
+
+Create an appropriate:
+
+docs/archive/
+
+only if required.
+
+Archived documents must be clearly labelled as LEGACY/ARCHIVED and must not compete with the v2.1 documentation.
+
+==================================================
+CLAUDE.MD AND OTHER AGENT FILES
+==================================================
+
+If CLAUDE.md or another agent-specific instruction file exists:
+
+DO NOT treat it as a competing architectural authority.
+
+It may remain as an agent adapter/configuration file.
+
+Update it so that it points to the PEMS v2.1 authority hierarchy.
+
+It must not contain instructions that contradict the v2.1 documentation.
+
+If the agent file contains valuable project-specific instructions, preserve them by integrating them into the appropriate authoritative document where appropriate.
+
+==================================================
+VERSION CONTROL
+==================================================
+
+The final active documentation must clearly identify itself as:
+
+PEMS Documentation Baseline v2.1
+
+Do not leave ambiguous references such as:
+
+- v2.0 architecture
+- v2.0 implementation plan
+- old EEM architecture
+- old EEM implementation instructions
+
+inside active authoritative documents.
+
+Historical references may remain only where necessary to explain migration/history.
+
+==================================================
+PRESERVE PROJECT-SPECIFIC INFORMATION
+==================================================
+
+During reconciliation, make sure the final v2.1 suite retains all valid project-specific information discovered in the audit and existing documentation, including where applicable:
+
+- Excel Golden Master concept
+- workbook structure
+- worksheet mapping
+- workbook-to-application traceability
+- formula extraction
+- formula-first implementation
+- cell-by-cell implementation
+- module-by-module implementation
+- calculation dependency order
+- petroleum economics domain logic
+- fiscal calculations
+- production calculations
+- cost calculations
+- revenue calculations
+- cash flow
+- economic metrics
+- sensitivity analysis
+- Monte Carlo
+- input validation
+- Excel import
+- CSV import
+- manual data entry
+- copy/paste input
+- project templates
+- unit conversion
+- chart architecture
+- dynamic chart behaviour
+- primary/secondary axis handling
+- dynamic zero alignment
+- reporting
+- validation
+- regression testing
+- Golden Test Cases
+- technology stack
+- packaging
+- deployment
+- AI coding-agent workflow
+- implementation sequence
+- implementation tracking
+- change control
+
+Do not assume that a requirement is obsolete merely because it came from v2.0.
+
+==================================================
+TECHNOLOGY REQUIREMENT
+==================================================
+
+Preserve and consolidate all valid technology decisions found in the existing documentation.
+
+Do not arbitrarily replace a technology.
+
+Where the documentation contains competing technology decisions, resolve the conflict using:
+
+1. current PEMS v2.1 documentation
+2. explicit project decisions
+3. actual existing implementation constraints
+4. the most internally consistent architecture
+
+Record significant decisions in:
+
+ARCHITECTURAL_DECISIONS.md
+
+The final TECHNOLOGY_STACK.md must be internally consistent with:
+
+- SYSTEM_DESIGN.md
+- ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md
+- UI_ARCHITECTURE.md
+- CHART_SPECIFICATION.md
+- BUILD_AND_DEPLOYMENT.md
+
+==================================================
+EXCEL GOLDEN MASTER
+==================================================
+
+The Excel Golden Master remains the authoritative source for validated business calculation behaviour.
+
+The documentation must preserve this principle.
+
+The implementation chain must be traceable:
+
+Excel workbook
+→ worksheet
+→ cell/formula/rule
+→ business rule
+→ domain model/service
+→ application calculation
+→ test
+→ Excel comparison
+→ regression validation
+
+Do not replace this with an assumption that the application itself becomes the source of truth.
+
+==================================================
+CHART REQUIREMENT
+==================================================
+
+The chart documentation must explicitly cover dynamic chart behaviour.
+
+In particular:
+
+When a chart has primary and secondary Y axes, the application must dynamically calculate axis ranges such that:
+
+- zero on the primary Y axis
+- aligns with zero on the secondary Y axis
+
+whenever both axes logically contain zero.
+
+This must work dynamically for changing datasets.
+
+It must not depend on VBA macros.
+
+The chart architecture must describe the algorithm, data flow, scaling logic, edge cases, and validation approach.
+
+==================================================
+INPUT SYSTEM REQUIREMENT
+==================================================
+
+The input architecture must support BOTH:
+
+1. direct/manual user entry
+2. importing data
+
+Import capabilities must include, where applicable:
+
+- Excel
+- CSV
+- copy/paste
+- project templates
+
+Imported and manually entered data must pass through the same validation/domain model layer.
+
+Do not create separate incompatible validation logic for imported versus manually entered data.
+
+==================================================
+VALIDATION REQUIREMENT
+==================================================
+
+The final documentation must require:
+
+- unit testing
+- integration testing
+- regression testing
+- workbook comparison
+- cell-level validation where applicable
+- formula-level traceability
+- Golden Test Cases
+- tolerance definitions
+- auditability
+- reproducibility
+
+A module is not complete merely because the code runs.
+
+==================================================
+MODULE SPECIFICATIONS
+==================================================
+
+Do not manufacture large numbers of empty module specification documents.
+
+MODULE_IMPLEMENTATION_TEMPLATE.md defines the standard.
+
+When implementation reaches a module, a module-specific specification may be created from that template.
+
+Module specifications must preserve:
+
+- workbook location
+- formulas
+- inputs
+- outputs
+- business rules
+- dependencies
+- algorithm
+- edge cases
+- validation
+- tests
+- implementation mapping
+
+==================================================
+DOCUMENT AUTHORITY
+==================================================
+
+The final documentation must explicitly establish this hierarchy:
+
+1. Excel Golden Master
+   Authoritative for validated business calculation behaviour.
+
+2. MASTER_IMPLEMENTATION_DIRECTIVE.md
+   Highest-level software implementation authority.
+
+3. ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md
+   Consolidated system architecture.
+
+4. Technical specification documents
+   Detailed requirements.
+
+5. Module specifications
+   Module-level implementation detail.
+
+6. Tests and validation results
+   Evidence of conformity.
+
+No lower-level document may silently override a higher-level document.
+
+==================================================
+QUALITY CONTROL
+==================================================
+
+After making the changes, perform a second internal documentation consistency check.
+
+Verify:
+
+- all 25 core documents exist
+- all are in the correct directories
+- no required document is empty
+- no document is merely a placeholder
+- no v2.0 document remains as an active competing authority
+- no contradictory instructions remain
+- no important legacy requirement has been lost
+- no duplicate authoritative documents remain
+- all cross-references point to existing files
+- filenames and paths are correct
+- PEMS naming is consistent
+- EEM is treated only as legacy terminology where applicable
+- technology choices are consistent
+- validation requirements are consistent
+- chart requirements are consistent
+- input requirements are consistent
+- implementation sequence is consistent with architecture
+- implementation tracker is consistent with implementation sequence
+
+==================================================
+FINAL TRACEABILITY MATRIX
+==================================================
+
+Create or update:
+
+docs/DOCUMENTATION_TRACEABILITY_MATRIX.md
+
+This document must show:
+
+SOURCE REQUIREMENT
+→ SOURCE DOCUMENT
+→ FINAL PEMS DOCUMENT
+→ SECTION
+→ STATUS
+
+Use it to prove that requirements from the audited documentation have not been lost.
+
+This traceability matrix is a control artifact and must not replace the 25 core documents.
+
+==================================================
+FINAL OUTPUT
+==================================================
+
+After completing the reconciliation, report:
+
+1. Final directory tree.
+2. All 25 core v2.1 documents.
+3. Additional preserved module/agent documents.
+4. Archived legacy documents.
+5. Documents merged.
+6. Documents rewritten.
+7. Documents created.
+8. Documents moved.
+9. Documents archived.
+10. v2.0 content successfully migrated into v2.1.
+11. Requirements that could not be resolved.
+12. Confirmation that no application source code was modified.
+13. Confirmation that the Excel Golden Master was not modified.
+14. Confirmation that the repository is ready for implementation.
+
+IMPORTANT:
+
+Do not stop at reporting what needs to be done.
+
+Perform the reconciliation and repair now.
+
+Do not ask me to manually perform file copying.
+
+When finished, the PEMS directory itself must contain the corrected Version 2.1 documentation structure and files.

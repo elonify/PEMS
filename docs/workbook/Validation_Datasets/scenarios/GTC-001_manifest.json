@@ -1,0 +1,34 @@
+{
+  "gtc_id": "GTC-001",
+  "name": "As-saved Golden Master baseline (Confirmed-2026-08-03)",
+  "status": "ACTIVE",
+  "workbook": "docs/workbook/Workbook_History/Econ_Model_PEMS_confirmed_2026-08-03.xlsx",
+  "workbook_history_snapshot": "docs/workbook/Workbook_History/Econ_Model_PEMS_confirmed_2026-08-03.xlsx",
+  "live_working_copy": "docs/workbook/Econ_Model_PEMS.xlsx",
+  "golden_master_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "previous_documented_gm_sha256_superseded": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB",
+  "workbook_version_label": "Confirmed-2026-08-03",
+  "historical_intake_sha256": "F6A1992F6A3CC27EC587779ADE6CF667B246FB1587296EFD0CD14B47A6783006",
+  "description": "Regression case for the active Golden Master (confirmed snapshot) as stored, including Excel cached formula results.",
+  "input_artifact": "docs/workbook/Validation_Datasets/scenarios/GTC-001_input_and_parameter_cells.csv",
+  "expected_full_formula_results": "docs/workbook/Validation_Datasets/expected_outputs/formula_cached_results_all.csv",
+  "expected_literals": "docs/workbook/Validation_Datasets/expected_outputs/literal_values_all.csv",
+  "expected_kpi_pack": "docs/workbook/Validation_Datasets/expected_outputs/GTC-001_kpi_and_intermediates.csv",
+  "kpi_rows": 102,
+  "input_rows": 621,
+  "formula_expected_rows": 86973,
+  "formula_expected_rows_with_excel_error_strings": 1,
+  "excluded_from_numeric_golden_policy": [],
+  "tolerance_policy": "Exact for ints/bools/text; float abs/rel 1e-9 for binary representation only. EXP-001: match no-IRR/#NUM! condition exactly; do not invent IRR.",
+  "expected_excel_error_conditions": [
+    {
+      "id": "EXP-001",
+      "worksheet": "Project_NCF",
+      "cell": "AU14",
+      "formula": "=IRR(AK5:AK49)",
+      "expected_excel_result": "#NUM!",
+      "classification": "EXPECTED_ACCEPTED_IRR_NO_SIGN_CHANGE_CONDITION",
+      "workbook_defect": false
+    }
+  ]
+}

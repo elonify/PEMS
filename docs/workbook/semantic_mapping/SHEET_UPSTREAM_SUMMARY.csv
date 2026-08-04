@@ -1,0 +1,29 @@
+worksheet,domain,formula_count,upstream_sheets,upstream_sheet_count
+Analysis,M09_Sensitivity_Analysis,2066,Ec_IO(10),1
+Block_Gas Data,M04_Production,1463,Ec_IO(85) | Analysis(84) | Production Profile(78) | Block_TC(42) | Block_Oil Data(30),5
+Block_Oil Data,M04_Production,1618,OML123_Oil_S1(85) | Ec_IO(85) | Analysis(84) | Production Profile(78) | Block_TC(42),5
+Block_TC,M05_Cost_CapAllow,3356,Block_Oil Data(453) | Ec_IO(337) | Analysis(168) | Prod_Summary(45) | Royalties(44) | Block_TC(42) | OML123_Oil_S1(1) | Block_TC_Gas(1),8
+Block_TC_Gas,M05_Cost_CapAllow,3253,Ec_IO(337) | Block_Oil Data(324) | Analysis(168) | Block_Gas Data(126) | Prod_Summary(44) | Block_TC(42) | OML123_Oil_S1(1),7
+CIT_NCF,M07_Tax_NCF_Cashflow,1391,HT_NCF(429) | Ec_IO(356) | FLGT(133) | Fiscal Terms_PIA(90) | Analysis(90) | CR Econ(45) | Block_TC(42) | Prod_Summary(42),8
+CIT_NCF_Gas,M07_Tax_NCF_Cashflow,1454,FLGT(497) | Production Profile(448) | Ec_IO(227) | CR Econ(92) | Analysis(90) | Cap_Allow Gas(88) | Fiscal Terms_PIA(80) | CIT_NCF_Oil(45) | Equity Dash(45) | Block_TC_Gas(42) | Block_TC(24) | Cap_Allow(12) | Royalties(1) | HT_NCF_Oil(1),14
+CIT_NCF_Gas Equity,M07_Tax_NCF_Cashflow,1723,Equity Dash(856) | CIT_NCF_Gas(810) | Ec_IO(227) | Production Profile(135) | FLGT(111) | Analysis(90) | Fiscal Terms_PIA(80) | CR Econ(47) | CIT_NCF_Oil Equity(45) | Cap_Allow Gas(45) | Royalties(1) | HT_NCF_Oil(1),12
+CIT_NCF_Oil,M07_Tax_NCF_Cashflow,1470,FLGT(471) | Ec_IO(288) | HT_NCF_Oil(181) | Production Profile(180) | CR Econ(92) | Fiscal Terms_PIA(90) | Analysis(90) | CIT_NCF_Gas(52) | Equity Dash(45) | Cap_Allow(45) | Block_TC(42) | Royalties(1) | CIT_NCF_Oil(1),13
+CIT_NCF_Oil Equity,M07_Tax_NCF_Cashflow,1689,Equity Dash(765) | CIT_NCF_Oil(675) | Ec_IO(318) | FLGT(111) | HT_NCF_Oil Equity(90) | Fiscal Terms_PIA(90) | Analysis(90) | CR Econ(47) | CIT_NCF_Gas Equity(46) | Cap_Allow(45) | Royalties(1) | HT_NCF_Oil(1) | CIT_NCF_Oil Equity(1),13
+CR Econ,M08_Results_Economics,948,FLGT(323) | Cap_Allow(127) | Ec_IO(92) | Fiscal Terms_PIA(90) | CIT_NCF_Oil(46),5
+Cap_Allow,M05_Cost_CapAllow,8136,Block_TC(6636) | Ec_IO(1074) | Prod_Summary(99) | Equity Dash(43) | Production Profile(43) | Cap_Allow Gas(12),6
+Cap_Allow Gas,M05_Cost_CapAllow,8103,Block_TC_Gas(6636) | Ec_IO(1074) | Prod_Summary(86) | Equity Dash(42) | Production Profile(42) | Block_Oil Data(5),6
+Ec_IO,M01_Input_Control,91,Ec_IO(15) | Prod_Summary(10) | Project_NCF_Con (2)(10) | FLGT(8) | CIT_NCF(7) | HT_NCF_Oil(5) | Cap_Allow(4) | Cap_Allow Gas(4) | RESULTS Equity(2),9
+Equity_NCF_Con,M07_Tax_NCF_Cashflow,1588,CIT_NCF_Gas Equity(855) | CIT_NCF_Oil Equity(810) | Ec_IO(228) | Equity Dash(136) | Analysis(91) | Project_NCF_Con (2)(90) | FLGT(65) | CR Econ(46) | HT_NCF_Oil Equity(45) | Fiscal Terms_PIA(40) | Royalties(1) | CIT_NCF_Gas(1) | CIT_NCF_Oil(1) | HT_NCF_Oil(1),14
+FLGT,M06_Royalty_FLGT,1435,Royalties(380) | Prod_Summary(307) | Fiscal Terms_PIA(270) | Block_TC(90) | Ec_IO(45) | Block_TC_Gas(45) | Cap_Allow Gas(45) | Equity Dash(45) | Analysis(42),9
+HT_NCF,M07_Tax_NCF_Cashflow,1901,FLGT(606) | Ec_IO(227) | Fiscal Terms_PIA(181) | CR Econ(136) | Cap_Allow(126) | Analysis(90) | Block_TC(84) | Block_TC_Gas(42) | Royalties(2) | HT_NCF(1),10
+HT_NCF_Oil,M07_Tax_NCF_Cashflow,1960,Ec_IO(587) | FLGT(471) | Production Profile(315) | Fiscal Terms_PIA(180) | Cap_Allow(171) | CIT_NCF_Gas(135) | CR Econ(93) | Analysis(90) | Equity Dash(45) | Block_TC(42) | Royalties(1) | HT_NCF_Oil(1),12
+HT_NCF_Oil Equity,M07_Tax_NCF_Cashflow,2097,Equity Dash(944) | HT_NCF_Oil(809) | Ec_IO(587) | Fiscal Terms_PIA(180) | FLGT(156) | Analysis(90) | CR Econ(47) | Cap_Allow(45) | Royalties(1) | HT_NCF_Oil Equity(1),10
+OML123_Oil_S1,M04_Production,337,Block_Oil Data(85),1
+Oil Input,M01_Input_Control,16808,Ec_IO(1),1
+Prod_Summary,M04_Production,849,OML123_Oil_S1(177) | Block_Oil Data(175) | Block_Gas Data(175) | Ec_IO(173) | Production Profile(2),5
+Production Profile,M04_Production,310,STOIIP(1) | GIIP(1),2
+Project_NCF_Con,M07_Tax_NCF_Cashflow,1629,CIT_NCF_Gas(905) | CIT_NCF_Oil(905) | Ec_IO(622) | Analysis(135) | Fiscal Terms_PIA(85) | Cap_Allow(66) | CR Econ(46) | Cap_Allow Gas(45) | Block_TC_Gas(42) | FLGT(40) | Royalties(1) | HT_NCF_Oil(1),12
+Project_NCF_Con (2),M07_Tax_NCF_Cashflow,1615,CIT_NCF_Gas(788) | CIT_NCF_Oil(743) | Ec_IO(313) | Analysis(91) | Equity Dash(87) | FLGT(85) | Cap_Allow(85) | Cap_Allow Gas(85) | CR Econ(46) | HT_NCF_Oil(46) | Royalties(1),11
+RESULTS Equity,M08_Results_Economics,62,Equity Dash(19) | Ec_IO(18) | Prod_Summary(9) | HT_NCF_Oil Equity(6) | Equity_NCF_Con(5) | FLGT(3) | CIT_NCF_Gas Equity(2) | CIT_NCF_Oil Equity(2),8
+Royalties,M06_Royalty_FLGT,712,Prod_Summary(309) | Ec_IO(297) | Fiscal Terms_PIA(274) | Analysis(84),4
+START,M01_Input_Control,30,REF(28),1

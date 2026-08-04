@@ -1,0 +1,348 @@
+{
+  "recheck_utc": "2026-08-03T18:06:28Z",
+  "confirmed": {
+    "path": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Workbook_History\\Econ_Model_PEMS_confirmed_2026-08-03.xlsx",
+    "size": 4841231,
+    "mtime": "2026-08-03T18:59:37",
+    "sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+    "matches_prior_doc_sha": false
+  },
+  "live": {
+    "path": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Econ_Model_PEMS.xlsx",
+    "size": 4841422,
+    "mtime": "2026-08-03T18:54:13",
+    "sha256": "FFADB639A0EA2FD3D1981BE11FC495D013875193F30CEEA0454CDA27827C7F0F",
+    "matches_prior_doc_sha": false
+  },
+  "prior_documented": {
+    "confirmed_sha": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB",
+    "live_sha": "9F7257A073F37A5822EC8B71882183915E044C768696C5380DC248B98DFCF5D5"
+  },
+  "byte_identical": false,
+  "zip": {
+    "only_confirmed": [],
+    "only_live": [],
+    "changed_count": 38,
+    "changed_sample": [
+      "docProps/core.xml",
+      "xl/calcChain.xml",
+      "xl/drawings/vmlDrawing2.vml",
+      "xl/drawings/vmlDrawing8.vml",
+      "xl/styles.xml",
+      "xl/workbook.xml",
+      "xl/worksheets/sheet10.xml",
+      "xl/worksheets/sheet11.xml",
+      "xl/worksheets/sheet12.xml",
+      "xl/worksheets/sheet13.xml",
+      "xl/worksheets/sheet14.xml",
+      "xl/worksheets/sheet15.xml",
+      "xl/worksheets/sheet16.xml",
+      "xl/worksheets/sheet17.xml",
+      "xl/worksheets/sheet18.xml",
+      "xl/worksheets/sheet19.xml",
+      "xl/worksheets/sheet20.xml",
+      "xl/worksheets/sheet21.xml",
+      "xl/worksheets/sheet22.xml",
+      "xl/worksheets/sheet23.xml",
+      "xl/worksheets/sheet24.xml",
+      "xl/worksheets/sheet25.xml",
+      "xl/worksheets/sheet26.xml",
+      "xl/worksheets/sheet27.xml",
+      "xl/worksheets/sheet28.xml",
+      "xl/worksheets/sheet29.xml",
+      "xl/worksheets/sheet30.xml",
+      "xl/worksheets/sheet31.xml",
+      "xl/worksheets/sheet33.xml",
+      "xl/worksheets/sheet34.xml",
+      "xl/worksheets/sheet35.xml",
+      "xl/worksheets/sheet36.xml",
+      "xl/worksheets/sheet37.xml",
+      "xl/worksheets/sheet38.xml",
+      "xl/worksheets/sheet5.xml",
+      "xl/worksheets/sheet6.xml",
+      "xl/worksheets/sheet8.xml",
+      "xl/worksheets/sheet9.xml"
+    ]
+  },
+  "sheet_names_equal": true,
+  "named_ranges": {
+    "count_conf": 192,
+    "count_live": 192,
+    "sets_equal": true,
+    "defs_changed": []
+  },
+  "cell_diffs_total": 25,
+  "formula_string_diffs": 0,
+  "array_formula_diffs": 0,
+  "value_diffs": [
+    {
+      "sheet": "Ec_IO",
+      "cell": "D69",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF0FF60AD0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF2696A930>",
+      "conf_cached": "-139.001041063974",
+      "live_cached": "-139.001041063974",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Ec_IO",
+      "cell": "E82",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF100276B0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF26A35580>",
+      "conf_cached": "172.32213433148016",
+      "live_cached": "172.32213433148016",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Ec_IO",
+      "cell": "F69",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF0FF60B90>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF2696AA20>",
+      "conf_cached": "16",
+      "live_cached": "16",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "STOIIP",
+      "cell": "D16",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF0FF60B60>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF263466F0>",
+      "conf_cached": "120.3545088",
+      "live_cached": "120.3545088",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "STOIIP",
+      "cell": "D28",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF1EB594F0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF355581D0>",
+      "conf_cached": "141.50592",
+      "live_cached": "141.50592",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "GIIP",
+      "cell": "D16",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF1EBC5250>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF355C3980>",
+      "conf_cached": "675.7724160000001",
+      "live_cached": "675.7724160000001",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "GIIP",
+      "cell": "D28",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF1EBA8AD0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF355CCEC0>",
+      "conf_cached": "794.5344",
+      "live_cached": "794.5344",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K118",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF205D4C20>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF36FA0DD0>",
+      "conf_cached": "30.93947273242073",
+      "live_cached": "30.93947273242073",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K136",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF2066D490>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37054860>",
+      "conf_cached": "16.196641031483665",
+      "live_cached": "16.196641031483665",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K154",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF206880E0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37027230>",
+      "conf_cached": "0.14240997204313088",
+      "live_cached": "0.14240997204313088",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K168",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF206E83B0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF370BB740>",
+      "conf_cached": "0.1640582349899684",
+      "live_cached": "0.1640582349899684",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K185",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF206BFDA0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF370D1850>",
+      "conf_cached": "0.1580316675780793",
+      "live_cached": "0.1580316675780793",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K202",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20703D40>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF3709F740>",
+      "conf_cached": "0.15870616582452413",
+      "live_cached": "0.15870616582452413",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K217",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20772000>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37159430>",
+      "conf_cached": "0.15644346315548696",
+      "live_cached": "0.15644346315548696",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K22",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF203E53A0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF36DE84A0>",
+      "conf_cached": "-33.463486208565854",
+      "live_cached": "-33.463486208565854",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K235",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20783FB0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37159790>",
+      "conf_cached": "0.1534358839700789",
+      "live_cached": "0.1534358839700789",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K277",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20882990>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37269D60>",
+      "conf_cached": "0.9054452098054616",
+      "live_cached": "0.9054452098054616",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K291",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF2085AB10>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF37241F40>",
+      "conf_cached": "1.1999219777530614",
+      "live_cached": "1.1999219777530614",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K308",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF2090A2D0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF372F56A0>",
+      "conf_cached": "1.1100407738130595",
+      "live_cached": "1.1100407738130595",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K325",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20904080>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF372C5190>",
+      "conf_cached": "1.119778602487889",
+      "live_cached": "1.119778602487889",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K340",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF209993D0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF373807A0>",
+      "conf_cached": "1.0874229102942308",
+      "live_cached": "1.0874229102942308",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K358",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF209B4710>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF373463C0>",
+      "conf_cached": "1.045765404866758",
+      "live_cached": "1.045765404866758",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K36",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF204BB650>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF36EA2A80>",
+      "conf_cached": "70.75354227495512",
+      "live_cached": "70.75354227495512",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K53",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF204C9BE0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF36ECE660>",
+      "conf_cached": "35.646544985324226",
+      "live_cached": "35.646544985324226",
+      "sheet_state": "visible"
+    },
+    {
+      "sheet": "Analysis",
+      "cell": "K70",
+      "kind": "value",
+      "conf": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF20537FB0>",
+      "live": "<openpyxl.worksheet.formula.DataTableFormula object at 0x000001BF36F13FB0>",
+      "conf_cached": "38.96699627213521",
+      "live_cached": "38.96699627213521",
+      "sheet_state": "visible"
+    }
+  ],
+  "equity_dash_content_aligned": true,
+  "disposition": "CLOSED_NON_SUBSTANTIVE_CURRENT_WORKBOOK_DIFFERENCE",
+  "disposition_note": "Re-freeze accepted: ACTIVE GM is confirmed snapshot D07560CA.... Prior documented SHA 87EF7439... SUPERSEDED BY RE-FREEZE. Live vs confirmed calc/semantic equivalent; packaging residual only. Formal PO approval CLOSED (2026-08-03 WAT).",
+  "residual_kinds": {
+    "value": 25
+  },
+  "recheck_disposition": "CLOSED_NON_SUBSTANTIVE_CURRENT_WORKBOOK_DIFFERENCE",
+  "active_golden_master_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "previous_documented_gm_sha256_superseded": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB",
+  "semantic_cell_diffs": 0,
+  "datatable_false_positives_closed": true,
+  "formal_gm_approval": "CLOSED",
+  "formal_gm_approval_detail": {
+    "approver": "Dr Emmanuel Ifeanyichukwu Onwuka",
+    "role": "Project Owner",
+    "approval_datetime_wat": "2026-08-03T20:57:00+01:00",
+    "approved_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+    "status": "CLOSED"
+  }
+}

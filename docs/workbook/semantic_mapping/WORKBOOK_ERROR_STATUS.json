@@ -1,0 +1,41 @@
+{
+  "last_updated": "2026-08-03",
+  "active_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "workbook_version_label": "Confirmed-2026-08-03",
+  "gm_modified_by_agents": false,
+  "closed_genuine_or_historical": {
+    "START_HASHREF": "CLOSED_NOT_PRESENT_ON_ACTIVE",
+    "CR_ECON_EMPTY_CACHES": "CLOSED",
+    "ANALYSIS_STRING_HASHREF_AS_ERROR": "CLOSED_NOT_OBSERVED",
+    "OTHER_UNEXPECTED_ERROR_TYPES": "CLOSED_NONE_OPEN_AS_DEFECTS"
+  },
+  "expected_accepted_conditions": [
+    {
+      "id": "EXP-001",
+      "worksheet": "Project_NCF",
+      "cell": "AU14",
+      "formula": "=IRR(AK5:AK49)",
+      "excel_result": "#NUM!",
+      "classification": "EXPECTED_ACCEPTED_IRR_NO_SIGN_CHANGE_CONDITION",
+      "workbook_defect": false,
+      "modify_excel_formula": false,
+      "preserve_as_golden_expected": true,
+      "ak5_ak49_sign_pattern": {
+        "cells": 45,
+        "positive": 0,
+        "negative": 0,
+        "zero": 0,
+        "empty": 45,
+        "qualifying_sign_change": false,
+        "series_description": "entirely blank range"
+      },
+      "disposition": "B_ACCEPTED_EXPECTED_BEHAVIOUR",
+      "pems_must_not_manufacture_irr": true
+    }
+  ],
+  "open_genuine_workbook_defects": [],
+  "analysis_datatable_formulas": 18,
+  "analysis_datatable_classified_as_error": false,
+  "formula_level_fidelity": "UNCLAIMED",
+  "previous_documented_gm_sha256_superseded": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB"
+}

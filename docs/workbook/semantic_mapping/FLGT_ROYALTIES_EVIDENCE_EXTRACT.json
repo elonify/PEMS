@@ -1,0 +1,4649 @@
+{
+  "royalties_labels": [
+    {
+      "cell": "B2",
+      "v": "Chargeable Oil Production"
+    },
+    {
+      "cell": "E2",
+      "v": "Chargeable Associated Gas Production"
+    },
+    {
+      "cell": "I2",
+      "v": "Royalty by Oil Production"
+    },
+    {
+      "cell": "N2",
+      "v": "Royalty by Gas Production"
+    },
+    {
+      "cell": "P2",
+      "v": "Royalty by Oil Price"
+    },
+    {
+      "cell": "P3",
+      "v": "Real Oil Price, $/bbl"
+    },
+    {
+      "cell": "Q3",
+      "v": "Escalation Factor"
+    },
+    {
+      "cell": "R3",
+      "v": "Nominal Oil Price, $/bbl"
+    },
+    {
+      "cell": "S3",
+      "v": "Price Royalty"
+    },
+    {
+      "cell": "I4",
+      "v": "Onshore"
+    },
+    {
+      "cell": "J4",
+      "v": "Shallow"
+    },
+    {
+      "cell": "K4",
+      "v": "Deep"
+    },
+    {
+      "cell": "L4",
+      "v": "Frontier"
+    }
+  ],
+  "flgt_labels": [
+    {
+      "cell": "B2",
+      "v": "Chargeable Oil Production"
+    },
+    {
+      "cell": "E2",
+      "v": "Chargeable Associated Gas Production"
+    },
+    {
+      "cell": "I2",
+      "v": "Royalty by Oil Production"
+    },
+    {
+      "cell": "N2",
+      "v": "Royalty by Gas Production"
+    },
+    {
+      "cell": "P2",
+      "v": "Royalty by Oil Price"
+    },
+    {
+      "cell": "W2",
+      "v": "Gross Revenue"
+    },
+    {
+      "cell": "AA2",
+      "v": "Front-Loaded Govt Take"
+    },
+    {
+      "cell": "AN2",
+      "v": "Unit Conv"
+    },
+    {
+      "cell": "AP2",
+      "v": "YES"
+    },
+    {
+      "cell": "I3",
+      "v": "Terrain"
+    },
+    {
+      "cell": "P3",
+      "v": "Real Oil Price, $/bbl"
+    },
+    {
+      "cell": "Q3",
+      "v": "Price Escalation Factor"
+    },
+    {
+      "cell": "R3",
+      "v": "Nominal Oil Price, $/bbl"
+    },
+    {
+      "cell": "S3",
+      "v": "Price Royalty"
+    },
+    {
+      "cell": "U3",
+      "v": "Nominal Gas Price"
+    },
+    {
+      "cell": "W3",
+      "v": "Nominal Oil Revenue"
+    },
+    {
+      "cell": "X3",
+      "v": "Nominal Gas Revenue"
+    },
+    {
+      "cell": "Y3",
+      "v": "Nominal Total Revenue"
+    },
+    {
+      "cell": "Z3",
+      "v": "HCDT Fund Gas S.263 (1)(h)"
+    },
+    {
+      "cell": "AA3",
+      "v": "Bonuses"
+    },
+    {
+      "cell": "AB3",
+      "v": "Oil Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AC3",
+      "v": "Gas Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AD3",
+      "v": "Price Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AE3",
+      "v": "Concession rentals S.263 (1)(a)"
+    },
+    {
+      "cell": "AF3",
+      "v": "HCDT Fund Oil S.263 (1)(h)"
+    },
+    {
+      "cell": "AG3",
+      "v": "NDDC Oil S.263 (1)(h)"
+    },
+    {
+      "cell": "AH3",
+      "v": "NDDC Gas S.263 (1)(h)"
+    },
+    {
+      "cell": "AI3",
+      "v": "Total"
+    },
+    {
+      "cell": "AL3",
+      "v": "ERR"
+    },
+    {
+      "cell": "AM3",
+      "v": "ERR"
+    },
+    {
+      "cell": "AN3",
+      "v": "LOAN"
+    },
+    {
+      "cell": "AO3",
+      "v": "PPMT"
+    },
+    {
+      "cell": "AP3",
+      "v": "IPMT"
+    },
+    {
+      "cell": "I4",
+      "v": "Onshore"
+    },
+    {
+      "cell": "J4",
+      "v": "Shallow"
+    },
+    {
+      "cell": "K4",
+      "v": "Deep"
+    },
+    {
+      "cell": "L4",
+      "v": "Frontier"
+    },
+    {
+      "cell": "U4",
+      "v": "$/mscf"
+    },
+    {
+      "cell": "W4",
+      "v": "$mm"
+    },
+    {
+      "cell": "X4",
+      "v": "$mm"
+    },
+    {
+      "cell": "Y4",
+      "v": "$mm"
+    },
+    {
+      "cell": "Z4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AA4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AB4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AC4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AD4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AE4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AF4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AG4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AH4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AI4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AL4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AM4",
+      "v": "%"
+    },
+    {
+      "cell": "AN4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AO4",
+      "v": "$mm"
+    },
+    {
+      "cell": "AP4",
+      "v": "$mm"
+    }
+  ],
+  "royalties_layout": [
+    {
+      "cell": "B1",
+      "class": "formula",
+      "v": "=Prod_Summary!B2"
+    },
+    {
+      "cell": "E1",
+      "class": "formula",
+      "v": "=Prod_Summary!G2"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_t",
+      "v": "Chargeable Oil Production"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_t",
+      "v": "Chargeable Associated Gas Production"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_t",
+      "v": "Royalty by Oil Production"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_t",
+      "v": "Royalty by Gas Production"
+    },
+    {
+      "cell": "P2",
+      "class": "label_or_t",
+      "v": "Royalty by Oil Price"
+    },
+    {
+      "cell": "A3",
+      "class": "formula",
+      "v": "=Prod_Summary!S3"
+    },
+    {
+      "cell": "B3",
+      "class": "formula",
+      "v": "=Prod_Summary!T3"
+    },
+    {
+      "cell": "C3",
+      "class": "formula",
+      "v": "=Prod_Summary!U3"
+    },
+    {
+      "cell": "D3",
+      "class": "formula",
+      "v": "=Prod_Summary!V3"
+    },
+    {
+      "cell": "E3",
+      "class": "formula",
+      "v": "=Prod_Summary!W3"
+    },
+    {
+      "cell": "F3",
+      "class": "formula",
+      "v": "=Prod_Summary!X3"
+    },
+    {
+      "cell": "G3",
+      "class": "formula",
+      "v": "=Prod_Summary!Y3"
+    },
+    {
+      "cell": "I3",
+      "class": "formula",
+      "v": "=Ec_IO!G20"
+    },
+    {
+      "cell": "N3",
+      "class": "formula",
+      "v": "=Ec_IO!G21"
+    },
+    {
+      "cell": "P3",
+      "class": "label_or_t",
+      "v": "Real Oil Price, $/bbl"
+    },
+    {
+      "cell": "Q3",
+      "class": "label_or_t",
+      "v": "Escalation Factor"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_t",
+      "v": "Nominal Oil Price, $/bbl"
+    },
+    {
+      "cell": "S3",
+      "class": "label_or_t",
+      "v": "Price Royalty"
+    },
+    {
+      "cell": "B4",
+      "class": "formula",
+      "v": "=Prod_Summary!T4"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=Prod_Summary!U4"
+    },
+    {
+      "cell": "D4",
+      "class": "formula",
+      "v": "=Prod_Summary!V4"
+    },
+    {
+      "cell": "E4",
+      "class": "formula",
+      "v": "=Prod_Summary!W4"
+    },
+    {
+      "cell": "F4",
+      "class": "formula",
+      "v": "=Prod_Summary!X4"
+    },
+    {
+      "cell": "G4",
+      "class": "formula",
+      "v": "=Prod_Summary!Y4"
+    },
+    {
+      "cell": "I4",
+      "class": "label_or_t",
+      "v": "Onshore"
+    },
+    {
+      "cell": "J4",
+      "class": "label_or_t",
+      "v": "Shallow"
+    },
+    {
+      "cell": "K4",
+      "class": "label_or_t",
+      "v": "Deep"
+    },
+    {
+      "cell": "L4",
+      "class": "label_or_t",
+      "v": "Frontier"
+    },
+    {
+      "cell": "S4",
+      "class": "formula",
+      "v": "=Ec_IO!$C$14"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=Prod_Summary!S5"
+    },
+    {
+      "cell": "B5",
+      "class": "formula",
+      "v": "=Prod_Summary!T5"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "v": "=Prod_Summary!U5"
+    },
+    {
+      "cell": "D5",
+      "class": "formula",
+      "v": "=Prod_Summary!V5"
+    },
+    {
+      "cell": "E5",
+      "class": "formula",
+      "v": "=Prod_Summary!W5"
+    },
+    {
+      "cell": "F5",
+      "class": "formula",
+      "v": "=Prod_Summary!X5"
+    },
+    {
+      "cell": "G5",
+      "class": "formula",
+      "v": "=Prod_Summary!Y5"
+    },
+    {
+      "cell": "I5",
+      "class": "formula",
+      "v": "=IF(B5=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B5<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "J5",
+      "class": "formula",
+      "v": "=IF(B5=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B5<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "K5",
+      "class": "formula",
+      "v": "=IF(B5=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B5<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fisca"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=IF(B5=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N5",
+      "class": "formula",
+      "v": "=IF(E5=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P5",
+      "class": "formula",
+      "v": "=IF(AND(A5<>Ec_IO!$D$29,B5=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q5",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A5-Ec_IO!$C$5))*(A5<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R5",
+      "class": "formula",
+      "v": "=P5*Q5"
+    },
+    {
+      "cell": "S5",
+      "class": "formula",
+      "v": "=IF(R5<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A5-2020),0%,IF(AND(R5>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A5-2020),R5<='Fiscal Terms_PIA'!$U$38*(1"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=Prod_Summary!S6"
+    },
+    {
+      "cell": "B6",
+      "class": "formula",
+      "v": "=Prod_Summary!T6"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "=Prod_Summary!U6"
+    },
+    {
+      "cell": "D6",
+      "class": "formula",
+      "v": "=Prod_Summary!V6"
+    },
+    {
+      "cell": "E6",
+      "class": "formula",
+      "v": "=Prod_Summary!W6"
+    },
+    {
+      "cell": "F6",
+      "class": "formula",
+      "v": "=Prod_Summary!X6"
+    },
+    {
+      "cell": "G6",
+      "class": "formula",
+      "v": "=Prod_Summary!Y6"
+    },
+    {
+      "cell": "I6",
+      "class": "formula",
+      "v": "=IF(B6=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B6<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "J6",
+      "class": "formula",
+      "v": "=IF(B6=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B6<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "K6",
+      "class": "formula",
+      "v": "=IF(B6=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B6<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fisca"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=IF(B6=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N6",
+      "class": "formula",
+      "v": "=IF(E6=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P6",
+      "class": "formula",
+      "v": "=IF(AND(A6<>Ec_IO!$D$29,B6=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q6",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A6-Ec_IO!$C$5))*(A6<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R6",
+      "class": "formula",
+      "v": "=P6*Q6"
+    },
+    {
+      "cell": "S6",
+      "class": "formula",
+      "v": "=IF(R6<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A6-2020),0%,IF(AND(R6>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A6-2020),R6<='Fiscal Terms_PIA'!$U$38*(1"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=Prod_Summary!S7"
+    },
+    {
+      "cell": "B7",
+      "class": "formula",
+      "v": "=Prod_Summary!T7"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "v": "=Prod_Summary!U7"
+    },
+    {
+      "cell": "D7",
+      "class": "formula",
+      "v": "=Prod_Summary!V7"
+    },
+    {
+      "cell": "E7",
+      "class": "formula",
+      "v": "=Prod_Summary!W7"
+    },
+    {
+      "cell": "F7",
+      "class": "formula",
+      "v": "=Prod_Summary!X7"
+    },
+    {
+      "cell": "G7",
+      "class": "formula",
+      "v": "=Prod_Summary!Y7"
+    },
+    {
+      "cell": "I7",
+      "class": "formula",
+      "v": "=IF(B7=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B7<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "J7",
+      "class": "formula",
+      "v": "=IF(B7=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B7<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=IF(B7=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B7<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fisca"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=IF(B7=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N7",
+      "class": "formula",
+      "v": "=IF(E7=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P7",
+      "class": "formula",
+      "v": "=IF(AND(A7<>Ec_IO!$D$29,B7=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q7",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A7-Ec_IO!$C$5))*(A7<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R7",
+      "class": "formula",
+      "v": "=P7*Q7"
+    },
+    {
+      "cell": "S7",
+      "class": "formula",
+      "v": "=IF(R7<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A7-2020),0%,IF(AND(R7>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A7-2020),R7<='Fiscal Terms_PIA'!$U$38*(1"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=Prod_Summary!S8"
+    },
+    {
+      "cell": "B8",
+      "class": "formula",
+      "v": "=Prod_Summary!T8"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "=Prod_Summary!U8"
+    },
+    {
+      "cell": "D8",
+      "class": "formula",
+      "v": "=Prod_Summary!V8"
+    },
+    {
+      "cell": "E8",
+      "class": "formula",
+      "v": "=Prod_Summary!W8"
+    },
+    {
+      "cell": "F8",
+      "class": "formula",
+      "v": "=Prod_Summary!X8"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "=Prod_Summary!Y8"
+    },
+    {
+      "cell": "I8",
+      "class": "formula",
+      "v": "=IF(B8=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B8<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "J8",
+      "class": "formula",
+      "v": "=IF(B8=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B8<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=IF(B8=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B8<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fisca"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=IF(B8=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N8",
+      "class": "formula",
+      "v": "=IF(E8=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P8",
+      "class": "formula",
+      "v": "=IF(AND(A8<>Ec_IO!$D$29,B8=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q8",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A8-Ec_IO!$C$5))*(A8<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R8",
+      "class": "formula",
+      "v": "=P8*Q8"
+    },
+    {
+      "cell": "S8",
+      "class": "formula",
+      "v": "=IF(R8<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A8-2020),0%,IF(AND(R8>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A8-2020),R8<='Fiscal Terms_PIA'!$U$38*(1"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=Prod_Summary!S9"
+    },
+    {
+      "cell": "B9",
+      "class": "formula",
+      "v": "=Prod_Summary!T9"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "=Prod_Summary!U9"
+    },
+    {
+      "cell": "D9",
+      "class": "formula",
+      "v": "=Prod_Summary!V9"
+    },
+    {
+      "cell": "E9",
+      "class": "formula",
+      "v": "=Prod_Summary!W9"
+    },
+    {
+      "cell": "F9",
+      "class": "formula",
+      "v": "=Prod_Summary!X9"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "=Prod_Summary!Y9"
+    },
+    {
+      "cell": "I9",
+      "class": "formula",
+      "v": "=IF(B9=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B9<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "J9",
+      "class": "formula",
+      "v": "=IF(B9=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B9<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=IF(B9=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B9<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fisca"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=IF(B9=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N9",
+      "class": "formula",
+      "v": "=IF(E9=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P9",
+      "class": "formula",
+      "v": "=IF(AND(A9<>Ec_IO!$D$29,B9=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q9",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A9-Ec_IO!$C$5))*(A9<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R9",
+      "class": "formula",
+      "v": "=P9*Q9"
+    },
+    {
+      "cell": "S9",
+      "class": "formula",
+      "v": "=IF(R9<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A9-2020),0%,IF(AND(R9>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A9-2020),R9<='Fiscal Terms_PIA'!$U$38*(1"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=Prod_Summary!S10"
+    },
+    {
+      "cell": "B10",
+      "class": "formula",
+      "v": "=Prod_Summary!T10"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "=Prod_Summary!U10"
+    },
+    {
+      "cell": "D10",
+      "class": "formula",
+      "v": "=Prod_Summary!V10"
+    },
+    {
+      "cell": "E10",
+      "class": "formula",
+      "v": "=Prod_Summary!W10"
+    },
+    {
+      "cell": "F10",
+      "class": "formula",
+      "v": "=Prod_Summary!X10"
+    },
+    {
+      "cell": "G10",
+      "class": "formula",
+      "v": "=Prod_Summary!Y10"
+    },
+    {
+      "cell": "I10",
+      "class": "formula",
+      "v": "=IF(B10=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B10<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J10",
+      "class": "formula",
+      "v": "=IF(B10=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B10<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=IF(B10=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B10<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=IF(B10=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N10",
+      "class": "formula",
+      "v": "=IF(E10=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P10",
+      "class": "formula",
+      "v": "=IF(AND(A10<>Ec_IO!$D$29,B10=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q10",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A10-Ec_IO!$C$5))*(A10<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R10",
+      "class": "formula",
+      "v": "=P10*Q10"
+    },
+    {
+      "cell": "S10",
+      "class": "formula",
+      "v": "=IF(R10<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A10-2020),0%,IF(AND(R10>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A10-2020),R10<='Fiscal Terms_PIA'!$U$"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=Prod_Summary!S11"
+    },
+    {
+      "cell": "B11",
+      "class": "formula",
+      "v": "=Prod_Summary!T11"
+    },
+    {
+      "cell": "C11",
+      "class": "formula",
+      "v": "=Prod_Summary!U11"
+    },
+    {
+      "cell": "D11",
+      "class": "formula",
+      "v": "=Prod_Summary!V11"
+    },
+    {
+      "cell": "E11",
+      "class": "formula",
+      "v": "=Prod_Summary!W11"
+    },
+    {
+      "cell": "F11",
+      "class": "formula",
+      "v": "=Prod_Summary!X11"
+    },
+    {
+      "cell": "G11",
+      "class": "formula",
+      "v": "=Prod_Summary!Y11"
+    },
+    {
+      "cell": "I11",
+      "class": "formula",
+      "v": "=IF(B11=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B11<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J11",
+      "class": "formula",
+      "v": "=IF(B11=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B11<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "v": "=IF(B11=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B11<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L11",
+      "class": "formula",
+      "v": "=IF(B11=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N11",
+      "class": "formula",
+      "v": "=IF(E11=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P11",
+      "class": "formula",
+      "v": "=IF(AND(A11<>Ec_IO!$D$29,B11=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q11",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A11-Ec_IO!$C$5))*(A11<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R11",
+      "class": "formula",
+      "v": "=P11*Q11"
+    },
+    {
+      "cell": "S11",
+      "class": "formula",
+      "v": "=IF(R11<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A11-2020),0%,IF(AND(R11>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A11-2020),R11<='Fiscal Terms_PIA'!$U$"
+    },
+    {
+      "cell": "A12",
+      "class": "formula",
+      "v": "=Prod_Summary!S12"
+    },
+    {
+      "cell": "B12",
+      "class": "formula",
+      "v": "=Prod_Summary!T12"
+    },
+    {
+      "cell": "C12",
+      "class": "formula",
+      "v": "=Prod_Summary!U12"
+    },
+    {
+      "cell": "D12",
+      "class": "formula",
+      "v": "=Prod_Summary!V12"
+    },
+    {
+      "cell": "E12",
+      "class": "formula",
+      "v": "=Prod_Summary!W12"
+    },
+    {
+      "cell": "F12",
+      "class": "formula",
+      "v": "=Prod_Summary!X12"
+    },
+    {
+      "cell": "G12",
+      "class": "formula",
+      "v": "=Prod_Summary!Y12"
+    },
+    {
+      "cell": "I12",
+      "class": "formula",
+      "v": "=IF(B12=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B12<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J12",
+      "class": "formula",
+      "v": "=IF(B12=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B12<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K12",
+      "class": "formula",
+      "v": "=IF(B12=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B12<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L12",
+      "class": "formula",
+      "v": "=IF(B12=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N12",
+      "class": "formula",
+      "v": "=IF(E12=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P12",
+      "class": "formula",
+      "v": "=IF(AND(A12<>Ec_IO!$D$29,B12=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q12",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A12-Ec_IO!$C$5))*(A12<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R12",
+      "class": "formula",
+      "v": "=P12*Q12"
+    },
+    {
+      "cell": "S12",
+      "class": "formula",
+      "v": "=IF(R12<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A12-2020),0%,IF(AND(R12>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A12-2020),R12<='Fiscal Terms_PIA'!$U$"
+    },
+    {
+      "cell": "A13",
+      "class": "formula",
+      "v": "=Prod_Summary!S13"
+    },
+    {
+      "cell": "B13",
+      "class": "formula",
+      "v": "=Prod_Summary!T13"
+    },
+    {
+      "cell": "C13",
+      "class": "formula",
+      "v": "=Prod_Summary!U13"
+    },
+    {
+      "cell": "D13",
+      "class": "formula",
+      "v": "=Prod_Summary!V13"
+    },
+    {
+      "cell": "E13",
+      "class": "formula",
+      "v": "=Prod_Summary!W13"
+    },
+    {
+      "cell": "F13",
+      "class": "formula",
+      "v": "=Prod_Summary!X13"
+    },
+    {
+      "cell": "G13",
+      "class": "formula",
+      "v": "=Prod_Summary!Y13"
+    },
+    {
+      "cell": "I13",
+      "class": "formula",
+      "v": "=IF(B13=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B13<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J13",
+      "class": "formula",
+      "v": "=IF(B13=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B13<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K13",
+      "class": "formula",
+      "v": "=IF(B13=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B13<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L13",
+      "class": "formula",
+      "v": "=IF(B13=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N13",
+      "class": "formula",
+      "v": "=IF(E13=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P13",
+      "class": "formula",
+      "v": "=IF(AND(A13<>Ec_IO!$D$29,B13=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q13",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A13-Ec_IO!$C$5))*(A13<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R13",
+      "class": "formula",
+      "v": "=P13*Q13"
+    },
+    {
+      "cell": "S13",
+      "class": "formula",
+      "v": "=IF(R13<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A13-2020),0%,IF(AND(R13>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A13-2020),R13<='Fiscal Terms_PIA'!$U$"
+    },
+    {
+      "cell": "A14",
+      "class": "formula",
+      "v": "=Prod_Summary!S14"
+    },
+    {
+      "cell": "B14",
+      "class": "formula",
+      "v": "=Prod_Summary!T14"
+    },
+    {
+      "cell": "C14",
+      "class": "formula",
+      "v": "=Prod_Summary!U14"
+    },
+    {
+      "cell": "D14",
+      "class": "formula",
+      "v": "=Prod_Summary!V14"
+    },
+    {
+      "cell": "E14",
+      "class": "formula",
+      "v": "=Prod_Summary!W14"
+    },
+    {
+      "cell": "F14",
+      "class": "formula",
+      "v": "=Prod_Summary!X14"
+    },
+    {
+      "cell": "G14",
+      "class": "formula",
+      "v": "=Prod_Summary!Y14"
+    },
+    {
+      "cell": "I14",
+      "class": "formula",
+      "v": "=IF(B14=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B14<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J14",
+      "class": "formula",
+      "v": "=IF(B14=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B14<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K14",
+      "class": "formula",
+      "v": "=IF(B14=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B14<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L14",
+      "class": "formula",
+      "v": "=IF(B14=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N14",
+      "class": "formula",
+      "v": "=IF(E14=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P14",
+      "class": "formula",
+      "v": "=IF(AND(A14<>Ec_IO!$D$29,B14=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q14",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A14-Ec_IO!$C$5))*(A14<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R14",
+      "class": "formula",
+      "v": "=P14*Q14"
+    },
+    {
+      "cell": "S14",
+      "class": "formula",
+      "v": "=IF(R14<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A14-2020),0%,IF(AND(R14>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A14-2020),R14<='Fiscal Terms_PIA'!$U$"
+    },
+    {
+      "cell": "A15",
+      "class": "formula",
+      "v": "=Prod_Summary!S15"
+    },
+    {
+      "cell": "B15",
+      "class": "formula",
+      "v": "=Prod_Summary!T15"
+    },
+    {
+      "cell": "C15",
+      "class": "formula",
+      "v": "=Prod_Summary!U15"
+    },
+    {
+      "cell": "D15",
+      "class": "formula",
+      "v": "=Prod_Summary!V15"
+    },
+    {
+      "cell": "E15",
+      "class": "formula",
+      "v": "=Prod_Summary!W15"
+    },
+    {
+      "cell": "F15",
+      "class": "formula",
+      "v": "=Prod_Summary!X15"
+    },
+    {
+      "cell": "G15",
+      "class": "formula",
+      "v": "=Prod_Summary!Y15"
+    },
+    {
+      "cell": "I15",
+      "class": "formula",
+      "v": "=IF(B15=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B15<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "J15",
+      "class": "formula",
+      "v": "=IF(B15=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B15<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PI"
+    },
+    {
+      "cell": "K15",
+      "class": "formula",
+      "v": "=IF(B15=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B15<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fis"
+    },
+    {
+      "cell": "L15",
+      "class": "formula",
+      "v": "=IF(B15=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))"
+    },
+    {
+      "cell": "N15",
+      "class": "formula",
+      "v": "=IF(E15=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))"
+    },
+    {
+      "cell": "P15",
+      "class": "formula",
+      "v": "=IF(AND(A15<>Ec_IO!$D$29,B15=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))"
+    },
+    {
+      "cell": "Q15",
+      "class": "formula",
+      "v": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A15-Ec_IO!$C$5))*(A15<Ec_IO!$D$22)"
+    },
+    {
+      "cell": "R15",
+      "class": "formula",
+      "v": "=P15*Q15"
+    },
+    {
+      "cell": "S15",
+      "class": "formula",
+      "v": "=IF(R15<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A15-2020),0%,IF(AND(R15>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A15-2020),R15<='Fiscal Terms_PIA'!$U$"
+    }
+  ],
+  "flgt_layout": [
+    {
+      "cell": "B1",
+      "class": "formula",
+      "v": "=Royalties!B1"
+    },
+    {
+      "cell": "E1",
+      "class": "formula",
+      "v": "=Royalties!E1"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_t",
+      "v": "Chargeable Oil Production"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_t",
+      "v": "Chargeable Associated Gas Production"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_t",
+      "v": "Royalty by Oil Production"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_t",
+      "v": "Royalty by Gas Production"
+    },
+    {
+      "cell": "P2",
+      "class": "label_or_t",
+      "v": "Royalty by Oil Price"
+    },
+    {
+      "cell": "W2",
+      "class": "label_or_t",
+      "v": "Gross Revenue"
+    },
+    {
+      "cell": "AA2",
+      "class": "label_or_t",
+      "v": "Front-Loaded Govt Take"
+    },
+    {
+      "cell": "AN2",
+      "class": "label_or_t",
+      "v": "Unit Conv"
+    },
+    {
+      "cell": "A3",
+      "class": "formula",
+      "v": "=Prod_Summary!S3"
+    },
+    {
+      "cell": "B3",
+      "class": "formula",
+      "v": "=Prod_Summary!T3"
+    },
+    {
+      "cell": "C3",
+      "class": "formula",
+      "v": "=Prod_Summary!U3"
+    },
+    {
+      "cell": "D3",
+      "class": "formula",
+      "v": "=Prod_Summary!V3"
+    },
+    {
+      "cell": "E3",
+      "class": "formula",
+      "v": "=Prod_Summary!W3"
+    },
+    {
+      "cell": "F3",
+      "class": "formula",
+      "v": "=Prod_Summary!X3"
+    },
+    {
+      "cell": "G3",
+      "class": "formula",
+      "v": "=Prod_Summary!Y3"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_t",
+      "v": "Terrain"
+    },
+    {
+      "cell": "J3",
+      "class": "formula",
+      "v": "=Ec_IO!$G$20"
+    },
+    {
+      "cell": "N3",
+      "class": "formula",
+      "v": "=Ec_IO!$G$21"
+    },
+    {
+      "cell": "P3",
+      "class": "label_or_t",
+      "v": "Real Oil Price, $/bbl"
+    },
+    {
+      "cell": "Q3",
+      "class": "label_or_t",
+      "v": "Price Escalation Factor"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_t",
+      "v": "Nominal Oil Price, $/bbl"
+    },
+    {
+      "cell": "S3",
+      "class": "label_or_t",
+      "v": "Price Royalty"
+    },
+    {
+      "cell": "U3",
+      "class": "label_or_t",
+      "v": "Nominal Gas Price"
+    },
+    {
+      "cell": "W3",
+      "class": "label_or_t",
+      "v": "Nominal Oil Revenue"
+    },
+    {
+      "cell": "X3",
+      "class": "label_or_t",
+      "v": "Nominal Gas Revenue"
+    },
+    {
+      "cell": "Y3",
+      "class": "label_or_t",
+      "v": "Nominal Total Revenue"
+    },
+    {
+      "cell": "Z3",
+      "class": "label_or_t",
+      "v": "HCDT Fund Gas S.263 (1)(h)"
+    },
+    {
+      "cell": "AA3",
+      "class": "label_or_t",
+      "v": "Bonuses"
+    },
+    {
+      "cell": "AB3",
+      "class": "label_or_t",
+      "v": "Oil Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AC3",
+      "class": "label_or_t",
+      "v": "Gas Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AD3",
+      "class": "label_or_t",
+      "v": "Price Royalty S.263 (1)(b)"
+    },
+    {
+      "cell": "AE3",
+      "class": "label_or_t",
+      "v": "Concession rentals S.263 (1)(a)"
+    },
+    {
+      "cell": "AF3",
+      "class": "label_or_t",
+      "v": "HCDT Fund Oil S.263 (1)(h)"
+    },
+    {
+      "cell": "AG3",
+      "class": "label_or_t",
+      "v": "NDDC Oil S.263 (1)(h)"
+    },
+    {
+      "cell": "AH3",
+      "class": "label_or_t",
+      "v": "NDDC Gas S.263 (1)(h)"
+    },
+    {
+      "cell": "AI3",
+      "class": "label_or_t",
+      "v": "Total"
+    },
+    {
+      "cell": "AL3",
+      "class": "label_or_t",
+      "v": "ERR"
+    },
+    {
+      "cell": "AM3",
+      "class": "label_or_t",
+      "v": "ERR"
+    },
+    {
+      "cell": "AN3",
+      "class": "label_or_t",
+      "v": "LOAN"
+    },
+    {
+      "cell": "B4",
+      "class": "formula",
+      "v": "=Prod_Summary!T4"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=Prod_Summary!U4"
+    },
+    {
+      "cell": "D4",
+      "class": "formula",
+      "v": "=Prod_Summary!V4"
+    },
+    {
+      "cell": "E4",
+      "class": "formula",
+      "v": "=Prod_Summary!W4"
+    },
+    {
+      "cell": "F4",
+      "class": "formula",
+      "v": "=Prod_Summary!X4"
+    },
+    {
+      "cell": "G4",
+      "class": "formula",
+      "v": "=Prod_Summary!Y4"
+    },
+    {
+      "cell": "I4",
+      "class": "label_or_t",
+      "v": "Onshore"
+    },
+    {
+      "cell": "J4",
+      "class": "label_or_t",
+      "v": "Shallow"
+    },
+    {
+      "cell": "K4",
+      "class": "label_or_t",
+      "v": "Deep"
+    },
+    {
+      "cell": "L4",
+      "class": "label_or_t",
+      "v": "Frontier"
+    },
+    {
+      "cell": "Q4",
+      "class": "formula",
+      "v": "=Ec_IO!$C$14"
+    },
+    {
+      "cell": "U4",
+      "class": "label_or_t",
+      "v": "$/mscf"
+    },
+    {
+      "cell": "W4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "X4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "Y4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "Z4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AA4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AB4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AC4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AD4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AE4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AF4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AG4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AH4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AI4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AL4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "AM4",
+      "class": "label_or_t",
+      "v": "%"
+    },
+    {
+      "cell": "AN4",
+      "class": "label_or_t",
+      "v": "$mm"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=A6-1"
+    },
+    {
+      "cell": "W5",
+      "class": "formula",
+      "v": "=R5*C5"
+    },
+    {
+      "cell": "X5",
+      "class": "formula",
+      "v": "=U5*F5"
+    },
+    {
+      "cell": "Y5",
+      "class": "formula",
+      "v": "=W5+X5"
+    },
+    {
+      "cell": "Z5",
+      "class": "formula",
+      "v": "=IF(AH5=0,0,(Block_TC_Gas!FX1)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB5",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I5*W5,IF($J$3='Fiscal Terms_PIA'!$T$21,J5*W5,IF($J$3='Fiscal Terms_PIA'!$T$24,K5*W5,L5*W5)))"
+    },
+    {
+      "cell": "AC5",
+      "class": "formula",
+      "v": "=N5*X5"
+    },
+    {
+      "cell": "AD5",
+      "class": "formula",
+      "v": "=S5*W5"
+    },
+    {
+      "cell": "AE5",
+      "class": "formula",
+      "v": "=IF(B5=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q5"
+    },
+    {
+      "cell": "AF5",
+      "class": "formula",
+      "v": "=IF(AB5=0,0,(Block_TC!GB1+Block_TC!ET4)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG5",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY2+Block_TC!FZ2+Block_TC!GA2+Block_TC!GB2+Block_TC!ET5),0)"
+    },
+    {
+      "cell": "AH5",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ2,0)"
+    },
+    {
+      "cell": "AI5",
+      "class": "formula",
+      "v": "=SUM(Z5:AH5)"
+    },
+    {
+      "cell": "AL5",
+      "class": "formula",
+      "v": "=AB5+AC5+AD5"
+    },
+    {
+      "cell": "AM5",
+      "class": "formula",
+      "v": "=IFERROR(AL5/Y5,0)"
+    },
+    {
+      "cell": "AN5",
+      "class": "formula",
+      "v": "=IF(A5='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=A7-1"
+    },
+    {
+      "cell": "W6",
+      "class": "formula",
+      "v": "=R6*C6"
+    },
+    {
+      "cell": "X6",
+      "class": "formula",
+      "v": "=U6*F6"
+    },
+    {
+      "cell": "Y6",
+      "class": "formula",
+      "v": "=W6+X6"
+    },
+    {
+      "cell": "Z6",
+      "class": "formula",
+      "v": "=IF(AH6=0,0,(Block_TC_Gas!FX2)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB6",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I6*W6,IF($J$3='Fiscal Terms_PIA'!$T$21,J6*W6,IF($J$3='Fiscal Terms_PIA'!$T$24,K6*W6,L6*W6)))"
+    },
+    {
+      "cell": "AC6",
+      "class": "formula",
+      "v": "=N6*X6"
+    },
+    {
+      "cell": "AD6",
+      "class": "formula",
+      "v": "=S6*W6"
+    },
+    {
+      "cell": "AE6",
+      "class": "formula",
+      "v": "=IF(B6=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q6"
+    },
+    {
+      "cell": "AF6",
+      "class": "formula",
+      "v": "=IF(AB6=0,0,(Block_TC!GB2+Block_TC!ET5)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG6",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY3+Block_TC!FZ3+Block_TC!GA3+Block_TC!GB3+Block_TC!ET6),0)"
+    },
+    {
+      "cell": "AH6",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ3,0)"
+    },
+    {
+      "cell": "AI6",
+      "class": "formula",
+      "v": "=SUM(Z6:AH6)"
+    },
+    {
+      "cell": "AL6",
+      "class": "formula",
+      "v": "=AB6+AC6+AD6"
+    },
+    {
+      "cell": "AM6",
+      "class": "formula",
+      "v": "=IFERROR(AL6/Y6,0)"
+    },
+    {
+      "cell": "AN6",
+      "class": "formula",
+      "v": "=IF(A6='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=A8-1"
+    },
+    {
+      "cell": "W7",
+      "class": "formula",
+      "v": "=R7*C7"
+    },
+    {
+      "cell": "X7",
+      "class": "formula",
+      "v": "=U7*F7"
+    },
+    {
+      "cell": "Y7",
+      "class": "formula",
+      "v": "=W7+X7"
+    },
+    {
+      "cell": "Z7",
+      "class": "formula",
+      "v": "=IF(AH7=0,0,(Block_TC_Gas!FX3)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB7",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I7*W7,IF($J$3='Fiscal Terms_PIA'!$T$21,J7*W7,IF($J$3='Fiscal Terms_PIA'!$T$24,K7*W7,L7*W7)))"
+    },
+    {
+      "cell": "AC7",
+      "class": "formula",
+      "v": "=N7*X7"
+    },
+    {
+      "cell": "AD7",
+      "class": "formula",
+      "v": "=S7*W7"
+    },
+    {
+      "cell": "AE7",
+      "class": "formula",
+      "v": "=IF(B7=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q7"
+    },
+    {
+      "cell": "AF7",
+      "class": "formula",
+      "v": "=IF(AB7=0,0,(Block_TC!GB3+Block_TC!ET6)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG7",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY4+Block_TC!FZ4+Block_TC!GA4+Block_TC!GB4+Block_TC!ET7),0)"
+    },
+    {
+      "cell": "AH7",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ4,0)"
+    },
+    {
+      "cell": "AI7",
+      "class": "formula",
+      "v": "=SUM(Z7:AH7)"
+    },
+    {
+      "cell": "AL7",
+      "class": "formula",
+      "v": "=AB7+AC7+AD7"
+    },
+    {
+      "cell": "AM7",
+      "class": "formula",
+      "v": "=IFERROR(AL7/Y7,0)"
+    },
+    {
+      "cell": "AN7",
+      "class": "formula",
+      "v": "=IF(A7='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=Prod_Summary!S5"
+    },
+    {
+      "cell": "B8",
+      "class": "formula",
+      "v": "=Prod_Summary!T5"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "=Prod_Summary!U5"
+    },
+    {
+      "cell": "D8",
+      "class": "formula",
+      "v": "=Prod_Summary!V5"
+    },
+    {
+      "cell": "E8",
+      "class": "formula",
+      "v": "=Prod_Summary!W5"
+    },
+    {
+      "cell": "F8",
+      "class": "formula",
+      "v": "=Prod_Summary!X5"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "=Prod_Summary!Y5"
+    },
+    {
+      "cell": "I8",
+      "class": "formula",
+      "v": "=Royalties!I5"
+    },
+    {
+      "cell": "J8",
+      "class": "formula",
+      "v": "=Royalties!J5"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=Royalties!K5"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=Royalties!L5"
+    },
+    {
+      "cell": "N8",
+      "class": "formula",
+      "v": "=Royalties!N5"
+    },
+    {
+      "cell": "P8",
+      "class": "formula",
+      "v": "=Royalties!P5"
+    },
+    {
+      "cell": "Q8",
+      "class": "formula",
+      "v": "=Royalties!Q5"
+    },
+    {
+      "cell": "R8",
+      "class": "formula",
+      "v": "=Royalties!R5"
+    },
+    {
+      "cell": "S8",
+      "class": "formula",
+      "v": "=Royalties!S5"
+    },
+    {
+      "cell": "U8",
+      "class": "formula",
+      "v": "=Ec_IO!$C$17*Q8*(100%+Analysis!$N$13)"
+    },
+    {
+      "cell": "W8",
+      "class": "formula",
+      "v": "=R8*C8"
+    },
+    {
+      "cell": "X8",
+      "class": "formula",
+      "v": "=U8*F8"
+    },
+    {
+      "cell": "Y8",
+      "class": "formula",
+      "v": "=W8+X8"
+    },
+    {
+      "cell": "Z8",
+      "class": "formula",
+      "v": "=IF(AH8=0,0,(Block_TC_Gas!FX4)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB8",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I8*W8,IF($J$3='Fiscal Terms_PIA'!$T$21,J8*W8,IF($J$3='Fiscal Terms_PIA'!$T$24,K8*W8,L8*W8)))"
+    },
+    {
+      "cell": "AC8",
+      "class": "formula",
+      "v": "=N8*X8"
+    },
+    {
+      "cell": "AD8",
+      "class": "formula",
+      "v": "=S8*W8"
+    },
+    {
+      "cell": "AE8",
+      "class": "formula",
+      "v": "=IF(B8=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q8"
+    },
+    {
+      "cell": "AF8",
+      "class": "formula",
+      "v": "=IF(AB8=0,0,(Block_TC!GB4+Block_TC!ET7)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG8",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY5+Block_TC!FZ5+Block_TC!GA5+Block_TC!GB5+Block_TC!ET8),0)"
+    },
+    {
+      "cell": "AH8",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ5,0)"
+    },
+    {
+      "cell": "AI8",
+      "class": "formula",
+      "v": "=SUM(Z8:AH8)"
+    },
+    {
+      "cell": "AL8",
+      "class": "formula",
+      "v": "=AB8+AC8+AD8"
+    },
+    {
+      "cell": "AM8",
+      "class": "formula",
+      "v": "=IFERROR(AL8/Y8,0)"
+    },
+    {
+      "cell": "AN8",
+      "class": "formula",
+      "v": "=IF(A8='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=Prod_Summary!S6"
+    },
+    {
+      "cell": "B9",
+      "class": "formula",
+      "v": "=Prod_Summary!T6"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "=Prod_Summary!U6"
+    },
+    {
+      "cell": "D9",
+      "class": "formula",
+      "v": "=Prod_Summary!V6"
+    },
+    {
+      "cell": "E9",
+      "class": "formula",
+      "v": "=Prod_Summary!W6"
+    },
+    {
+      "cell": "F9",
+      "class": "formula",
+      "v": "=Prod_Summary!X6"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "=Prod_Summary!Y6"
+    },
+    {
+      "cell": "I9",
+      "class": "formula",
+      "v": "=Royalties!I6"
+    },
+    {
+      "cell": "J9",
+      "class": "formula",
+      "v": "=Royalties!J6"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=Royalties!K6"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=Royalties!L6"
+    },
+    {
+      "cell": "N9",
+      "class": "formula",
+      "v": "=Royalties!N6"
+    },
+    {
+      "cell": "P9",
+      "class": "formula",
+      "v": "=Royalties!P6"
+    },
+    {
+      "cell": "Q9",
+      "class": "formula",
+      "v": "=Royalties!Q6"
+    },
+    {
+      "cell": "R9",
+      "class": "formula",
+      "v": "=Royalties!R6"
+    },
+    {
+      "cell": "S9",
+      "class": "formula",
+      "v": "=Royalties!S6"
+    },
+    {
+      "cell": "U9",
+      "class": "formula",
+      "v": "=Ec_IO!$C$17*Q9*(100%+Analysis!$N$13)"
+    },
+    {
+      "cell": "W9",
+      "class": "formula",
+      "v": "=R9*C9"
+    },
+    {
+      "cell": "X9",
+      "class": "formula",
+      "v": "=U9*F9"
+    },
+    {
+      "cell": "Y9",
+      "class": "formula",
+      "v": "=W9+X9"
+    },
+    {
+      "cell": "Z9",
+      "class": "formula",
+      "v": "=IF(AH9=0,0,(Block_TC_Gas!FX5)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB9",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I9*W9,IF($J$3='Fiscal Terms_PIA'!$T$21,J9*W9,IF($J$3='Fiscal Terms_PIA'!$T$24,K9*W9,L9*W9)))"
+    },
+    {
+      "cell": "AC9",
+      "class": "formula",
+      "v": "=N9*X9"
+    },
+    {
+      "cell": "AD9",
+      "class": "formula",
+      "v": "=S9*W9"
+    },
+    {
+      "cell": "AE9",
+      "class": "formula",
+      "v": "=IF(B9=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q9"
+    },
+    {
+      "cell": "AF9",
+      "class": "formula",
+      "v": "=IF(AB9=0,0,(Block_TC!GB5+Block_TC!ET8)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG9",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY6+Block_TC!FZ6+Block_TC!GA6+Block_TC!GB6+Block_TC!ET9),0)"
+    },
+    {
+      "cell": "AH9",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ6,0)"
+    },
+    {
+      "cell": "AI9",
+      "class": "formula",
+      "v": "=SUM(Z9:AH9)"
+    },
+    {
+      "cell": "AL9",
+      "class": "formula",
+      "v": "=AB9+AC9+AD9"
+    },
+    {
+      "cell": "AM9",
+      "class": "formula",
+      "v": "=IFERROR(AL9/Y9,0)"
+    },
+    {
+      "cell": "AN9",
+      "class": "formula",
+      "v": "=IF(A9='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=Prod_Summary!S7"
+    },
+    {
+      "cell": "B10",
+      "class": "formula",
+      "v": "=Prod_Summary!T7"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "=Prod_Summary!U7"
+    },
+    {
+      "cell": "D10",
+      "class": "formula",
+      "v": "=Prod_Summary!V7"
+    },
+    {
+      "cell": "E10",
+      "class": "formula",
+      "v": "=Prod_Summary!W7"
+    },
+    {
+      "cell": "F10",
+      "class": "formula",
+      "v": "=Prod_Summary!X7"
+    },
+    {
+      "cell": "G10",
+      "class": "formula",
+      "v": "=Prod_Summary!Y7"
+    },
+    {
+      "cell": "I10",
+      "class": "formula",
+      "v": "=Royalties!I7"
+    },
+    {
+      "cell": "J10",
+      "class": "formula",
+      "v": "=Royalties!J7"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=Royalties!K7"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=Royalties!L7"
+    },
+    {
+      "cell": "N10",
+      "class": "formula",
+      "v": "=Royalties!N7"
+    },
+    {
+      "cell": "P10",
+      "class": "formula",
+      "v": "=Royalties!P7"
+    },
+    {
+      "cell": "Q10",
+      "class": "formula",
+      "v": "=Royalties!Q7"
+    },
+    {
+      "cell": "R10",
+      "class": "formula",
+      "v": "=Royalties!R7"
+    },
+    {
+      "cell": "S10",
+      "class": "formula",
+      "v": "=Royalties!S7"
+    },
+    {
+      "cell": "U10",
+      "class": "formula",
+      "v": "=Ec_IO!$C$17*Q10*(100%+Analysis!$N$13)"
+    },
+    {
+      "cell": "W10",
+      "class": "formula",
+      "v": "=R10*C10"
+    },
+    {
+      "cell": "X10",
+      "class": "formula",
+      "v": "=U10*F10"
+    },
+    {
+      "cell": "Y10",
+      "class": "formula",
+      "v": "=W10+X10"
+    },
+    {
+      "cell": "Z10",
+      "class": "formula",
+      "v": "=IF(AH10=0,0,(Block_TC_Gas!FX6)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB10",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I10*W10,IF($J$3='Fiscal Terms_PIA'!$T$21,J10*W10,IF($J$3='Fiscal Terms_PIA'!$T$24,K10*W10,L10*W10)))"
+    },
+    {
+      "cell": "AC10",
+      "class": "formula",
+      "v": "=N10*X10"
+    },
+    {
+      "cell": "AD10",
+      "class": "formula",
+      "v": "=S10*W10"
+    },
+    {
+      "cell": "AE10",
+      "class": "formula",
+      "v": "=IF(B10=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q10"
+    },
+    {
+      "cell": "AF10",
+      "class": "formula",
+      "v": "=IF(AB10=0,0,(Block_TC!GB6+Block_TC!ET9)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG10",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY7+Block_TC!FZ7+Block_TC!GA7+Block_TC!GB7+Block_TC!ET10),0)"
+    },
+    {
+      "cell": "AH10",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ7,0)"
+    },
+    {
+      "cell": "AI10",
+      "class": "formula",
+      "v": "=SUM(Z10:AH10)"
+    },
+    {
+      "cell": "AL10",
+      "class": "formula",
+      "v": "=AB10+AC10+AD10"
+    },
+    {
+      "cell": "AM10",
+      "class": "formula",
+      "v": "=IFERROR(AL10/Y10,0)"
+    },
+    {
+      "cell": "AN10",
+      "class": "formula",
+      "v": "=IF(A10='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=Prod_Summary!S8"
+    },
+    {
+      "cell": "B11",
+      "class": "formula",
+      "v": "=Prod_Summary!T8"
+    },
+    {
+      "cell": "C11",
+      "class": "formula",
+      "v": "=Prod_Summary!U8"
+    },
+    {
+      "cell": "D11",
+      "class": "formula",
+      "v": "=Prod_Summary!V8"
+    },
+    {
+      "cell": "E11",
+      "class": "formula",
+      "v": "=Prod_Summary!W8"
+    },
+    {
+      "cell": "F11",
+      "class": "formula",
+      "v": "=Prod_Summary!X8"
+    },
+    {
+      "cell": "G11",
+      "class": "formula",
+      "v": "=Prod_Summary!Y8"
+    },
+    {
+      "cell": "I11",
+      "class": "formula",
+      "v": "=Royalties!I8"
+    },
+    {
+      "cell": "J11",
+      "class": "formula",
+      "v": "=Royalties!J8"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "v": "=Royalties!K8"
+    },
+    {
+      "cell": "L11",
+      "class": "formula",
+      "v": "=Royalties!L8"
+    },
+    {
+      "cell": "N11",
+      "class": "formula",
+      "v": "=Royalties!N8"
+    },
+    {
+      "cell": "P11",
+      "class": "formula",
+      "v": "=Royalties!P8"
+    },
+    {
+      "cell": "Q11",
+      "class": "formula",
+      "v": "=Royalties!Q8"
+    },
+    {
+      "cell": "R11",
+      "class": "formula",
+      "v": "=Royalties!R8"
+    },
+    {
+      "cell": "S11",
+      "class": "formula",
+      "v": "=Royalties!S8"
+    },
+    {
+      "cell": "U11",
+      "class": "formula",
+      "v": "=Ec_IO!$C$17*Q11*(100%+Analysis!$N$13)"
+    },
+    {
+      "cell": "W11",
+      "class": "formula",
+      "v": "=R11*C11"
+    },
+    {
+      "cell": "X11",
+      "class": "formula",
+      "v": "=U11*F11"
+    },
+    {
+      "cell": "Y11",
+      "class": "formula",
+      "v": "=W11+X11"
+    },
+    {
+      "cell": "Z11",
+      "class": "formula",
+      "v": "=IF(AH11=0,0,(Block_TC_Gas!FX7)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB11",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I11*W11,IF($J$3='Fiscal Terms_PIA'!$T$21,J11*W11,IF($J$3='Fiscal Terms_PIA'!$T$24,K11*W11,L11*W11)))"
+    },
+    {
+      "cell": "AC11",
+      "class": "formula",
+      "v": "=N11*X11"
+    },
+    {
+      "cell": "AD11",
+      "class": "formula",
+      "v": "=S11*W11"
+    },
+    {
+      "cell": "AE11",
+      "class": "formula",
+      "v": "=IF(B11=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q11"
+    },
+    {
+      "cell": "AF11",
+      "class": "formula",
+      "v": "=IF(AB11=0,0,(Block_TC!GB7+Block_TC!ET10)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG11",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY8+Block_TC!FZ8+Block_TC!GA8+Block_TC!GB8+Block_TC!ET11),0)"
+    },
+    {
+      "cell": "AH11",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ8,0)"
+    },
+    {
+      "cell": "AI11",
+      "class": "formula",
+      "v": "=SUM(Z11:AH11)"
+    },
+    {
+      "cell": "AL11",
+      "class": "formula",
+      "v": "=AB11+AC11+AD11"
+    },
+    {
+      "cell": "AM11",
+      "class": "formula",
+      "v": "=IFERROR(AL11/Y11,0)"
+    },
+    {
+      "cell": "AN11",
+      "class": "formula",
+      "v": "=IF(A11='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    },
+    {
+      "cell": "A12",
+      "class": "formula",
+      "v": "=Prod_Summary!S9"
+    },
+    {
+      "cell": "B12",
+      "class": "formula",
+      "v": "=Prod_Summary!T9"
+    },
+    {
+      "cell": "C12",
+      "class": "formula",
+      "v": "=Prod_Summary!U9"
+    },
+    {
+      "cell": "D12",
+      "class": "formula",
+      "v": "=Prod_Summary!V9"
+    },
+    {
+      "cell": "E12",
+      "class": "formula",
+      "v": "=Prod_Summary!W9"
+    },
+    {
+      "cell": "F12",
+      "class": "formula",
+      "v": "=Prod_Summary!X9"
+    },
+    {
+      "cell": "G12",
+      "class": "formula",
+      "v": "=Prod_Summary!Y9"
+    },
+    {
+      "cell": "I12",
+      "class": "formula",
+      "v": "=Royalties!I9"
+    },
+    {
+      "cell": "J12",
+      "class": "formula",
+      "v": "=Royalties!J9"
+    },
+    {
+      "cell": "K12",
+      "class": "formula",
+      "v": "=Royalties!K9"
+    },
+    {
+      "cell": "L12",
+      "class": "formula",
+      "v": "=Royalties!L9"
+    },
+    {
+      "cell": "N12",
+      "class": "formula",
+      "v": "=Royalties!N9"
+    },
+    {
+      "cell": "P12",
+      "class": "formula",
+      "v": "=Royalties!P9"
+    },
+    {
+      "cell": "Q12",
+      "class": "formula",
+      "v": "=Royalties!Q9"
+    },
+    {
+      "cell": "R12",
+      "class": "formula",
+      "v": "=Royalties!R9"
+    },
+    {
+      "cell": "S12",
+      "class": "formula",
+      "v": "=Royalties!S9"
+    },
+    {
+      "cell": "U12",
+      "class": "formula",
+      "v": "=Ec_IO!$C$17*Q12*(100%+Analysis!$N$13)"
+    },
+    {
+      "cell": "W12",
+      "class": "formula",
+      "v": "=R12*C12"
+    },
+    {
+      "cell": "X12",
+      "class": "formula",
+      "v": "=U12*F12"
+    },
+    {
+      "cell": "Y12",
+      "class": "formula",
+      "v": "=W12+X12"
+    },
+    {
+      "cell": "Z12",
+      "class": "formula",
+      "v": "=IF(AH12=0,0,(Block_TC_Gas!FX8)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AB12",
+      "class": "formula",
+      "v": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I12*W12,IF($J$3='Fiscal Terms_PIA'!$T$21,J12*W12,IF($J$3='Fiscal Terms_PIA'!$T$24,K12*W12,L12*W12)))"
+    },
+    {
+      "cell": "AC12",
+      "class": "formula",
+      "v": "=N12*X12"
+    },
+    {
+      "cell": "AD12",
+      "class": "formula",
+      "v": "=S12*W12"
+    },
+    {
+      "cell": "AE12",
+      "class": "formula",
+      "v": "=IF(B12=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q12"
+    },
+    {
+      "cell": "AF12",
+      "class": "formula",
+      "v": "=IF(AB12=0,0,(Block_TC!GB8+Block_TC!ET11)*'Fiscal Terms_PIA'!$T$72)"
+    },
+    {
+      "cell": "AG12",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY9+Block_TC!FZ9+Block_TC!GA9+Block_TC!GB9+Block_TC!ET12),0)"
+    },
+    {
+      "cell": "AH12",
+      "class": "formula",
+      "v": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ9,0)"
+    },
+    {
+      "cell": "AI12",
+      "class": "formula",
+      "v": "=SUM(Z12:AH12)"
+    },
+    {
+      "cell": "AL12",
+      "class": "formula",
+      "v": "=AB12+AC12+AD12"
+    },
+    {
+      "cell": "AM12",
+      "class": "formula",
+      "v": "=IFERROR(AL12/Y12,0)"
+    },
+    {
+      "cell": "AN12",
+      "class": "formula",
+      "v": "=IF(A12='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)"
+    }
+  ],
+  "samples": {
+    "Royalties": [
+      {
+        "cell": "B1",
+        "f": "=Prod_Summary!B2",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "E1",
+        "f": "=Prod_Summary!G2",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "A3",
+        "f": "=Prod_Summary!S3",
+        "c": "YEAR"
+      },
+      {
+        "cell": "B3",
+        "f": "=Prod_Summary!T3",
+        "c": "Daily Oil Production"
+      },
+      {
+        "cell": "C3",
+        "f": "=Prod_Summary!U3",
+        "c": "Annual Oil Production"
+      },
+      {
+        "cell": "D3",
+        "f": "=Prod_Summary!V3",
+        "c": "Cumulative Oil Production"
+      },
+      {
+        "cell": "E3",
+        "f": "=Prod_Summary!W3",
+        "c": "Daily Gas Production"
+      },
+      {
+        "cell": "F3",
+        "f": "=Prod_Summary!X3",
+        "c": "Annual Gas Production"
+      },
+      {
+        "cell": "G3",
+        "f": "=Prod_Summary!Y3",
+        "c": "Cumulative Gas Production"
+      },
+      {
+        "cell": "I3",
+        "f": "=Ec_IO!G20",
+        "c": "Shallow Water (<200m water depth)"
+      },
+      {
+        "cell": "N3",
+        "f": "=Ec_IO!G21",
+        "c": "In-Country (Dom Gas)"
+      },
+      {
+        "cell": "B4",
+        "f": "=Prod_Summary!T4",
+        "c": "mb/d"
+      },
+      {
+        "cell": "C4",
+        "f": "=Prod_Summary!U4",
+        "c": "mmbbls"
+      },
+      {
+        "cell": "D4",
+        "f": "=Prod_Summary!V4",
+        "c": "mmbbls"
+      },
+      {
+        "cell": "E4",
+        "f": "=Prod_Summary!W4",
+        "c": "mmscf/d"
+      },
+      {
+        "cell": "F4",
+        "f": "=Prod_Summary!X4",
+        "c": "bscf"
+      },
+      {
+        "cell": "G4",
+        "f": "=Prod_Summary!Y4",
+        "c": "bscf"
+      },
+      {
+        "cell": "S4",
+        "f": "=Ec_IO!$C$14",
+        "c": "0"
+      },
+      {
+        "cell": "A5",
+        "f": "=Prod_Summary!S5",
+        "c": "2027"
+      },
+      {
+        "cell": "B5",
+        "f": "=Prod_Summary!T5",
+        "c": "1"
+      },
+      {
+        "cell": "C5",
+        "f": "=Prod_Summary!U5",
+        "c": "0.36525"
+      },
+      {
+        "cell": "D5",
+        "f": "=Prod_Summary!V5",
+        "c": "0.36525"
+      },
+      {
+        "cell": "E5",
+        "f": "=Prod_Summary!W5",
+        "c": "1.2"
+      },
+      {
+        "cell": "F5",
+        "f": "=Prod_Summary!X5",
+        "c": "0"
+      },
+      {
+        "cell": "G5",
+        "f": "=Prod_Summary!Y5",
+        "c": "0"
+      },
+      {
+        "cell": "I5",
+        "f": "=IF(B5=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B5<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B5>'Fiscal Terms_PIA'!$V$18/1000,B5<='Fis",
+        "c": "0"
+      },
+      {
+        "cell": "J5",
+        "f": "=IF(B5=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B5<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B5>'Fiscal Terms_PIA'!$V$21/1000,B5<='Fis",
+        "c": "0.05"
+      },
+      {
+        "cell": "K5",
+        "f": "=IF(B5=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B5<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B5>'Fiscal Terms_PIA'!$V$24/1000),('Fisca",
+        "c": "0"
+      },
+      {
+        "cell": "L5",
+        "f": "=IF(B5=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))",
+        "c": "0"
+      },
+      {
+        "cell": "N5",
+        "f": "=IF(E5=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))",
+        "c": "0.025"
+      },
+      {
+        "cell": "P5",
+        "f": "=IF(AND(A5<>Ec_IO!$D$29,B5=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))",
+        "c": "50"
+      },
+      {
+        "cell": "Q5",
+        "f": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A5-Ec_IO!$C$5))*(A5<Ec_IO!$D$22)",
+        "c": "1"
+      },
+      {
+        "cell": "R5",
+        "f": "=P5*Q5",
+        "c": "50"
+      },
+      {
+        "cell": "S5",
+        "f": "=IF(R5<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A5-2020),0%,IF(AND(R5>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A5-2020),R5<='Fiscal Terms_PIA'!$U$38*(1+$S$4)^(A5-2020)),10%*(R5-'Fiscal Terms_PIA'!$U$36*(1+$S$4)^",
+        "c": "0"
+      },
+      {
+        "cell": "A6",
+        "f": "=Prod_Summary!S6",
+        "c": "2028"
+      },
+      {
+        "cell": "B6",
+        "f": "=Prod_Summary!T6",
+        "c": "2.15443469003188"
+      },
+      {
+        "cell": "C6",
+        "f": "=Prod_Summary!U6",
+        "c": "0.786907270534146"
+      },
+      {
+        "cell": "D6",
+        "f": "=Prod_Summary!V6",
+        "c": "1.15215727053415"
+      },
+      {
+        "cell": "E6",
+        "f": "=Prod_Summary!W6",
+        "c": "2.58532162803826"
+      },
+      {
+        "cell": "F6",
+        "f": "=Prod_Summary!X6",
+        "c": "0.658793104896479"
+      },
+      {
+        "cell": "G6",
+        "f": "=Prod_Summary!Y6",
+        "c": "0.658793104896479"
+      },
+      {
+        "cell": "I6",
+        "f": "=IF(B6=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B6<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B6>'Fiscal Terms_PIA'!$V$18/1000,B6<='Fis",
+        "c": "0"
+      },
+      {
+        "cell": "J6",
+        "f": "=IF(B6=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B6<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B6>'Fiscal Terms_PIA'!$V$21/1000,B6<='Fis",
+        "c": "0.05"
+      },
+      {
+        "cell": "K6",
+        "f": "=IF(B6=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B6<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B6>'Fiscal Terms_PIA'!$V$24/1000),('Fisca",
+        "c": "0"
+      },
+      {
+        "cell": "L6",
+        "f": "=IF(B6=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))",
+        "c": "0"
+      },
+      {
+        "cell": "N6",
+        "f": "=IF(E6=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))",
+        "c": "0.025"
+      },
+      {
+        "cell": "P6",
+        "f": "=IF(AND(A6<>Ec_IO!$D$29,B6=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))",
+        "c": "50"
+      },
+      {
+        "cell": "Q6",
+        "f": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A6-Ec_IO!$C$5))*(A6<Ec_IO!$D$22)",
+        "c": "1"
+      },
+      {
+        "cell": "R6",
+        "f": "=P6*Q6",
+        "c": "50"
+      },
+      {
+        "cell": "S6",
+        "f": "=IF(R6<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A6-2020),0%,IF(AND(R6>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A6-2020),R6<='Fiscal Terms_PIA'!$U$38*(1+$S$4)^(A6-2020)),10%*(R6-'Fiscal Terms_PIA'!$U$36*(1+$S$4)^",
+        "c": "0"
+      },
+      {
+        "cell": "A7",
+        "f": "=Prod_Summary!S7",
+        "c": "2029"
+      },
+      {
+        "cell": "B7",
+        "f": "=Prod_Summary!T7",
+        "c": "4.64158883361278"
+      },
+      {
+        "cell": "C7",
+        "f": "=Prod_Summary!U7",
+        "c": "1.69534032147707"
+      },
+      {
+        "cell": "D7",
+        "f": "=Prod_Summary!V7",
+        "c": "2.84749759201121"
+      },
+      {
+        "cell": "E7",
+        "f": "=Prod_Summary!W7",
+        "c": "5.56990660033533"
+      },
+      {
+        "cell": "F7",
+        "f": "=Prod_Summary!X7",
+        "c": "1.41932671874279"
+      },
+      {
+        "cell": "G7",
+        "f": "=Prod_Summary!Y7",
+        "c": "2.07811982363927"
+      },
+      {
+        "cell": "I7",
+        "f": "=IF(B7=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B7<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B7>'Fiscal Terms_PIA'!$V$18/1000,B7<='Fis",
+        "c": "0"
+      },
+      {
+        "cell": "J7",
+        "f": "=IF(B7=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B7<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B7>'Fiscal Terms_PIA'!$V$21/1000,B7<='Fis",
+        "c": "0.05"
+      },
+      {
+        "cell": "K7",
+        "f": "=IF(B7=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B7<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B7>'Fiscal Terms_PIA'!$V$24/1000),('Fisca",
+        "c": "0"
+      },
+      {
+        "cell": "L7",
+        "f": "=IF(B7=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))",
+        "c": "0"
+      },
+      {
+        "cell": "N7",
+        "f": "=IF(E7=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))",
+        "c": "0.025"
+      },
+      {
+        "cell": "P7",
+        "f": "=IF(AND(A7<>Ec_IO!$D$29,B7=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))",
+        "c": "50"
+      },
+      {
+        "cell": "Q7",
+        "f": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A7-Ec_IO!$C$5))*(A7<Ec_IO!$D$22)",
+        "c": "1"
+      },
+      {
+        "cell": "R7",
+        "f": "=P7*Q7",
+        "c": "50"
+      },
+      {
+        "cell": "S7",
+        "f": "=IF(R7<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A7-2020),0%,IF(AND(R7>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A7-2020),R7<='Fiscal Terms_PIA'!$U$38*(1+$S$4)^(A7-2020)),10%*(R7-'Fiscal Terms_PIA'!$U$36*(1+$S$4)^",
+        "c": "0"
+      },
+      {
+        "cell": "A8",
+        "f": "=Prod_Summary!S8",
+        "c": "2030"
+      },
+      {
+        "cell": "B8",
+        "f": "=Prod_Summary!T8",
+        "c": "10"
+      },
+      {
+        "cell": "C8",
+        "f": "=Prod_Summary!U8",
+        "c": "3.6525"
+      },
+      {
+        "cell": "D8",
+        "f": "=Prod_Summary!V8",
+        "c": "6.49999759201121"
+      },
+      {
+        "cell": "E8",
+        "f": "=Prod_Summary!W8",
+        "c": "12"
+      },
+      {
+        "cell": "F8",
+        "f": "=Prod_Summary!X8",
+        "c": "3.05784671934859"
+      },
+      {
+        "cell": "G8",
+        "f": "=Prod_Summary!Y8",
+        "c": "5.13596654298786"
+      },
+      {
+        "cell": "I8",
+        "f": "=IF(B8=0,0,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B8<='Fiscal Terms_PIA'!$V$18/1000),'Fiscal Terms_PIA'!$W$18,IF(AND('Fiscal Terms_PIA'!$T$18=Ec_IO!$G$20,B8>'Fiscal Terms_PIA'!$V$18/1000,B8<='Fis",
+        "c": "0"
+      },
+      {
+        "cell": "J8",
+        "f": "=IF(B8=0,0,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B8<='Fiscal Terms_PIA'!$V$21/1000),'Fiscal Terms_PIA'!$W$21,IF(AND('Fiscal Terms_PIA'!$T$21=Ec_IO!$G$20,B8>'Fiscal Terms_PIA'!$V$21/1000,B8<='Fis",
+        "c": "0.0625"
+      },
+      {
+        "cell": "K8",
+        "f": "=IF(B8=0,0,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B8<='Fiscal Terms_PIA'!$V$24/1000),'Fiscal Terms_PIA'!$W$24,IF(AND(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$24,B8>'Fiscal Terms_PIA'!$V$24/1000),('Fisca",
+        "c": "0"
+      },
+      {
+        "cell": "L8",
+        "f": "=IF(B8=0,0,IF(Ec_IO!$G$20='Fiscal Terms_PIA'!$T$26,'Fiscal Terms_PIA'!$W$26,0))",
+        "c": "0"
+      },
+      {
+        "cell": "N8",
+        "f": "=IF(E8=0,0,IF(Ec_IO!$G$21='Fiscal Terms_PIA'!$U$29,'Fiscal Terms_PIA'!$U$30,'Fiscal Terms_PIA'!$V$30))",
+        "c": "0.025"
+      },
+      {
+        "cell": "P8",
+        "f": "=IF(AND(A8<>Ec_IO!$D$29,B8=0),0,Ec_IO!$C$12*(100%+Analysis!$N$12))",
+        "c": "50"
+      },
+      {
+        "cell": "Q8",
+        "f": "=((1+Ec_IO!$C$14*(100%+Analysis!$N$15))^(A8-Ec_IO!$C$5))*(A8<Ec_IO!$D$22)",
+        "c": "1"
+      },
+      {
+        "cell": "R8",
+        "f": "=P8*Q8",
+        "c": "50"
+      },
+      {
+        "cell": "S8",
+        "f": "=IF(R8<='Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A8-2020),0%,IF(AND(R8>'Fiscal Terms_PIA'!$U$36*(1+$S$4)^(A8-2020),R8<='Fiscal Terms_PIA'!$U$38*(1+$S$4)^(A8-2020)),10%*(R8-'Fiscal Terms_PIA'!$U$36*(1+$S$4)^",
+        "c": "0"
+      }
+    ],
+    "FLGT": [
+      {
+        "cell": "B1",
+        "f": "=Royalties!B1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "E1",
+        "f": "=Royalties!E1",
+        "c": "Ebiya Field"
+      },
+      {
+        "cell": "A3",
+        "f": "=Prod_Summary!S3",
+        "c": "YEAR"
+      },
+      {
+        "cell": "B3",
+        "f": "=Prod_Summary!T3",
+        "c": "Daily Oil Production"
+      },
+      {
+        "cell": "C3",
+        "f": "=Prod_Summary!U3",
+        "c": "Annual Oil Production"
+      },
+      {
+        "cell": "D3",
+        "f": "=Prod_Summary!V3",
+        "c": "Cumulative Oil Production"
+      },
+      {
+        "cell": "E3",
+        "f": "=Prod_Summary!W3",
+        "c": "Daily Gas Production"
+      },
+      {
+        "cell": "F3",
+        "f": "=Prod_Summary!X3",
+        "c": "Annual Gas Production"
+      },
+      {
+        "cell": "G3",
+        "f": "=Prod_Summary!Y3",
+        "c": "Cumulative Gas Production"
+      },
+      {
+        "cell": "J3",
+        "f": "=Ec_IO!$G$20",
+        "c": "Shallow Water (<200m water depth)"
+      },
+      {
+        "cell": "N3",
+        "f": "=Ec_IO!$G$21",
+        "c": "In-Country (Dom Gas)"
+      },
+      {
+        "cell": "B4",
+        "f": "=Prod_Summary!T4",
+        "c": "mb/d"
+      },
+      {
+        "cell": "C4",
+        "f": "=Prod_Summary!U4",
+        "c": "mmbbls"
+      },
+      {
+        "cell": "D4",
+        "f": "=Prod_Summary!V4",
+        "c": "mmbbls"
+      },
+      {
+        "cell": "E4",
+        "f": "=Prod_Summary!W4",
+        "c": "mmscf/d"
+      },
+      {
+        "cell": "F4",
+        "f": "=Prod_Summary!X4",
+        "c": "bscf"
+      },
+      {
+        "cell": "G4",
+        "f": "=Prod_Summary!Y4",
+        "c": "bscf"
+      },
+      {
+        "cell": "Q4",
+        "f": "=Ec_IO!$C$14",
+        "c": "0"
+      },
+      {
+        "cell": "A5",
+        "f": "=A6-1",
+        "c": "2024"
+      },
+      {
+        "cell": "W5",
+        "f": "=R5*C5",
+        "c": "0"
+      },
+      {
+        "cell": "X5",
+        "f": "=U5*F5",
+        "c": "0"
+      },
+      {
+        "cell": "Y5",
+        "f": "=W5+X5",
+        "c": "0"
+      },
+      {
+        "cell": "Z5",
+        "f": "=IF(AH5=0,0,(Block_TC_Gas!FX1)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AB5",
+        "f": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I5*W5,IF($J$3='Fiscal Terms_PIA'!$T$21,J5*W5,IF($J$3='Fiscal Terms_PIA'!$T$24,K5*W5,L5*W5)))",
+        "c": "0"
+      },
+      {
+        "cell": "AC5",
+        "f": "=N5*X5",
+        "c": "0"
+      },
+      {
+        "cell": "AD5",
+        "f": "=S5*W5",
+        "c": "0"
+      },
+      {
+        "cell": "AE5",
+        "f": "=IF(B5=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q5",
+        "c": "0"
+      },
+      {
+        "cell": "AF5",
+        "f": "=IF(AB5=0,0,(Block_TC!GB1+Block_TC!ET4)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AG5",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY2+Block_TC!FZ2+Block_TC!GA2+Block_TC!GB2+Block_TC!ET5),0)",
+        "c": "0"
+      },
+      {
+        "cell": "AH5",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ2,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AI5",
+        "f": "=SUM(Z5:AH5)",
+        "c": "0"
+      },
+      {
+        "cell": "AL5",
+        "f": "=AB5+AC5+AD5",
+        "c": "0"
+      },
+      {
+        "cell": "AM5",
+        "f": "=IFERROR(AL5/Y5,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AN5",
+        "f": "=IF(A5='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)",
+        "c": "0"
+      },
+      {
+        "cell": "A6",
+        "f": "=A7-1",
+        "c": "2025"
+      },
+      {
+        "cell": "W6",
+        "f": "=R6*C6",
+        "c": "0"
+      },
+      {
+        "cell": "X6",
+        "f": "=U6*F6",
+        "c": "0"
+      },
+      {
+        "cell": "Y6",
+        "f": "=W6+X6",
+        "c": "0"
+      },
+      {
+        "cell": "Z6",
+        "f": "=IF(AH6=0,0,(Block_TC_Gas!FX2)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AB6",
+        "f": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I6*W6,IF($J$3='Fiscal Terms_PIA'!$T$21,J6*W6,IF($J$3='Fiscal Terms_PIA'!$T$24,K6*W6,L6*W6)))",
+        "c": "0"
+      },
+      {
+        "cell": "AC6",
+        "f": "=N6*X6",
+        "c": "0"
+      },
+      {
+        "cell": "AD6",
+        "f": "=S6*W6",
+        "c": "0"
+      },
+      {
+        "cell": "AE6",
+        "f": "=IF(B6=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q6",
+        "c": "0"
+      },
+      {
+        "cell": "AF6",
+        "f": "=IF(AB6=0,0,(Block_TC!GB2+Block_TC!ET5)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AG6",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY3+Block_TC!FZ3+Block_TC!GA3+Block_TC!GB3+Block_TC!ET6),0)",
+        "c": "0"
+      },
+      {
+        "cell": "AH6",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ3,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AI6",
+        "f": "=SUM(Z6:AH6)",
+        "c": "0"
+      },
+      {
+        "cell": "AL6",
+        "f": "=AB6+AC6+AD6",
+        "c": "0"
+      },
+      {
+        "cell": "AM6",
+        "f": "=IFERROR(AL6/Y6,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AN6",
+        "f": "=IF(A6='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)",
+        "c": "0"
+      },
+      {
+        "cell": "A7",
+        "f": "=A8-1",
+        "c": "2026"
+      },
+      {
+        "cell": "W7",
+        "f": "=R7*C7",
+        "c": "0"
+      },
+      {
+        "cell": "X7",
+        "f": "=U7*F7",
+        "c": "0"
+      },
+      {
+        "cell": "Y7",
+        "f": "=W7+X7",
+        "c": "0"
+      },
+      {
+        "cell": "Z7",
+        "f": "=IF(AH7=0,0,(Block_TC_Gas!FX3)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AB7",
+        "f": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I7*W7,IF($J$3='Fiscal Terms_PIA'!$T$21,J7*W7,IF($J$3='Fiscal Terms_PIA'!$T$24,K7*W7,L7*W7)))",
+        "c": "0"
+      },
+      {
+        "cell": "AC7",
+        "f": "=N7*X7",
+        "c": "0"
+      },
+      {
+        "cell": "AD7",
+        "f": "=S7*W7",
+        "c": "0"
+      },
+      {
+        "cell": "AE7",
+        "f": "=IF(B7=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q7",
+        "c": "0"
+      },
+      {
+        "cell": "AF7",
+        "f": "=IF(AB7=0,0,(Block_TC!GB3+Block_TC!ET6)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AG7",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY4+Block_TC!FZ4+Block_TC!GA4+Block_TC!GB4+Block_TC!ET7),0)",
+        "c": "0"
+      },
+      {
+        "cell": "AH7",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ4,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AI7",
+        "f": "=SUM(Z7:AH7)",
+        "c": "0"
+      },
+      {
+        "cell": "AL7",
+        "f": "=AB7+AC7+AD7",
+        "c": "0"
+      },
+      {
+        "cell": "AM7",
+        "f": "=IFERROR(AL7/Y7,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AN7",
+        "f": "=IF(A7='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)",
+        "c": "0"
+      },
+      {
+        "cell": "A8",
+        "f": "=Prod_Summary!S5",
+        "c": "2027"
+      },
+      {
+        "cell": "B8",
+        "f": "=Prod_Summary!T5",
+        "c": "1"
+      },
+      {
+        "cell": "C8",
+        "f": "=Prod_Summary!U5",
+        "c": "0.36525"
+      },
+      {
+        "cell": "D8",
+        "f": "=Prod_Summary!V5",
+        "c": "0.36525"
+      },
+      {
+        "cell": "E8",
+        "f": "=Prod_Summary!W5",
+        "c": "1.2"
+      },
+      {
+        "cell": "F8",
+        "f": "=Prod_Summary!X5",
+        "c": "0"
+      },
+      {
+        "cell": "G8",
+        "f": "=Prod_Summary!Y5",
+        "c": "0"
+      },
+      {
+        "cell": "I8",
+        "f": "=Royalties!I5",
+        "c": "0"
+      },
+      {
+        "cell": "J8",
+        "f": "=Royalties!J5",
+        "c": "0.05"
+      },
+      {
+        "cell": "K8",
+        "f": "=Royalties!K5",
+        "c": "0"
+      },
+      {
+        "cell": "L8",
+        "f": "=Royalties!L5",
+        "c": "0"
+      },
+      {
+        "cell": "N8",
+        "f": "=Royalties!N5",
+        "c": "0.025"
+      },
+      {
+        "cell": "P8",
+        "f": "=Royalties!P5",
+        "c": "50"
+      },
+      {
+        "cell": "Q8",
+        "f": "=Royalties!Q5",
+        "c": "1"
+      },
+      {
+        "cell": "R8",
+        "f": "=Royalties!R5",
+        "c": "50"
+      },
+      {
+        "cell": "S8",
+        "f": "=Royalties!S5",
+        "c": "0"
+      },
+      {
+        "cell": "U8",
+        "f": "=Ec_IO!$C$17*Q8*(100%+Analysis!$N$13)",
+        "c": "2.18"
+      },
+      {
+        "cell": "W8",
+        "f": "=R8*C8",
+        "c": "18.2625"
+      },
+      {
+        "cell": "X8",
+        "f": "=U8*F8",
+        "c": "0"
+      },
+      {
+        "cell": "Y8",
+        "f": "=W8+X8",
+        "c": "18.2625"
+      },
+      {
+        "cell": "Z8",
+        "f": "=IF(AH8=0,0,(Block_TC_Gas!FX4)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AB8",
+        "f": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I8*W8,IF($J$3='Fiscal Terms_PIA'!$T$21,J8*W8,IF($J$3='Fiscal Terms_PIA'!$T$24,K8*W8,L8*W8)))",
+        "c": "0.913125"
+      },
+      {
+        "cell": "AC8",
+        "f": "=N8*X8",
+        "c": "0"
+      },
+      {
+        "cell": "AD8",
+        "f": "=S8*W8",
+        "c": "0"
+      },
+      {
+        "cell": "AE8",
+        "f": "=IF(B8=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q8",
+        "c": "0.0623431641149332"
+      },
+      {
+        "cell": "AF8",
+        "f": "=IF(AB8=0,0,(Block_TC!GB4+Block_TC!ET7)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AG8",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY5+Block_TC!FZ5+Block_TC!GA5+Block_TC!GB5+Block_TC!ET8),0)",
+        "c": "0.3435"
+      },
+      {
+        "cell": "AH8",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ5,0)",
+        "c": "0.1134"
+      },
+      {
+        "cell": "AI8",
+        "f": "=SUM(Z8:AH8)",
+        "c": "1.43236816411493"
+      },
+      {
+        "cell": "AL8",
+        "f": "=AB8+AC8+AD8",
+        "c": "0.913125"
+      },
+      {
+        "cell": "AM8",
+        "f": "=IFERROR(AL8/Y8,0)",
+        "c": "0.05"
+      },
+      {
+        "cell": "AN8",
+        "f": "=IF(A8='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)",
+        "c": "0.001"
+      },
+      {
+        "cell": "A49",
+        "f": "=Prod_Summary!S46",
+        "c": "2068"
+      },
+      {
+        "cell": "B49",
+        "f": "=Prod_Summary!T46",
+        "c": "0"
+      },
+      {
+        "cell": "C49",
+        "f": "=Prod_Summary!U46",
+        "c": "0"
+      },
+      {
+        "cell": "D49",
+        "f": "=Prod_Summary!V46",
+        "c": "0"
+      },
+      {
+        "cell": "E49",
+        "f": "=Prod_Summary!W46",
+        "c": "0"
+      },
+      {
+        "cell": "F49",
+        "f": "=Prod_Summary!X46",
+        "c": "0"
+      },
+      {
+        "cell": "G49",
+        "f": "=Prod_Summary!Y46",
+        "c": "0"
+      },
+      {
+        "cell": "I49",
+        "f": "=Royalties!I46",
+        "c": "0"
+      },
+      {
+        "cell": "J49",
+        "f": "=Royalties!J46",
+        "c": "0"
+      },
+      {
+        "cell": "K49",
+        "f": "=Royalties!K46",
+        "c": "0"
+      },
+      {
+        "cell": "L49",
+        "f": "=Royalties!L46",
+        "c": "0"
+      },
+      {
+        "cell": "N49",
+        "f": "=Royalties!N46",
+        "c": "0"
+      },
+      {
+        "cell": "P49",
+        "f": "=Royalties!P46",
+        "c": "0"
+      },
+      {
+        "cell": "Q49",
+        "f": "=Royalties!Q46",
+        "c": "0"
+      },
+      {
+        "cell": "R49",
+        "f": "=Royalties!R46",
+        "c": "0"
+      },
+      {
+        "cell": "S49",
+        "f": "=Royalties!S46",
+        "c": "0"
+      },
+      {
+        "cell": "U49",
+        "f": "=Ec_IO!$C$17*Q49*(100%+Analysis!$N$13)",
+        "c": "0"
+      },
+      {
+        "cell": "W49",
+        "f": "=R49*C49",
+        "c": "0"
+      },
+      {
+        "cell": "X49",
+        "f": "=U49*F49",
+        "c": "0"
+      },
+      {
+        "cell": "Y49",
+        "f": "=W49+X49",
+        "c": "0"
+      },
+      {
+        "cell": "Z49",
+        "f": "=IF(AH49=0,0,(Block_TC_Gas!FX45)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AB49",
+        "f": "=IF($J$3='Fiscal Terms_PIA'!$T$18,I49*W49,IF($J$3='Fiscal Terms_PIA'!$T$21,J49*W49,IF($J$3='Fiscal Terms_PIA'!$T$24,K49*W49,L49*W49)))",
+        "c": "0"
+      },
+      {
+        "cell": "AC49",
+        "f": "=N49*X49",
+        "c": "0"
+      },
+      {
+        "cell": "AD49",
+        "f": "=S49*W49",
+        "c": "0"
+      },
+      {
+        "cell": "AE49",
+        "f": "=IF(B49=0,0,'Fiscal Terms_PIA'!$Z$12*'Fiscal Terms_PIA'!$Z$11/1000000)*Q49",
+        "c": "0"
+      },
+      {
+        "cell": "AF49",
+        "f": "=IF(AB49=0,0,(Block_TC!GB45+Block_TC!ET48)*'Fiscal Terms_PIA'!$T$72)",
+        "c": "0"
+      },
+      {
+        "cell": "AG49",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*(Block_TC!FY46+Block_TC!FZ46+Block_TC!GA46+Block_TC!GB46+Block_TC!ET49),0)",
+        "c": "0"
+      },
+      {
+        "cell": "AH49",
+        "f": "=IFERROR('Fiscal Terms_PIA'!$T$73*'Cap_Allow Gas'!FJ46,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AI49",
+        "f": "=SUM(Z49:AH49)",
+        "c": "0"
+      },
+      {
+        "cell": "AL49",
+        "f": "=AB49+AC49+AD49",
+        "c": "0"
+      },
+      {
+        "cell": "AM49",
+        "f": "=IFERROR(AL49/Y49,0)",
+        "c": "0"
+      },
+      {
+        "cell": "AN49",
+        "f": "=IF(A49='Equity Dash'!$M$4,'Equity Dash'!$R$4/$AO$2,0)",
+        "c": "0"
+      },
+      {
+        "cell": "C51",
+        "f": "=SUM(C5:C49)",
+        "c": "21.9977894563747"
+      },
+      {
+        "cell": "F51",
+        "f": "=SUM(F5:F49)",
+        "c": "25.2454818442975"
+      },
+      {
+        "cell": "H51",
+        "f": "=SUM(H5:H49)",
+        "c": "0"
+      },
+      {
+        "cell": "T51",
+        "f": "=SUM(T5:T49)",
+        "c": "0"
+      },
+      {
+        "cell": "V51",
+        "f": "=SUM(V5:V49)",
+        "c": "0"
+      },
+      {
+        "cell": "W51",
+        "f": "=SUM(W5:W49)",
+        "c": "1099.88947281873"
+      },
+      {
+        "cell": "X51",
+        "f": "=SUM(X5:X49)",
+        "c": "55.0351504205685"
+      },
+      {
+        "cell": "Y51",
+        "f": "=SUM(Y5:Y49)",
+        "c": "1154.9246232393"
+      },
+      {
+        "cell": "Z51",
+        "f": "=SUM(Z5:Z49)",
+        "c": "1.5876"
+      },
+      {
+        "cell": "AA51",
+        "f": "=SUM(AA5:AA49)",
+        "c": "0"
+      },
+      {
+        "cell": "AB51",
+        "f": "=SUM(AB5:AB49)",
+        "c": "61.3138177169515"
+      },
+      {
+        "cell": "AC51",
+        "f": "=SUM(AC5:AC49)",
+        "c": "1.37587876051421"
+      },
+      {
+        "cell": "AD51",
+        "f": "=SUM(AD5:AD49)",
+        "c": "0"
+      },
+      {
+        "cell": "AE51",
+        "f": "=SUM(AE5:AE49)",
+        "c": "0.935147461723997"
+      },
+      {
+        "cell": "AF51",
+        "f": "=SUM(AF5:AF49)",
+        "c": "10.5015999106981"
+      },
+      {
+        "cell": "AG51",
+        "f": "=SUM(AG5:AG49)",
+        "c": "16.0950999106981"
+      },
+      {
+        "cell": "AH51",
+        "f": "=SUM(AH5:AH49)",
+        "c": "1.701"
+      },
+      {
+        "cell": "AI51",
+        "f": "=SUM(AI5:AI49)",
+        "c": "93.5101437605859"
+      },
+      {
+        "cell": "AJ51",
+        "f": "=SUM(AJ5:AJ49)",
+        "c": "0"
+      },
+      {
+        "cell": "AK51",
+        "f": "=SUM(AK5:AK49)",
+        "c": "0"
+      },
+      {
+        "cell": "AL51",
+        "f": "=SUM(AL5:AL49)",
+        "c": "62.6896964774657"
+      },
+      {
+        "cell": "AM51",
+        "f": "=AL51/Y51",
+        "c": "0.0542803358903504"
+      },
+      {
+        "cell": "AN51",
+        "f": "=SUM(AN5:AN49)",
+        "c": "0.001"
+      },
+      {
+        "cell": "AO51",
+        "f": "=SUM(AO5:AO49)",
+        "c": "0.001"
+      },
+      {
+        "cell": "AP51",
+        "f": "=SUM(AP5:AP49)",
+        "c": "3.01989980794e-05"
+      }
+    ]
+  },
+  "refs": {
+    "Royalties": {
+      "Ec_IO!$G$20": 378,
+      "Ec_IO!$C$14": 43,
+      "Ec_IO!$G$21": 42,
+      "Ec_IO!$D$29": 42,
+      "Ec_IO!$C$12": 42,
+      "Analysis!$N$12": 42,
+      "Analysis!$N$15": 42,
+      "Ec_IO!$C$5": 42,
+      "Ec_IO!$D$22": 42,
+      "Prod_Summary!B2": 1,
+      "Prod_Summary!G2": 1,
+      "Prod_Summary!S3": 1,
+      "Prod_Summary!T3": 1,
+      "Prod_Summary!U3": 1,
+      "Prod_Summary!V3": 1,
+      "Prod_Summary!W3": 1,
+      "Prod_Summary!X3": 1,
+      "Prod_Summary!Y3": 1,
+      "Ec_IO!G20": 1,
+      "Ec_IO!G21": 1,
+      "Prod_Summary!T4": 1,
+      "Prod_Summary!U4": 1,
+      "Prod_Summary!V4": 1,
+      "Prod_Summary!W4": 1,
+      "Prod_Summary!X4": 1,
+      "Prod_Summary!Y4": 1,
+      "Prod_Summary!S5": 1,
+      "Prod_Summary!T5": 1,
+      "Prod_Summary!U5": 1,
+      "Prod_Summary!V5": 1,
+      "Prod_Summary!W5": 1,
+      "Prod_Summary!X5": 1,
+      "Prod_Summary!Y5": 1,
+      "Prod_Summary!S6": 1,
+      "Prod_Summary!T6": 1,
+      "Prod_Summary!U6": 1,
+      "Prod_Summary!V6": 1,
+      "Prod_Summary!W6": 1,
+      "Prod_Summary!X6": 1,
+      "Prod_Summary!Y6": 1
+    },
+    "FLGT": {
+      "Ec_IO!$C$17": 42,
+      "Analysis!$N$13": 42,
+      "Block_TC!GB2": 2,
+      "Block_TC!ET5": 2,
+      "Block_TC!GB3": 2,
+      "Block_TC!ET6": 2,
+      "Block_TC!GB4": 2,
+      "Block_TC!ET7": 2,
+      "Block_TC!GB5": 2,
+      "Block_TC!ET8": 2,
+      "Block_TC!GB6": 2,
+      "Block_TC!ET9": 2,
+      "Block_TC!GB7": 2,
+      "Block_TC!ET10": 2,
+      "Block_TC!GB8": 2,
+      "Block_TC!ET11": 2,
+      "Block_TC!GB9": 2,
+      "Block_TC!ET12": 2,
+      "Block_TC!GB10": 2,
+      "Block_TC!ET13": 2,
+      "Block_TC!GB11": 2,
+      "Block_TC!ET14": 2,
+      "Block_TC!GB12": 2,
+      "Block_TC!ET15": 2,
+      "Block_TC!GB13": 2,
+      "Block_TC!ET16": 2,
+      "Block_TC!GB14": 2,
+      "Block_TC!ET17": 2,
+      "Block_TC!GB15": 2,
+      "Block_TC!ET18": 2,
+      "Block_TC!GB16": 2,
+      "Block_TC!ET19": 2,
+      "Block_TC!GB17": 2,
+      "Block_TC!ET20": 2,
+      "Block_TC!GB18": 2,
+      "Block_TC!ET21": 2,
+      "Block_TC!GB19": 2,
+      "Block_TC!ET22": 2,
+      "Block_TC!GB20": 2,
+      "Block_TC!ET23": 2
+    }
+  },
+  "consumers": {
+    "FLGT\u2192HT_NCF": 606,
+    "FLGT\u2192CIT_NCF_Gas": 497,
+    "FLGT\u2192HT_NCF_Oil": 471,
+    "FLGT\u2192CIT_NCF_Oil": 471,
+    "FLGT\u2192CR Econ": 323,
+    "FLGT\u2192HT_NCF_Oil Equity": 156,
+    "FLGT\u2192CIT_NCF": 133,
+    "FLGT\u2192CIT_NCF_Oil Equity": 111,
+    "FLGT\u2192CIT_NCF_Gas Equity": 111,
+    "FLGT\u2192Project_NCF": 85,
+    "FLGT\u2192Equity_NCF_Con": 65,
+    "FLGT\u2192Project_NCF_Con": 40,
+    "Royalties\u2192Block_TC": 37,
+    "FLGT\u2192Ec_IO": 8,
+    "FLGT\u2192RESULTS Equity": 3,
+    "Royalties\u2192HT_NCF": 2,
+    "Royalties\u2192HT_NCF_Oil": 1,
+    "Royalties\u2192CIT_NCF_Oil": 1,
+    "Royalties\u2192Project_NCF_Con": 1,
+    "Royalties\u2192CIT_NCF_Gas": 1,
+    "Royalties\u2192Project_NCF": 1,
+    "Royalties\u2192HT_NCF_Oil Equity": 1,
+    "Royalties\u2192CIT_NCF_Oil Equity": 1,
+    "Royalties\u2192CIT_NCF_Gas Equity": 1,
+    "Royalties\u2192Equity_NCF_Con": 1
+  },
+  "kpis": [
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J22",
+      "exp": "20.6206484144003",
+      "fml": "='HT_NCF_Oil Equity'!AO51",
+      "label": "Oil Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N22",
+      "exp": "10.7789168336236",
+      "fml": "=Prod_Summary!V47*'Equity Dash'!$C$4",
+      "label": "Oil Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H22",
+      "exp": "30.0437706813062",
+      "fml": "=FLGT!AB51*'Equity Dash'!$C$4",
+      "label": "Oil Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J23",
+      "exp": "72.8926381838659",
+      "fml": "='CIT_NCF_Oil Equity'!AF51+'CIT_NCF_Gas Equity'!AF51",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M23",
+      "exp": "(12.37 Bscf)",
+      "fml": "=\"(\"&TEXT(Prod_Summary!Y47*'Equity Dash'!$C$4,\"0.00\")&\" Bscf\"&\")\"",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N23",
+      "exp": "2.13133806059713",
+      "fml": "=Prod_Summary!Y49*'Equity Dash'!$C$4",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H23",
+      "exp": "0.674180592651965",
+      "fml": "=FLGT!AC51*'Equity Dash'!$C$4",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J24",
+      "exp": "12.9624932008202",
+      "fml": "='CIT_NCF_Oil Equity'!AG51+'CIT_NCF_Gas Equity'!AG51",
+      "label": "Price Royalty,  $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N24",
+      "exp": "12.9102548942207",
+      "fml": "=N22+N23",
+      "label": "Price Royalty,  $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H24",
+      "exp": "0",
+      "fml": "=FLGT!AD51*'Equity Dash'!$C$4",
+      "label": "Price Royalty,  $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "J25",
+      "exp": "106.475779799086",
+      "fml": "=SUM(J22:J24)",
+      "label": "Total Royalty  $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H25",
+      "exp": "30.7179512739582",
+      "fml": "=SUM(H22:H24)",
+      "label": "Total Royalty  $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H26",
+      "exp": "0.0542803358903504",
+      "fml": "=H25/J18",
+      "label": "ERR"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AB51",
+      "exp": "61.3138177169515",
+      "fml": "=SUM(AB5:AB49)",
+      "label": "intermediate_or_irr"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AC51",
+      "exp": "1.37587876051421",
+      "fml": "=SUM(AC5:AC49)",
+      "label": "intermediate_or_irr"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AD51",
+      "exp": "0",
+      "fml": "=SUM(AD5:AD49)",
+      "label": "intermediate_or_irr"
+    }
+  ],
+  "gtc_cells": [
+    {
+      "ws": "FLGT",
+      "cell": "AB51",
+      "exp": "61.3138177169515",
+      "fml": "=SUM(AB5:AB49)"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AC51",
+      "exp": "1.37587876051421",
+      "fml": "=SUM(AC5:AC49)"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AD51",
+      "exp": "0",
+      "fml": "=SUM(AD5:AD49)"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "AM51",
+      "exp": "0.0542803358903504",
+      "fml": "=AL51/Y51"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "W51",
+      "exp": "1099.88947281873",
+      "fml": "=SUM(W5:W49)"
+    },
+    {
+      "ws": "FLGT",
+      "cell": "X51",
+      "exp": "55.0351504205685",
+      "fml": "=SUM(X5:X49)"
+    },
+    {
+      "ws": "Ec_IO",
+      "cell": "G11",
+      "exp": "0.0542803358903504",
+      "fml": "=FLGT!AM51"
+    },
+    {
+      "ws": "Ec_IO",
+      "cell": "G15",
+      "exp": "62.6896964774657",
+      "fml": "=FLGT!AB51+FLGT!AC51+FLGT!AD51"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N22",
+      "exp": "10.7789168336236",
+      "fml": "=Prod_Summary!V47*'Equity Dash'!$C$4"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N23",
+      "exp": "2.13133806059713",
+      "fml": "=Prod_Summary!Y49*'Equity Dash'!$C$4"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N24",
+      "exp": "12.9102548942207",
+      "fml": "=N22+N23"
+    }
+  ],
+  "flgt_literals": [
+    {
+      "cell": "AO2",
+      "v": "1000000",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO5",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP5",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO6",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP6",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO7",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP7",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO8",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP8",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO9",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP9",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO10",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP10",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO11",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP11",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO12",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP12",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO13",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP13",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO14",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP14",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO15",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP15",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO16",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP16",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO17",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP17",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO18",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP18",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO19",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP19",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO20",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP20",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO21",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP21",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO22",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP22",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO23",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP23",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO24",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP24",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO25",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP25",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO26",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP26",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO27",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP27",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO28",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP28",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO29",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP29",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO30",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP30",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO31",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP31",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO32",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP32",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO33",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP33",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO34",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP34",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO35",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP35",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO36",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP36",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO37",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP37",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO38",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP38",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO39",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP39",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO40",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP40",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO41",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP41",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO42",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP42",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO43",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP43",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO44",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP44",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO45",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP45",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO46",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP46",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO47",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP47",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO48",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP48",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AO49",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AP49",
+      "v": "<openpyxl.worksheet.formula.ArrayFormula",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    }
+  ]
+}

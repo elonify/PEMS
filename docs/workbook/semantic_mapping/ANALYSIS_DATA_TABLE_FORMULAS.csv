@@ -1,0 +1,19 @@
+worksheet,cell,construct,cached_value,affects_calculation_engine,affects_sensitivity_analysis,use_as_gtc_expected_without_review,pems_impl_note
+Analysis,K22,DataTableFormula,-33.4634862085659,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K36,DataTableFormula,70.7535422749551,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K53,DataTableFormula,35.6465449853242,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K70,DataTableFormula,38.9669962721352,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K118,DataTableFormula,30.9394727324207,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K136,DataTableFormula,16.1966410314837,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K154,DataTableFormula,0.142409972043131,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K168,DataTableFormula,0.164058234989968,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K185,DataTableFormula,0.158031667578079,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K202,DataTableFormula,0.158706165824524,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K217,DataTableFormula,0.156443463155487,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K235,DataTableFormula,0.153435883970079,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K277,DataTableFormula,0.905445209805462,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K291,DataTableFormula,1.19992197775306,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K308,DataTableFormula,1.11004077381306,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K325,DataTableFormula,1.11977860248789,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K340,DataTableFormula,1.08742291029423,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope
+Analysis,K358,DataTableFormula,1.04576540486676,UNKNOWN_LIKELY_SENSITIVITY_PRESENTATION,YES_LIKELY,NO,Do not invent formulas; map as Excel data-table sensitivity construct if in scope

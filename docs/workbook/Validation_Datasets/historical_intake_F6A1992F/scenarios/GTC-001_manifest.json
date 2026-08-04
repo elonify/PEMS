@@ -1,0 +1,14 @@
+{
+  "gtc_id": "GTC-001",
+  "name": "As-saved Golden Master baseline (Econ_Model_PEMS.xlsx)",
+  "workbook": "docs/workbook/Econ_Model_PEMS.xlsx",
+  "sha256": "F6A1992F6A3CC27EC587779ADE6CF667B246FB1587296EFD0CD14B47A6783006",
+  "description": "Single regression case reflecting the workbook state as stored, including Excel cached formula results. Not a user-authored alternate scenario.",
+  "input_artifact": "docs/workbook/Validation_Datasets/scenarios/GTC-001_input_and_parameter_cells.csv",
+  "expected_full_formula_results": "docs/workbook/Validation_Datasets/expected_outputs/formula_cached_results_all.csv",
+  "expected_literals": "docs/workbook/Validation_Datasets/expected_outputs/literal_values_all.csv",
+  "expected_kpi_pack": "docs/workbook/Validation_Datasets/expected_outputs/GTC-001_kpi_and_intermediates.csv",
+  "kpi_rows": 103,
+  "input_rows": 530,
+  "tolerance_policy": "Exact match for integers/booleans/text; financial floats use relative 1e-9 or absolute 1e-9 only to absorb binary float representation \u2014 NOT business rounding. Values with Excel errors (#REF!) flagged non-comparable."
+}

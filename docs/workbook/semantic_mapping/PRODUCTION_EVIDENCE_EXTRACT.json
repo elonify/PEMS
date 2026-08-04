@@ -1,0 +1,7415 @@
+{
+  "sheets": {
+    "Production Profile": 400,
+    "Prod_Summary": 882,
+    "Block_Oil Data": 1874,
+    "Block_Gas Data": 1704,
+    "OML123_Oil_S1": 610
+  },
+  "formulas": {
+    "Production Profile": 310,
+    "Prod_Summary": 849,
+    "Block_Oil Data": 1618,
+    "Block_Gas Data": 1463,
+    "OML123_Oil_S1": 337
+  },
+  "production_profile_layout": [
+    {
+      "cell": "B2",
+      "class": "label_or_text",
+      "v": "STOIIP"
+    },
+    {
+      "cell": "C2",
+      "class": "formula",
+      "v": "=IF(B2=\"STOIIP\",STOIIP!D10*STOIIP!D11,F2)"
+    },
+    {
+      "cell": "D2",
+      "class": "formula",
+      "v": "=IF(B2=\"STOIIP\",\"MMbbls\",\"Bscf\")"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_text",
+      "v": "GIIP"
+    },
+    {
+      "cell": "F2",
+      "class": "formula",
+      "v": "=GIIP!D10*GIIP!D11"
+    },
+    {
+      "cell": "G2",
+      "class": "label_or_text",
+      "v": "Bscf"
+    },
+    {
+      "cell": "B3",
+      "class": "label_or_text",
+      "v": "RF"
+    },
+    {
+      "cell": "C3",
+      "class": "constant_or_input_value",
+      "v": "0.35"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_text",
+      "v": "RF"
+    },
+    {
+      "cell": "F3",
+      "class": "constant_or_input_value",
+      "v": "0.75"
+    },
+    {
+      "cell": "B4",
+      "class": "label_or_text",
+      "v": "UR"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=IF(B2=\"STOIIP\",C2*C3,F2*F3)"
+    },
+    {
+      "cell": "D4",
+      "class": "formula",
+      "v": "=D2"
+    },
+    {
+      "cell": "E4",
+      "class": "label_or_text",
+      "v": "UR"
+    },
+    {
+      "cell": "F4",
+      "class": "formula",
+      "v": "=F2*F3"
+    },
+    {
+      "cell": "G4",
+      "class": "formula",
+      "v": "=G2"
+    },
+    {
+      "cell": "E5",
+      "class": "label_or_text",
+      "v": "GOR"
+    },
+    {
+      "cell": "F5",
+      "class": "constant_or_input_value",
+      "v": "2000"
+    },
+    {
+      "cell": "G5",
+      "class": "label_or_text",
+      "v": "scf/bbl"
+    },
+    {
+      "cell": "AB5",
+      "class": "label_or_text",
+      "v": "INPUTS"
+    },
+    {
+      "cell": "AE5",
+      "class": "label_or_text",
+      "v": "NPV"
+    },
+    {
+      "cell": "AH5",
+      "class": "label_or_text",
+      "v": "PI"
+    },
+    {
+      "cell": "AK5",
+      "class": "label_or_text",
+      "v": "DPP"
+    },
+    {
+      "cell": "B6",
+      "class": "formula",
+      "v": "=IF(B2=\"STOIIP\",\"Np\",E6)"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "=C4"
+    },
+    {
+      "cell": "D6",
+      "class": "formula",
+      "v": "=D2"
+    },
+    {
+      "cell": "E6",
+      "class": "label_or_text",
+      "v": "Gf"
+    },
+    {
+      "cell": "F6",
+      "class": "formula",
+      "v": "=F4"
+    },
+    {
+      "cell": "G6",
+      "class": "formula",
+      "v": "=G4"
+    },
+    {
+      "cell": "L6",
+      "class": "label_or_text",
+      "v": "Eff Decline Rate"
+    },
+    {
+      "cell": "AB6",
+      "class": "constant_or_input_value",
+      "v": "-0.2"
+    },
+    {
+      "cell": "AC6",
+      "class": "constant_or_input_value",
+      "v": "0"
+    },
+    {
+      "cell": "AD6",
+      "class": "constant_or_input_value",
+      "v": "0.2"
+    },
+    {
+      "cell": "AE6",
+      "class": "constant_or_input_value",
+      "v": "-0.2"
+    },
+    {
+      "cell": "AF6",
+      "class": "constant_or_input_value",
+      "v": "0"
+    },
+    {
+      "cell": "AG6",
+      "class": "constant_or_input_value",
+      "v": "0.2"
+    },
+    {
+      "cell": "AH6",
+      "class": "constant_or_input_value",
+      "v": "-0.2"
+    },
+    {
+      "cell": "AI6",
+      "class": "constant_or_input_value",
+      "v": "0"
+    },
+    {
+      "cell": "AJ6",
+      "class": "constant_or_input_value",
+      "v": "0.2"
+    },
+    {
+      "cell": "AK6",
+      "class": "constant_or_input_value",
+      "v": "-0.2"
+    },
+    {
+      "cell": "AL6",
+      "class": "constant_or_input_value",
+      "v": "0"
+    },
+    {
+      "cell": "AM6",
+      "class": "constant_or_input_value",
+      "v": "0.2"
+    },
+    {
+      "cell": "B7",
+      "class": "label_or_text",
+      "v": "Production start ="
+    },
+    {
+      "cell": "C7",
+      "class": "constant_or_input_value",
+      "v": "1"
+    },
+    {
+      "cell": "D7",
+      "class": "label_or_text",
+      "v": "Year/s later"
+    },
+    {
+      "cell": "E7",
+      "class": "label_or_text",
+      "v": "Production start ="
+    },
+    {
+      "cell": "F7",
+      "class": "formula",
+      "v": "=C7"
+    },
+    {
+      "cell": "L7",
+      "class": "constant_or_input_value",
+      "v": "0.125"
+    },
+    {
+      "cell": "AA7",
+      "class": "label_or_text",
+      "v": "Tax"
+    },
+    {
+      "cell": "AB7",
+      "class": "formula",
+      "v": "=AC7*($AB$6+100%)"
+    },
+    {
+      "cell": "AC7",
+      "class": "constant_or_input_value",
+      "v": "0.3"
+    },
+    {
+      "cell": "AD7",
+      "class": "formula",
+      "v": "=AC7*($AD$6+100%)"
+    },
+    {
+      "cell": "B8",
+      "class": "label_or_text",
+      "v": "Year end ="
+    },
+    {
+      "cell": "C8",
+      "class": "constant_or_input_value",
+      "v": "2026"
+    },
+    {
+      "cell": "D8",
+      "class": "label_or_text",
+      "v": "Year "
+    },
+    {
+      "cell": "E8",
+      "class": "label_or_text",
+      "v": "Year end ="
+    },
+    {
+      "cell": "F8",
+      "class": "formula",
+      "v": "=C8"
+    },
+    {
+      "cell": "G8",
+      "class": "label_or_text",
+      "v": "a = -ln (1-d)"
+    },
+    {
+      "cell": "I8",
+      "class": "label_or_text",
+      "v": "t=(ln(qi/q))/a"
+    },
+    {
+      "cell": "AA8",
+      "class": "label_or_text",
+      "v": "OPEX"
+    },
+    {
+      "cell": "AB8",
+      "class": "formula",
+      "v": "=AC8*($AB$6+100%)"
+    },
+    {
+      "cell": "AC8",
+      "class": "constant_or_input_value",
+      "v": "0.1"
+    },
+    {
+      "cell": "AD8",
+      "class": "formula",
+      "v": "=AC8*($AD$6+100%)"
+    },
+    {
+      "cell": "B9",
+      "class": "label_or_text",
+      "v": "Days in a year"
+    },
+    {
+      "cell": "C9",
+      "class": "constant_or_input_value",
+      "v": "365"
+    },
+    {
+      "cell": "D9",
+      "class": "label_or_text",
+      "v": "Days"
+    },
+    {
+      "cell": "E9",
+      "class": "label_or_text",
+      "v": "Days in a year"
+    },
+    {
+      "cell": "F9",
+      "class": "formula",
+      "v": "=C9"
+    },
+    {
+      "cell": "AA9",
+      "class": "label_or_text",
+      "v": "Oil Price"
+    },
+    {
+      "cell": "AB9",
+      "class": "formula",
+      "v": "=AC9*($AB$6+100%)"
+    },
+    {
+      "cell": "AC9",
+      "class": "constant_or_input_value",
+      "v": "70"
+    },
+    {
+      "cell": "AD9",
+      "class": "formula",
+      "v": "=AC9*($AD$6+100%)"
+    },
+    {
+      "cell": "AA10",
+      "class": "label_or_text",
+      "v": "Disc. Rate"
+    },
+    {
+      "cell": "AB10",
+      "class": "formula",
+      "v": "=AC10*($AB$6+100%)"
+    },
+    {
+      "cell": "AC10",
+      "class": "constant_or_input_value",
+      "v": "0.15"
+    },
+    {
+      "cell": "AD10",
+      "class": "formula",
+      "v": "=AC10*($AD$6+100%)"
+    },
+    {
+      "cell": "B11",
+      "class": "formula",
+      "v": "=IF(B2=\"STOIIP\",\"Build Up Oil Profile\", \"Build Up NAG Profile\")"
+    },
+    {
+      "cell": "E11",
+      "class": "label_or_text",
+      "v": "Plateau Profile"
+    },
+    {
+      "cell": "H11",
+      "class": "label_or_text",
+      "v": "Decline profile"
+    },
+    {
+      "cell": "B12",
+      "class": "label_or_text",
+      "v": "qi"
+    },
+    {
+      "cell": "C12",
+      "class": "constant_or_input_value",
+      "v": "1000"
+    },
+    {
+      "cell": "D12",
+      "class": "formula",
+      "v": "=IF(D6=\"MMbbls\",\"BOPD\",\"Mscf/d\")"
+    },
+    {
+      "cell": "E12",
+      "class": "label_or_text",
+      "v": "qi"
+    },
+    {
+      "cell": "F12",
+      "class": "formula",
+      "v": "=C13"
+    },
+    {
+      "cell": "G12",
+      "class": "formula",
+      "v": "=D12"
+    },
+    {
+      "cell": "H12",
+      "class": "label_or_text",
+      "v": "qi"
+    },
+    {
+      "cell": "I12",
+      "class": "formula",
+      "v": "=F13"
+    },
+    {
+      "cell": "J12",
+      "class": "formula",
+      "v": "=D12"
+    },
+    {
+      "cell": "B13",
+      "class": "label_or_text",
+      "v": "qp"
+    },
+    {
+      "cell": "C13",
+      "class": "constant_or_input_value",
+      "v": "6000"
+    },
+    {
+      "cell": "D13",
+      "class": "formula",
+      "v": "=D12"
+    },
+    {
+      "cell": "E13",
+      "class": "label_or_text",
+      "v": "qf"
+    },
+    {
+      "cell": "F13",
+      "class": "formula",
+      "v": "=F12"
+    },
+    {
+      "cell": "G13",
+      "class": "formula",
+      "v": "=D12"
+    },
+    {
+      "cell": "H13",
+      "class": "label_or_text",
+      "v": "qel"
+    },
+    {
+      "cell": "I13",
+      "class": "constant_or_input_value",
+      "v": "500"
+    },
+    {
+      "cell": "J13",
+      "class": "formula",
+      "v": "=D12"
+    },
+    {
+      "cell": "B14",
+      "class": "label_or_text",
+      "v": "t1"
+    },
+    {
+      "cell": "C14",
+      "class": "constant_or_input_value",
+      "v": "2"
+    },
+    {
+      "cell": "D14",
+      "class": "label_or_text",
+      "v": "yrs"
+    },
+    {
+      "cell": "E14",
+      "class": "label_or_text",
+      "v": "t2"
+    },
+    {
+      "cell": "F14",
+      "class": "constant_or_input_value",
+      "v": "3"
+    },
+    {
+      "cell": "G14",
+      "class": "label_or_text",
+      "v": "yrs"
+    },
+    {
+      "cell": "H14",
+      "class": "label_or_text",
+      "v": "t3"
+    },
+    {
+      "cell": "I14",
+      "class": "formula",
+      "v": "=1/I15*(LN(I12/I13))"
+    },
+    {
+      "cell": "J14",
+      "class": "label_or_text",
+      "v": "yrs"
+    },
+    {
+      "cell": "M14",
+      "class": "formula",
+      "v": "=(C6-(C16+F16))*I16/(C9*(I12-I13))*1000000"
+    },
+    {
+      "cell": "B15",
+      "class": "label_or_text",
+      "v": "a1"
+    },
+    {
+      "cell": "C15",
+      "class": "formula",
+      "v": "=LN(C12/C13)/C14"
+    },
+    {
+      "cell": "D15",
+      "class": "label_or_text",
+      "v": "/yrs"
+    },
+    {
+      "cell": "G15",
+      "class": "label_or_text",
+      "v": "/yrs"
+    },
+    {
+      "cell": "H15",
+      "class": "label_or_text",
+      "v": "a3"
+    },
+    {
+      "cell": "I15",
+      "class": "formula",
+      "v": "=((I12-I13)*$C$9/I16/1000000)+-LN(1-L7)*0"
+    },
+    {
+      "cell": "J15",
+      "class": "label_or_text",
+      "v": "/yrs"
+    },
+    {
+      "cell": "B16",
+      "class": "label_or_text",
+      "v": "Np1"
+    },
+    {
+      "cell": "C16",
+      "class": "formula",
+      "v": "=(C12-C13)*C9/C15/1000000"
+    },
+    {
+      "cell": "D16",
+      "class": "formula",
+      "v": "=D4"
+    },
+    {
+      "cell": "E16",
+      "class": "label_or_text",
+      "v": "Np2"
+    },
+    {
+      "cell": "F16",
+      "class": "formula",
+      "v": "=F12*C9*F14/1000000"
+    },
+    {
+      "cell": "G16",
+      "class": "formula",
+      "v": "=D4"
+    },
+    {
+      "cell": "H16",
+      "class": "label_or_text",
+      "v": "Np3"
+    },
+    {
+      "cell": "I16",
+      "class": "formula",
+      "v": "=(C6-C16-F16)"
+    },
+    {
+      "cell": "J16",
+      "class": "formula",
+      "v": "=D4"
+    },
+    {
+      "cell": "E17",
+      "class": "label_or_text",
+      "v": "field time"
+    },
+    {
+      "cell": "F17",
+      "class": "formula",
+      "v": "=C7+C14+F14+I14"
+    },
+    {
+      "cell": "D19",
+      "class": "label_or_text",
+      "v": "q=qi*e-at"
+    },
+    {
+      "cell": "E19",
+      "class": "label_or_text",
+      "v": "Np=(qi-qi+1)(365)/a"
+    },
+    {
+      "cell": "F19",
+      "class": "label_or_text",
+      "v": "Np=(qi-q)(365)/a"
+    },
+    {
+      "cell": "I19",
+      "class": "formula",
+      "v": "=G20"
+    },
+    {
+      "cell": "B20",
+      "class": "label_or_text",
+      "v": "YEAR"
+    },
+    {
+      "cell": "C20",
+      "class": "label_or_text",
+      "v": "t (year)"
+    },
+    {
+      "cell": "D20",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"NAG\",\"OIL\")"
+    },
+    {
+      "cell": "G20",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"\",\"AG\")"
+    },
+    {
+      "cell": "D21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"RATE (MMscf/d)\",\"RATE (Mbopd)\")"
+    },
+    {
+      "cell": "E21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"ANNUAL PRODUCTION (Bscf)\",\"ANNUAL PRODUCTION (MMbbls)\")"
+    },
+    {
+      "cell": "F21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"CUMMULATIVE PRODUCTION (Bscf)\",\"CUMMULATIVE PRODUCTION (MMbbls)\")"
+    },
+    {
+      "cell": "G21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"\",\"RATE (MMscf/d)\")"
+    },
+    {
+      "cell": "H21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"\",\"ANNUAL PRODUCTION (Bscf)\")"
+    },
+    {
+      "cell": "I21",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",\"\",\"CUMMULATIVE PRODUCTION (Bscf)\")"
+    },
+    {
+      "cell": "P22",
+      "class": "formula",
+      "v": "=IF(B2=\"GIIP\",\"NAG\",\"Oil\")"
+    },
+    {
+      "cell": "S22",
+      "class": "formula",
+      "v": "=IF(P22=\"Oil\",\"AG\",\"\")"
+    },
+    {
+      "cell": "B23",
+      "class": "formula",
+      "v": "=C8"
+    },
+    {
+      "cell": "C23",
+      "class": "formula",
+      "v": "=IF(B23-$C$8=ROUNDUP($F$17,0),$F$17,IF(B23-$C$8<=$F$17+1,B23-$C$8,0))"
+    },
+    {
+      "cell": "D23",
+      "class": "formula",
+      "v": "=(IF(AND(C23>=$C$7,C23<($C$14+$C$7)),$C$12*EXP(-$C$15*(C23-$C$7)),IF(AND(C23>=($C$14+$C$7),C23<($C$1"
+    },
+    {
+      "cell": "E23",
+      "class": "formula",
+      "v": "=(IF(IF(D22=0,0,IF(AND(D22>0,C23<=($C$7+$C$14)),(D22-D23)*$C$9/$C$15/1000000,IF(AND(C23>($C$7+$C$14)"
+    },
+    {
+      "cell": "F23",
+      "class": "formula",
+      "v": "=IF(E23=0,0,SUM(E23:$E$23))"
+    },
+    {
+      "cell": "G23",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D23*$F$5)/1000"
+    },
+    {
+      "cell": "H23",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E23/1000)"
+    },
+    {
+      "cell": "I23",
+      "class": "formula",
+      "v": "=IF(H23=0,0,SUM($H23:H$23))"
+    },
+    {
+      "cell": "O23",
+      "class": "label_or_text",
+      "v": "Chart Title"
+    },
+    {
+      "cell": "P23",
+      "class": "formula",
+      "v": "=P22  & \" Production Profile\""
+    },
+    {
+      "cell": "S23",
+      "class": "formula",
+      "v": "=S22  & \" Production Profile\""
+    },
+    {
+      "cell": "B24",
+      "class": "formula",
+      "v": "=B23+1"
+    },
+    {
+      "cell": "C24",
+      "class": "formula",
+      "v": "=IF(B24-$C$8=ROUNDUP($F$17,0),$F$17,IF(B24-$C$8<=$F$17+1,B24-$C$8,0))"
+    },
+    {
+      "cell": "D24",
+      "class": "formula",
+      "v": "=(IF(AND(C24>=$C$7,C24<($C$14+$C$7)),$C$12*EXP(-$C$15*(C24-$C$7)),IF(AND(C24>=($C$14+$C$7),C24<($C$1"
+    },
+    {
+      "cell": "E24",
+      "class": "formula",
+      "v": "=(IF(IF(D23=0,0,IF(AND(D23>0,C24<=($C$7+$C$14)),(D23-D24)*$C$9/$C$15/1000000,IF(AND(C24>($C$7+$C$14)"
+    },
+    {
+      "cell": "F24",
+      "class": "formula",
+      "v": "=IF(E24=0,0,SUM(E$23:$E24))"
+    },
+    {
+      "cell": "G24",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D24*$F$5)/1000"
+    },
+    {
+      "cell": "H24",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E24/1000)"
+    },
+    {
+      "cell": "I24",
+      "class": "formula",
+      "v": "=IF(H24=0,0,SUM($H$23:H24))"
+    },
+    {
+      "cell": "O24",
+      "class": "label_or_text",
+      "v": "Primary Axis"
+    },
+    {
+      "cell": "P24",
+      "class": "formula",
+      "v": "=IF(P22=\"NAG\",\"NAG Rate (MMscf/d)\", \"Oil Rate (bopd)\")"
+    },
+    {
+      "cell": "S24",
+      "class": "formula",
+      "v": "=S22  & \" Rate (MMscf/d)\""
+    },
+    {
+      "cell": "B25",
+      "class": "formula",
+      "v": "=B24+1"
+    },
+    {
+      "cell": "C25",
+      "class": "formula",
+      "v": "=IF(B25-$C$8=ROUNDUP($F$17,0),$F$17,IF(B25-$C$8<=$F$17+1,B25-$C$8,0))"
+    },
+    {
+      "cell": "D25",
+      "class": "formula",
+      "v": "=(IF(AND(C25>=$C$7,C25<($C$14+$C$7)),$C$12*EXP(-$C$15*(C25-$C$7)),IF(AND(C25>=($C$14+$C$7),C25<($C$1"
+    },
+    {
+      "cell": "E25",
+      "class": "formula",
+      "v": "=(IF(IF(D24=0,0,IF(AND(D24>0,C25<=($C$7+$C$14)),(D24-D25)*$C$9/$C$15/1000000,IF(AND(C25>($C$7+$C$14)"
+    },
+    {
+      "cell": "F25",
+      "class": "formula",
+      "v": "=IF(E25=0,0,SUM(E$23:$E25))"
+    },
+    {
+      "cell": "G25",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D25*$F$5)/1000"
+    },
+    {
+      "cell": "H25",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E25/1000)"
+    },
+    {
+      "cell": "I25",
+      "class": "formula",
+      "v": "=IF(H25=0,0,SUM($H$23:H25))"
+    },
+    {
+      "cell": "O25",
+      "class": "label_or_text",
+      "v": "Sec Axis"
+    },
+    {
+      "cell": "P25",
+      "class": "formula",
+      "v": "=IF(P22=\"NAG\",\"Cum. NAG (Bscf)\", \"Cum. Oil (MMbbls)\")"
+    },
+    {
+      "cell": "S25",
+      "class": "formula",
+      "v": "=S22  & \" Cum.(Bscf)\""
+    },
+    {
+      "cell": "B26",
+      "class": "formula",
+      "v": "=B25+1"
+    },
+    {
+      "cell": "C26",
+      "class": "formula",
+      "v": "=IF(B26-$C$8=ROUNDUP($F$17,0),$F$17,IF(B26-$C$8<=$F$17+1,B26-$C$8,0))"
+    },
+    {
+      "cell": "D26",
+      "class": "formula",
+      "v": "=(IF(AND(C26>=$C$7,C26<($C$14+$C$7)),$C$12*EXP(-$C$15*(C26-$C$7)),IF(AND(C26>=($C$14+$C$7),C26<($C$1"
+    },
+    {
+      "cell": "E26",
+      "class": "formula",
+      "v": "=(IF(IF(D25=0,0,IF(AND(D25>0,C26<=($C$7+$C$14)),(D25-D26)*$C$9/$C$15/1000000,IF(AND(C26>($C$7+$C$14)"
+    },
+    {
+      "cell": "F26",
+      "class": "formula",
+      "v": "=IF(E26=0,0,SUM(E$23:$E26))"
+    },
+    {
+      "cell": "G26",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D26*$F$5)/1000"
+    },
+    {
+      "cell": "H26",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E26/1000)"
+    },
+    {
+      "cell": "I26",
+      "class": "formula",
+      "v": "=IF(H26=0,0,SUM($H$23:H26))"
+    },
+    {
+      "cell": "B27",
+      "class": "formula",
+      "v": "=B26+1"
+    },
+    {
+      "cell": "C27",
+      "class": "formula",
+      "v": "=IF(B27-$C$8=ROUNDUP($F$17,0),$F$17,IF(B27-$C$8<=$F$17+1,B27-$C$8,0))"
+    },
+    {
+      "cell": "D27",
+      "class": "formula",
+      "v": "=(IF(AND(C27>=$C$7,C27<($C$14+$C$7)),$C$12*EXP(-$C$15*(C27-$C$7)),IF(AND(C27>=($C$14+$C$7),C27<($C$1"
+    },
+    {
+      "cell": "E27",
+      "class": "formula",
+      "v": "=(IF(IF(D26=0,0,IF(AND(D26>0,C27<=($C$7+$C$14)),(D26-D27)*$C$9/$C$15/1000000,IF(AND(C27>($C$7+$C$14)"
+    },
+    {
+      "cell": "F27",
+      "class": "formula",
+      "v": "=IF(E27=0,0,SUM(E$23:$E27))"
+    },
+    {
+      "cell": "G27",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D27*$F$5)/1000"
+    },
+    {
+      "cell": "H27",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E27/1000)"
+    },
+    {
+      "cell": "I27",
+      "class": "formula",
+      "v": "=IF(H27=0,0,SUM($H$23:H27))"
+    },
+    {
+      "cell": "O27",
+      "class": "label_or_text",
+      "v": "Row Counter"
+    },
+    {
+      "cell": "P27",
+      "class": "formula",
+      "v": "=COUNTIF(D23:D53,  \">0\")+1"
+    },
+    {
+      "cell": "B28",
+      "class": "formula",
+      "v": "=B27+1"
+    },
+    {
+      "cell": "C28",
+      "class": "formula",
+      "v": "=IF(B28-$C$8=ROUNDUP($F$17,0),$F$17,IF(B28-$C$8<=$F$17+1,B28-$C$8,0))"
+    },
+    {
+      "cell": "D28",
+      "class": "formula",
+      "v": "=(IF(AND(C28>=$C$7,C28<($C$14+$C$7)),$C$12*EXP(-$C$15*(C28-$C$7)),IF(AND(C28>=($C$14+$C$7),C28<($C$1"
+    },
+    {
+      "cell": "E28",
+      "class": "formula",
+      "v": "=(IF(IF(D27=0,0,IF(AND(D27>0,C28<=($C$7+$C$14)),(D27-D28)*$C$9/$C$15/1000000,IF(AND(C28>($C$7+$C$14)"
+    },
+    {
+      "cell": "F28",
+      "class": "formula",
+      "v": "=IF(E28=0,0,SUM(E$23:$E28))"
+    },
+    {
+      "cell": "G28",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D28*$F$5)/1000"
+    },
+    {
+      "cell": "H28",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E28/1000)"
+    },
+    {
+      "cell": "I28",
+      "class": "formula",
+      "v": "=IF(H28=0,0,SUM($H$23:H28))"
+    },
+    {
+      "cell": "B29",
+      "class": "formula",
+      "v": "=B28+1"
+    },
+    {
+      "cell": "C29",
+      "class": "formula",
+      "v": "=IF(B29-$C$8=ROUNDUP($F$17,0),$F$17,IF(B29-$C$8<=$F$17+1,B29-$C$8,0))"
+    },
+    {
+      "cell": "D29",
+      "class": "formula",
+      "v": "=(IF(AND(C29>=$C$7,C29<($C$14+$C$7)),$C$12*EXP(-$C$15*(C29-$C$7)),IF(AND(C29>=($C$14+$C$7),C29<($C$1"
+    },
+    {
+      "cell": "E29",
+      "class": "formula",
+      "v": "=(IF(IF(D28=0,0,IF(AND(D28>0,C29<=($C$7+$C$14)),(D28-D29)*$C$9/$C$15/1000000,IF(AND(C29>($C$7+$C$14)"
+    },
+    {
+      "cell": "F29",
+      "class": "formula",
+      "v": "=IF(E29=0,0,SUM(E$23:$E29))"
+    },
+    {
+      "cell": "G29",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D29*$F$5)/1000"
+    },
+    {
+      "cell": "H29",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E29/1000)"
+    },
+    {
+      "cell": "I29",
+      "class": "formula",
+      "v": "=IF(H29=0,0,SUM($H$23:H29))"
+    },
+    {
+      "cell": "B30",
+      "class": "formula",
+      "v": "=B29+1"
+    },
+    {
+      "cell": "C30",
+      "class": "formula",
+      "v": "=IF(B30-$C$8=ROUNDUP($F$17,0),$F$17,IF(B30-$C$8<=$F$17+1,B30-$C$8,0))"
+    },
+    {
+      "cell": "D30",
+      "class": "formula",
+      "v": "=(IF(AND(C30>=$C$7,C30<($C$14+$C$7)),$C$12*EXP(-$C$15*(C30-$C$7)),IF(AND(C30>=($C$14+$C$7),C30<($C$1"
+    },
+    {
+      "cell": "E30",
+      "class": "formula",
+      "v": "=(IF(IF(D29=0,0,IF(AND(D29>0,C30<=($C$7+$C$14)),(D29-D30)*$C$9/$C$15/1000000,IF(AND(C30>($C$7+$C$14)"
+    },
+    {
+      "cell": "F30",
+      "class": "formula",
+      "v": "=IF(E30=0,0,SUM(E$23:$E30))"
+    },
+    {
+      "cell": "G30",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D30*$F$5)/1000"
+    },
+    {
+      "cell": "H30",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E30/1000)"
+    },
+    {
+      "cell": "I30",
+      "class": "formula",
+      "v": "=IF(H30=0,0,SUM($H$23:H30))"
+    },
+    {
+      "cell": "B31",
+      "class": "formula",
+      "v": "=B30+1"
+    },
+    {
+      "cell": "C31",
+      "class": "formula",
+      "v": "=IF(B31-$C$8=ROUNDUP($F$17,0),$F$17,IF(B31-$C$8<=$F$17+1,B31-$C$8,0))"
+    },
+    {
+      "cell": "D31",
+      "class": "formula",
+      "v": "=(IF(AND(C31>=$C$7,C31<($C$14+$C$7)),$C$12*EXP(-$C$15*(C31-$C$7)),IF(AND(C31>=($C$14+$C$7),C31<($C$1"
+    },
+    {
+      "cell": "E31",
+      "class": "formula",
+      "v": "=(IF(IF(D30=0,0,IF(AND(D30>0,C31<=($C$7+$C$14)),(D30-D31)*$C$9/$C$15/1000000,IF(AND(C31>($C$7+$C$14)"
+    },
+    {
+      "cell": "F31",
+      "class": "formula",
+      "v": "=IF(E31=0,0,SUM(E$23:$E31))"
+    },
+    {
+      "cell": "G31",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D31*$F$5)/1000"
+    },
+    {
+      "cell": "H31",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E31/1000)"
+    },
+    {
+      "cell": "I31",
+      "class": "formula",
+      "v": "=IF(H31=0,0,SUM($H$23:H31))"
+    },
+    {
+      "cell": "B32",
+      "class": "formula",
+      "v": "=B31+1"
+    },
+    {
+      "cell": "C32",
+      "class": "formula",
+      "v": "=IF(B32-$C$8=ROUNDUP($F$17,0),$F$17,IF(B32-$C$8<=$F$17+1,B32-$C$8,0))"
+    },
+    {
+      "cell": "D32",
+      "class": "formula",
+      "v": "=(IF(AND(C32>=$C$7,C32<($C$14+$C$7)),$C$12*EXP(-$C$15*(C32-$C$7)),IF(AND(C32>=($C$14+$C$7),C32<($C$1"
+    },
+    {
+      "cell": "E32",
+      "class": "formula",
+      "v": "=(IF(IF(D31=0,0,IF(AND(D31>0,C32<=($C$7+$C$14)),(D31-D32)*$C$9/$C$15/1000000,IF(AND(C32>($C$7+$C$14)"
+    },
+    {
+      "cell": "F32",
+      "class": "formula",
+      "v": "=IF(E32=0,0,SUM(E$23:$E32))"
+    },
+    {
+      "cell": "G32",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D32*$F$5)/1000"
+    },
+    {
+      "cell": "H32",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E32/1000)"
+    },
+    {
+      "cell": "I32",
+      "class": "formula",
+      "v": "=IF(H32=0,0,SUM($H$23:H32))"
+    },
+    {
+      "cell": "B33",
+      "class": "formula",
+      "v": "=B32+1"
+    },
+    {
+      "cell": "C33",
+      "class": "formula",
+      "v": "=IF(B33-$C$8=ROUNDUP($F$17,0),$F$17,IF(B33-$C$8<=$F$17+1,B33-$C$8,0))"
+    },
+    {
+      "cell": "D33",
+      "class": "formula",
+      "v": "=(IF(AND(C33>=$C$7,C33<($C$14+$C$7)),$C$12*EXP(-$C$15*(C33-$C$7)),IF(AND(C33>=($C$14+$C$7),C33<($C$1"
+    },
+    {
+      "cell": "E33",
+      "class": "formula",
+      "v": "=(IF(IF(D32=0,0,IF(AND(D32>0,C33<=($C$7+$C$14)),(D32-D33)*$C$9/$C$15/1000000,IF(AND(C33>($C$7+$C$14)"
+    },
+    {
+      "cell": "F33",
+      "class": "formula",
+      "v": "=IF(E33=0,0,SUM(E$23:$E33))"
+    },
+    {
+      "cell": "G33",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D33*$F$5)/1000"
+    },
+    {
+      "cell": "H33",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E33/1000)"
+    },
+    {
+      "cell": "I33",
+      "class": "formula",
+      "v": "=IF(H33=0,0,SUM($H$23:H33))"
+    },
+    {
+      "cell": "B34",
+      "class": "formula",
+      "v": "=B33+1"
+    },
+    {
+      "cell": "C34",
+      "class": "formula",
+      "v": "=IF(B34-$C$8=ROUNDUP($F$17,0),$F$17,IF(B34-$C$8<=$F$17+1,B34-$C$8,0))"
+    },
+    {
+      "cell": "D34",
+      "class": "formula",
+      "v": "=(IF(AND(C34>=$C$7,C34<($C$14+$C$7)),$C$12*EXP(-$C$15*(C34-$C$7)),IF(AND(C34>=($C$14+$C$7),C34<($C$1"
+    },
+    {
+      "cell": "E34",
+      "class": "formula",
+      "v": "=(IF(IF(D33=0,0,IF(AND(D33>0,C34<=($C$7+$C$14)),(D33-D34)*$C$9/$C$15/1000000,IF(AND(C34>($C$7+$C$14)"
+    },
+    {
+      "cell": "F34",
+      "class": "formula",
+      "v": "=IF(E34=0,0,SUM(E$23:$E34))"
+    },
+    {
+      "cell": "G34",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,D34*$F$5)/1000"
+    },
+    {
+      "cell": "H34",
+      "class": "formula",
+      "v": "=IF($B$2=\"GIIP\",0,$F$5*E34/1000)"
+    },
+    {
+      "cell": "I34",
+      "class": "formula",
+      "v": "=IF(H34=0,0,SUM($H$23:H34))"
+    }
+  ],
+  "prod_summary_layout": [
+    {
+      "cell": "B1",
+      "class": "label_or_text",
+      "v": "OML 123 OIL"
+    },
+    {
+      "cell": "G1",
+      "class": "label_or_text",
+      "v": "OML 123 GAS"
+    },
+    {
+      "cell": "L1",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN1"
+    },
+    {
+      "cell": "R1",
+      "class": "formula",
+      "v": "='Production Profile'!B2"
+    },
+    {
+      "cell": "T1",
+      "class": "formula",
+      "v": "=Ec_IO!G18"
+    },
+    {
+      "cell": "X1",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"NAG\",'Production Profile'!I19)"
+    },
+    {
+      "cell": "B2",
+      "class": "formula",
+      "v": "=Ec_IO!G18"
+    },
+    {
+      "cell": "G2",
+      "class": "formula",
+      "v": "=Ec_IO!G19"
+    },
+    {
+      "cell": "L2",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN1"
+    },
+    {
+      "cell": "T2",
+      "class": "formula",
+      "v": "=Ec_IO!C4"
+    },
+    {
+      "cell": "X2",
+      "class": "label_or_text",
+      "v": "Base Analysis"
+    },
+    {
+      "cell": "B3",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS2"
+    },
+    {
+      "cell": "C3",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT2"
+    },
+    {
+      "cell": "D3",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU2"
+    },
+    {
+      "cell": "E3",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV2"
+    },
+    {
+      "cell": "G3",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN2"
+    },
+    {
+      "cell": "H3",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO2"
+    },
+    {
+      "cell": "I3",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP2"
+    },
+    {
+      "cell": "J3",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ2"
+    },
+    {
+      "cell": "L3",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN2"
+    },
+    {
+      "cell": "M3",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO2"
+    },
+    {
+      "cell": "N3",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP2"
+    },
+    {
+      "cell": "O3",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ2"
+    },
+    {
+      "cell": "S3",
+      "class": "label_or_text",
+      "v": "YEAR"
+    },
+    {
+      "cell": "T3",
+      "class": "label_or_text",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "U3",
+      "class": "label_or_text",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "V3",
+      "class": "label_or_text",
+      "v": "Cumulative Oil Production"
+    },
+    {
+      "cell": "W3",
+      "class": "label_or_text",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "X3",
+      "class": "label_or_text",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "Y3",
+      "class": "label_or_text",
+      "v": "Cumulative Gas Production"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT3"
+    },
+    {
+      "cell": "D4",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU3"
+    },
+    {
+      "cell": "E4",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV3"
+    },
+    {
+      "cell": "H4",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO3"
+    },
+    {
+      "cell": "I4",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP3"
+    },
+    {
+      "cell": "J4",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ3"
+    },
+    {
+      "cell": "M4",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO3"
+    },
+    {
+      "cell": "N4",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP3"
+    },
+    {
+      "cell": "O4",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ3"
+    },
+    {
+      "cell": "T4",
+      "class": "formula",
+      "v": "=C4"
+    },
+    {
+      "cell": "U4",
+      "class": "formula",
+      "v": "=D4"
+    },
+    {
+      "cell": "V4",
+      "class": "formula",
+      "v": "=E4"
+    },
+    {
+      "cell": "W4",
+      "class": "formula",
+      "v": "=H4"
+    },
+    {
+      "cell": "X4",
+      "class": "formula",
+      "v": "=I4"
+    },
+    {
+      "cell": "Y4",
+      "class": "formula",
+      "v": "=J4"
+    },
+    {
+      "cell": "B5",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS4"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT4"
+    },
+    {
+      "cell": "D5",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU4"
+    },
+    {
+      "cell": "E5",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV4"
+    },
+    {
+      "cell": "G5",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN4"
+    },
+    {
+      "cell": "H5",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO4"
+    },
+    {
+      "cell": "I5",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP4"
+    },
+    {
+      "cell": "J5",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ4"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN4"
+    },
+    {
+      "cell": "M5",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO4"
+    },
+    {
+      "cell": "N5",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP4"
+    },
+    {
+      "cell": "O5",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ4"
+    },
+    {
+      "cell": "S5",
+      "class": "formula",
+      "v": "=Ec_IO!$C$5"
+    },
+    {
+      "cell": "T5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$B$5:$E$46,2,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "U5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$B$5:$E$46,3,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "V5",
+      "class": "formula",
+      "v": "=IF(T5=0,0,SUM($U$5:U5))"
+    },
+    {
+      "cell": "W5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$G$5:$J$46,2,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "X5",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$G$5:$J$46,3,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "Y5",
+      "class": "formula",
+      "v": "=IF(W5=0,0,SUM($X$5:X5))"
+    },
+    {
+      "cell": "B6",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS5"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT5"
+    },
+    {
+      "cell": "D6",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU5"
+    },
+    {
+      "cell": "E6",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV5"
+    },
+    {
+      "cell": "G6",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN5"
+    },
+    {
+      "cell": "H6",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO5"
+    },
+    {
+      "cell": "I6",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP5"
+    },
+    {
+      "cell": "J6",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ5"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN5"
+    },
+    {
+      "cell": "M6",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO5"
+    },
+    {
+      "cell": "N6",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP5"
+    },
+    {
+      "cell": "O6",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ5"
+    },
+    {
+      "cell": "S6",
+      "class": "formula",
+      "v": "=S5+1"
+    },
+    {
+      "cell": "T6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S6>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S6,$B$5:$E$46,2,FALSE),0))*(S6<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "U6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S6>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S6,$B$5:$E$46,3,FALSE),0))*(S6<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "V6",
+      "class": "formula",
+      "v": "=IF(T6=0,0,SUM($U$5:U6))"
+    },
+    {
+      "cell": "W6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S6>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S6,$G$5:$J$46,2,FALSE),0))*(S6<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "X6",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S6>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S6,$G$5:$J$46,3,FALSE),0))*(S6<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "Y6",
+      "class": "formula",
+      "v": "=IF(W6=0,0,SUM($X$5:X6))"
+    },
+    {
+      "cell": "B7",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS6"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT6"
+    },
+    {
+      "cell": "D7",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU6"
+    },
+    {
+      "cell": "E7",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV6"
+    },
+    {
+      "cell": "G7",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN6"
+    },
+    {
+      "cell": "H7",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO6"
+    },
+    {
+      "cell": "I7",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP6"
+    },
+    {
+      "cell": "J7",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ6"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN6"
+    },
+    {
+      "cell": "M7",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO6"
+    },
+    {
+      "cell": "N7",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP6"
+    },
+    {
+      "cell": "O7",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ6"
+    },
+    {
+      "cell": "S7",
+      "class": "formula",
+      "v": "=S6+1"
+    },
+    {
+      "cell": "T7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S7>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S7,$B$5:$E$46,2,FALSE),0))*(S7<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "U7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S7>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S7,$B$5:$E$46,3,FALSE),0))*(S7<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "V7",
+      "class": "formula",
+      "v": "=IF(T7=0,0,SUM($U$5:U7))"
+    },
+    {
+      "cell": "W7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S7>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S7,$G$5:$J$46,2,FALSE),0))*(S7<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "X7",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S7>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S7,$G$5:$J$46,3,FALSE),0))*(S7<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "Y7",
+      "class": "formula",
+      "v": "=IF(W7=0,0,SUM($X$5:X7))"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "B8",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "D8",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "E8",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "G8",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "H8",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "I8",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "J8",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "M8",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "N8",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "O8",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ7"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "S8",
+      "class": "formula",
+      "v": "=S7+1"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "T8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S8>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S8,$B$5:$E$46,2,FALSE),0))*(S8<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "U8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S8>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S8,$B$5:$E$46,3,FALSE),0))*(S8<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "V8",
+      "class": "formula",
+      "v": "=IF(T8=0,0,SUM($U$5:U8))"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "W8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S8>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S8,$G$5:$J$46,2,FALSE),0))*(S8<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "X8",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S8>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S8,$G$5:$J$46,3,FALSE),0))*(S8<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "Y8",
+      "class": "formula",
+      "v": "=IF(W8=0,0,SUM($X$5:X8))"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB8",
+      "class": "label_or_text",
+      "v": "MODEL NAVIGATION"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "B9",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "D9",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "E9",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "G9",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CN8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "H9",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CO8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "I9",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CP8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "J9",
+      "class": "formula",
+      "v": "='Block_Gas Data'!CQ8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CN8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "M9",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CO8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "N9",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CP8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "O9",
+      "class": "formula",
+      "v": "=OML123_Oil_S1!CQ8"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "S9",
+      "class": "formula",
+      "v": "=S8+1"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "T9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S9>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S9,$B$5:$E$46,2,FALSE),0))*(S9<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "U9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S9>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S9,$B$5:$E$46,3,FALSE),0))*(S9<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "V9",
+      "class": "formula",
+      "v": "=IF(T9=0,0,SUM($U$5:U9))"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "W9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S9>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S9,$G$5:$J$46,2,FALSE),0))*(S9<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "X9",
+      "class": "formula",
+      "v": "=IF(Ec_IO!$C$4=\"History\",(S9>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S9,$G$5:$J$46,3,FALSE),0))*(S9<=Ec_IO!$E$28),IFERROR(VLOOKU"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "Y9",
+      "class": "formula",
+      "v": "=IF(W9=0,0,SUM($X$5:X9))"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB9",
+      "class": "label_or_text",
+      "v": "Master"
+    },
+    {
+      "cell": "AB10",
+      "class": "label_or_text",
+      "v": "Ec_IO"
+    },
+    {
+      "cell": "B10",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CS9"
+    },
+    {
+      "cell": "AB10",
+      "class": "label_or_text",
+      "v": "Ec_IO"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CT9"
+    },
+    {
+      "cell": "AB10",
+      "class": "label_or_text",
+      "v": "Ec_IO"
+    },
+    {
+      "cell": "D10",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CU9"
+    },
+    {
+      "cell": "AB10",
+      "class": "label_or_text",
+      "v": "Ec_IO"
+    },
+    {
+      "cell": "E10",
+      "class": "formula",
+      "v": "='Block_Oil Data'!CV9"
+    }
+  ],
+  "block_oil_header": [
+    {
+      "cell": "A1",
+      "class": "label_or_t",
+      "v": "FIELD NAME:"
+    },
+    {
+      "cell": "B1",
+      "class": "label_or_t",
+      "v": "OML 86/88"
+    },
+    {
+      "cell": "E1",
+      "class": "label_or_t",
+      "v": "Ebiya Field"
+    },
+    {
+      "cell": "H1",
+      "class": "label_or_t",
+      "v": "Nsung Field"
+    },
+    {
+      "cell": "K1",
+      "class": "label_or_t",
+      "v": "Generic Field"
+    },
+    {
+      "cell": "N1",
+      "class": "label_or_t",
+      "v": "OML 20"
+    },
+    {
+      "cell": "Q1",
+      "class": "label_or_t",
+      "v": "ADANGA WEST - OML 123"
+    },
+    {
+      "cell": "T1",
+      "class": "label_or_t",
+      "v": "ADNH - OML 123"
+    },
+    {
+      "cell": "W1",
+      "class": "label_or_t",
+      "v": "NORTH ORON - OML 123"
+    },
+    {
+      "cell": "Z1",
+      "class": "label_or_t",
+      "v": "EBUGHU MAIN - OML123"
+    },
+    {
+      "cell": "AC1",
+      "class": "label_or_t",
+      "v": "EBUGHU NORTH EAST - OML 123"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "C2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "F2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "H2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "K2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "L2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "O2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "Q2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "R2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "T2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "U2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "W2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "X2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "Z2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "AA2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "AC2",
+      "class": "label_or_t",
+      "v": "Daily Oil Production"
+    },
+    {
+      "cell": "AD2",
+      "class": "label_or_t",
+      "v": "Annual Oil Production"
+    },
+    {
+      "cell": "B3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "C3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "F3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "H3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "K3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "L3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "N3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "O3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "Q3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "T3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "U3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "W3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "X3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "Z3",
+      "class": "label_or_t",
+      "v": "mb/d"
+    },
+    {
+      "cell": "AA3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "AD3",
+      "class": "label_or_t",
+      "v": "mmbbls"
+    },
+    {
+      "cell": "A4",
+      "class": "formula",
+      "v": "=Block_TC!A4"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=(B4*Production_Days)/1000"
+    },
+    {
+      "cell": "F4",
+      "class": "formula",
+      "v": "=(E4*Production_Days)/1000"
+    },
+    {
+      "cell": "I4",
+      "class": "formula",
+      "v": "=(H4*Production_Days)/1000"
+    },
+    {
+      "cell": "L4",
+      "class": "formula",
+      "v": "=(K4*Production_Days)/1000"
+    },
+    {
+      "cell": "O4",
+      "class": "formula",
+      "v": "=(N4*Production_Days)/1000"
+    },
+    {
+      "cell": "R4",
+      "class": "formula",
+      "v": "=(Q4*Production_Days)/1000"
+    },
+    {
+      "cell": "U4",
+      "class": "formula",
+      "v": "=(T4*Production_Days)/1000"
+    },
+    {
+      "cell": "X4",
+      "class": "formula",
+      "v": "=(W4*Production_Days)/1000"
+    },
+    {
+      "cell": "AA4",
+      "class": "formula",
+      "v": "=(Z4*Production_Days)/1000"
+    },
+    {
+      "cell": "AD4",
+      "class": "formula",
+      "v": "=(AC4*Production_Days)/1000"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=Block_TC!A5"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "v": "=(B5*Production_Days)/1000"
+    },
+    {
+      "cell": "F5",
+      "class": "formula",
+      "v": "=(E5*Production_Days)/1000"
+    },
+    {
+      "cell": "I5",
+      "class": "formula",
+      "v": "=(H5*Production_Days)/1000"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=(K5*Production_Days)/1000"
+    },
+    {
+      "cell": "O5",
+      "class": "formula",
+      "v": "=(N5*Production_Days)/1000"
+    },
+    {
+      "cell": "R5",
+      "class": "formula",
+      "v": "=(Q5*Production_Days)/1000"
+    },
+    {
+      "cell": "U5",
+      "class": "formula",
+      "v": "=(T5*Production_Days)/1000"
+    },
+    {
+      "cell": "X5",
+      "class": "formula",
+      "v": "=(W5*Production_Days)/1000"
+    },
+    {
+      "cell": "AA5",
+      "class": "formula",
+      "v": "=(Z5*Production_Days)/1000"
+    },
+    {
+      "cell": "AD5",
+      "class": "formula",
+      "v": "=(AC5*Production_Days)/1000"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=Block_TC!A6"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "=(B6*Production_Days)/1000"
+    },
+    {
+      "cell": "F6",
+      "class": "formula",
+      "v": "=(E6*Production_Days)/1000"
+    },
+    {
+      "cell": "I6",
+      "class": "formula",
+      "v": "=(H6*Production_Days)/1000"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=(K6*Production_Days)/1000"
+    },
+    {
+      "cell": "O6",
+      "class": "formula",
+      "v": "=(N6*Production_Days)/1000"
+    },
+    {
+      "cell": "R6",
+      "class": "formula",
+      "v": "=(Q6*Production_Days)/1000"
+    },
+    {
+      "cell": "U6",
+      "class": "formula",
+      "v": "=(T6*Production_Days)/1000"
+    },
+    {
+      "cell": "X6",
+      "class": "formula",
+      "v": "=(W6*Production_Days)/1000"
+    },
+    {
+      "cell": "AA6",
+      "class": "formula",
+      "v": "=(Z6*Production_Days)/1000"
+    },
+    {
+      "cell": "AD6",
+      "class": "formula",
+      "v": "=(AC6*Production_Days)/1000"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=Block_TC!A7"
+    },
+    {
+      "cell": "B7",
+      "class": "constant_o",
+      "v": "6.48534246575342"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "v": "=(B7*Production_Days)/1000"
+    },
+    {
+      "cell": "E7",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "F7",
+      "class": "formula",
+      "v": "=(E7*Production_Days)/1000"
+    },
+    {
+      "cell": "H7",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "I7",
+      "class": "formula",
+      "v": "=(H7*Production_Days)/1000"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D23)"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E23)"
+    },
+    {
+      "cell": "O7",
+      "class": "formula",
+      "v": "=(N7*Production_Days)/1000"
+    },
+    {
+      "cell": "R7",
+      "class": "formula",
+      "v": "=(Q7*Production_Days)/1000"
+    },
+    {
+      "cell": "U7",
+      "class": "formula",
+      "v": "=(T7*Production_Days)/1000"
+    },
+    {
+      "cell": "X7",
+      "class": "formula",
+      "v": "=(W7*Production_Days)/1000"
+    },
+    {
+      "cell": "AA7",
+      "class": "formula",
+      "v": "=(Z7*Production_Days)/1000"
+    },
+    {
+      "cell": "AD7",
+      "class": "formula",
+      "v": "=(AC7*Production_Days)/1000"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=Block_TC!A8"
+    },
+    {
+      "cell": "B8",
+      "class": "constant_o",
+      "v": "8.83424520547945"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "=(B8*Production_Days)/1000"
+    },
+    {
+      "cell": "E8",
+      "class": "constant_o",
+      "v": "1"
+    },
+    {
+      "cell": "F8",
+      "class": "formula",
+      "v": "=(E8*Production_Days)/1000"
+    },
+    {
+      "cell": "H8",
+      "class": "constant_o",
+      "v": "1"
+    },
+    {
+      "cell": "I8",
+      "class": "constant_o",
+      "v": "0.499367836206652"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D24)"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E24)"
+    },
+    {
+      "cell": "N8",
+      "class": "constant_o",
+      "v": "12.87"
+    },
+    {
+      "cell": "O8",
+      "class": "formula",
+      "v": "=(N8*Production_Days)/1000"
+    },
+    {
+      "cell": "R8",
+      "class": "formula",
+      "v": "=(Q8*Production_Days)/1000"
+    },
+    {
+      "cell": "U8",
+      "class": "formula",
+      "v": "=(T8*Production_Days)/1000"
+    },
+    {
+      "cell": "X8",
+      "class": "formula",
+      "v": "=(W8*Production_Days)/1000"
+    },
+    {
+      "cell": "AA8",
+      "class": "formula",
+      "v": "=(Z8*Production_Days)/1000"
+    },
+    {
+      "cell": "AD8",
+      "class": "formula",
+      "v": "=(AC8*Production_Days)/1000"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=Block_TC!A9"
+    },
+    {
+      "cell": "B9",
+      "class": "constant_o",
+      "v": "10.9297"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "=(B9*Production_Days)/1000"
+    },
+    {
+      "cell": "E9",
+      "class": "constant_o",
+      "v": "2.15443469003188"
+    },
+    {
+      "cell": "F9",
+      "class": "formula",
+      "v": "=(E9*Production_Days)/1000"
+    },
+    {
+      "cell": "H9",
+      "class": "constant_o",
+      "v": "1.81712059283214"
+    },
+    {
+      "cell": "I9",
+      "class": "constant_o",
+      "v": "0.907411578569134"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D25)"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E25)"
+    },
+    {
+      "cell": "N9",
+      "class": "constant_o",
+      "v": "19.37065"
+    },
+    {
+      "cell": "O9",
+      "class": "formula",
+      "v": "=(N9*Production_Days)/1000"
+    },
+    {
+      "cell": "R9",
+      "class": "formula",
+      "v": "=(Q9*Production_Days)/1000"
+    },
+    {
+      "cell": "U9",
+      "class": "formula",
+      "v": "=(T9*Production_Days)/1000"
+    },
+    {
+      "cell": "X9",
+      "class": "formula",
+      "v": "=(W9*Production_Days)/1000"
+    },
+    {
+      "cell": "AA9",
+      "class": "formula",
+      "v": "=(Z9*Production_Days)/1000"
+    },
+    {
+      "cell": "AD9",
+      "class": "formula",
+      "v": "=(AC9*Production_Days)/1000"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=Block_TC!A10"
+    },
+    {
+      "cell": "B10",
+      "class": "constant_o",
+      "v": "12.81873"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "=(B10*Production_Days)/1000"
+    },
+    {
+      "cell": "E10",
+      "class": "constant_o",
+      "v": "4.64158883361278"
+    },
+    {
+      "cell": "F10",
+      "class": "formula",
+      "v": "=(E10*Production_Days)/1000"
+    },
+    {
+      "cell": "H10",
+      "class": "constant_o",
+      "v": "3.30192724889463"
+    },
+    {
+      "cell": "I10",
+      "class": "constant_o",
+      "v": "1.64887626559229"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D26)"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E26)"
+    },
+    {
+      "cell": "N10",
+      "class": "constant_o",
+      "v": "22.958585"
+    },
+    {
+      "cell": "O10",
+      "class": "formula",
+      "v": "=(N10*Production_Days)/1000"
+    },
+    {
+      "cell": "R10",
+      "class": "formula",
+      "v": "=(Q10*Production_Days)/1000"
+    },
+    {
+      "cell": "U10",
+      "class": "formula",
+      "v": "=(T10*Production_Days)/1000"
+    },
+    {
+      "cell": "X10",
+      "class": "formula",
+      "v": "=(W10*Production_Days)/1000"
+    },
+    {
+      "cell": "AA10",
+      "class": "formula",
+      "v": "=(Z10*Production_Days)/1000"
+    },
+    {
+      "cell": "AD10",
+      "class": "formula",
+      "v": "=(AC10*Production_Days)/1000"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=Block_TC!A11"
+    },
+    {
+      "cell": "B11",
+      "class": "constant_o",
+      "v": "16.6214189"
+    },
+    {
+      "cell": "C11",
+      "class": "formula",
+      "v": "=(B11*Production_Days)/1000"
+    },
+    {
+      "cell": "E11",
+      "class": "constant_o",
+      "v": "10"
+    },
+    {
+      "cell": "F11",
+      "class": "formula",
+      "v": "=(E11*Production_Days)/1000"
+    },
+    {
+      "cell": "H11",
+      "class": "constant_o",
+      "v": "6"
+    },
+    {
+      "cell": "I11",
+      "class": "constant_o",
+      "v": "2.19"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D27)"
+    },
+    {
+      "cell": "L11",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E27)"
+    },
+    {
+      "cell": "N11",
+      "class": "constant_o",
+      "v": "26.1877265"
+    },
+    {
+      "cell": "O11",
+      "class": "formula",
+      "v": "=(N11*Production_Days)/1000"
+    },
+    {
+      "cell": "R11",
+      "class": "formula",
+      "v": "=(Q11*Production_Days)/1000"
+    },
+    {
+      "cell": "U11",
+      "class": "formula",
+      "v": "=(T11*Production_Days)/1000"
+    },
+    {
+      "cell": "X11",
+      "class": "formula",
+      "v": "=(W11*Production_Days)/1000"
+    },
+    {
+      "cell": "AA11",
+      "class": "formula",
+      "v": "=(Z11*Production_Days)/1000"
+    },
+    {
+      "cell": "AD11",
+      "class": "formula",
+      "v": "=(AC11*Production_Days)/1000"
+    },
+    {
+      "cell": "A12",
+      "class": "formula",
+      "v": "=Block_TC!A12"
+    },
+    {
+      "cell": "B12",
+      "class": "constant_o",
+      "v": "30.6478762899703"
+    },
+    {
+      "cell": "C12",
+      "class": "formula",
+      "v": "=(B12*Production_Days)/1000"
+    },
+    {
+      "cell": "E12",
+      "class": "constant_o",
+      "v": "10"
+    },
+    {
+      "cell": "F12",
+      "class": "formula",
+      "v": "=(E12*Production_Days)/1000"
+    },
+    {
+      "cell": "H12",
+      "class": "constant_o",
+      "v": "6"
+    },
+    {
+      "cell": "I12",
+      "class": "constant_o",
+      "v": "1.99466115969924"
+    },
+    {
+      "cell": "K12",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D28)"
+    },
+    {
+      "cell": "L12",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E28)"
+    },
+    {
+      "cell": "N12",
+      "class": "constant_o",
+      "v": "23.56895385"
+    },
+    {
+      "cell": "O12",
+      "class": "formula",
+      "v": "=(N12*Production_Days)/1000"
+    },
+    {
+      "cell": "R12",
+      "class": "formula",
+      "v": "=(Q12*Production_Days)/1000"
+    },
+    {
+      "cell": "U12",
+      "class": "formula",
+      "v": "=(T12*Production_Days)/1000"
+    },
+    {
+      "cell": "X12",
+      "class": "formula",
+      "v": "=(W12*Production_Days)/1000"
+    },
+    {
+      "cell": "AA12",
+      "class": "formula",
+      "v": "=(Z12*Production_Days)/1000"
+    },
+    {
+      "cell": "AD12",
+      "class": "formula",
+      "v": "=(AC12*Production_Days)/1000"
+    },
+    {
+      "cell": "A13",
+      "class": "formula",
+      "v": "=Block_TC!A13"
+    },
+    {
+      "cell": "B13",
+      "class": "constant_o",
+      "v": "28.91118041871"
+    },
+    {
+      "cell": "C13",
+      "class": "formula",
+      "v": "=(B13*Production_Days)/1000"
+    },
+    {
+      "cell": "E13",
+      "class": "constant_o",
+      "v": "7.78324564503888"
+    },
+    {
+      "cell": "F13",
+      "class": "formula",
+      "v": "=(E13*Production_Days)/1000"
+    },
+    {
+      "cell": "H13",
+      "class": "constant_o",
+      "v": "4.96246125792474"
+    },
+    {
+      "cell": "I13",
+      "class": "constant_o",
+      "v": "1.64973812128245"
+    },
+    {
+      "cell": "K13",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D29)"
+    },
+    {
+      "cell": "L13",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E29)"
+    },
+    {
+      "cell": "N13",
+      "class": "constant_o",
+      "v": "32.342058465"
+    },
+    {
+      "cell": "O13",
+      "class": "formula",
+      "v": "=(N13*Production_Days)/1000"
+    },
+    {
+      "cell": "R13",
+      "class": "formula",
+      "v": "=(Q13*Production_Days)/1000"
+    },
+    {
+      "cell": "U13",
+      "class": "formula",
+      "v": "=(T13*Production_Days)/1000"
+    },
+    {
+      "cell": "X13",
+      "class": "formula",
+      "v": "=(W13*Production_Days)/1000"
+    },
+    {
+      "cell": "AA13",
+      "class": "formula",
+      "v": "=(Z13*Production_Days)/1000"
+    },
+    {
+      "cell": "AD13",
+      "class": "formula",
+      "v": "=(AC13*Production_Days)/1000"
+    },
+    {
+      "cell": "A14",
+      "class": "formula",
+      "v": "=Block_TC!A14"
+    },
+    {
+      "cell": "B14",
+      "class": "constant_o",
+      "v": "27.3937974861163"
+    },
+    {
+      "cell": "C14",
+      "class": "formula",
+      "v": "=(B14*Production_Days)/1000"
+    },
+    {
+      "cell": "E14",
+      "class": "constant_o",
+      "v": "6.05789127710167"
+    },
+    {
+      "cell": "F14",
+      "class": "formula",
+      "v": "=(E14*Production_Days)/1000"
+    },
+    {
+      "cell": "H14",
+      "class": "constant_o",
+      "v": "4.10433695606733"
+    },
+    {
+      "cell": "I14",
+      "class": "constant_o",
+      "v": "1.36446025209762"
+    },
+    {
+      "cell": "K14",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D30)"
+    },
+    {
+      "cell": "L14",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E30)"
+    },
+    {
+      "cell": "N14",
+      "class": "constant_o",
+      "v": "41.8328526185"
+    },
+    {
+      "cell": "O14",
+      "class": "formula",
+      "v": "=(N14*Production_Days)/1000"
+    },
+    {
+      "cell": "R14",
+      "class": "formula",
+      "v": "=(Q14*Production_Days)/1000"
+    },
+    {
+      "cell": "U14",
+      "class": "formula",
+      "v": "=(T14*Production_Days)/1000"
+    },
+    {
+      "cell": "X14",
+      "class": "formula",
+      "v": "=(W14*Production_Days)/1000"
+    },
+    {
+      "cell": "AA14",
+      "class": "formula",
+      "v": "=(Z14*Production_Days)/1000"
+    },
+    {
+      "cell": "AD14",
+      "class": "formula",
+      "v": "=(AC14*Production_Days)/1000"
+    },
+    {
+      "cell": "A15",
+      "class": "formula",
+      "v": "=Block_TC!A15"
+    },
+    {
+      "cell": "B15",
+      "class": "constant_o",
+      "v": "26.0700290974135"
+    },
+    {
+      "cell": "C15",
+      "class": "formula",
+      "v": "=(B15*Production_Days)/1000"
+    },
+    {
+      "cell": "E15",
+      "class": "constant_o",
+      "v": "4.71500559006205"
+    },
+    {
+      "cell": "F15",
+      "class": "formula",
+      "v": "=(E15*Production_Days)/1000"
+    },
+    {
+      "cell": "H15",
+      "class": "constant_o",
+      "v": "3.39460218899215"
+    },
+    {
+      "cell": "I15",
+      "class": "constant_o",
+      "v": "1.12851352316878"
+    },
+    {
+      "cell": "K15",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!D31)"
+    },
+    {
+      "cell": "L15",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",\"\",'Production Profile'!E31)"
+    },
+    {
+      "cell": "N15",
+      "class": "constant_o",
+      "v": "38.77456735665"
+    },
+    {
+      "cell": "O15",
+      "class": "formula",
+      "v": "=(N15*Production_Days)/1000"
+    },
+    {
+      "cell": "R15",
+      "class": "formula",
+      "v": "=(Q15*Production_Days)/1000"
+    },
+    {
+      "cell": "U15",
+      "class": "formula",
+      "v": "=(T15*Production_Days)/1000"
+    },
+    {
+      "cell": "X15",
+      "class": "formula",
+      "v": "=(W15*Production_Days)/1000"
+    },
+    {
+      "cell": "AA15",
+      "class": "formula",
+      "v": "=(Z15*Production_Days)/1000"
+    },
+    {
+      "cell": "AD15",
+      "class": "formula",
+      "v": "=(AC15*Production_Days)/1000"
+    }
+  ],
+  "block_gas_header": [
+    {
+      "cell": "A1",
+      "class": "label_or_t",
+      "v": "FIELD NAME:"
+    },
+    {
+      "cell": "B1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!B1"
+    },
+    {
+      "cell": "E1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!E1"
+    },
+    {
+      "cell": "H1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!H1"
+    },
+    {
+      "cell": "K1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!K1"
+    },
+    {
+      "cell": "N1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!N1"
+    },
+    {
+      "cell": "Q1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!Q1"
+    },
+    {
+      "cell": "T1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!T1"
+    },
+    {
+      "cell": "W1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!W1"
+    },
+    {
+      "cell": "Z1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!Z1"
+    },
+    {
+      "cell": "AC1",
+      "class": "formula",
+      "v": "='Block_Oil Data'!AC1"
+    },
+    {
+      "cell": "B2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "C2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "E2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "F2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "H2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "I2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "K2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "L2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "N2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "O2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "Q2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "R2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "T2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "U2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "W2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "X2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "Z2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "AA2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "AC2",
+      "class": "label_or_t",
+      "v": "Daily Gas Production"
+    },
+    {
+      "cell": "AD2",
+      "class": "label_or_t",
+      "v": "Annual Gas Production"
+    },
+    {
+      "cell": "B3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "C3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "E3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "F3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "H3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "I3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "K3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "L3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "N3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "O3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "Q3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "R3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "T3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "U3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "W3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "X3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "Z3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "AA3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "AC3",
+      "class": "label_or_t",
+      "v": "mmscf/d"
+    },
+    {
+      "cell": "AD3",
+      "class": "label_or_t",
+      "v": "bscf"
+    },
+    {
+      "cell": "A4",
+      "class": "formula",
+      "v": "=Block_TC!A4"
+    },
+    {
+      "cell": "C4",
+      "class": "formula",
+      "v": "=(B4*Production_Days)/1000"
+    },
+    {
+      "cell": "F4",
+      "class": "formula",
+      "v": "=(E4*Production_Days)/1000"
+    },
+    {
+      "cell": "I4",
+      "class": "formula",
+      "v": "=(H4*Production_Days)/1000"
+    },
+    {
+      "cell": "L4",
+      "class": "formula",
+      "v": "=(K4*Production_Days)/1000"
+    },
+    {
+      "cell": "O4",
+      "class": "formula",
+      "v": "=(N4*Production_Days)/1000"
+    },
+    {
+      "cell": "R4",
+      "class": "formula",
+      "v": "=(Q4*Production_Days)/1000"
+    },
+    {
+      "cell": "U4",
+      "class": "formula",
+      "v": "=(T4*Production_Days)/1000"
+    },
+    {
+      "cell": "X4",
+      "class": "formula",
+      "v": "=(W4*Production_Days)/1000"
+    },
+    {
+      "cell": "AA4",
+      "class": "formula",
+      "v": "=(Z4*Production_Days)/1000"
+    },
+    {
+      "cell": "AD4",
+      "class": "formula",
+      "v": "=(AC4*Production_Days)/1000"
+    },
+    {
+      "cell": "A5",
+      "class": "formula",
+      "v": "=Block_TC!A5"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "v": "=(B5*Production_Days)/1000"
+    },
+    {
+      "cell": "F5",
+      "class": "formula",
+      "v": "=(E5*Production_Days)/1000"
+    },
+    {
+      "cell": "I5",
+      "class": "formula",
+      "v": "=(H5*Production_Days)/1000"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "v": "=(K5*Production_Days)/1000"
+    },
+    {
+      "cell": "O5",
+      "class": "formula",
+      "v": "=(N5*Production_Days)/1000"
+    },
+    {
+      "cell": "R5",
+      "class": "formula",
+      "v": "=(Q5*Production_Days)/1000"
+    },
+    {
+      "cell": "U5",
+      "class": "formula",
+      "v": "=(T5*Production_Days)/1000"
+    },
+    {
+      "cell": "X5",
+      "class": "formula",
+      "v": "=(W5*Production_Days)/1000"
+    },
+    {
+      "cell": "AA5",
+      "class": "formula",
+      "v": "=(Z5*Production_Days)/1000"
+    },
+    {
+      "cell": "AD5",
+      "class": "formula",
+      "v": "=(AC5*Production_Days)/1000"
+    },
+    {
+      "cell": "A6",
+      "class": "formula",
+      "v": "=Block_TC!A6"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "v": "=(B6*Production_Days)/1000"
+    },
+    {
+      "cell": "F6",
+      "class": "formula",
+      "v": "=(E6*Production_Days)/1000"
+    },
+    {
+      "cell": "I6",
+      "class": "formula",
+      "v": "=(H6*Production_Days)/1000"
+    },
+    {
+      "cell": "L6",
+      "class": "formula",
+      "v": "=(K6*Production_Days)/1000"
+    },
+    {
+      "cell": "O6",
+      "class": "formula",
+      "v": "=(N6*Production_Days)/1000"
+    },
+    {
+      "cell": "R6",
+      "class": "formula",
+      "v": "=(Q6*Production_Days)/1000"
+    },
+    {
+      "cell": "U6",
+      "class": "formula",
+      "v": "=(T6*Production_Days)/1000"
+    },
+    {
+      "cell": "X6",
+      "class": "formula",
+      "v": "=(W6*Production_Days)/1000"
+    },
+    {
+      "cell": "AA6",
+      "class": "formula",
+      "v": "=(Z6*Production_Days)/1000"
+    },
+    {
+      "cell": "AD6",
+      "class": "formula",
+      "v": "=(AC6*Production_Days)/1000"
+    },
+    {
+      "cell": "A7",
+      "class": "formula",
+      "v": "=Block_TC!A7"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "v": "=(B7*Production_Days)/1000"
+    },
+    {
+      "cell": "E7",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "F7",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "H7",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "I7",
+      "class": "formula",
+      "v": "=(H7*Production_Days)/1000"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D23,'Production Profil"
+    },
+    {
+      "cell": "L7",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E23,'Production Profil"
+    },
+    {
+      "cell": "O7",
+      "class": "formula",
+      "v": "=(N7*Production_Days)/1000"
+    },
+    {
+      "cell": "R7",
+      "class": "formula",
+      "v": "=(Q7*Production_Days)/1000"
+    },
+    {
+      "cell": "U7",
+      "class": "formula",
+      "v": "=(T7*Production_Days)/1000"
+    },
+    {
+      "cell": "X7",
+      "class": "formula",
+      "v": "=(W7*Production_Days)/1000"
+    },
+    {
+      "cell": "AA7",
+      "class": "formula",
+      "v": "=(Z7*Production_Days)/1000"
+    },
+    {
+      "cell": "AD7",
+      "class": "formula",
+      "v": "=(AC7*Production_Days)/1000"
+    },
+    {
+      "cell": "A8",
+      "class": "formula",
+      "v": "=Block_TC!A8"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "v": "=(B8*Production_Days)/1000"
+    },
+    {
+      "cell": "E8",
+      "class": "constant_o",
+      "v": "1.2"
+    },
+    {
+      "cell": "F8",
+      "class": "constant_o",
+      "v": "0"
+    },
+    {
+      "cell": "H8",
+      "class": "constant_o",
+      "v": "2.3"
+    },
+    {
+      "cell": "I8",
+      "class": "constant_o",
+      "v": "1.1485460232753"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D24,'Production Profil"
+    },
+    {
+      "cell": "L8",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E24,'Production Profil"
+    },
+    {
+      "cell": "N8",
+      "class": "constant_o",
+      "v": "23.4"
+    },
+    {
+      "cell": "O8",
+      "class": "formula",
+      "v": "=(N8*Production_Days)/1000"
+    },
+    {
+      "cell": "R8",
+      "class": "formula",
+      "v": "=(Q8*Production_Days)/1000"
+    },
+    {
+      "cell": "U8",
+      "class": "formula",
+      "v": "=(T8*Production_Days)/1000"
+    },
+    {
+      "cell": "X8",
+      "class": "formula",
+      "v": "=(W8*Production_Days)/1000"
+    },
+    {
+      "cell": "AA8",
+      "class": "formula",
+      "v": "=(Z8*Production_Days)/1000"
+    },
+    {
+      "cell": "AD8",
+      "class": "formula",
+      "v": "=(AC8*Production_Days)/1000"
+    },
+    {
+      "cell": "A9",
+      "class": "formula",
+      "v": "=Block_TC!A9"
+    },
+    {
+      "cell": "B9",
+      "class": "constant_o",
+      "v": "33.6119259"
+    },
+    {
+      "cell": "C9",
+      "class": "formula",
+      "v": "=(B9*Production_Days)/1000"
+    },
+    {
+      "cell": "E9",
+      "class": "constant_o",
+      "v": "2.58532162803826"
+    },
+    {
+      "cell": "F9",
+      "class": "constant_o",
+      "v": "0.658793104896479"
+    },
+    {
+      "cell": "H9",
+      "class": "constant_o",
+      "v": "4.17937736351392"
+    },
+    {
+      "cell": "I9",
+      "class": "constant_o",
+      "v": "2.08704663070901"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D25,'Production Profil"
+    },
+    {
+      "cell": "L9",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E25,'Production Profil"
+    },
+    {
+      "cell": "N9",
+      "class": "constant_o",
+      "v": "36.813"
+    },
+    {
+      "cell": "O9",
+      "class": "formula",
+      "v": "=(N9*Production_Days)/1000"
+    },
+    {
+      "cell": "R9",
+      "class": "formula",
+      "v": "=(Q9*Production_Days)/1000"
+    },
+    {
+      "cell": "U9",
+      "class": "formula",
+      "v": "=(T9*Production_Days)/1000"
+    },
+    {
+      "cell": "X9",
+      "class": "formula",
+      "v": "=(W9*Production_Days)/1000"
+    },
+    {
+      "cell": "AA9",
+      "class": "formula",
+      "v": "=(Z9*Production_Days)/1000"
+    },
+    {
+      "cell": "AD9",
+      "class": "formula",
+      "v": "=(AC9*Production_Days)/1000"
+    },
+    {
+      "cell": "A10",
+      "class": "formula",
+      "v": "=Block_TC!A10"
+    },
+    {
+      "cell": "B10",
+      "class": "constant_o",
+      "v": "36.32506731"
+    },
+    {
+      "cell": "C10",
+      "class": "formula",
+      "v": "=(B10*Production_Days)/1000"
+    },
+    {
+      "cell": "E10",
+      "class": "constant_o",
+      "v": "5.56990660033533"
+    },
+    {
+      "cell": "F10",
+      "class": "constant_o",
+      "v": "1.41932671874279"
+    },
+    {
+      "cell": "H10",
+      "class": "constant_o",
+      "v": "7.59443267245764"
+    },
+    {
+      "cell": "I10",
+      "class": "constant_o",
+      "v": "3.79241541086227"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D26,'Production Profil"
+    },
+    {
+      "cell": "L10",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E26,'Production Profil"
+    },
+    {
+      "cell": "N10",
+      "class": "constant_o",
+      "v": "43.6317"
+    },
+    {
+      "cell": "O10",
+      "class": "formula",
+      "v": "=(N10*Production_Days)/1000"
+    },
+    {
+      "cell": "R10",
+      "class": "formula",
+      "v": "=(Q10*Production_Days)/1000"
+    },
+    {
+      "cell": "U10",
+      "class": "formula",
+      "v": "=(T10*Production_Days)/1000"
+    },
+    {
+      "cell": "X10",
+      "class": "formula",
+      "v": "=(W10*Production_Days)/1000"
+    },
+    {
+      "cell": "AA10",
+      "class": "formula",
+      "v": "=(Z10*Production_Days)/1000"
+    },
+    {
+      "cell": "AD10",
+      "class": "formula",
+      "v": "=(AC10*Production_Days)/1000"
+    },
+    {
+      "cell": "A11",
+      "class": "formula",
+      "v": "=Block_TC!A11"
+    },
+    {
+      "cell": "B11",
+      "class": "constant_o",
+      "v": "46.4147125983"
+    },
+    {
+      "cell": "C11",
+      "class": "formula",
+      "v": "=(B11*Production_Days)/1000"
+    },
+    {
+      "cell": "E11",
+      "class": "constant_o",
+      "v": "12"
+    },
+    {
+      "cell": "F11",
+      "class": "constant_o",
+      "v": "3.05784671934859"
+    },
+    {
+      "cell": "H11",
+      "class": "constant_o",
+      "v": "13.8"
+    },
+    {
+      "cell": "I11",
+      "class": "constant_o",
+      "v": "5.037"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D27,'Production Profil"
+    },
+    {
+      "cell": "L11",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E27,'Production Profil"
+    },
+    {
+      "cell": "N11",
+      "class": "constant_o",
+      "v": "49.76853"
+    },
+    {
+      "cell": "O11",
+      "class": "formula",
+      "v": "=(N11*Production_Days)/1000"
+    },
+    {
+      "cell": "R11",
+      "class": "formula",
+      "v": "=(Q11*Production_Days)/1000"
+    },
+    {
+      "cell": "U11",
+      "class": "formula",
+      "v": "=(T11*Production_Days)/1000"
+    },
+    {
+      "cell": "X11",
+      "class": "formula",
+      "v": "=(W11*Production_Days)/1000"
+    },
+    {
+      "cell": "AA11",
+      "class": "formula",
+      "v": "=(Z11*Production_Days)/1000"
+    },
+    {
+      "cell": "AD11",
+      "class": "formula",
+      "v": "=(AC11*Production_Days)/1000"
+    },
+    {
+      "cell": "A12",
+      "class": "formula",
+      "v": "=Block_TC!A12"
+    },
+    {
+      "cell": "B12",
+      "class": "constant_o",
+      "v": "405.684"
+    },
+    {
+      "cell": "C12",
+      "class": "formula",
+      "v": "=(B12*Production_Days)/1000"
+    },
+    {
+      "cell": "E12",
+      "class": "constant_o",
+      "v": "12"
+    },
+    {
+      "cell": "F12",
+      "class": "constant_o",
+      "v": "4.38"
+    },
+    {
+      "cell": "H12",
+      "class": "constant_o",
+      "v": "13.8"
+    },
+    {
+      "cell": "I12",
+      "class": "constant_o",
+      "v": "4.58772066730825"
+    },
+    {
+      "cell": "K12",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D28,'Production Profil"
+    },
+    {
+      "cell": "L12",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E28,'Production Profil"
+    },
+    {
+      "cell": "N12",
+      "class": "constant_o",
+      "v": "44.791677"
+    },
+    {
+      "cell": "O12",
+      "class": "formula",
+      "v": "=(N12*Production_Days)/1000"
+    },
+    {
+      "cell": "R12",
+      "class": "formula",
+      "v": "=(Q12*Production_Days)/1000"
+    },
+    {
+      "cell": "U12",
+      "class": "formula",
+      "v": "=(T12*Production_Days)/1000"
+    },
+    {
+      "cell": "X12",
+      "class": "formula",
+      "v": "=(W12*Production_Days)/1000"
+    },
+    {
+      "cell": "AA12",
+      "class": "formula",
+      "v": "=(Z12*Production_Days)/1000"
+    },
+    {
+      "cell": "AD12",
+      "class": "formula",
+      "v": "=(AC12*Production_Days)/1000"
+    },
+    {
+      "cell": "A13",
+      "class": "formula",
+      "v": "=Block_TC!A13"
+    },
+    {
+      "cell": "B13",
+      "class": "constant_o",
+      "v": "472.279881306474"
+    },
+    {
+      "cell": "C13",
+      "class": "formula",
+      "v": "=(B13*Production_Days)/1000"
+    },
+    {
+      "cell": "E13",
+      "class": "constant_o",
+      "v": "9.33989477404665"
+    },
+    {
+      "cell": "F13",
+      "class": "constant_o",
+      "v": "3.87427461617842"
+    },
+    {
+      "cell": "H13",
+      "class": "constant_o",
+      "v": "11.4136608932269"
+    },
+    {
+      "cell": "I13",
+      "class": "constant_o",
+      "v": "3.79439767894964"
+    },
+    {
+      "cell": "K13",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D29,'Production Profil"
+    },
+    {
+      "cell": "L13",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E29,'Production Profil"
+    },
+    {
+      "cell": "N13",
+      "class": "constant_o",
+      "v": "142.9125093"
+    },
+    {
+      "cell": "O13",
+      "class": "formula",
+      "v": "=(N13*Production_Days)/1000"
+    },
+    {
+      "cell": "R13",
+      "class": "formula",
+      "v": "=(Q13*Production_Days)/1000"
+    },
+    {
+      "cell": "U13",
+      "class": "formula",
+      "v": "=(T13*Production_Days)/1000"
+    },
+    {
+      "cell": "X13",
+      "class": "formula",
+      "v": "=(W13*Production_Days)/1000"
+    },
+    {
+      "cell": "AA13",
+      "class": "formula",
+      "v": "=(Z13*Production_Days)/1000"
+    },
+    {
+      "cell": "AD13",
+      "class": "formula",
+      "v": "=(AC13*Production_Days)/1000"
+    },
+    {
+      "cell": "A14",
+      "class": "formula",
+      "v": "=Block_TC!A14"
+    },
+    {
+      "cell": "B14",
+      "class": "constant_o",
+      "v": "463.342661464147"
+    },
+    {
+      "cell": "C14",
+      "class": "formula",
+      "v": "=(B14*Production_Days)/1000"
+    },
+    {
+      "cell": "E14",
+      "class": "constant_o",
+      "v": "7.269469532522"
+    },
+    {
+      "cell": "F14",
+      "class": "constant_o",
+      "v": "3.01544310340553"
+    },
+    {
+      "cell": "H14",
+      "class": "constant_o",
+      "v": "9.43997499895487"
+    },
+    {
+      "cell": "I14",
+      "class": "constant_o",
+      "v": "3.13825857982453"
+    },
+    {
+      "cell": "K14",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D30,'Production Profil"
+    },
+    {
+      "cell": "L14",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E30,'Production Profil"
+    },
+    {
+      "cell": "N14",
+      "class": "constant_o",
+      "v": "283.12125837"
+    },
+    {
+      "cell": "O14",
+      "class": "formula",
+      "v": "=(N14*Production_Days)/1000"
+    },
+    {
+      "cell": "R14",
+      "class": "formula",
+      "v": "=(Q14*Production_Days)/1000"
+    },
+    {
+      "cell": "U14",
+      "class": "formula",
+      "v": "=(T14*Production_Days)/1000"
+    },
+    {
+      "cell": "X14",
+      "class": "formula",
+      "v": "=(W14*Production_Days)/1000"
+    },
+    {
+      "cell": "AA14",
+      "class": "formula",
+      "v": "=(Z14*Production_Days)/1000"
+    },
+    {
+      "cell": "AD14",
+      "class": "formula",
+      "v": "=(AC14*Production_Days)/1000"
+    },
+    {
+      "cell": "A15",
+      "class": "formula",
+      "v": "=Block_TC!A15"
+    },
+    {
+      "cell": "B15",
+      "class": "constant_o",
+      "v": "456.392121265576"
+    },
+    {
+      "cell": "C15",
+      "class": "formula",
+      "v": "=(B15*Production_Days)/1000"
+    },
+    {
+      "cell": "E15",
+      "class": "constant_o",
+      "v": "5.65800670807447"
+    },
+    {
+      "cell": "F15",
+      "class": "constant_o",
+      "v": "2.34699344024436"
+    },
+    {
+      "cell": "H15",
+      "class": "constant_o",
+      "v": "7.80758503468194"
+    },
+    {
+      "cell": "I15",
+      "class": "constant_o",
+      "v": "2.59558110328819"
+    },
+    {
+      "cell": "K15",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!D31,'Production Profil"
+    },
+    {
+      "cell": "L15",
+      "class": "formula",
+      "v": "=IF('Production Profile'!$B$2=\"GIIP\",'Production Profile'!E31,'Production Profil"
+    },
+    {
+      "cell": "N15",
+      "class": "constant_o",
+      "v": "277.309132533"
+    },
+    {
+      "cell": "O15",
+      "class": "formula",
+      "v": "=(N15*Production_Days)/1000"
+    },
+    {
+      "cell": "R15",
+      "class": "formula",
+      "v": "=(Q15*Production_Days)/1000"
+    },
+    {
+      "cell": "U15",
+      "class": "formula",
+      "v": "=(T15*Production_Days)/1000"
+    },
+    {
+      "cell": "X15",
+      "class": "formula",
+      "v": "=(W15*Production_Days)/1000"
+    },
+    {
+      "cell": "AA15",
+      "class": "formula",
+      "v": "=(Z15*Production_Days)/1000"
+    },
+    {
+      "cell": "AD15",
+      "class": "formula",
+      "v": "=(AC15*Production_Days)/1000"
+    }
+  ],
+  "register": [
+    {
+      "ws": "Production Profile",
+      "cell": "C3",
+      "val": "0.35",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "RF | RF",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "F3",
+      "val": "0.75",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "RF | RF",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "F5",
+      "val": "2000",
+      "class": "ASSUMPTION",
+      "ctx": "GOR",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AB6",
+      "val": "-0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "INPUTS",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AC6",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AD6",
+      "val": "0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AE6",
+      "val": "-0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "NPV",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AF6",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AG6",
+      "val": "0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AH6",
+      "val": "-0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "PI",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AI6",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AJ6",
+      "val": "0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AK6",
+      "val": "-0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "DPP",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AL6",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AM6",
+      "val": "0.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C7",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Production start = | Production start =",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "L7",
+      "val": "0.125",
+      "class": "ASSUMPTION",
+      "ctx": "Production start = | Eff Decline Rate | Production start =",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AC7",
+      "val": "0.3",
+      "class": "ASSUMPTION",
+      "ctx": "Tax | Production start =",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C8",
+      "val": "2026",
+      "class": "ASSUMPTION",
+      "ctx": "Year end = | Year end =",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AC8",
+      "val": "0.1",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OPEX | Year end =",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C9",
+      "val": "365",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Days in a year | Days in a year",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AC9",
+      "val": "70",
+      "class": "ASSUMPTION",
+      "ctx": "Oil Price | Days in a year",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "AC10",
+      "val": "0.15",
+      "class": "ASSUMPTION",
+      "ctx": "Disc. Rate",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C12",
+      "val": "1000",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "qi | qi",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C13",
+      "val": "6000",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "qp | qp",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "I13",
+      "val": "500",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "qel | t=(ln(qi/q))/a | qp",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "C14",
+      "val": "2",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "t1 | t1",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Production Profile",
+      "cell": "F14",
+      "val": "3",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "t2 | t1",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B7",
+      "val": "6.48534246575342",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mb/d | Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mb/d | Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B8",
+      "val": "8.83424520547945",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E8",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mb/d | Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H8",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mb/d | Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I8",
+      "val": "0.499367836206652",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmbbls | Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N8",
+      "val": "12.87",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B9",
+      "val": "10.9297",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E9",
+      "val": "2.15443469003188",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H9",
+      "val": "1.81712059283214",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I9",
+      "val": "0.907411578569134",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmbbls | Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N9",
+      "val": "19.37065",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B10",
+      "val": "12.81873",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E10",
+      "val": "4.64158883361278",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H10",
+      "val": "3.30192724889463",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I10",
+      "val": "1.64887626559229",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmbbls | Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N10",
+      "val": "22.958585",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B11",
+      "val": "16.6214189",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E11",
+      "val": "10",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H11",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mb/d | Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I11",
+      "val": "2.19",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmbbls | Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N11",
+      "val": "26.1877265",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mb/d | OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B12",
+      "val": "30.6478762899703",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E12",
+      "val": "10",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H12",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I12",
+      "val": "1.99466115969924",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N12",
+      "val": "23.56895385",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B13",
+      "val": "28.91118041871",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E13",
+      "val": "7.78324564503888",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H13",
+      "val": "4.96246125792474",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I13",
+      "val": "1.64973812128245",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N13",
+      "val": "32.342058465",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B14",
+      "val": "27.3937974861163",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E14",
+      "val": "6.05789127710167",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H14",
+      "val": "4.10433695606733",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I14",
+      "val": "1.36446025209762",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N14",
+      "val": "41.8328526185",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B15",
+      "val": "26.0700290974135",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E15",
+      "val": "4.71500559006205",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H15",
+      "val": "3.39460218899215",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I15",
+      "val": "1.12851352316878",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N15",
+      "val": "38.77456735665",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B16",
+      "val": "30.6424226358751",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E16",
+      "val": "3.66980467251844",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H16",
+      "val": "2.80759697482334",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I16",
+      "val": "0.933367439628199",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N16",
+      "val": "36.022110620985",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B17",
+      "val": "28.1870476138516",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E17",
+      "val": "2.85629912355225",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H17",
+      "val": "2.32209853590459",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I17",
+      "val": "0.771966626427229",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N17",
+      "val": "33.5448995588865",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B18",
+      "val": "26.0714576834467",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E18",
+      "val": "2.22312777143164",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H18",
+      "val": "1.92055400358505",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I18",
+      "val": "0.63847574600933",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N18",
+      "val": "31.3154096029978",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B19",
+      "val": "24.2453969692116",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E19",
+      "val": "1.73031495453603",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H19",
+      "val": "1.58844580609051",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I19",
+      "val": "0.528068525615979",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N19",
+      "val": "28.1838686426981",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B20",
+      "val": "19.6862585418878",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E20",
+      "val": "1.34674663344382",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H20",
+      "val": "1.3137667955062",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I20",
+      "val": "0.436753266649795",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N20",
+      "val": "25.3654817784283",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B21",
+      "val": "16.6910128664511",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E21",
+      "val": "1.04820598697224",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "H21",
+      "val": "1.08658613744124",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Nsung Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "I21",
+      "val": "0.166461259053296",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Oil Production | mmbbls",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N21",
+      "val": "22.8289336005854",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B22",
+      "val": "15.0094158111187",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E22",
+      "val": "1",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N22",
+      "val": "20.5460402405269",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B23",
+      "val": "13.5235582719603",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E23",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N23",
+      "val": "18.4914362164742",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B24",
+      "val": "12.2079716965526",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E24",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N24",
+      "val": "16.6422925948268",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B25",
+      "val": "9.59535164541538",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E25",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N25",
+      "val": "14.9780633353441",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B26",
+      "val": "7.41057529285529",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "E26",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Ebiya Field | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "N26",
+      "val": "13.4802570018097",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 20 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B27",
+      "val": "6.66747950825182",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B28",
+      "val": "5.32977118985947",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B29",
+      "val": "4.85044546332322",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B30",
+      "val": "4.42128567945967",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B31",
+      "val": "4.03624763818978",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B32",
+      "val": "3.690092557823",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Oil Data",
+      "cell": "B33",
+      "val": "0.11566215589444",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "OML 86/88 | Daily Oil Production | mb/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H7",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E8",
+      "val": "1.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F8",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H8",
+      "val": "2.3",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I8",
+      "val": "1.1485460232753",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N8",
+      "val": "23.4",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B9",
+      "val": "33.6119259",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E9",
+      "val": "2.58532162803826",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F9",
+      "val": "0.658793104896479",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H9",
+      "val": "4.17937736351392",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I9",
+      "val": "2.08704663070901",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N9",
+      "val": "36.813",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B10",
+      "val": "36.32506731",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E10",
+      "val": "5.56990660033533",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F10",
+      "val": "1.41932671874279",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H10",
+      "val": "7.59443267245764",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I10",
+      "val": "3.79241541086227",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N10",
+      "val": "43.6317",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B11",
+      "val": "46.4147125983",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E11",
+      "val": "12",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F11",
+      "val": "3.05784671934859",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H11",
+      "val": "13.8",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I11",
+      "val": "5.037",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "bscf | Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N11",
+      "val": "49.76853",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "mmscf/d | Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B12",
+      "val": "405.684",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E12",
+      "val": "12",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F12",
+      "val": "4.38",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H12",
+      "val": "13.8",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I12",
+      "val": "4.58772066730825",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N12",
+      "val": "44.791677",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B13",
+      "val": "472.279881306474",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E13",
+      "val": "9.33989477404665",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F13",
+      "val": "3.87427461617842",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H13",
+      "val": "11.4136608932269",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I13",
+      "val": "3.79439767894964",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N13",
+      "val": "142.9125093",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B14",
+      "val": "463.342661464147",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E14",
+      "val": "7.269469532522",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F14",
+      "val": "3.01544310340553",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H14",
+      "val": "9.43997499895487",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I14",
+      "val": "3.13825857982453",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N14",
+      "val": "283.12125837",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B15",
+      "val": "456.392121265576",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E15",
+      "val": "5.65800670807447",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F15",
+      "val": "2.34699344024436",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H15",
+      "val": "7.80758503468194",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I15",
+      "val": "2.59558110328819",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N15",
+      "val": "277.309132533",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B16",
+      "val": "456.029029622661",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E16",
+      "val": "4.40376560702213",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F16",
+      "val": "1.82672264727168",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H16",
+      "val": "6.45747304209369",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I16",
+      "val": "2.14674511114486",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N16",
+      "val": "272.0782192797",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B17",
+      "val": "432.210108735005",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E17",
+      "val": "3.4275589482627",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F17",
+      "val": "1.42178310890712",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H17",
+      "val": "5.34082663258056",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I17",
+      "val": "1.77552324078263",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N17",
+      "val": "267.37039735173",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B18",
+      "val": "418.610150960327",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E18",
+      "val": "2.66775332571797",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F18",
+      "val": "1.10660871905912",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H18",
+      "val": "4.41727420824561",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I18",
+      "val": "1.46849421582146",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N18",
+      "val": "263.133357616557",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B19",
+      "val": "405.799438090468",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E19",
+      "val": "2.07637794544324",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F19",
+      "val": "0.861300749337887",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H19",
+      "val": "3.65342535400817",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I19",
+      "val": "1.21455760891675",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N19",
+      "val": "236.820021854901",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B20",
+      "val": "393.698165420373",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E20",
+      "val": "1.61609596013259",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F20",
+      "val": "0.670371530635283",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H20",
+      "val": "3.02166362966426",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I20",
+      "val": "1.00453251329453",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N20",
+      "val": "213.138019669411",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B21",
+      "val": "382.236913286806",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E21",
+      "val": "1.25784718436669",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F21",
+      "val": "0.521766629637514",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "H21",
+      "val": "2.49914811611485",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "I21",
+      "val": "0.382860895822581",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N21",
+      "val": "191.82421770247",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B22",
+      "val": "371.355169866755",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E22",
+      "val": "1.2",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F22",
+      "val": "0.0842507566327299",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N22",
+      "val": "172.641795932223",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B23",
+      "val": "361.000071014497",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E23",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "F23",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Annual Gas Production | bscf",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N23",
+      "val": "155.377616339001",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B24",
+      "val": "341.807908194354",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E24",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N24",
+      "val": "139.839854705101",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B25",
+      "val": "253.824923186571",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E25",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N25",
+      "val": "125.855869234591",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B26",
+      "val": "240.233016468097",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E26",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "N26",
+      "val": "113.270282311132",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B27",
+      "val": "227.421345604486",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E27",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B28",
+      "val": "212.158007045675",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "E28",
+      "val": "0",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B29",
+      "val": "201.232098552323",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B30",
+      "val": "190.871565972104",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B31",
+      "val": "181.046995680052",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B32",
+      "val": "171.730513422209",
+      "class": "ASSUMPTION",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Block_Gas Data",
+      "cell": "B33",
+      "val": "6",
+      "class": "DEFAULT/STRUCTURAL",
+      "ctx": "Daily Gas Production | mmscf/d",
+      "status": "RESOLVED"
+    },
+    {
+      "ws": "Prod_Summary",
+      "cell": "Y48",
+      "val": "5.804",
+      "class": "FORMULA COEFFICIENT",
+      "ctx": "Conversion Factor | Cumulative Gas Production",
+      "status": "RESOLVED"
+    }
+  ],
+  "register_class_counts": {
+    "Production Profile|FORMULA COEFFICIENT": 15,
+    "Production Profile|ASSUMPTION": 6,
+    "Production Profile|DEFAULT/STRUCTURAL": 7,
+    "Block_Oil Data|FORMULA COEFFICIENT": 83,
+    "Block_Oil Data|DEFAULT/STRUCTURAL": 12,
+    "Block_Gas Data|DEFAULT/STRUCTURAL": 13,
+    "Block_Gas Data|FORMULA COEFFICIENT": 64,
+    "Block_Gas Data|ASSUMPTION": 35,
+    "Prod_Summary|FORMULA COEFFICIENT": 1
+  },
+  "kpis": [
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M19",
+      "exp": "15.8726247896521",
+      "fml": "=M16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H19",
+      "exp": "8.00847019384067",
+      "fml": "=H16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M20",
+      "exp": "6.64200673825471",
+      "fml": "=M17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H20",
+      "exp": "5.42378429513249",
+      "fml": "=H17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M21",
+      "exp": "22.5146315279068",
+      "fml": "=M18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "H21",
+      "exp": "13.4322544889732",
+      "fml": "=H18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N22",
+      "exp": "10.7789168336236",
+      "fml": "=Prod_Summary!V47*'Equity Dash'!$C$4",
+      "label": "Oil Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "M23",
+      "exp": "(12.37 Bscf)",
+      "fml": "=\"(\"&TEXT(Prod_Summary!Y47*'Equity Dash'!$C$4,\"0.00\")&\" Bscf\"&\")\"",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "RESULTS Equity",
+      "cell": "N23",
+      "exp": "2.13133806059713",
+      "fml": "=Prod_Summary!Y49*'Equity Dash'!$C$4",
+      "label": "Gas Royalty, $MM"
+    },
+    {
+      "ws": "Prod_Summary",
+      "cell": "V47",
+      "exp": "21.9977894563747",
+      "fml": "=MAX(V5:V36)",
+      "label": "intermediate_or_irr"
+    },
+    {
+      "ws": "Prod_Summary",
+      "cell": "Y47",
+      "exp": "25.2454818442975",
+      "fml": "=MAX(Y5:Y46)",
+      "label": "intermediate_or_irr"
+    },
+    {
+      "ws": "Prod_Summary",
+      "cell": "Y48",
+      "exp": "5.804",
+      "fml": "",
+      "label": "intermediate_or_irr"
+    }
+  ],
+  "consumers": {
+    "Prod_Summary!": {
+      "Ec_IO": 10,
+      "Block_TC": 45,
+      "Block_TC_Gas": 44,
+      "Cap_Allow": 99,
+      "Cap_Allow Gas": 86,
+      "Royalties": 309,
+      "FLGT": 307,
+      "CIT_NCF": 42,
+      "RESULTS Equity": 9
+    },
+    "Ec_IO!$C$5": {
+      "Prod_Summary": 1,
+      "Cap_Allow": 43,
+      "Cap_Allow Gas": 43,
+      "Royalties": 42,
+      "HT_NCF_Oil": 90,
+      "CIT_NCF_Oil": 90,
+      "CIT_NCF_Gas": 90,
+      "Project_NCF": 90,
+      "HT_NCF_Oil Equity": 90,
+      "CIT_NCF_Oil Equity": 90,
+      "CIT_NCF_Gas Equity": 90,
+      "Equity_NCF_Con": 90
+    },
+    "Ec_IO!C7": {
+      "Analysis": 10
+    }
+  },
+  "ec_io_refs_from_production": {
+    "Ec_IO!G18": 3,
+    "Ec_IO!G19": 2,
+    "Ec_IO!C4": 1,
+    "Ec_IO!$C$5": 2,
+    "Ec_IO!$C$4": 336,
+    "Ec_IO!$D$28": 336,
+    "Ec_IO!$E$28": 336,
+    "Ec_IO!$G$18": 1008,
+    "Ec_IO!$G$19": 1344
+  },
+  "data_validations": [
+    {
+      "worksheet": "Production Profile",
+      "sqref": "B2",
+      "type": "list",
+      "operator": "",
+      "formula1": "\"STOIIP,GIIP\"",
+      "formula2": "",
+      "allow_blank": "True",
+      "showDropDown": "False",
+      "module_area": "Production"
+    },
+    {
+      "worksheet": "OML123_Oil_S1",
+      "sqref": "CN1",
+      "type": "list",
+      "operator": "",
+      "formula1": "$B$1:$CI$1",
+      "formula2": "",
+      "allow_blank": "True",
+      "showDropDown": "False",
+      "module_area": "Production"
+    }
+  ],
+  "pp_formula_sample": [
+    {
+      "cell": "C2",
+      "formula": "=IF(B2=\"STOIIP\",STOIIP!D10*STOIIP!D11,F2)",
+      "cached": "42.451776",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D2",
+      "formula": "=IF(B2=\"STOIIP\",\"MMbbls\",\"Bscf\")",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F2",
+      "formula": "=GIIP!D10*GIIP!D11",
+      "cached": "238.36032",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "C4",
+      "formula": "=IF(B2=\"STOIIP\",C2*C3,F2*F3)",
+      "cached": "14.8581216",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D4",
+      "formula": "=D2",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F4",
+      "formula": "=F2*F3",
+      "cached": "178.77024",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G4",
+      "formula": "=G2",
+      "cached": "Bscf",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "B6",
+      "formula": "=IF(B2=\"STOIIP\",\"Np\",E6)",
+      "cached": "Np",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "C6",
+      "formula": "=C4",
+      "cached": "14.8581216",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D6",
+      "formula": "=D2",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F6",
+      "formula": "=F4",
+      "cached": "178.77024",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G6",
+      "formula": "=G4",
+      "cached": "Bscf",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F7",
+      "formula": "=C7",
+      "cached": "1",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AB7",
+      "formula": "=AC7*($AB$6+100%)",
+      "cached": "0.24",
+      "nf": "0%"
+    },
+    {
+      "cell": "AD7",
+      "formula": "=AC7*($AD$6+100%)",
+      "cached": "0.36",
+      "nf": "0%"
+    },
+    {
+      "cell": "F8",
+      "formula": "=C8",
+      "cached": "2026",
+      "nf": "General"
+    },
+    {
+      "cell": "AB8",
+      "formula": "=AC8*($AB$6+100%)",
+      "cached": "0.08",
+      "nf": "0%"
+    },
+    {
+      "cell": "AD8",
+      "formula": "=AC8*($AD$6+100%)",
+      "cached": "0.12",
+      "nf": "0%"
+    },
+    {
+      "cell": "F9",
+      "formula": "=C9",
+      "cached": "365",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "AB9",
+      "formula": "=AC9*($AB$6+100%)",
+      "cached": "56",
+      "nf": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "AD9",
+      "formula": "=AC9*($AD$6+100%)",
+      "cached": "84",
+      "nf": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "AB10",
+      "formula": "=AC10*($AB$6+100%)",
+      "cached": "0.12",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "AD10",
+      "formula": "=AC10*($AD$6+100%)",
+      "cached": "0.18",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "B11",
+      "formula": "=IF(B2=\"STOIIP\",\"Build Up Oil Profile\", \"Build Up NAG Profile\")",
+      "cached": "Build Up Oil Profile",
+      "nf": "General"
+    },
+    {
+      "cell": "D12",
+      "formula": "=IF(D6=\"MMbbls\",\"BOPD\",\"Mscf/d\")",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F12",
+      "formula": "=C13",
+      "cached": "6000",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G12",
+      "formula": "=D12",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I12",
+      "formula": "=F13",
+      "cached": "6000",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "J12",
+      "formula": "=D12",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D13",
+      "formula": "=D12",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F13",
+      "formula": "=F12",
+      "cached": "6000",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G13",
+      "formula": "=D12",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "J13",
+      "formula": "=D12",
+      "cached": "BOPD",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I14",
+      "formula": "=1/I15*(LN(I12/I13))",
+      "cached": "7.73758193359177",
+      "nf": "_-* #,##0.0_-;\\-* #,##0.0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "M14",
+      "formula": "=(C6-(C16+F16))*I16/(C9*(I12-I13))*1000000",
+      "cached": "19.4646195265469",
+      "nf": "General"
+    },
+    {
+      "cell": "C15",
+      "formula": "=LN(C12/C13)/C14",
+      "cached": "-0.895879734614027",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I15",
+      "formula": "=((I12-I13)*$C$9/I16/1000000)+-LN(1-L7)*0",
+      "cached": "0.32114770106667",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "C16",
+      "formula": "=(C12-C13)*C9/C15/1000000",
+      "cached": "2.03710378691205",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D16",
+      "formula": "=D4",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F16",
+      "formula": "=F12*C9*F14/1000000",
+      "cached": "6.57",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G16",
+      "formula": "=D4",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I16",
+      "formula": "=(C6-C16-F16)",
+      "cached": "6.25101781308795",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "J16",
+      "formula": "=D4",
+      "cached": "MMbbls",
+      "nf": "_-* #,##0_-;\\-* #,##0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "F17",
+      "formula": "=C7+C14+F14+I14",
+      "cached": "13.7375819335918",
+      "nf": "_-* #,##0.0_-;\\-* #,##0.0_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I19",
+      "formula": "=G20",
+      "cached": "AG",
+      "nf": "General"
+    },
+    {
+      "cell": "D20",
+      "formula": "=IF($B$2=\"GIIP\",\"NAG\",\"OIL\")",
+      "cached": "OIL",
+      "nf": "General"
+    },
+    {
+      "cell": "G20",
+      "formula": "=IF($B$2=\"GIIP\",\"\",\"AG\")",
+      "cached": "AG",
+      "nf": "General"
+    },
+    {
+      "cell": "D21",
+      "formula": "=IF($B$2=\"GIIP\",\"RATE (MMscf/d)\",\"RATE (Mbopd)\")",
+      "cached": "RATE (Mbopd)",
+      "nf": "General"
+    },
+    {
+      "cell": "E21",
+      "formula": "=IF($B$2=\"GIIP\",\"ANNUAL PRODUCTION (Bscf)\",\"ANNUAL PRODUCTION (MMbbls)\")",
+      "cached": "ANNUAL PRODUCTION (MMbbls)",
+      "nf": "General"
+    },
+    {
+      "cell": "F21",
+      "formula": "=IF($B$2=\"GIIP\",\"CUMMULATIVE PRODUCTION (Bscf)\",\"CUMMULATIVE PRODUCTION (MMbbls)\")",
+      "cached": "CUMMULATIVE PRODUCTION (MMbbls)",
+      "nf": "General"
+    },
+    {
+      "cell": "G21",
+      "formula": "=IF($B$2=\"GIIP\",\"\",\"RATE (MMscf/d)\")",
+      "cached": "RATE (MMscf/d)",
+      "nf": "General"
+    },
+    {
+      "cell": "H21",
+      "formula": "=IF($B$2=\"GIIP\",\"\",\"ANNUAL PRODUCTION (Bscf)\")",
+      "cached": "ANNUAL PRODUCTION (Bscf)",
+      "nf": "General"
+    },
+    {
+      "cell": "I21",
+      "formula": "=IF($B$2=\"GIIP\",\"\",\"CUMMULATIVE PRODUCTION (Bscf)\")",
+      "cached": "CUMMULATIVE PRODUCTION (Bscf)",
+      "nf": "General"
+    },
+    {
+      "cell": "P22",
+      "formula": "=IF(B2=\"GIIP\",\"NAG\",\"Oil\")",
+      "cached": "Oil",
+      "nf": "General"
+    },
+    {
+      "cell": "S22",
+      "formula": "=IF(P22=\"Oil\",\"AG\",\"\")",
+      "cached": "AG",
+      "nf": "General"
+    },
+    {
+      "cell": "B23",
+      "formula": "=C8",
+      "cached": "2026",
+      "nf": "General"
+    },
+    {
+      "cell": "C23",
+      "formula": "=IF(B23-$C$8=ROUNDUP($F$17,0),$F$17,IF(B23-$C$8<=$F$17+1,B23-$C$8,0))",
+      "cached": "0",
+      "nf": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "D23",
+      "formula": "=(IF(AND(C23>=$C$7,C23<($C$14+$C$7)),$C$12*EXP(-$C$15*(C23-$C$7)),IF(AND(C23>=($C$14+$C$7),C23<($C$14+$C$7+$F$14)),$F$12,IF(C23<=$C$7,0,$I$12*EXP(-$I$15*(C23-($C$14+$F$14+$C$7))))))*(B23<=($C$8+$C$7+$",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "E23",
+      "formula": "=(IF(IF(D22=0,0,IF(AND(D22>0,C23<=($C$7+$C$14)),(D22-D23)*$C$9/$C$15/1000000,IF(AND(C23>($C$7+$C$14),C23<=($C$7+$C$14+$F$14)),(D23*$C$9)/1000000,(D22-D23)*$C$9/$I$15/1000000)))>0,IF(D22=0,0,IF(AND(D22",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "F23",
+      "formula": "=IF(E23=0,0,SUM(E23:$E$23))",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G23",
+      "formula": "=IF($B$2=\"GIIP\",0,D23*$F$5)/1000",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "H23",
+      "formula": "=IF($B$2=\"GIIP\",0,$F$5*E23/1000)",
+      "cached": "0",
+      "nf": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I23",
+      "formula": "=IF(H23=0,0,SUM($H23:H$23))",
+      "cached": "0",
+      "nf": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P23",
+      "formula": "=P22  & \" Production Profile\"",
+      "cached": "Oil Production Profile",
+      "nf": "General"
+    },
+    {
+      "cell": "S23",
+      "formula": "=S22  & \" Production Profile\"",
+      "cached": "AG Production Profile",
+      "nf": "General"
+    },
+    {
+      "cell": "B24",
+      "formula": "=B23+1",
+      "cached": "2027",
+      "nf": "General"
+    },
+    {
+      "cell": "C24",
+      "formula": "=IF(B24-$C$8=ROUNDUP($F$17,0),$F$17,IF(B24-$C$8<=$F$17+1,B24-$C$8,0))",
+      "cached": "1",
+      "nf": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "D24",
+      "formula": "=(IF(AND(C24>=$C$7,C24<($C$14+$C$7)),$C$12*EXP(-$C$15*(C24-$C$7)),IF(AND(C24>=($C$14+$C$7),C24<($C$14+$C$7+$F$14)),$F$12,IF(C24<=$C$7,0,$I$12*EXP(-$I$15*(C24-($C$14+$F$14+$C$7))))))*(B24<=($C$8+$C$7+$",
+      "cached": "1",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "E24",
+      "formula": "=(IF(IF(D23=0,0,IF(AND(D23>0,C24<=($C$7+$C$14)),(D23-D24)*$C$9/$C$15/1000000,IF(AND(C24>($C$7+$C$14),C24<=($C$7+$C$14+$F$14)),(D24*$C$9)/1000000,(D23-D24)*$C$9/$I$15/1000000)))>0,IF(D23=0,0,IF(AND(D23",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "F24",
+      "formula": "=IF(E24=0,0,SUM(E$23:$E24))",
+      "cached": "0",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G24",
+      "formula": "=IF($B$2=\"GIIP\",0,D24*$F$5)/1000",
+      "cached": "2",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "H24",
+      "formula": "=IF($B$2=\"GIIP\",0,$F$5*E24/1000)",
+      "cached": "0",
+      "nf": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I24",
+      "formula": "=IF(H24=0,0,SUM($H$23:H24))",
+      "cached": "0",
+      "nf": "_(* #,##0.000_);_(* \\(#,##0.000\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "P24",
+      "formula": "=IF(P22=\"NAG\",\"NAG Rate (MMscf/d)\", \"Oil Rate (bopd)\")",
+      "cached": "Oil Rate (bopd)",
+      "nf": "General"
+    },
+    {
+      "cell": "S24",
+      "formula": "=S22  & \" Rate (MMscf/d)\"",
+      "cached": "AG Rate (MMscf/d)",
+      "nf": "General"
+    },
+    {
+      "cell": "B25",
+      "formula": "=B24+1",
+      "cached": "2028",
+      "nf": "General"
+    },
+    {
+      "cell": "C25",
+      "formula": "=IF(B25-$C$8=ROUNDUP($F$17,0),$F$17,IF(B25-$C$8<=$F$17+1,B25-$C$8,0))",
+      "cached": "2",
+      "nf": "_(* #,##0_);_(* \\(#,##0\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "D25",
+      "formula": "=(IF(AND(C25>=$C$7,C25<($C$14+$C$7)),$C$12*EXP(-$C$15*(C25-$C$7)),IF(AND(C25>=($C$14+$C$7),C25<($C$14+$C$7+$F$14)),$F$12,IF(C25<=$C$7,0,$I$12*EXP(-$I$15*(C25-($C$14+$F$14+$C$7))))))*(B25<=($C$8+$C$7+$",
+      "cached": "2.44948974278318",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "E25",
+      "formula": "=(IF(IF(D24=0,0,IF(AND(D24>0,C25<=($C$7+$C$14)),(D24-D25)*$C$9/$C$15/1000000,IF(AND(C25>($C$7+$C$14),C25<=($C$7+$C$14+$F$14)),(D25*$C$9)/1000000,(D24-D25)*$C$9/$I$15/1000000)))>0,IF(D24=0,0,IF(AND(D24",
+      "cached": "0.590552208822758",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "F25",
+      "formula": "=IF(E25=0,0,SUM(E$23:$E25))",
+      "cached": "0.590552208822758",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    }
+  ],
+  "ps_formula_sample": [
+    {
+      "cell": "L1",
+      "formula": "=OML123_Oil_S1!CN1",
+      "cached": "OML 123 SCENARIO 1",
+      "nf": "General"
+    },
+    {
+      "cell": "R1",
+      "formula": "='Production Profile'!B2",
+      "cached": "STOIIP",
+      "nf": "General"
+    },
+    {
+      "cell": "T1",
+      "formula": "=Ec_IO!G18",
+      "cached": "Ebiya Field",
+      "nf": "General"
+    },
+    {
+      "cell": "X1",
+      "formula": "=IF('Production Profile'!$B$2=\"GIIP\",\"NAG\",'Production Profile'!I19)",
+      "cached": "AG",
+      "nf": "General"
+    },
+    {
+      "cell": "B2",
+      "formula": "=Ec_IO!G18",
+      "cached": "Ebiya Field",
+      "nf": "General"
+    },
+    {
+      "cell": "G2",
+      "formula": "=Ec_IO!G19",
+      "cached": "Ebiya Field",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "L2",
+      "formula": "=OML123_Oil_S1!CN1",
+      "cached": "OML 123 SCENARIO 1",
+      "nf": "General"
+    },
+    {
+      "cell": "T2",
+      "formula": "=Ec_IO!C4",
+      "cached": "Forecast",
+      "nf": "General"
+    },
+    {
+      "cell": "B3",
+      "formula": "='Block_Oil Data'!CS2",
+      "cached": "YEAR",
+      "nf": "General"
+    },
+    {
+      "cell": "C3",
+      "formula": "='Block_Oil Data'!CT2",
+      "cached": "Daily Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "D3",
+      "formula": "='Block_Oil Data'!CU2",
+      "cached": "Annual Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "E3",
+      "formula": "='Block_Oil Data'!CV2",
+      "cached": "Cumulative Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "G3",
+      "formula": "='Block_Gas Data'!CN2",
+      "cached": "YEAR",
+      "nf": "General"
+    },
+    {
+      "cell": "H3",
+      "formula": "='Block_Gas Data'!CO2",
+      "cached": "Daily Gas Production",
+      "nf": "General"
+    },
+    {
+      "cell": "I3",
+      "formula": "='Block_Gas Data'!CP2",
+      "cached": "Annual Gas Production",
+      "nf": "General"
+    },
+    {
+      "cell": "J3",
+      "formula": "='Block_Gas Data'!CQ2",
+      "cached": "Cumulative Gas Production",
+      "nf": "General"
+    },
+    {
+      "cell": "L3",
+      "formula": "=OML123_Oil_S1!CN2",
+      "cached": "YEAR",
+      "nf": "General"
+    },
+    {
+      "cell": "M3",
+      "formula": "=OML123_Oil_S1!CO2",
+      "cached": "Daily Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "N3",
+      "formula": "=OML123_Oil_S1!CP2",
+      "cached": "Annual Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "O3",
+      "formula": "=OML123_Oil_S1!CQ2",
+      "cached": "Cumulative Oil Production",
+      "nf": "General"
+    },
+    {
+      "cell": "C4",
+      "formula": "='Block_Oil Data'!CT3",
+      "cached": "mb/d",
+      "nf": "General"
+    },
+    {
+      "cell": "D4",
+      "formula": "='Block_Oil Data'!CU3",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "E4",
+      "formula": "='Block_Oil Data'!CV3",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "H4",
+      "formula": "='Block_Gas Data'!CO3",
+      "cached": "mmscf/d",
+      "nf": "General"
+    },
+    {
+      "cell": "I4",
+      "formula": "='Block_Gas Data'!CP3",
+      "cached": "bscf",
+      "nf": "General"
+    },
+    {
+      "cell": "J4",
+      "formula": "='Block_Gas Data'!CQ3",
+      "cached": "bscf",
+      "nf": "General"
+    },
+    {
+      "cell": "M4",
+      "formula": "=OML123_Oil_S1!CO3",
+      "cached": "mb/d",
+      "nf": "General"
+    },
+    {
+      "cell": "N4",
+      "formula": "=OML123_Oil_S1!CP3",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "O4",
+      "formula": "=OML123_Oil_S1!CQ3",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "T4",
+      "formula": "=C4",
+      "cached": "mb/d",
+      "nf": "General"
+    },
+    {
+      "cell": "U4",
+      "formula": "=D4",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "V4",
+      "formula": "=E4",
+      "cached": "mmbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "W4",
+      "formula": "=H4",
+      "cached": "mmscf/d",
+      "nf": "General"
+    },
+    {
+      "cell": "X4",
+      "formula": "=I4",
+      "cached": "bscf",
+      "nf": "General"
+    },
+    {
+      "cell": "Y4",
+      "formula": "=J4",
+      "cached": "bscf",
+      "nf": "General"
+    },
+    {
+      "cell": "B5",
+      "formula": "='Block_Oil Data'!CS4",
+      "cached": "2023",
+      "nf": "General"
+    },
+    {
+      "cell": "C5",
+      "formula": "='Block_Oil Data'!CT4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D5",
+      "formula": "='Block_Oil Data'!CU4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E5",
+      "formula": "='Block_Oil Data'!CV4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G5",
+      "formula": "='Block_Gas Data'!CN4",
+      "cached": "2023",
+      "nf": "General"
+    },
+    {
+      "cell": "H5",
+      "formula": "='Block_Gas Data'!CO4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "I5",
+      "formula": "='Block_Gas Data'!CP4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "J5",
+      "formula": "='Block_Gas Data'!CQ4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "L5",
+      "formula": "=OML123_Oil_S1!CN4",
+      "cached": "2002",
+      "nf": "General"
+    },
+    {
+      "cell": "M5",
+      "formula": "=OML123_Oil_S1!CO4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "N5",
+      "formula": "=OML123_Oil_S1!CP4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "O5",
+      "formula": "=OML123_Oil_S1!CQ4",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "S5",
+      "formula": "=Ec_IO!$C$5",
+      "cached": "2027",
+      "nf": "General"
+    },
+    {
+      "cell": "T5",
+      "formula": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$B$5:$E$46,2,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKUP($S5,$B$5:$E$46,2,FALSE),0))",
+      "cached": "1",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "U5",
+      "formula": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$B$5:$E$46,3,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKUP($S5,$B$5:$E$46,3,FALSE),0))",
+      "cached": "0.36525",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "V5",
+      "formula": "=IF(T5=0,0,SUM($U$5:U5))",
+      "cached": "0.36525",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "W5",
+      "formula": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$G$5:$J$46,2,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKUP($S5,$G$5:$J$46,2,FALSE),0))",
+      "cached": "1.2",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "X5",
+      "formula": "=IF(Ec_IO!$C$4=\"History\",(S5>=Ec_IO!$D$28)*(IFERROR(VLOOKUP($S5,$G$5:$J$46,3,FALSE),0))*(S5<=Ec_IO!$E$28),IFERROR(VLOOKUP($S5,$G$5:$J$46,3,FALSE),0))",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "Y5",
+      "formula": "=IF(W5=0,0,SUM($X$5:X5))",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "B6",
+      "formula": "='Block_Oil Data'!CS5",
+      "cached": "2024",
+      "nf": "General"
+    },
+    {
+      "cell": "C6",
+      "formula": "='Block_Oil Data'!CT5",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "D6",
+      "formula": "='Block_Oil Data'!CU5",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "E6",
+      "formula": "='Block_Oil Data'!CV5",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G6",
+      "formula": "='Block_Gas Data'!CN5",
+      "cached": "2024",
+      "nf": "General"
+    },
+    {
+      "cell": "H6",
+      "formula": "='Block_Gas Data'!CO5",
+      "cached": "0",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    }
+  ]
+}

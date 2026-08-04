@@ -1,0 +1,229 @@
+{
+  "source_file": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Workbook_History\\Econ_Model_PEMS_confirmed_2026-08-03.xlsx",
+  "sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+  "active_path_integrity": {
+    "confirmed_snapshot_sha256": "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA",
+    "active_path": "C:\\Users\\Emmanuel Onwuka\\Desktop\\PEMS\\docs\\workbook\\Econ_Model_PEMS.xlsx",
+    "active_path_sha256": "9F7257A073F37A5822EC8B71882183915E044C768696C5380DC248B98DFCF5D5",
+    "path_matches_confirmed": false,
+    "note": "Classification uses confirmed snapshot. If active path differs, restore or re-intake before implementation."
+  },
+  "critical_path_literals_classified": 829,
+  "by_classification": {
+    "ASSUMPTION": 152,
+    "UNRESOLVED": 615,
+    "DEFAULT_STRUCTURAL_VALUE": 62
+  },
+  "unresolved_count": 615,
+  "input_count": 0,
+  "assumption_count": 152,
+  "default_structural_count": 62,
+  "note": "Never INPUT solely because hard-coded. INPUT only with strong DV+label evidence OR explicit PO decision.",
+  "po_decisions_2026_08_03": {
+    "Equity_Dash_Share_cells": "CONFIRMED_INPUT \u2014 user/input variable, not derived (SCOPE_DECISIONS C)",
+    "Fiscal_Terms_PIA": "LAW_TABLE \u2014 law/regulatory table, not ordinary user inputs (SCOPE_DECISIONS D)"
+  },
+  "equity_dash_cells_sample": [
+    {
+      "cell": "F1",
+      "value": "ACQUISITION COST ALLOWANCE",
+      "type": "str"
+    },
+    {
+      "cell": "M2",
+      "value": "LOAN AMORTIZATION",
+      "type": "str"
+    },
+    {
+      "cell": "B3",
+      "value": "EQUITY HOLDING",
+      "type": "str"
+    },
+    {
+      "cell": "D3",
+      "value": "ACQUISITION COST",
+      "type": "str"
+    },
+    {
+      "cell": "F3",
+      "value": "Company 1 ACA",
+      "type": "str"
+    },
+    {
+      "cell": "J3",
+      "value": "Project ACA",
+      "type": "str"
+    },
+    {
+      "cell": "M3",
+      "value": "YEAR",
+      "type": "str"
+    },
+    {
+      "cell": "N3",
+      "value": "PERIOD",
+      "type": "str"
+    },
+    {
+      "cell": "O3",
+      "value": "PAYMENT",
+      "type": "str"
+    },
+    {
+      "cell": "P3",
+      "value": "PRINCIPAL",
+      "type": "str"
+    },
+    {
+      "cell": "Q3",
+      "value": "INTEREST",
+      "type": "str"
+    },
+    {
+      "cell": "R3",
+      "value": "BALANCE",
+      "type": "str"
+    },
+    {
+      "cell": "A4",
+      "value": "Acquisition",
+      "type": "str"
+    },
+    {
+      "cell": "B4",
+      "value": "Company 1",
+      "type": "str"
+    },
+    {
+      "cell": "C4",
+      "value": "0.49",
+      "type": "float"
+    },
+    {
+      "cell": "D4",
+      "value": "1",
+      "type": "int"
+    },
+    {
+      "cell": "E4",
+      "value": "$mm",
+      "type": "str"
+    },
+    {
+      "cell": "F4",
+      "value": "YR1",
+      "type": "str"
+    },
+    {
+      "cell": "G4",
+      "value": "=$I$4*20%",
+      "type": "str"
+    },
+    {
+      "cell": "H4",
+      "value": "2026",
+      "type": "int"
+    },
+    {
+      "cell": "I4",
+      "value": "=IF($A$4=\"Acquisition\",D4,0)",
+      "type": "str"
+    },
+    {
+      "cell": "J4",
+      "value": "=$L$4*20%",
+      "type": "str"
+    },
+    {
+      "cell": "K4",
+      "value": "2026",
+      "type": "int"
+    },
+    {
+      "cell": "L4",
+      "value": "=IF($A$4=\"Acquisition\",D6,0)",
+      "type": "str"
+    },
+    {
+      "cell": "M4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD82F00>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "N4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD83020>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "O4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD82F30>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "P4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD81EE0>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "Q4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD82FF0>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "R4",
+      "value": "<openpyxl.worksheet.formula.ArrayFormula object at 0x000002221BD83050>",
+      "type": "ArrayFormula"
+    },
+    {
+      "cell": "B5",
+      "value": "Company 2",
+      "type": "str"
+    },
+    {
+      "cell": "C5",
+      "value": "=C6-C4",
+      "type": "str"
+    },
+    {
+      "cell": "D5",
+      "value": "=C5*D6",
+      "type": "str"
+    },
+    {
+      "cell": "E5",
+      "value": "$mm",
+      "type": "str"
+    },
+    {
+      "cell": "F5",
+      "value": "YR2",
+      "type": "str"
+    },
+    {
+      "cell": "G5",
+      "value": "=$I$4*20%",
+      "type": "str"
+    },
+    {
+      "cell": "J5",
+      "value": "=$L$4*20%",
+      "type": "str"
+    },
+    {
+      "cell": "M5",
+      "value": "2028",
+      "type": "int"
+    },
+    {
+      "cell": "N5",
+      "value": "1",
+      "type": "int"
+    },
+    {
+      "cell": "O5",
+      "value": "-206.03979961587996",
+      "type": "float"
+    }
+  ],
+  "previous_documented_gm_sha256_superseded": "87EF7439A8F19C52B5B948D379D1752B327144CCDBC36758A780A93EC71121FB"
+}

@@ -1,0 +1,1358 @@
+{
+  "nonempty": 107,
+  "formulas": 62,
+  "inventory": [
+    {
+      "cell": "L2",
+      "class": "formula",
+      "formula": "=Ec_IO!R2",
+      "value": "Nigeria",
+      "nf": "General"
+    },
+    {
+      "cell": "L3",
+      "class": "formula",
+      "formula": "=Ec_IO!R3",
+      "value": "PIA 2021",
+      "nf": "General"
+    },
+    {
+      "cell": "C5",
+      "class": "formula",
+      "formula": "=Ec_IO!I5",
+      "value": "Ebiya Field",
+      "nf": "General"
+    },
+    {
+      "cell": "G5",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Metric Systems Measures",
+      "nf": "General"
+    },
+    {
+      "cell": "J5",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Host Govt.  BIT $ MM",
+      "nf": "General"
+    },
+    {
+      "cell": "K5",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Contractor    BIT $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L5",
+      "class": "formula",
+      "formula": "=Ec_IO!R5",
+      "value": "PSC/SC",
+      "nf": "General"
+    },
+    {
+      "cell": "M5",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Host Govt.  AIT $ MM",
+      "nf": "General"
+    },
+    {
+      "cell": "N5",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Contractor    AIT $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "C6",
+      "class": "formula",
+      "formula": "=Ec_IO!G22",
+      "value": "New Acreage",
+      "nf": "General"
+    },
+    {
+      "cell": "C7",
+      "class": "formula",
+      "formula": "=Ec_IO!G20",
+      "value": "Shallow Water (<200m water depth)",
+      "nf": "General"
+    },
+    {
+      "cell": "G7",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Net Present Value @",
+      "nf": "General"
+    },
+    {
+      "cell": "H7",
+      "class": "formula",
+      "formula": "=Ec_IO!C15",
+      "value": "0.15",
+      "nf": "0.00%"
+    },
+    {
+      "cell": "J7",
+      "class": "formula",
+      "formula": "='HT_NCF_Oil Equity'!AS51",
+      "value": "37.2107219837393",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "K7",
+      "class": "formula",
+      "formula": "='HT_NCF_Oil Equity'!AT51",
+      "value": "73.018201942495",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "M7",
+      "class": "formula",
+      "formula": "=Equity_NCF_Con!AG51",
+      "value": "73.2829654000993",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "N7",
+      "class": "formula",
+      "formula": "=Equity_NCF_Con!AH51",
+      "value": "38.2636887228085",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "C8",
+      "class": "formula",
+      "formula": "=\"Equity Share =\"&TEXT('Equity Dash'!$C$4,\"0%\")",
+      "value": "Equity Share =49%",
+      "nf": "General"
+    },
+    {
+      "cell": "G8",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Internal Rate of Return",
+      "nf": "General"
+    },
+    {
+      "cell": "K8",
+      "class": "formula",
+      "formula": "=IRR('HT_NCF_Oil Equity'!AR5:AR49)",
+      "value": "0.504693506064976",
+      "nf": "0.00%"
+    },
+    {
+      "cell": "N8",
+      "class": "formula",
+      "formula": "=IRR(Equity_NCF_Con!AF5:AF49)",
+      "value": "0.348601049838934",
+      "nf": "0.00%"
+    },
+    {
+      "cell": "G9",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Present Value Ratio",
+      "nf": "General"
+    },
+    {
+      "cell": "K9",
+      "class": "formula",
+      "formula": "=K7/H18",
+      "value": "0.421063315742914",
+      "nf": "0.00"
+    },
+    {
+      "cell": "N9",
+      "class": "formula",
+      "formula": "=N7/H18",
+      "value": "0.220649580756165",
+      "nf": "0.00"
+    },
+    {
+      "cell": "G10",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Profitability Index",
+      "nf": "General"
+    },
+    {
+      "cell": "K10",
+      "class": "formula",
+      "formula": "=1+K9",
+      "value": "1.42106331574291",
+      "nf": "0.00"
+    },
+    {
+      "cell": "N10",
+      "class": "formula",
+      "formula": "=1+N9",
+      "value": "1.22064958075617",
+      "nf": "0.00"
+    },
+    {
+      "cell": "G11",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Growth Rate of Return",
+      "nf": "General"
+    },
+    {
+      "cell": "K11",
+      "class": "formula",
+      "formula": "=K10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "value": "0.177259134616414",
+      "nf": "0.00%"
+    },
+    {
+      "cell": "N11",
+      "class": "formula",
+      "formula": "=N10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "value": "0.165388086566337",
+      "nf": "0.00%"
+    },
+    {
+      "cell": "G12",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Undiscounted Take Statistics",
+      "nf": "General"
+    },
+    {
+      "cell": "J12",
+      "class": "formula",
+      "formula": "='HT_NCF_Oil Equity'!AQ51/('HT_NCF_Oil Equity'!AQ51+'HT_NCF_Oil Equity'!AR51)",
+      "value": "0.275365415622534",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "K12",
+      "class": "formula",
+      "formula": "=1-J12",
+      "value": "0.724634584377466",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "M12",
+      "class": "formula",
+      "formula": "=Equity_NCF_Con!AE51/(Equity_NCF_Con!AE51+Equity_NCF_Con!AF51)",
+      "value": "0.553408247477352",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "N12",
+      "class": "formula",
+      "formula": "=1-M12",
+      "value": "0.446591752522648",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "G13",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Discounted Take Statistics",
+      "nf": "General"
+    },
+    {
+      "cell": "J13",
+      "class": "formula",
+      "formula": "=J7/(J7+K7)",
+      "value": "0.337576750804906",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "K13",
+      "class": "formula",
+      "formula": "=1-J13",
+      "value": "0.662423249195094",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "M13",
+      "class": "formula",
+      "formula": "=M7/(M7+N7)",
+      "value": "0.656971434744716",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "N13",
+      "class": "formula",
+      "formula": "=1-M13",
+      "value": "0.343028565255284",
+      "nf": "0.0%"
+    },
+    {
+      "cell": "G14",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Disc. Payout Period, Years",
+      "nf": "General"
+    },
+    {
+      "cell": "K14",
+      "class": "formula",
+      "formula": "='HT_NCF_Oil Equity'!AV51",
+      "value": "4.87387900694515",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "N14",
+      "class": "formula",
+      "formula": "=Equity_NCF_Con!AJ51",
+      "value": "5.13925728744526",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G15",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Front End Loading Index, FLI",
+      "nf": "General"
+    },
+    {
+      "cell": "H15",
+      "class": "formula",
+      "formula": "=M13/M12-1",
+      "value": "0.187137050702524",
+      "nf": "0.00000"
+    },
+    {
+      "cell": "G16",
+      "class": "formula",
+      "formula": "=Ec_IO!M16",
+      "value": "PV@15.0% of OPEX, $MM",
+      "nf": "0%"
+    },
+    {
+      "cell": "H16",
+      "class": "formula",
+      "formula": "=Ec_IO!N16*'Equity Dash'!$C$4",
+      "value": "103.391391515252",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I16",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Oil Revenue",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "J16",
+      "class": "formula",
+      "formula": "=Ec_IO!P16*'Equity Dash'!$C$4",
+      "value": "538.94584168118",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "K16",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L16",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of OPEX, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "M16",
+      "class": "formula",
+      "formula": "=Ec_IO!S16*'Equity Dash'!$C$4",
+      "value": "204.919631874736",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G17",
+      "class": "formula",
+      "formula": "=Ec_IO!M17",
+      "value": "PV@15.0% of CAPEX, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H17",
+      "class": "formula",
+      "formula": "=Ec_IO!N17*'Equity Dash'!$C$4",
+      "value": "70.0224377414318",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I17",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Gas Revenue",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "J17",
+      "class": "formula",
+      "formula": "=Ec_IO!P17*'Equity Dash'!$C$4",
+      "value": "26.9672237060786",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "K17",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L17",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of CAPEX, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "M17",
+      "class": "formula",
+      "formula": "=Ec_IO!S17*'Equity Dash'!$C$4",
+      "value": "85.75",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G18",
+      "class": "formula",
+      "formula": "=Ec_IO!M18",
+      "value": "PV@15.0% of TC, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H18",
+      "class": "formula",
+      "formula": "=H16+H17",
+      "value": "173.413829256684",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I18",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Gross Revenue",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "J18",
+      "class": "formula",
+      "formula": "=SUM(J16:J17)",
+      "value": "565.913065387258",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "K18",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L18",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "PV@0% of TC, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "M18",
+      "class": "formula",
+      "formula": "=M16+M17",
+      "value": "290.669631874736",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G19",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit CAPEX, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "H19",
+      "class": "formula",
+      "formula": "=H16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "8.00847019384067",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "L19",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit CAPEX, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "M19",
+      "class": "formula",
+      "formula": "=M16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "15.8726247896521",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G20",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit OPEX, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "H20",
+      "class": "formula",
+      "formula": "=H17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "5.42378429513249",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "L20",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit OPEX, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "M20",
+      "class": "formula",
+      "formula": "=M17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "6.64200673825471",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G21",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit Technical Cost, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "H21",
+      "class": "formula",
+      "formula": "=H18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "13.4322544889732",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "L21",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Unit Technical Cost, S/Boe",
+      "nf": "General"
+    },
+    {
+      "cell": "M21",
+      "class": "formula",
+      "formula": "=M18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "value": "22.5146315279068",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G22",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Oil Royalty, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H22",
+      "class": "formula",
+      "formula": "=FLGT!AB51*'Equity Dash'!$C$4",
+      "value": "30.0437706813062",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I22",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "HT",
+      "nf": "General"
+    },
+    {
+      "cell": "J22",
+      "class": "formula",
+      "formula": "='HT_NCF_Oil Equity'!AO51",
+      "value": "20.6206484144003",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "K22",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L22",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Oil Production, MMbbls",
+      "nf": "General"
+    },
+    {
+      "cell": "N22",
+      "class": "formula",
+      "formula": "=Prod_Summary!V47*'Equity Dash'!$C$4",
+      "value": "10.7789168336236",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "G23",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Gas Royalty, $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H23",
+      "class": "formula",
+      "formula": "=FLGT!AC51*'Equity Dash'!$C$4",
+      "value": "0.674180592651965",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I23",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "CIT",
+      "nf": "General"
+    },
+    {
+      "cell": "J23",
+      "class": "formula",
+      "formula": "='CIT_NCF_Oil Equity'!AF51+'CIT_NCF_Gas Equity'!AF51",
+      "value": "72.8926381838659",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "K23",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L23",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Gas Production, Mmboe",
+      "nf": "General"
+    },
+    {
+      "cell": "M23",
+      "class": "formula",
+      "formula": "=\"(\"&TEXT(Prod_Summary!Y47*'Equity Dash'!$C$4,\"0.00\")&\" Bscf\"&\")\"",
+      "value": "(12.37 Bscf)",
+      "nf": "General"
+    },
+    {
+      "cell": "N23",
+      "class": "formula",
+      "formula": "=Prod_Summary!Y49*'Equity Dash'!$C$4",
+      "value": "2.13133806059713",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G24",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Price Royalty,  $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H24",
+      "class": "formula",
+      "formula": "=FLGT!AD51*'Equity Dash'!$C$4",
+      "value": "0",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I24",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Etx",
+      "nf": "General"
+    },
+    {
+      "cell": "J24",
+      "class": "formula",
+      "formula": "='CIT_NCF_Oil Equity'!AG51+'CIT_NCF_Gas Equity'!AG51",
+      "value": "12.9624932008202",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "K24",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "L24",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Total Production, Mmboe",
+      "nf": "General"
+    },
+    {
+      "cell": "N24",
+      "class": "formula",
+      "formula": "=N22+N23",
+      "value": "12.9102548942207",
+      "nf": "_(* #,##0.00_);_(* \\(#,##0.00\\);_(* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "G25",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Total Royalty  $MM",
+      "nf": "General"
+    },
+    {
+      "cell": "H25",
+      "class": "formula",
+      "formula": "=SUM(H22:H24)",
+      "value": "30.7179512739582",
+      "nf": "_(\"$\"* #,##0.00_);_(\"$\"* \\(#,##0.00\\);_(\"$\"* \"-\"??_);_(@_)"
+    },
+    {
+      "cell": "I25",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "Total",
+      "nf": "General"
+    },
+    {
+      "cell": "J25",
+      "class": "formula",
+      "formula": "=SUM(J22:J24)",
+      "value": "106.475779799086",
+      "nf": "_-* #,##0.00_-;\\-* #,##0.00_-;_-* \"-\"??_-;_-@_-"
+    },
+    {
+      "cell": "K25",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "$MM",
+      "nf": "General"
+    },
+    {
+      "cell": "G26",
+      "class": "label_or_text",
+      "formula": "",
+      "value": "ERR",
+      "nf": "General"
+    },
+    {
+      "cell": "H26",
+      "class": "formula",
+      "formula": "=H25/J18",
+      "value": "0.0542803358903504",
+      "nf": "0.00%"
+    }
+  ],
+  "kpis": [
+    {
+      "cell": "L2",
+      "exp": "Nigeria",
+      "fml": "=Ec_IO!R2",
+      "label": "",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "L3",
+      "exp": "PIA 2021",
+      "fml": "=Ec_IO!R3",
+      "label": "",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "L5",
+      "exp": "PSC/SC",
+      "fml": "=Ec_IO!R5",
+      "label": "Metric Systems Measures",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J7",
+      "exp": "37.2107219837393",
+      "fml": "='HT_NCF_Oil Equity'!AS51",
+      "label": "Net Present Value @",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K7",
+      "exp": "73.018201942495",
+      "fml": "='HT_NCF_Oil Equity'!AT51",
+      "label": "Net Present Value @",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M7",
+      "exp": "73.2829654000993",
+      "fml": "=Equity_NCF_Con!AG51",
+      "label": "Net Present Value @",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N7",
+      "exp": "38.2636887228085",
+      "fml": "=Equity_NCF_Con!AH51",
+      "label": "Net Present Value @",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H7",
+      "exp": "0.15",
+      "fml": "=Ec_IO!C15",
+      "label": "Net Present Value @",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K8",
+      "exp": "0.504693506064976",
+      "fml": "=IRR('HT_NCF_Oil Equity'!AR5:AR49)",
+      "label": "Internal Rate of Return",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N8",
+      "exp": "0.348601049838934",
+      "fml": "=IRR(Equity_NCF_Con!AF5:AF49)",
+      "label": "Internal Rate of Return",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K9",
+      "exp": "0.421063315742914",
+      "fml": "=K7/H18",
+      "label": "Present Value Ratio",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N9",
+      "exp": "0.220649580756165",
+      "fml": "=N7/H18",
+      "label": "Present Value Ratio",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K10",
+      "exp": "1.42106331574291",
+      "fml": "=1+K9",
+      "label": "Profitability Index",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N10",
+      "exp": "1.22064958075617",
+      "fml": "=1+N9",
+      "label": "Profitability Index",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K11",
+      "exp": "0.177259134616414",
+      "fml": "=K10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "label": "Growth Rate of Return",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N11",
+      "exp": "0.165388086566337",
+      "fml": "=N10^(1/(Ec_IO!$C$6))*(1+Ec_IO!$C$15)-1",
+      "label": "Growth Rate of Return",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J12",
+      "exp": "0.275365415622534",
+      "fml": "='HT_NCF_Oil Equity'!AQ51/('HT_NCF_Oil Equity'!AQ51+'HT_NCF_Oil Equity'!AR51)",
+      "label": "Undiscounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K12",
+      "exp": "0.724634584377466",
+      "fml": "=1-J12",
+      "label": "Undiscounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M12",
+      "exp": "0.553408247477352",
+      "fml": "=Equity_NCF_Con!AE51/(Equity_NCF_Con!AE51+Equity_NCF_Con!AF51)",
+      "label": "Undiscounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N12",
+      "exp": "0.446591752522648",
+      "fml": "=1-M12",
+      "label": "Undiscounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J13",
+      "exp": "0.337576750804906",
+      "fml": "=J7/(J7+K7)",
+      "label": "Discounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K13",
+      "exp": "0.662423249195094",
+      "fml": "=1-J13",
+      "label": "Discounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M13",
+      "exp": "0.656971434744716",
+      "fml": "=M7/(M7+N7)",
+      "label": "Discounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N13",
+      "exp": "0.343028565255284",
+      "fml": "=1-M13",
+      "label": "Discounted Take Statistics",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "K14",
+      "exp": "4.87387900694515",
+      "fml": "='HT_NCF_Oil Equity'!AV51",
+      "label": "Disc. Payout Period, Years",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N14",
+      "exp": "5.13925728744526",
+      "fml": "=Equity_NCF_Con!AJ51",
+      "label": "Disc. Payout Period, Years",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H15",
+      "exp": "0.187137050702524",
+      "fml": "=M13/M12-1",
+      "label": "Front End Loading Index, FLI",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J16",
+      "exp": "538.94584168118",
+      "fml": "=Ec_IO!P16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M16",
+      "exp": "204.919631874736",
+      "fml": "=Ec_IO!S16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H16",
+      "exp": "103.391391515252",
+      "fml": "=Ec_IO!N16*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M16",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J17",
+      "exp": "26.9672237060786",
+      "fml": "=Ec_IO!P17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M17",
+      "exp": "85.75",
+      "fml": "=Ec_IO!S17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H17",
+      "exp": "70.0224377414318",
+      "fml": "=Ec_IO!N17*'Equity Dash'!$C$4",
+      "label": "=Ec_IO!M17",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J18",
+      "exp": "565.913065387258",
+      "fml": "=SUM(J16:J17)",
+      "label": "=Ec_IO!M18",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M18",
+      "exp": "290.669631874736",
+      "fml": "=M16+M17",
+      "label": "=Ec_IO!M18",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H18",
+      "exp": "173.413829256684",
+      "fml": "=H16+H17",
+      "label": "=Ec_IO!M18",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M19",
+      "exp": "15.8726247896521",
+      "fml": "=M16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H19",
+      "exp": "8.00847019384067",
+      "fml": "=H16/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit CAPEX, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M20",
+      "exp": "6.64200673825471",
+      "fml": "=M17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H20",
+      "exp": "5.42378429513249",
+      "fml": "=H17/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit OPEX, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M21",
+      "exp": "22.5146315279068",
+      "fml": "=M18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H21",
+      "exp": "13.4322544889732",
+      "fml": "=H18/Prod_Summary!$Y$50/'Equity Dash'!$C$4",
+      "label": "Unit Technical Cost, S/Boe",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J22",
+      "exp": "20.6206484144003",
+      "fml": "='HT_NCF_Oil Equity'!AO51",
+      "label": "Oil Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N22",
+      "exp": "10.7789168336236",
+      "fml": "=Prod_Summary!V47*'Equity Dash'!$C$4",
+      "label": "Oil Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H22",
+      "exp": "30.0437706813062",
+      "fml": "=FLGT!AB51*'Equity Dash'!$C$4",
+      "label": "Oil Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J23",
+      "exp": "72.8926381838659",
+      "fml": "='CIT_NCF_Oil Equity'!AF51+'CIT_NCF_Gas Equity'!AF51",
+      "label": "Gas Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "M23",
+      "exp": "(12.37 Bscf)",
+      "fml": "=\"(\"&TEXT(Prod_Summary!Y47*'Equity Dash'!$C$4,\"0.00\")&\" Bscf\"&\")\"",
+      "label": "Gas Royalty, $MM",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N23",
+      "exp": "2.13133806059713",
+      "fml": "=Prod_Summary!Y49*'Equity Dash'!$C$4",
+      "label": "Gas Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H23",
+      "exp": "0.674180592651965",
+      "fml": "=FLGT!AC51*'Equity Dash'!$C$4",
+      "label": "Gas Royalty, $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J24",
+      "exp": "12.9624932008202",
+      "fml": "='CIT_NCF_Oil Equity'!AG51+'CIT_NCF_Gas Equity'!AG51",
+      "label": "Price Royalty,  $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "N24",
+      "exp": "12.9102548942207",
+      "fml": "=N22+N23",
+      "label": "Price Royalty,  $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H24",
+      "exp": "0",
+      "fml": "=FLGT!AD51*'Equity Dash'!$C$4",
+      "label": "Price Royalty,  $MM",
+      "type": "int",
+      "numeric": "YES"
+    },
+    {
+      "cell": "J25",
+      "exp": "106.475779799086",
+      "fml": "=SUM(J22:J24)",
+      "label": "Total Royalty  $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H25",
+      "exp": "30.7179512739582",
+      "fml": "=SUM(H22:H24)",
+      "label": "Total Royalty  $MM",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H26",
+      "exp": "0.0542803358903504",
+      "fml": "=H25/J18",
+      "label": "ERR",
+      "type": "float",
+      "numeric": "YES"
+    },
+    {
+      "cell": "L2",
+      "exp": "Nigeria",
+      "fml": "=Ec_IO!R2",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "L3",
+      "exp": "PIA 2021",
+      "fml": "=Ec_IO!R3",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "C5",
+      "exp": "Ebiya Field",
+      "fml": "=Ec_IO!I5",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "C6",
+      "exp": "New Acreage",
+      "fml": "=Ec_IO!G22",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "C7",
+      "exp": "Shallow Water (<200m water depth)",
+      "fml": "=Ec_IO!G20",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "L5",
+      "exp": "PSC/SC",
+      "fml": "=Ec_IO!R5",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "C8",
+      "exp": "Equity Share =49%",
+      "fml": "=\"Equity Share =\"&TEXT('Equity Dash'!$C$4,\"0%\")",
+      "label": "header/context",
+      "type": "str",
+      "numeric": "YES"
+    },
+    {
+      "cell": "H7",
+      "exp": "0.15",
+      "fml": "=Ec_IO!C15",
+      "label": "header/context",
+      "type": "float",
+      "numeric": "YES"
+    }
+  ],
+  "ecio_hub_sample": [
+    {
+      "cell": "G3",
+      "f": "=Ec_IO!T8",
+      "c": "0.348601049838934"
+    },
+    {
+      "cell": "G4",
+      "f": "=Ec_IO!S13",
+      "c": "0.656971434744716"
+    },
+    {
+      "cell": "G5",
+      "f": "=Ec_IO!T13",
+      "c": "0.343028565255284"
+    },
+    {
+      "cell": "G6",
+      "f": "=Project_NCF!AJ51",
+      "c": "5.13925728744526"
+    },
+    {
+      "cell": "I6",
+      "f": "='RESULTS Equity'!C6",
+      "c": "New Acreage"
+    },
+    {
+      "cell": "G7",
+      "f": "=Ec_IO!T7",
+      "c": "78.0891606587929"
+    },
+    {
+      "cell": "I7",
+      "f": "='RESULTS Equity'!C7",
+      "c": "Shallow Water (<200m water depth)"
+    },
+    {
+      "cell": "S7",
+      "f": "=Project_NCF!AG51",
+      "c": "149.557072245101"
+    },
+    {
+      "cell": "T7",
+      "f": "=Project_NCF!AH51",
+      "c": "78.0891606587929"
+    },
+    {
+      "cell": "G8",
+      "f": "=Ec_IO!T11",
+      "c": "0.165388086566337"
+    },
+    {
+      "cell": "T8",
+      "f": "=Project_NCF!AG58",
+      "c": "0.348601049838934"
+    },
+    {
+      "cell": "G9",
+      "f": "=Ec_IO!T9",
+      "c": "0.220649580756165"
+    },
+    {
+      "cell": "G10",
+      "f": "=Ec_IO!T10",
+      "c": "1.22064958075617"
+    },
+    {
+      "cell": "G11",
+      "f": "=FLGT!AM51",
+      "c": "0.0542803358903504"
+    },
+    {
+      "cell": "G12",
+      "f": "=Ec_IO!N15",
+      "c": "0.187137050702524"
+    },
+    {
+      "cell": "G13",
+      "f": "=1-G11",
+      "c": "0.94571966410965"
+    },
+    {
+      "cell": "S13",
+      "f": "=S7/(S7+T7)",
+      "c": "0.656971434744716"
+    },
+    {
+      "cell": "G14",
+      "f": "=Project_NCF!AB51+Project_NCF!AC51+Project_NCF!AD51",
+      "c": "217.297509794054"
+    },
+    {
+      "cell": "G15",
+      "f": "=FLGT!AB51+FLGT!AC51+FLGT!AD51",
+      "c": "62.6896964774657"
+    }
+  ]
+}

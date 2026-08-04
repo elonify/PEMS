@@ -1,0 +1,2 @@
+worksheet,cell,error_type,location,formula_or_source,cached_value,sheet_state
+Project_NCF,AU14,#NUM!,cached_value,=IRR(AK5:AK49),#NUM!,visible

@@ -1,0 +1,14 @@
+{
+  "total": 829,
+  "resolved": 829,
+  "unresolved": 0,
+  "reclass_ec_io_sensitivity": 19,
+  "by_classification": {
+    "ASSUMPTION": 226,
+    "DEFAULT/STRUCTURAL": 179,
+    "PRESENTATION": 35,
+    "FORMULA COEFFICIENT": 263,
+    "INPUT": 2,
+    "CONSTANT": 124
+  }
+}
