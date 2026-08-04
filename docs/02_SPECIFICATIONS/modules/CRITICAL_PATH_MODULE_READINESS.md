@@ -90,7 +90,11 @@ Closed domain decisions (do not reopen):
 | Volume/price/cost bases | Prod_Summary + Ec_IO + Block_TC/Cap_Allow Gas |
 | GM comparison | **YES** — AB51/AC51/AD51/AM51/W51/X51 + Ec_IO G11/G15 |
 | Spec | `FLGT_ROYALTIES_CONTRACT.md` |
-| **Status** | **READY** (spec — not numerical VALIDATED) |
+| Phase 1D gate | **PASSED readiness** — `PHASE1D_FLGT_IMPLEMENTATION_GATE.md` |
+| Implementation code | **IMPLEMENTED** R-G1…F-G11 — `PHASE1D_FLGT_IMPLEMENTATION.md` |
+| Implementation gate ack | **PASSED / ACKNOWLEDGED** — `PHASE1D_GATE_ACKNOWLEDGEMENT.md` |
+| GTC (Phase 1D subset) | **PASS** 18 pts (4 exact / 14 tol / 0 mismatch) |
+| **Status** | Spec **READY**; G1–G11 **IMPLEMENTED**; gate **PASSED**; F-G12 deferred; **VALIDATED NOT CLAIMED** |
 
 ---
 
@@ -102,8 +106,13 @@ Closed domain decisions (do not reopen):
 | Edge cases | AU14 no-sign-change IRR **EXPECTED** |
 | Equity scaling | Equity Dash C4 **INPUT** only |
 | GM comparison | **YES** — AG51/AH51/AB–AD/AG58/AU14 + equity AG/AH |
-| Spec | `CR_NCF_CONTRACT.md` |
-| **Status** | **READY** (spec — not numerical VALIDATED) |
+| Spec | `CR_NCF_CONTRACT.md` + `CR_NCF_PARAMETER_CONTRACT.md` |
+| Phase 1E readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
+| Implementation | **IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` (HT/CIT intermediates path; full engines partial) |
+| GTC (Phase 1E subset) | **PASS** 13 pts (12 tol + AU14 expected error / 0 mismatch) |
+| Full regression | **NOT CLOSED / INTERRUPTED** (not a PASS) |
+| Gate ack | **PASSED / ACKNOWLEDGED** — `PHASE1E_GATE_ACKNOWLEDGEMENT.md` |
+| **Status** | Spec **READY**; **IMPLEMENTED** (regression limitation); gate **PASSED**; **VALIDATED NOT CLAIMED** |
 
 ---
 

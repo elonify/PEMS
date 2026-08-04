@@ -1,12 +1,14 @@
 # CR / NCF Contract — Implementation Readiness
 
-**Status:** **READY** (cashflow / tax application specification only — not calculation VALIDATED)  
+**Status:** **READY** (cashflow / tax application specification only — not calculation VALIDATED; **not IMPLEMENTED**)  
 **Active GM SHA (approved):** `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA`  
 **Module:** M-CP-05 / M07 CR Econ + HT/CIT NCF + Project/Equity NCF  
 **GM modified:** **No**  
-**Calculation code under this task:** **None**
+**Calculation code under this task:** **None**  
+**Parameter companion:** `CR_NCF_PARAMETER_CONTRACT.md`  
+**Phase 1E readiness:** `docs/03_IMPLEMENTATION/PHASE1E_CR_NCF_READINESS.md` → **READY** (implementation requires separate authorization)
 
-**Do not reopen:** GM approval CLOSED · Equity C4 INPUT · C5 DERIVED · Fiscal LAW TABLE · AU14 expected · upstream READY modules · 829/829 · ADR-0010  
+**Do not reopen:** GM approval CLOSED · Equity C4 INPUT · C5 DERIVED · Fiscal LAW TABLE · AU14 expected · upstream **IMPLEMENTED** (1A–1D) · 829/829 · ADR-0010  
 
 **Upstream contracts:**  
 `EC_IO_PARAMETER_CONTRACT.md` · `PRODUCTION_PROFILE_CONTRACT.md` · `COSTS_PARAMETER_CONTRACT.md` · `FLGT_ROYALTIES_CONTRACT.md` · `FISCAL_TERMS_PIA_LAW_TABLE.md`  
@@ -343,6 +345,6 @@ Full annual series: `formula_cached_results_all.csv`.
 
 # **CR/NCF = READY**
 
-**Means:** Spec sufficient to implement CR Econ bridge + HT/CIT/Project/Equity NCF application against READY upstream modules and LAW TABLE.  
-**Does not mean:** RESULTS READY or numerical PEMS-vs-GM VALIDATED.  
-**Does not authorize** calculation implementation until RESULTS also passes READY (per project control).
+**Means:** Spec sufficient to implement CR Econ bridge + HT/CIT/Project/Equity NCF application against **IMPLEMENTED** upstream modules (1A–1D) and LAW TABLE.  
+**Does not mean:** CR/NCF IMPLEMENTED, numerical PEMS-vs-GM VALIDATED, or RESULTS implementation.  
+**Does not authorize** calculation code — Phase 1E readiness only; implementation requires a **separate** Phase 1E implementation authorization.

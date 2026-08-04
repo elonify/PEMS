@@ -175,5 +175,9 @@ These remaining items are recorded as OPEN, not silently invented.
 | Phase 1A CaseInput + Ec_IO | Implementation + GTC subset | **IMPLEMENTED** pure path — `PHASE1A_EC_IO_IMPLEMENTATION.md`; GTC 35/35 exact; hub deferred; gate **ACKNOWLEDGED**; **VALIDATED NOT CLAIMED** |
 | Phase 1B Production | Implementation + GTC subset | **PASSED / IMPLEMENTED** G1–G5 — `PHASE1B_PRODUCTION_IMPLEMENTATION.md` + `PHASE1B_GATE_ACKNOWLEDGEMENT.md`; GTC 22 pts; **VALIDATED NOT CLAIMED** |
 | Phase 1C Costs | Implementation + GTC subset | **IMPLEMENTED** G1–G8 — `PHASE1C_COSTS_IMPLEMENTATION.md`; GTC 19 pts (10 exact / 9 tol); **VALIDATED NOT CLAIMED** |
+| Phase 1D FLGT readiness | Spec/gate only | Gate `PHASE1D_FLGT_IMPLEMENTATION_GATE.md` |
+| Phase 1D FLGT implementation | Code + GTC subset | **PASSED / IMPLEMENTED** R-G1…F-G11 — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts; **VALIDATED NOT CLAIMED** |
+| Phase 1E CR/NCF readiness | Spec readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
+| Phase 1E CR/NCF implementation | Code + GTC subset | **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; GTC 13 pts; full regression NOT CLOSED; **VALIDATED NOT CLAIMED** |
 | Formal GM approval | `GOLDEN_MASTER_APPROVAL.md` | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 Aug 2026 WAT; SHA `D07560CA…BFEA` |
 | Control | — | `WORKBOOK_ERROR_STATUS.md` EXP-001; `SCOPE_DECISIONS.md` |

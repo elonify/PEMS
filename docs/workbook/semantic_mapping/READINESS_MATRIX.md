@@ -36,6 +36,6 @@ Closed domain decisions (do not reopen): Equity Share INPUT · C5 DERIVED · Fis
 **ALL CALCULATION MODULE SPECIFICATIONS = READY**  
 **PRESENTATION SPECIFICATION = READY** (`docs/02_SPECIFICATIONS/presentation/`)  
 
-**Spec freeze:** COMPLETE · **Phase 0 scaffold:** PREPARED · **Phase 1A:** CaseInput + Ec_IO pure **IMPLEMENTED** · **Phase 1B:** Production G1–G5 **PASSED** · **Phase 1C:** Costs G1–G8 **IMPLEMENTED** (GTC 19 pts; VALIDATED NOT CLAIMED; Ec_IO cost hub N16–S18) · **FLGT…RESULTS:** NOT IMPLEMENTED · **VALIDATED:** NOT CLAIMED · **Active GM SHA:** `D07560CA…BFEA` (read-only)  
+**Spec freeze:** COMPLETE · **Phase 0–1E:** CaseInput…CR/NCF **IMPLEMENTED**; Phase 1E gate **PASSED / ACKNOWLEDGED** (full regression NOT CLOSED) · **RESULTS:** NOT IMPLEMENTED · **VALIDATED:** NOT CLAIMED · **Active GM SHA:** `D07560CA…BFEA` (read-only)  
 
-**Exact next task:** FLGT / Royalties from contract → GTC gate (after Phase 1C acknowledgment); presentation deferred post-VALIDATED.
+**Exact next task:** PHASE 1F RESULTS readiness/implementation when authorized; presentation deferred post-VALIDATED.

@@ -86,6 +86,10 @@ Phase 0 package scaffold = **PREPARED** (`src/pems/`).
 1. Implement calculation modules **from contracts only** (dependency order in freeze audit).  
 2. ~~Wire Excel import → CaseInput → pipeline → GTC-001 compare~~ **Phase 1A DONE** (pure Ec_IO subset; hub deferred; VALIDATED not claimed).  
 3. ~~Production module~~ **Phase 1B PASSED** (G1–G5; GTC 22 pts; VALIDATED not claimed) — `PHASE1B_GATE_ACKNOWLEDGEMENT.md`.  
-4. **Next:** Phase 1C Costs — plan READY (`PHASE1C_COSTS_IMPLEMENTATION_GATE.md`); implement only when authorized; contract remains READY on SHA `D07560CA…BFEA`.  
+4. ~~Phase 1C Costs~~ **IMPLEMENTED** (G1–G8; GTC 19 pts; VALIDATED not claimed).  
+5. ~~Phase 1D FLGT~~ **IMPLEMENTED** + gate **PASSED / ACKNOWLEDGED** — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts; **VALIDATED not claimed**.  
+6. ~~Phase 1E CR/NCF readiness~~ **READY** — `PHASE1E_CR_NCF_READINESS.md`.  
+7. ~~Phase 1E CR/NCF~~ **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; full regression **NOT CLOSED**.  
+8. **Next (separate authorization):** **PHASE 1F — RESULTS**; presentation deferred; GM SHA `D07560CA…BFEA`.  
 3. **Defer** full presentation/formatting UI until after numerical VALIDATED.  
 4. Do **not** modify Golden Master; do **not** invent formulas.  

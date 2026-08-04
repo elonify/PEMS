@@ -244,9 +244,21 @@ def import_case_input_from_workbook(
                 an = wb["Analysis"]
                 case.analysis_oil_scale = _as_float(an["N8"].value) or 0.0
                 case.analysis_gas_scale = _as_float(an["N9"].value) or 0.0
+                # Sensitivity multipliers in royalty price path (not CaseInput primary fields)
+                case.extras["analysis_n12"] = _as_float(an["N12"].value) or 0.0
+                case.extras["analysis_n13"] = _as_float(an["N13"].value) or 0.0
+                case.extras["analysis_n15"] = _as_float(an["N15"].value) or 0.0
             else:
                 case.analysis_oil_scale = 0.0
                 case.analysis_gas_scale = 0.0
+
+            # Price path end year D22 (formula cache)
+            d22 = _as_int_year(eco["D22"].value)
+            if d22 is not None:
+                case.extras["price_path_end_year"] = d22
+            d29 = _as_int_year(eco["D29"].value)
+            if d29 is not None:
+                case.extras["forecast_anchor_year"] = d29
 
             # Selected field block series (GTC parity path)
             if "Block_Oil Data" in wb.sheetnames and case.block_field_oil:
@@ -305,6 +317,110 @@ def import_case_input_from_workbook(
                 case.gas_tc_opex = _read_cap_allow_category_series(cag, value_col="FI")
                 case.gas_sln_by_year = _read_cap_allow_category_series(cag, value_col="GX")
                 case.gas_acq_allowance_by_year = _read_cap_allow_category_series(cag, value_col="HC")
+
+            # Fiscal Terms_PIA law-table identity (rates only — not CaseInput scenario fields)
+            if "Fiscal Terms_PIA" in wb.sheetnames:
+                ft = wb["Fiscal Terms_PIA"]
+                case.extras["fiscal_law"] = {
+                    "gas_rate_out": _as_float(ft["U30"].value) or 0.05,
+                    "gas_rate_dom": _as_float(ft["V30"].value) or 0.025,
+                    "gas_util_out_label": _as_str(ft["U29"].value) or "Out-Country",
+                    "hcdt_rate": _as_float(ft["T72"].value) or 0.03,
+                    "nddc_rate": _as_float(ft["T73"].value) or 0.03,
+                    "rental_z11": _as_float(ft["Z11"].value) or 0.0,
+                    "rental_z12": _as_float(ft["Z12"].value) or 0.0,
+                    "price_band_low": _as_float(ft["U36"].value) or 50.0,
+                    "price_band_high": _as_float(ft["U38"].value) or 150.0,
+                    "crl_new_label": _as_str(ft["T59"].value) or "New Acreage",
+                    "crl_new_acreage": _as_float(ft["T60"].value) or 0.7,
+                    "crl_converted_oml": _as_float(ft["U60"].value) or 0.6,
+                    "profit_oil_thresholds": [
+                        _as_float(ft["W60"].value) or 50.0,
+                        _as_float(ft["W61"].value) or 100.0,
+                        _as_float(ft["W62"].value) or 250.0,
+                        _as_float(ft["W63"].value) or 750.0,
+                        _as_float(ft["W64"].value) or 1500.0,
+                    ],
+                    "profit_oil_rates": [
+                        _as_float(ft["X60"].value) or 0.05,
+                        _as_float(ft["X61"].value) or 0.1,
+                        _as_float(ft["X62"].value) or 0.15,
+                        _as_float(ft["X63"].value) or 0.25,
+                        _as_float(ft["X64"].value) or 0.35,
+                        _as_float(ft["X65"].value) or 0.45,
+                    ],
+                }
+
+            # Project_NCF / HT/CIT intermediate annual series (selected path for tax engines)
+            # Used by CrNcfModule to construct AE/AF/disc/IRR without re-hosting full HT/CIT engines.
+            if include_costs and "Project_NCF" in wb.sheetnames:
+                pn = wb["Project_NCF"]
+                inter: dict[str, list[list[float]]] = {}
+                for col in (
+                    "A",
+                    "B",
+                    "E",
+                    "F",
+                    "G",
+                    "H",
+                    "I",
+                    "J",
+                    "O",
+                    "P",
+                    "Q",
+                    "R",
+                    "W",
+                    "X",
+                    "AB",
+                    "AC",
+                    "AD",
+                    "AK",
+                ):
+                    series: list[list[float]] = []
+                    for row in range(5, 50):
+                        y = _as_int_year(pn[f"A{row}"].value)
+                        if y is None:
+                            continue
+                        if col == "A":
+                            series.append([float(y), float(y)])
+                        else:
+                            series.append([float(y), float(_as_float(pn[f"{col}{row}"].value) or 0.0)])
+                    inter[col] = series
+                case.extras["project_ncf_intermediates"] = inter
+                if "Analysis" in wb.sheetnames:
+                    case.extras["analysis_n14"] = _as_float(wb["Analysis"]["N14"].value) or 0.0
+                if "Equity Dash" in wb.sheetnames:
+                    eq = wb["Equity Dash"]
+                    # AF row r references Equity Dash!L(r-4) — year-keyed acquisition add-back
+                    eq_l: list[list[float]] = []
+                    for row in range(5, 50):
+                        y = _as_int_year(pn[f"A{row}"].value)
+                        if y is None:
+                            continue
+                        lval = _as_float(eq[f"L{row - 4}"].value) or 0.0
+                        eq_l.append([float(y), float(lval)])
+                    case.extras["equity_l_by_year"] = eq_l
+                    case.extras["equity_l4"] = _as_float(eq["L4"].value) or 0.0
+                # FLGT loan bridge columns for AF formula
+                if "FLGT" in wb.sheetnames:
+                    fl = wb["FLGT"]
+                    for col, key in (("AN", "flgt_an"), ("AO", "flgt_ao"), ("AP", "flgt_ap")):
+                        s: list[list[float]] = []
+                        for row in range(5, 50):
+                            y = _as_int_year(fl[f"A{row}"].value)
+                            if y is None:
+                                continue
+                            s.append([float(y), float(_as_float(fl[f"{col}{row}"].value) or 0.0)])
+                        case.extras[key] = s
+                if "CIT_NCF_Oil" in wb.sheetnames:
+                    cit = wb["CIT_NCF_Oil"]
+                    s = []
+                    for row in range(5, 50):
+                        y = _as_int_year(pn[f"A{row}"].value)
+                        if y is None:
+                            continue
+                        s.append([float(y), float(_as_float(cit[f"Z{row}"].value) or 0.0)])
+                    case.extras["cit_oil_z"] = s
 
         return case
     finally:

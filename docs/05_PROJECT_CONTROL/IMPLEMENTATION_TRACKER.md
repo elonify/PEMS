@@ -18,8 +18,8 @@
 | PREVIOUS DOCUMENTED GM HASH — SUPERSEDED BY RE-FREEZE | `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA` |
 | Application Version | 0.1.0-dev (Phase 1A + Phase 1B Production) |
 | Implementation Started | 2026-08-04 (Phase 1A) |
-| Last Updated | 2026-08-04 (Phase 1C Costs IMPLEMENTED) |
-| Overall Completion | Phase 1A + 1B + Costs G1–G8 **IMPLEMENTED**; full-system numerical VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
+| Last Updated | 2026-08-04 (Phase 1E CR/NCF gate **PASSED / ACKNOWLEDGED**) |
+| Overall Completion | Phase 1A–1E **IMPLEMENTED** (gates PASSED; full regression **NOT CLOSED**); RESULTS **NOT STARTED**; VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
 
 ---
 
@@ -34,8 +34,8 @@
 | 4 Production / Phase 1B | **PASSED / IMPLEMENTED** G1–G5; GTC subset PASS; **VALIDATED NOT CLAIMED** | Gate ACK ✓ GTC 22 pts ✓ |
 | 5 Revenue | Not started (downstream of production/costs) | 0% |
 | 6 Cost / Phase 1C | **IMPLEMENTED** G1–G8; GTC 19 pts PASS; **VALIDATED NOT CLAIMED** | GTC 10 exact / 9 tol / 0 mismatch |
-| 7 Fiscal | Not started | 0% |
-| 8 Cash Flow | Not started | 0% |
+| 7 Fiscal / Phase 1D FLGT | **PASSED / IMPLEMENTED** R-G1…F-G11; GTC 18 pts; **VALIDATED NOT CLAIMED** | Gate ACK ✓ 4 exact / 14 tol / 0 mismatch |
+| 8 Cash Flow / Phase 1E CR-NCF | **PASSED / IMPLEMENTED** (targeted+GTC PASS); full regression **NOT CLOSED** | Gate ACK ✓; 12 tol + AU14 err / 0 mismatch |
 | 9 Economics | Not started | 0% |
 | 10 Sensitivity | Not started | 0% |
 | 11 Monte Carlo | Not started | 0% |
@@ -63,6 +63,8 @@
 | Production (G1–G5) | ☑ | ☐ | ☐ | ☐ |
 | Production (G6 sensitivity) | ☐ | ☐ | ☐ | ☐ |
 | Costs / Cap_Allow (G1–G8) | ☑ | ☐ | ☐ | ☐ |
+| FLGT / Royalties (R-G1…F-G11) | ☑ | ☐ | ☐ | ☐ |
+| CR/NCF | ☑ | ☐ | ☐ | ☐ |
 | Revenue | ☐ | ☐ | ☐ | ☐ |
 | CAPEX | ☐ | ☐ | ☐ | ☐ |
 | OPEX | ☐ | ☐ | ☐ | ☐ |
@@ -86,7 +88,9 @@
 | Production G1–G5 | GTC-001 22 pts (20 exact / 2 tol) PASS | PASS | GTC subset PASS | — | **IMPLEMENTED**; gate **PASSED**; **VALIDATED NOT CLAIMED** |
 | Costs / Cap_Allow G1–G8 | GTC-001 19 pts (10 exact / 9 tol) PASS | PASS | GTC subset PASS | — | **IMPLEMENTED**; **VALIDATED NOT CLAIMED** |
 | Ec_IO cost hub N16–S18 | included in Costs GTC | — | PASS | — | **IMPLEMENTED** via Costs G6 |
-| FLGT…RESULTS / Ec_IO NCF hub | — | — | — | — | **NOT IMPLEMENTED** |
+| FLGT / Royalties R-G1…F-G11 | GTC-001 18 pts (4 exact / 14 tol) PASS | PASS | GTC subset PASS | — | **IMPLEMENTED**; gate **PASSED**; **VALIDATED NOT CLAIMED** |
+| CR/NCF | GTC-001 13 pts (12 tol + AU14 error) PASS | PASS | GTC subset PASS | Full suite NOT CLOSED | **IMPLEMENTED**; gate **PASSED**; **VALIDATED NOT CLAIMED** |
+| RESULTS | — | — | — | — | **NOT IMPLEMENTED** |
 
 ---
 
@@ -100,7 +104,7 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 | Inputs / Master / Fiscal Terms | Yes | ☑ Ec_IO CaseInput | ☑ CaseInput+Ec_IO pure | ☐ full sheet |
 | Reservoir / Production | Yes | ☑ Production contract | ☑ G1–G5 | ☐ full sheet |
 | Costs / Cap allowance | Yes | ☑ contract READY | ☑ G1–G8 | ☐ full sheet |
-| Royalties / FLGT | Yes | ☐ | ☐ | ☐ |
+| Royalties / FLGT | Yes | ☑ contract READY | ☑ R-G1…F-G11 | ☐ full sheet VALIDATED |
 | HT/CIT NCF (oil/gas/equity) | Yes | ☐ | ☐ | ☐ |
 | Project / Equity NCF & results | Yes | ☐ | ☐ | ☐ |
 | Dashboards / Analysis | Yes | ☐ | ☐ | ☐ |
@@ -139,6 +143,9 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 | Phase 1A CaseInput + Ec_IO | **IMPLEMENTED** (pure path) — `PHASE1A_EC_IO_IMPLEMENTATION.md`; GTC 35/35 exact; hub deferred; **VALIDATED NOT CLAIMED**; gate **ACKNOWLEDGED** |
 | Phase 1B Production | **PASSED / IMPLEMENTED** — `PHASE1B_PRODUCTION_IMPLEMENTATION.md` + `PHASE1B_GATE_ACKNOWLEDGEMENT.md`; GTC 22 pts (20 exact / 2 tol / 0 mismatch); **VALIDATED NOT CLAIMED** |
 | Phase 1C Costs | **IMPLEMENTED** G1–G8 — `PHASE1C_COSTS_IMPLEMENTATION.md`; GTC 19 pts (10 exact / 9 tol / 0 mismatch); cost hub N16–S18; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
+| Phase 1D FLGT | **PASSED / IMPLEMENTED** — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts (4 exact / 14 tol / 0 mismatch); F-G12 deferred; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
+| Phase 1E CR/NCF readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
+| Phase 1E CR/NCF | **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; GTC 13 pts; full regression **NOT CLOSED**; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
 | Formal GM approval | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 August 2026 WAT; SHA `D07560CA…BFEA` |
 | Critical-path literals | **829** total; **829 RESOLVED**; **0 UNRESOLVED** (register complete) |
 | Path integrity | **CLOSED — NON-SUBSTANTIVE CURRENT-WORKBOOK DIFFERENCE** |
@@ -155,8 +162,8 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 
 | Field | Value |
 |-------|--------|
-| Current focus | Phase 1C Costs **IMPLEMENTED**; await gate ack before FLGT |
-| Next objective | FLGT / Royalties (`FLGT_ROYALTIES_CONTRACT.md`) → GTC gate; then CR/NCF → RESULTS |
+| Current focus | Phase 1E CR/NCF gate **PASSED**; RESULTS not started |
+| Next objective | **PHASE 1F — RESULTS** readiness/implementation when separately authorized; presentation deferred |
 | Expected completion | _TBD_ (presentation deferred until calc VALIDATED) |
 
 ---
