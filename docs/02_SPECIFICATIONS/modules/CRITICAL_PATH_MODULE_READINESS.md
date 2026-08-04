@@ -128,7 +128,8 @@ Closed domain decisions (do not reopen):
 | Spec | `RESULTS_PARAMETER_CONTRACT.md` |
 | Implementation | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; GTC RESULTS Equity 0 mismatch |
 | Phase 1G | **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; intermediate-path limits; full VALIDATED **NOT CLAIMED** |
-| **Status** | Spec **READY**; **IMPLEMENTED**; GTC anchor comparison **PASS**; **NUMERICALLY VALIDATED NOT CLAIMED** |
+| Phase 1H | Presentation/UI readiness **READY** — `PHASE1H_PRESENTATION_READINESS.md`; presentation **NOT IMPLEMENTED** |
+| **Status** | Spec **READY**; **IMPLEMENTED**; GTC anchor comparison **PASS**; **NUMERICALLY VALIDATED NOT CLAIMED**; presentation **NOT STARTED** |
 
 ---
 

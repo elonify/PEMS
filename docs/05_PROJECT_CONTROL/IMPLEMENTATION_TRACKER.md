@@ -18,8 +18,8 @@
 | PREVIOUS DOCUMENTED GM HASH — SUPERSEDED BY RE-FREEZE | `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA` |
 | Application Version | 0.1.0-dev (Phase 1A + Phase 1B Production) |
 | Implementation Started | 2026-08-04 (Phase 1A) |
-| Last Updated | 2026-08-04 (Phase 1G GTC anchor comparison **PASS**; full VALIDATED **NOT CLAIMED**) |
-| Overall Completion | Phase 1A–1F **IMPLEMENTED**; Phase 1G documented-anchor comparison **PASS**; CR/RESULTS intermediate path; full VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
+| Last Updated | 2026-08-04 (Phase 1H presentation readiness **READY**; impl NOT STARTED) |
+| Overall Completion | Phase 1A–1F **IMPLEMENTED**; Phase 1G GTC anchor **PASS**; Phase 1H presentation **SPEC READY** / **NOT IMPLEMENTED**; full VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
 
 ---
 
@@ -149,6 +149,7 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 | Phase 1F RESULTS readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; GTC pack **63** RESULTS Equity rows |
 | Phase 1F RESULTS implementation | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; unit 11 + GTC 3 PASS; 0 unexplained mismatches; **VALIDATED NOT CLAIMED**; presentation/MC deferred |
 | Phase 1G numerical validation | **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md` + evidence JSON; single GM load; session GM cache (`tests/conftest.py`); 0 mismatch / 1 AU14 expected_error; intermediate-path limits; **RESULTS full VALIDATED NOT CLAIMED**; **FULL-SYSTEM NOT CLAIMED** |
+| Phase 1H presentation readiness | **SPEC READY** — `PHASE1H_PRESENTATION_READINESS.md`; first-slice impl ready pending PO; **IMPLEMENTED NO**; sensitivity/MC **DEFERRED** |
 | Formal GM approval | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 August 2026 WAT; SHA `D07560CA…BFEA` |
 | Critical-path literals | **829** total; **829 RESOLVED**; **0 UNRESOLVED** (register complete) |
 | Path integrity | **CLOSED — NON-SUBSTANTIVE CURRENT-WORKBOOK DIFFERENCE** |
@@ -165,8 +166,8 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 
 | Field | Value |
 |-------|--------|
-| Current focus | Phase 1G GTC anchor comparison **PASS**; full independent VALIDATED **NOT CLAIMED** |
-| Next objective | Optional HT/CIT independent engines, intermediate-path formal acceptance, presentation, or git checkpoint when authorized |
+| Current focus | Phase 1H presentation **SPEC READY** (`PHASE1H_PRESENTATION_READINESS.md`); **IMPLEMENTED NOT STARTED** |
+| Next objective | PO **presentation first-slice implementation** authorization; sensitivity/MC deferred; calc validation claims unchanged |
 | Expected completion | _TBD_ (presentation deferred until calc VALIDATED) |
 
 ---

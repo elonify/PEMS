@@ -52,7 +52,7 @@
 | FLGT / Royalties | **READY** (`FLGT_ROYALTIES_CONTRACT.md`) |
 | CR/NCF | **READY** (`CR_NCF_CONTRACT.md`) |
 | RESULTS | Spec **READY** + calc **IMPLEMENTED** (`RESULTS_PARAMETER_CONTRACT.md` + `PHASE1F_RESULTS_IMPLEMENTATION.md`); **VALIDATED NOT CLAIMED** |
-| Presentation / formatting | **READY** (`docs/02_SPECIFICATIONS/presentation/`) — implementation deferred |
+| Presentation / formatting | Spec **READY** + Phase 1H readiness **READY** (`PHASE1H_PRESENTATION_READINESS.md`); **IMPLEMENTED NO** |
 
 ---
 
@@ -93,6 +93,7 @@ Numerical VALIDATED = **NOT CLAIMED.**
 8. ~~Phase 1F RESULTS readiness~~ **READY** — `PHASE1F_RESULTS_READINESS.md`.  
 9. ~~Phase 1F RESULTS~~ **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; GTC RESULTS Equity 0 mismatch; **VALIDATED not claimed**.  
 10. ~~Phase 1G numerical validation~~ **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; full independent VALIDATED **NOT CLAIMED**; full-system **NOT CLAIMED**.  
-11. **Next (separate authorization):** git checkpoint of 1F+1G; optional intermediate-path formal acceptance / HT/CIT engines; presentation deferred; sensitivity/MC deferred; GM SHA `D07560CA…BFEA`.  
-12. **Defer** full presentation/formatting UI until after numerical VALIDATED (or separate PO directive).  
-13. Do **not** modify Golden Master; do **not** invent formulas.  
+11. ~~Phase 1H presentation readiness~~ **SPEC READY** — `PHASE1H_PRESENTATION_READINESS.md`; presentation **NOT IMPLEMENTED**.  
+12. **Next (separate authorization):** presentation first-slice implementation; sensitivity/MC deferred; GM SHA `D07560CA…BFEA`.  
+13. **Defer** sensitivity/Monte Carlo and unsupported viz; presentation L3 polish optional.  
+14. Do **not** modify Golden Master; do **not** invent formulas.  
