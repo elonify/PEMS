@@ -18,8 +18,8 @@
 | PREVIOUS DOCUMENTED GM HASH — SUPERSEDED BY RE-FREEZE | `D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA` |
 | Application Version | 0.1.0-dev (Phase 1A + Phase 1B Production) |
 | Implementation Started | 2026-08-04 (Phase 1A) |
-| Last Updated | 2026-08-04 (Phase 1F RESULTS readiness **READY**; impl NOT AUTHORIZED) |
-| Overall Completion | Phase 1A–1E **IMPLEMENTED**; RESULTS **SPEC READY** / **NOT STARTED**; VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
+| Last Updated | 2026-08-04 (Phase 1G GTC anchor comparison **PASS**; full VALIDATED **NOT CLAIMED**) |
+| Overall Completion | Phase 1A–1F **IMPLEMENTED**; Phase 1G documented-anchor comparison **PASS**; CR/RESULTS intermediate path; full VALIDATED **NOT CLAIMED**; GM SHA `D07560CA…BFEA` |
 
 ---
 
@@ -36,7 +36,7 @@
 | 6 Cost / Phase 1C | **IMPLEMENTED** G1–G8; GTC 19 pts PASS; **VALIDATED NOT CLAIMED** | GTC 10 exact / 9 tol / 0 mismatch |
 | 7 Fiscal / Phase 1D FLGT | **PASSED / IMPLEMENTED** R-G1…F-G11; GTC 18 pts; **VALIDATED NOT CLAIMED** | Gate ACK ✓ 4 exact / 14 tol / 0 mismatch |
 | 8 Cash Flow / Phase 1E CR-NCF | **PASSED / IMPLEMENTED** (targeted+GTC PASS); full regression **NOT CLOSED** | Gate ACK ✓; 12 tol + AU14 err / 0 mismatch |
-| 9 Economics | Not started | 0% |
+| 9 Economics / Phase 1F RESULTS | **IMPLEMENTED** KPI aggregation; GTC RESULTS Equity 0 mismatch; **VALIDATED NOT CLAIMED** | Gate evidence in PHASE1F_RESULTS_IMPLEMENTATION.md |
 | 10 Sensitivity | Not started | 0% |
 | 11 Monte Carlo | Not started | 0% |
 | 12 Charts | Not started | 0% |
@@ -72,7 +72,7 @@
 | Hydrocarbon Tax | ☐ | ☐ | ☐ | ☐ |
 | Corporate Income Tax | ☐ | ☐ | ☐ | ☐ |
 | Cash Flow | ☐ | ☐ | ☐ | ☐ |
-| NPV / IRR / Metrics | ☐ | ☐ | ☐ | ☐ |
+| NPV / IRR / Metrics (RESULTS) | ☑ | ☐ | ☐ | ☐ |
 | Monte Carlo | ☐ | ☐ | ☐ | ☐ |
 | Charts (incl. zero align) | ☐ | ☐ | ☐ | ☐ |
 | Reports | ☐ | ☐ | ☐ | ☐ |
@@ -90,7 +90,7 @@
 | Ec_IO cost hub N16–S18 | included in Costs GTC | — | PASS | — | **IMPLEMENTED** via Costs G6 |
 | FLGT / Royalties R-G1…F-G11 | GTC-001 18 pts (4 exact / 14 tol) PASS | PASS | GTC subset PASS | — | **IMPLEMENTED**; gate **PASSED**; **VALIDATED NOT CLAIMED** |
 | CR/NCF | GTC-001 13 pts (12 tol + AU14 error) PASS | PASS | GTC subset PASS | Full suite NOT CLOSED | **IMPLEMENTED**; gate **PASSED**; **VALIDATED NOT CLAIMED** |
-| RESULTS | — | — | — | — | **NOT IMPLEMENTED** |
+| RESULTS Equity KPIs | GTC-001 59 unique cells / 63 pack rows (0 mismatch) | PASS | GTC subset PASS | Targeted PASS | **IMPLEMENTED**; **VALIDATED NOT CLAIMED** |
 
 ---
 
@@ -146,7 +146,9 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 | Phase 1D FLGT | **PASSED / IMPLEMENTED** — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts (4 exact / 14 tol / 0 mismatch); F-G12 deferred; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
 | Phase 1E CR/NCF readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
 | Phase 1E CR/NCF | **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; GTC 13 pts; full regression **NOT CLOSED**; **VALIDATED NOT CLAIMED**; SHA `D07560CA…BFEA` |
-| Phase 1F RESULTS readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; GTC pack **63** RESULTS Equity rows; **IMPLEMENTED NOT STARTED**; **VALIDATED NOT CLAIMED**; impl **NOT YET AUTHORIZED** |
+| Phase 1F RESULTS readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; GTC pack **63** RESULTS Equity rows |
+| Phase 1F RESULTS implementation | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; unit 11 + GTC 3 PASS; 0 unexplained mismatches; **VALIDATED NOT CLAIMED**; presentation/MC deferred |
+| Phase 1G numerical validation | **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md` + evidence JSON; single GM load; session GM cache (`tests/conftest.py`); 0 mismatch / 1 AU14 expected_error; intermediate-path limits; **RESULTS full VALIDATED NOT CLAIMED**; **FULL-SYSTEM NOT CLAIMED** |
 | Formal GM approval | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 August 2026 WAT; SHA `D07560CA…BFEA` |
 | Critical-path literals | **829** total; **829 RESOLVED**; **0 UNRESOLVED** (register complete) |
 | Path integrity | **CLOSED — NON-SUBSTANTIVE CURRENT-WORKBOOK DIFFERENCE** |
@@ -163,8 +165,8 @@ Detail: `WORKBOOK_MAPPING_SPECIFICATION.md`.
 
 | Field | Value |
 |-------|--------|
-| Current focus | Phase 1F RESULTS **SPEC READY** (`PHASE1F_RESULTS_READINESS.md`); calculation **NOT STARTED** / **NOT YET AUTHORIZED** |
-| Next objective | PO **RESULTS implementation** authorization when ready; presentation deferred |
+| Current focus | Phase 1G GTC anchor comparison **PASS**; full independent VALIDATED **NOT CLAIMED** |
+| Next objective | Optional HT/CIT independent engines, intermediate-path formal acceptance, presentation, or git checkpoint when authorized |
 | Expected completion | _TBD_ (presentation deferred until calc VALIDATED) |
 
 ---

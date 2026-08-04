@@ -422,6 +422,48 @@ def import_case_input_from_workbook(
                         s.append([float(y), float(_as_float(cit[f"Z{row}"].value) or 0.0)])
                     case.extras["cit_oil_z"] = s
 
+                # RESULTS BIT path: HT_NCF_Oil Equity KPI totals + AR CF series
+                # (full HT equity engine deferred; selected intermediate path).
+                if "HT_NCF_Oil Equity" in wb.sheetnames:
+                    hte = wb["HT_NCF_Oil Equity"]
+                    ar_series: list[list[float]] = []
+                    for row in range(5, 50):
+                        y = _as_int_year(pn[f"A{row}"].value)
+                        if y is None:
+                            continue
+                        ar_series.append(
+                            [float(y), float(_as_float(hte[f"AR{row}"].value) or 0.0)]
+                        )
+                    case.extras["ht_ncf_oil_equity_intermediates"] = {
+                        "AS51": _as_float(hte["AS51"].value) or 0.0,
+                        "AT51": _as_float(hte["AT51"].value) or 0.0,
+                        "AO51": _as_float(hte["AO51"].value) or 0.0,
+                        "AQ51": _as_float(hte["AQ51"].value) or 0.0,
+                        "AR51": _as_float(hte["AR51"].value) or 0.0,
+                        "AV51": _as_float(hte["AV51"].value) or 0.0,
+                        "AR": ar_series,
+                    }
+
+                # RESULTS tax path: CIT Oil+Gas Equity AF51/AG51 sums
+                if "CIT_NCF_Oil Equity" in wb.sheetnames or "CIT_NCF_Gas Equity" in wb.sheetnames:
+                    oil_af = oil_ag = gas_af = gas_ag = 0.0
+                    if "CIT_NCF_Oil Equity" in wb.sheetnames:
+                        cito = wb["CIT_NCF_Oil Equity"]
+                        oil_af = _as_float(cito["AF51"].value) or 0.0
+                        oil_ag = _as_float(cito["AG51"].value) or 0.0
+                    if "CIT_NCF_Gas Equity" in wb.sheetnames:
+                        citg = wb["CIT_NCF_Gas Equity"]
+                        gas_af = _as_float(citg["AF51"].value) or 0.0
+                        gas_ag = _as_float(citg["AG51"].value) or 0.0
+                    case.extras["cit_ncf_equity_totals"] = {
+                        "AF51": oil_af + gas_af,
+                        "AG51": oil_ag + gas_ag,
+                        "oil_AF51": oil_af,
+                        "oil_AG51": oil_ag,
+                        "gas_AF51": gas_af,
+                        "gas_AG51": gas_ag,
+                    }
+
         return case
     finally:
         wb.close()

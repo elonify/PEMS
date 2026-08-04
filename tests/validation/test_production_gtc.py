@@ -89,8 +89,8 @@ def test_gm_sha_intact(repo_root: Path) -> None:
     assert ACTIVE_GM_SHA256 == "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA"
 
 
-def test_import_production_params(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_import_production_params(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     errs = validate_case_input(case)
     assert errs == []
     assert case.pp_mode == "STOIIP"
@@ -101,8 +101,8 @@ def test_import_production_params(repo_root: Path) -> None:
     assert case.gas_block_daily is not None and len(case.gas_block_daily) > 0
 
 
-def test_production_gtc_comparison(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_production_gtc_comparison(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     prod = ProductionModule().run(case)
     pems = prod.cell_map()
 
@@ -128,9 +128,9 @@ def test_production_gtc_comparison(repo_root: Path) -> None:
     assert res.exact + res.tolerance >= 20
 
 
-def test_production_series_sample_points(repo_root: Path) -> None:
+def test_production_series_sample_points(repo_root: Path, active_gm_case) -> None:
     """Sample Prod_Summary oil/gas rates vs GM cache (parity on block path)."""
-    case = import_case_input_from_active_gm(repo_root)
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     prod = ProductionModule().run(case)
     path = verify_active_gm(repo_root)
     wb = load_workbook(path, data_only=True, read_only=True)

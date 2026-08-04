@@ -53,16 +53,16 @@ def test_gm_sha(repo_root: Path) -> None:
     assert ACTIVE_GM_SHA256 == "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA"
 
 
-def test_import_for_flgt(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_import_for_flgt(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     assert validate_case_input(case) == []
     assert "Shallow" in (case.terrain or "")
     assert case.gas_utilization and "Dom" in case.gas_utilization
     assert case.oil_block_daily and case.oil_tc_opex
 
 
-def test_flgt_gtc_mandatory_anchors(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_flgt_gtc_mandatory_anchors(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     prod = ProductionModule().run(case)
     result = FlgtRoyaltiesModule().run(case, upstream={"production": prod})
     pems = result.cell_map()

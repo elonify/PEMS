@@ -77,8 +77,8 @@ def test_gm_sha_intact(repo_root: Path) -> None:
     assert ACTIVE_GM_SHA256 == "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA"
 
 
-def test_import_cost_schedules(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_import_cost_schedules(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     assert validate_case_input(case) == []
     assert case.hurdle_rate == 0.15
     assert abs((case.duties_rate or 0) - 0.0) < 1e-15
@@ -88,8 +88,8 @@ def test_import_cost_schedules(repo_root: Path) -> None:
     assert case.cost_mode_field == "Ebiya Field" or case.block_field_oil == "Ebiya Field"
 
 
-def test_costs_gtc_mandatory_anchors(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_costs_gtc_mandatory_anchors(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     result = CostsModule().run(case)
     pems = {k: result.cell_map()[k] for k in COMPARE_CELLS if k in result.cell_map()}
 
@@ -112,9 +112,9 @@ def test_costs_gtc_mandatory_anchors(repo_root: Path) -> None:
     assert res.exact + res.tolerance >= 15
 
 
-def test_costs_contract_expected_direct(repo_root: Path) -> None:
+def test_costs_contract_expected_direct(repo_root: Path, active_gm_case) -> None:
     """Hard contract anchors (no catalogue rewrite)."""
-    case = import_case_input_from_active_gm(repo_root)
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     pems = CostsModule().run(case).cell_map()
     res = compare_cell_map(
         {k: pems[k] for k in CONTRACT_EXPECTED if k in pems},

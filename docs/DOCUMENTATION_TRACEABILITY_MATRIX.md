@@ -179,6 +179,8 @@ These remaining items are recorded as OPEN, not silently invented.
 | Phase 1D FLGT implementation | Code + GTC subset | **PASSED / IMPLEMENTED** R-G1…F-G11 — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts; **VALIDATED NOT CLAIMED** |
 | Phase 1E CR/NCF readiness | Spec readiness | **READY** — `PHASE1E_CR_NCF_READINESS.md` |
 | Phase 1E CR/NCF implementation | Code + GTC subset | **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; GTC 13 pts; full regression NOT CLOSED; **VALIDATED NOT CLAIMED** |
-| Phase 1F RESULTS readiness | Spec readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; 63 GTC RESULTS Equity points; code NOT STARTED; **VALIDATED NOT CLAIMED** |
+| Phase 1F RESULTS readiness | Spec readiness | **SPEC READY** — `PHASE1F_RESULTS_READINESS.md`; 63 GTC RESULTS Equity points |
+| Phase 1F RESULTS implementation | Code + GTC subset | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; unit 11 + GTC 3; 0 mismatch; **VALIDATED NOT CLAIMED** |
+| Phase 1G numerical validation | GTC chain comparison | **Anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; 0 mismatch; intermediate path limits; full VALIDATED **NOT CLAIMED** |
 | Formal GM approval | `GOLDEN_MASTER_APPROVAL.md` | **CLOSED** — Dr Emmanuel Ifeanyichukwu Onwuka, 3 Aug 2026 WAT; SHA `D07560CA…BFEA` |
 | Control | — | `WORKBOOK_ERROR_STATUS.md` EXP-001; `SCOPE_DECISIONS.md` |

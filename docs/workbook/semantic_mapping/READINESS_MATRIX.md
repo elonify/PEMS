@@ -36,6 +36,6 @@ Closed domain decisions (do not reopen): Equity Share INPUT · C5 DERIVED · Fis
 **ALL CALCULATION MODULE SPECIFICATIONS = READY**  
 **PRESENTATION SPECIFICATION = READY** (`docs/02_SPECIFICATIONS/presentation/`)  
 
-**Spec freeze:** COMPLETE · **Phase 0–1E:** CaseInput…CR/NCF **IMPLEMENTED**; Phase 1E gate **PASSED / ACKNOWLEDGED** (full regression NOT CLOSED) · **RESULTS:** NOT IMPLEMENTED · **VALIDATED:** NOT CLAIMED · **Active GM SHA:** `D07560CA…BFEA` (read-only)  
+**Spec freeze:** COMPLETE · **Phase 0–1F IMPLEMENTED** · **Phase 1G GTC anchor comparison PASS** · full VALIDATED **NOT CLAIMED** · intermediate-path limits on CR/RESULTS · GM D07560CA…BFEA read-only
 
-**Exact next task:** PHASE 1F RESULTS readiness/implementation when authorized; presentation deferred post-VALIDATED.
+**Exact next task:** PO git checkpoint (1F+1G) when authorized; optional HT/CIT independent engines or presentation; sensitivity/MC deferred.

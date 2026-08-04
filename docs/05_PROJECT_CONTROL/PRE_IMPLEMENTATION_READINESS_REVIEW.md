@@ -51,8 +51,8 @@
 | Costs | **READY** (`COSTS_PARAMETER_CONTRACT.md`) |
 | FLGT / Royalties | **READY** (`FLGT_ROYALTIES_CONTRACT.md`) |
 | CR/NCF | **READY** (`CR_NCF_CONTRACT.md`) |
-| RESULTS | **READY** (`RESULTS_PARAMETER_CONTRACT.md`) |
-| Presentation / formatting | **READY** (`docs/02_SPECIFICATIONS/presentation/`) |
+| RESULTS | Spec **READY** + calc **IMPLEMENTED** (`RESULTS_PARAMETER_CONTRACT.md` + `PHASE1F_RESULTS_IMPLEMENTATION.md`); **VALIDATED NOT CLAIMED** |
+| Presentation / formatting | **READY** (`docs/02_SPECIFICATIONS/presentation/`) — implementation deferred |
 
 ---
 
@@ -75,21 +75,24 @@ Analysis data tables · @Risk/MC · non-critical charts · multi-scenario GTC ex
 # **SPECIFICATION FREEZE COMPLETE · PHASE 0 SCAFFOLD PREPARED**
 
 Formal GM approval is **CLOSED**. Path integrity is **not** a calculation blocker.  
-Ec_IO · Fiscal · Production · Costs · FLGT · CR/NCF · RESULTS · Presentation = **specification READY**.  
-Phase 0 package scaffold = **PREPARED** (`src/pems/`).  
-**Calculation engines = NOT IMPLEMENTED.** Numerical VALIDATED = **NOT CLAIMED.**
+Ec_IO · Fiscal · Production · Costs · FLGT · CR/NCF · RESULTS = **specification READY**; calc path **IMPLEMENTED** through RESULTS.  
+Presentation = **specification READY**; **implementation DEFERRED**.  
+Numerical VALIDATED = **NOT CLAIMED.**
 
 ---
 
 ## Exact next controlled gate
 
-1. Implement calculation modules **from contracts only** (dependency order in freeze audit).  
+1. ~~Implement calculation modules **from contracts only**~~ **Phase 1A–1F DONE** (CaseInput…RESULTS).  
 2. ~~Wire Excel import → CaseInput → pipeline → GTC-001 compare~~ **Phase 1A DONE** (pure Ec_IO subset; hub deferred; VALIDATED not claimed).  
 3. ~~Production module~~ **Phase 1B PASSED** (G1–G5; GTC 22 pts; VALIDATED not claimed) — `PHASE1B_GATE_ACKNOWLEDGEMENT.md`.  
 4. ~~Phase 1C Costs~~ **IMPLEMENTED** (G1–G8; GTC 19 pts; VALIDATED not claimed).  
 5. ~~Phase 1D FLGT~~ **IMPLEMENTED** + gate **PASSED / ACKNOWLEDGED** — `PHASE1D_FLGT_IMPLEMENTATION.md` + `PHASE1D_GATE_ACKNOWLEDGEMENT.md`; GTC 18 pts; **VALIDATED not claimed**.  
 6. ~~Phase 1E CR/NCF readiness~~ **READY** — `PHASE1E_CR_NCF_READINESS.md`.  
 7. ~~Phase 1E CR/NCF~~ **PASSED / IMPLEMENTED** — `PHASE1E_CR_NCF_IMPLEMENTATION.md` + `PHASE1E_GATE_ACKNOWLEDGEMENT.md`; full regression **NOT CLOSED**.  
-8. **Next (separate authorization):** **PHASE 1F — RESULTS**; presentation deferred; GM SHA `D07560CA…BFEA`.  
-3. **Defer** full presentation/formatting UI until after numerical VALIDATED.  
-4. Do **not** modify Golden Master; do **not** invent formulas.  
+8. ~~Phase 1F RESULTS readiness~~ **READY** — `PHASE1F_RESULTS_READINESS.md`.  
+9. ~~Phase 1F RESULTS~~ **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; GTC RESULTS Equity 0 mismatch; **VALIDATED not claimed**.  
+10. ~~Phase 1G numerical validation~~ **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; full independent VALIDATED **NOT CLAIMED**; full-system **NOT CLAIMED**.  
+11. **Next (separate authorization):** git checkpoint of 1F+1G; optional intermediate-path formal acceptance / HT/CIT engines; presentation deferred; sensitivity/MC deferred; GM SHA `D07560CA…BFEA`.  
+12. **Defer** full presentation/formatting UI until after numerical VALIDATED (or separate PO directive).  
+13. Do **not** modify Golden Master; do **not** invent formulas.  

@@ -49,15 +49,15 @@ def test_gm_sha(repo_root: Path) -> None:
     assert ACTIVE_GM_SHA256 == "D07560CA6C1A762716E1927A130E7CA697DB0AB9BDA8E8A33C7A0ACBB6FDBFEA"
 
 
-def test_import_cr_intermediates(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_import_cr_intermediates(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     assert validate_case_input(case) == []
     assert case.extras.get("project_ncf_intermediates")
     assert "AB" in case.extras["project_ncf_intermediates"]
 
 
-def test_cr_ncf_gtc_anchors(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_cr_ncf_gtc_anchors(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     prod = ProductionModule().run(case)
     costs = CostsModule().run(case)
     flgt = FlgtRoyaltiesModule().run(case, upstream={"production": prod})

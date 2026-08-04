@@ -89,8 +89,8 @@ def test_gm_sha(repo_root: Path) -> None:
     assert ACTIVE_GM_SHA256.startswith("D07560CA")
 
 
-def test_import_and_validate_from_gm(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_import_and_validate_from_gm(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     errs = validate_case_input(case, strict=True)
     assert errs == []
     assert case.equity_share_company_1 == 0.49
@@ -99,8 +99,8 @@ def test_import_and_validate_from_gm(repo_root: Path) -> None:
     assert case.source == "excel_import"
 
 
-def test_ec_io_gtc_literals_and_derived(repo_root: Path) -> None:
-    case = import_case_input_from_active_gm(repo_root)
+def test_ec_io_gtc_literals_and_derived(repo_root: Path, active_gm_case) -> None:
+    case = active_gm_case  # session-cached GM import (tests/conftest.py)
     result = EcIoModule().run(case)
     pems = result.cell_map()
 

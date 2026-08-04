@@ -126,7 +126,9 @@ Closed domain decisions (do not reopen):
 | IRR | N8/K8 numeric goldens; Project_NCF AU14 **NO_VALID_IRR** |
 | GM comparison | **YES** — GTC-001 RESULTS Equity KPI pack (63 rows) |
 | Spec | `RESULTS_PARAMETER_CONTRACT.md` |
-| **Status** | **READY** (spec — not numerical VALIDATED) |
+| Implementation | **IMPLEMENTED** — `PHASE1F_RESULTS_IMPLEMENTATION.md`; GTC RESULTS Equity 0 mismatch |
+| Phase 1G | **GTC documented-anchor comparison PASS** — `PHASE1G_NUMERICAL_VALIDATION.md`; intermediate-path limits; full VALIDATED **NOT CLAIMED** |
+| **Status** | Spec **READY**; **IMPLEMENTED**; GTC anchor comparison **PASS**; **NUMERICALLY VALIDATED NOT CLAIMED** |
 
 ---
 
