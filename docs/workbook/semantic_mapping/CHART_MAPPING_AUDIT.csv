@@ -13,8 +13,8 @@ GIIP,1,LineChart,STOIIP,5,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitiv
 GIIP,2,BarChart,"STOIIP, MMSTB",3,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,GIIP!$D$40:$H$40 | GIIP!$D$39:$H$39 | GIIP!$D$44:$H$44 | GIIP!$D$48:$H$48,0,1,REVIEW_REQUIRED,NO
 GIIP,3,LineChart,%Change in STOIIP,5,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,GIIP!$O$40:$O$48 | GIIP!$N$40:$N$48 | GIIP!$P$40:$P$48 | GIIP!$Q$40:$Q$48 | GIIP!$R$40:$R$48 | GIIP!$S$40:$S$48,0,1,REVIEW_REQUIRED,NO
 GIIP,4,BarChart,%Change in STOIIP,9,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,GIIP!$O$40:$S$40 | GIIP!$O$39:$S$39 | GIIP!$O$41:$S$41 | GIIP!$O$42:$S$42 | GIIP!$O$43:$S$43 | GIIP!$O$44:$S$44 | GIIP!$O$45:$S$45 | GIIP!$O$46:$S$46 | GIIP!$O$47:$S$47 | GIIP!$O$48:$S$48,0,1,REVIEW_REQUIRED,NO
-Production Profile,1,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual production-rate data,[0]!Rates_Charts | [0]!Years_Charts,1,0,REVIEW_REQUIRED,NO
-Production Profile,2,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual production-rate data,'Production Profile'!AG_Chart_Rates | [0]!Years_Charts,1,1,REVIEW_REQUIRED,NO
+Production Profile,1,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual production-rate data,[0]!Rates_Charts | [0]!Years_Charts,1,0,REVIEW_REQUIRED,YES
+Production Profile,2,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual production-rate data,'Production Profile'!AG_Chart_Rates | [0]!Years_Charts,1,1,REVIEW_REQUIRED,YES
 OML123_Oil_S1,1,BarChart,OML 123 SCENARIO 1,1,PENDING_SEMANTIC_MAP,NOT MAPPED — peripheral scenario surface,OML123_Oil_S1!$CP$4:$CP$45 | OML123_Oil_S1!$CN$4:$CN$45,0,1,REVIEW_REQUIRED,NO
 Prod_Summary,1,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual and cumulative production data,Prod_Summary!$C$5:$C$46,0,1,REVIEW_REQUIRED,NO
 Prod_Summary,2,AreaChart,,2,PRODUCTION_SUMMARY,ProductionResult / annual and cumulative production data,[0]!Annual_Oil | Prod_Summary!$S$5:$S$23 | [0]!Cum_Oil | Prod_Summary!$S$5:$S$31,1,1,REVIEW_REQUIRED,YES
