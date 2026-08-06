@@ -11,6 +11,14 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from pems.application.run_service import RunBundle
+from pems.presentation.charts import (
+    ChartDataset,
+    cost_profile_dataset,
+    discounted_ncf_dataset,
+    economic_limit_dataset,
+    flgt_take_dataset,
+    production_summary_dataset,
+)
 from pems.presentation.formats import (
     format_currency_usd,
     format_money_mm,
@@ -58,6 +66,8 @@ class PresentationBundle:
     reports_rows: list[DisplayRow]
     deferred_banners: list[str]
     notes: list[str] = field(default_factory=list)
+    # Authorized Phase 1H chart datasets (DTO projection only; no plot render).
+    chart_datasets: dict[str, ChartDataset] = field(default_factory=dict)
 
 
 def _irr_row(
@@ -97,6 +107,57 @@ def _irr_row(
         note=f"GRR also available: {format_percent(grr)} ({grr_cell})" if grr is not None else "",
         source=irr_cell,
     )
+
+
+def build_authorized_chart_datasets(bundle: RunBundle) -> dict[str, ChartDataset]:
+    """Build the five PO-authorized chart families from RunBundle DTOs.
+
+    Pure projection helper — no economic re-calculation. Missing or incomplete
+    DTOs yield empty series via builders; failures skip that dataset.
+    """
+    out: dict[str, ChartDataset] = {}
+
+    def _put(ds: ChartDataset) -> None:
+        out[ds.dataset_id] = ds
+
+    cr = getattr(bundle, "cr_ncf", None)
+    prod = getattr(bundle, "production", None)
+    costs = getattr(bundle, "costs", None)
+    flgt = getattr(bundle, "flgt", None)
+
+    try:
+        if cr is not None:
+            _put(discounted_ncf_dataset(cr))
+    except Exception:
+        pass
+
+    try:
+        if cr is not None and prod is not None:
+            _put(economic_limit_dataset(cr, prod))
+    except Exception:
+        pass
+
+    try:
+        if prod is not None:
+            _put(production_summary_dataset(prod, "oil"))
+            _put(production_summary_dataset(prod, "gas"))
+    except Exception:
+        pass
+
+    try:
+        if costs is not None:
+            _put(cost_profile_dataset(costs, "oil"))
+            _put(cost_profile_dataset(costs, "gas"))
+    except Exception:
+        pass
+
+    try:
+        if flgt is not None:
+            _put(flgt_take_dataset(flgt))
+    except Exception:
+        pass
+
+    return out
 
 
 def build_presentation(bundle: RunBundle) -> PresentationBundle:
@@ -287,8 +348,11 @@ def build_presentation(bundle: RunBundle) -> PresentationBundle:
         DisplayRow("rep_export", "Export", "Deferred (PDF/Word) — first slice shows dataset only", status="deferred"),
     ]
 
+    chart_datasets = build_authorized_chart_datasets(bundle)
+
     deferred = [
-        "Charts (41 Excel / dual-axis engine) — separate sub-gate",
+        "Chart plot rendering / dual-axis engine — DEFERRED "
+        f"({len(chart_datasets)} authorized ChartDataset(s) attached to presentation; no plot UI yet)",
         "Sensitivity / Analysis UI — DEFERRED",
         "Monte Carlo — DEFERRED",
         "MIRR — not on RESULTS Equity contract (not invented)",
@@ -307,4 +371,5 @@ def build_presentation(bundle: RunBundle) -> PresentationBundle:
         reports_rows=reports_rows,
         deferred_banners=deferred,
         notes=list(bundle.notes),
+        chart_datasets=chart_datasets,
     )

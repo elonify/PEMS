@@ -219,6 +219,60 @@ def test_pt10_build_presentation_uses_existing_dto_fields() -> None:
     assert npv.raw == b.results.n7_contractor_npv_ait
 
 
+def test_pt11_authorized_chart_datasets_attached() -> None:
+    """Five authorized families appear as ChartDatasets on PresentationBundle."""
+    from pems.calculations.modules.costs import StreamCostResult
+
+    b = _minimal_bundle()
+    # Enrich DTOs so series are non-empty (still projection-only).
+    b.cr_ncf.years = [2027, 2028]
+    b.cr_ncf.disc_contractor_ah = {2027: -1.0, 2028: 2.0}
+    b.cr_ncf.disc_cncf_ai = {2027: -1.0, 2028: 1.0}
+    b.production.oil_daily_series = {2027: 8.0, 2028: 7.0}
+    b.production.oil_annual_series = {2027: 3.0, 2028: 2.5}
+    b.production.oil_cum_series = {2027: 3.0, 2028: 5.5}
+    b.production.gas_daily_series = {2027: 1.0}
+    b.production.gas_annual_series = {2027: 0.4}
+    b.production.gas_cum_series = {2027: 0.4}
+    b.costs.oil = StreamCostResult(
+        years=[2027],
+        exploration={2027: 1.0},
+        capex_wells={2027: 2.0},
+        capex_facilities={2027: 3.0},
+        opex={2027: 0.5},
+    )
+    b.costs.gas = StreamCostResult(
+        years=[2027],
+        exploration={2027: 0.1},
+        capex_wells={2027: 0.2},
+        capex_facilities={2027: 0.3},
+        opex={2027: 0.05},
+    )
+    b.flgt.years = [2027]
+    b.flgt.bonuses = {2027: 1.0}
+    b.flgt.oil_royalty_mm = {2027: 0.5}
+
+    pres = build_presentation(b)
+    expected_ids = {
+        "PROJECT_DISCOUNTED_NCF",
+        "ECONOMIC_LIMIT",
+        "OIL_PRODUCTION_SUMMARY",
+        "GAS_PRODUCTION_SUMMARY",
+        "OIL_COST_PROFILE",
+        "GAS_COST_PROFILE",
+        "FLGT_TAKE",
+    }
+    assert expected_ids <= set(pres.chart_datasets.keys())
+    assert len(pres.chart_datasets) == 7
+    for ds_id, ds in pres.chart_datasets.items():
+        assert ds.dataset_id == ds_id
+        assert len(ds.series) >= 1
+    # Values projected from DTO (no recompute)
+    ncf = pres.chart_datasets["PROJECT_DISCOUNTED_NCF"]
+    annual = next(s for s in ncf.series if s.key == "annual_discounted_ncf")
+    assert list(annual.y) == [-1.0, 2.0]
+
+
 @pytest.mark.slow
 def test_integration_run_service_from_gm_optional() -> None:
     """Optional GM path — skip if too heavy in quick loops; still valid PT."""
