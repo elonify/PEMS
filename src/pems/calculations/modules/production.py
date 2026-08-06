@@ -29,6 +29,24 @@ def _map_to_sorted_lists(m: dict[int, float]) -> tuple[list[int], list[float]]:
     return years, [m[y] for y in years]
 
 
+def _pp_cum_from_annual(annual: dict[int, float]) -> dict[int, float]:
+    """GM Chart_Cum / AG_Chart_Cum (F / I).
+
+    Fn = IF(En=0, 0, SUM(E$first:En)) — zero annual forces cum display to 0;
+    later non-zero years still sum the full history including intermediate zeros.
+    """
+    if not annual:
+        return {}
+    years = sorted(annual.keys())
+    running = 0.0
+    out: dict[int, float] = {}
+    for y in years:
+        a = float(annual.get(y, 0.0) or 0.0)
+        running += a
+        out[y] = 0.0 if a == 0.0 else running
+    return out
+
+
 @dataclass
 class ProductionResult:
     """Production outputs + GM cell map for GTC."""
@@ -55,6 +73,9 @@ class ProductionResult:
     pp_annual_by_year: dict[int, float] = field(default_factory=dict)  # E
     pp_ag_rate_by_year: dict[int, float] = field(default_factory=dict)  # G
     pp_ag_annual_by_year: dict[int, float] = field(default_factory=dict)  # H
+    # Chart_Cum / AG_Chart_Cum (F / I) — analytical PP path only
+    pp_cum_by_year: dict[int, float] = field(default_factory=dict)  # F
+    pp_ag_cum_by_year: dict[int, float] = field(default_factory=dict)  # I
 
     # G4/G5 Prod_Summary series
     oil_daily_series: dict[int, float] = field(default_factory=dict)  # T
@@ -222,6 +243,9 @@ class ProductionModule:
                     result.pp_ag_annual_by_year = {
                         y: (gor * a) / 1000.0 for y, a in result.pp_annual_by_year.items()
                     }
+                # Chart_Cum / AG_Chart_Cum: IF(annual=0,0,SUM(annual first..current))
+                result.pp_cum_by_year = _pp_cum_from_annual(result.pp_annual_by_year)
+                result.pp_ag_cum_by_year = _pp_cum_from_annual(result.pp_ag_annual_by_year)
 
         # G4/G5 — Prod_Summary from block series or analytical PP
         oil_daily = _series_to_map(case.oil_block_daily)

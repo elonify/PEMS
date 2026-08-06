@@ -141,6 +141,67 @@ def test_start_lag_zeros_before_commencement() -> None:
     assert r.pp_rate_by_year[2026] == 0.0
 
 
+def test_pp_cum_zero_annual_gate_and_running_sum() -> None:
+    """GM F/I: IF(E=0,0,SUM(E first..current)); same for AG H → I."""
+    from pems.calculations.modules.production import _pp_cum_from_annual
+
+    # Unit pure helper
+    annual = {2026: 0.0, 2027: 1.0, 2028: 0.0, 2029: 2.5}
+    cum = _pp_cum_from_annual(annual)
+    assert cum[2026] == 0.0
+    assert cum[2027] == 1.0
+    assert cum[2028] == 0.0  # zero annual → display 0 (not 1.0)
+    assert cum[2029] == 3.5  # 1.0 + 0.0 + 2.5
+
+    # Full module: lag year 2026 annual 0 → cum 0; later years running sum of E
+    r = ProductionModule().run(_gtc_pp_case())
+    assert r.pp_cum_by_year
+    assert r.pp_cum_by_year.get(2026, None) == 0.0
+    years = sorted(r.pp_annual_by_year.keys())
+    running = 0.0
+    for y in years:
+        a = r.pp_annual_by_year[y]
+        running += a
+        expected = 0.0 if a == 0.0 else running
+        assert abs(r.pp_cum_by_year[y] - expected) < 1e-12
+        # AG cum matches same gate on AG annual
+        ag_a = r.pp_ag_annual_by_year[y]
+        assert (r.pp_ag_cum_by_year[y] == 0.0) if ag_a == 0.0 else (
+            r.pp_ag_cum_by_year[y] > 0.0 or abs(r.pp_ag_cum_by_year[y] - 0.0) < 1e-15
+        )
+
+
+def test_pp_ag_cum_zero_in_giip_mode() -> None:
+    r = ProductionModule().run(_gtc_pp_case(pp_mode="GIIP"))
+    assert r.pp_ag_cum_by_year
+    assert all(v == 0.0 for v in r.pp_ag_cum_by_year.values())
+
+
+def test_pp_cum_empty_when_analytical_pp_skipped() -> None:
+    """No year_end_anchor → no PP series → cum maps stay empty."""
+    case = case_input_from_mapping(
+        {
+            "pp_mode": "STOIIP",
+            "stoiip_inplace": 10.0,
+            "oil_rf": 0.3,
+            "project_start_year": 2027,
+            "oil_block_daily": [[2027, 1.0], [2028, 1.0]],
+            "oil_block_annual": [[2027, 0.5], [2028, 0.5]],
+            "gas_block_daily": [[2027, 0.0], [2028, 0.0]],
+            "gas_block_annual": [[2027, 0.0], [2028, 0.0]],
+            # omit year_end_anchor / design drivers so analytical PP block does not run
+        }
+    )
+    r = ProductionModule().run(case)
+    assert r.path_used == "block_selected"
+    assert r.pp_rate_by_year == {}
+    assert r.pp_annual_by_year == {}
+    assert r.pp_cum_by_year == {}
+    assert r.pp_ag_cum_by_year == {}
+    # Prod_Summary cum still populated from block path
+    assert r.oil_cum_series
+
+
 def test_ec_io_life_interface() -> None:
     case = _gtc_pp_case(
         oil_block_daily=[[2027 + i, 1.0 if i < 15 else 0.0] for i in range(20)],
