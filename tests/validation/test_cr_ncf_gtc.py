@@ -88,3 +88,83 @@ def test_cr_ncf_gtc_anchors(repo_root: Path, active_gm_case) -> None:
 
     assert res.mismatch == 0, f"mismatches={mismatches}; exact={res.exact} tol={res.tolerance}"
     assert res.exact + res.tolerance + res.expected_error_ok >= 11
+
+
+# Cached Equity_NCF_Con sample years (formula_cached_results_all.csv, D07560CA…).
+# Row → calendar year from Equity_NCF_Con!A; values from AF/AH/AI columns.
+EQUITY_ANNUAL_SAMPLES: dict[int, dict[str, float]] = {
+    2027: {  # row 8
+        "AF": -0.264526336399821,
+        "AH": -0.264526336399821,
+        "AI": -0.264526336399821,
+    },
+    2029: {  # row 10
+        "AF": -0.166410482587712,
+        "AH": -0.1258302325805,
+        "AI": -48.944896067154,
+    },
+    2031: {  # row 12
+        "AF": 40.3791342284605,
+        "AH": 23.086901049359,
+        "AI": -2.06151282458117,
+    },
+    2034: {  # row 15
+        "AF": 18.3607574641536,
+        "AH": 6.90248881181975,
+        "AI": 29.0847375626801,
+    },
+    2039: {  # row 20
+        "AF": 1.71127036009581,
+        "AH": 0.319848666204418,
+        "AI": 38.2539822196466,
+    },
+}
+
+
+def test_cr_ncf_equity_annual_maps_gtc(repo_root: Path, active_gm_case) -> None:
+    """Slice A equity AF/AH/AI year maps vs GM Equity_NCF_Con cache samples."""
+    case = active_gm_case
+    prod = ProductionModule().run(case)
+    costs = CostsModule().run(case)
+    flgt = FlgtRoyaltiesModule().run(case, upstream={"production": prod})
+    result = CrNcfModule().run(
+        case, upstream={"production": prod, "costs": costs, "flgt": flgt}
+    )
+
+    assert result.equity_contractor_af
+    assert result.equity_dncf_by_year
+    assert result.equity_cum_dncf_by_year
+
+    # Scalars preserved (project NPV × share) — already in CONTRACT_EXPECTED via cell_map
+    assert abs(result.equity_ah51 - 38.2636887228085) < 1e-9
+    assert abs(result.equity_ag51 - 73.2829654000993) < 1e-9
+
+    mismatches: list[str] = []
+    for year, exp in EQUITY_ANNUAL_SAMPLES.items():
+        got_af = result.equity_contractor_af.get(year)
+        got_ah = result.equity_dncf_by_year.get(year)
+        got_ai = result.equity_cum_dncf_by_year.get(year)
+        for label, got, want in (
+            ("AF", got_af, exp["AF"]),
+            ("AH", got_ah, exp["AH"]),
+            ("AI", got_ai, exp["AI"]),
+        ):
+            ok, kind = values_equal(want, got)
+            if not ok:
+                mismatches.append(f"{year} {label}: got={got} want={want} ({kind})")
+
+    # Share-homogeneity: equity AF == project AF × C4 for sampled years
+    share = float(case.equity_share_company_1 or 0.0)
+    assert abs(share - 0.49) < 1e-12
+    for year in EQUITY_ANNUAL_SAMPLES:
+        proj = result.contractor_af.get(year, 0.0)
+        eq_af = result.equity_contractor_af.get(year, 0.0)
+        assert abs(eq_af - proj * share) < 1e-12, (year, eq_af, proj, share)
+
+    # Strict AI gate: at D22 and after, cum map is 0
+    d22 = int(case.extras.get("price_path_end_year") or 2042)
+    assert d22 == 2042
+    assert result.equity_cum_dncf_by_year.get(d22, 0.0) == 0.0
+    assert result.equity_cum_dncf_by_year.get(d22 + 1, 0.0) == 0.0
+
+    assert not mismatches, "equity annual mismatches:\n" + "\n".join(mismatches)

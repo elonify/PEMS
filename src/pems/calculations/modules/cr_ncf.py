@@ -130,6 +130,10 @@ class CrNcfResult:
     au14_irr: float | str = "NO_VALID_IRR"
     equity_ag51: float = 0.0
     equity_ah51: float = 0.0
+    # Equity annual maps (Equity_NCF_Con AF / AH / AI) — Slice A share-homogeneous path
+    equity_contractor_af: dict[int, float] = field(default_factory=dict)  # AF undisc
+    equity_dncf_by_year: dict[int, float] = field(default_factory=dict)  # AH annual DNCF
+    equity_cum_dncf_by_year: dict[int, float] = field(default_factory=dict)  # AI cum DNCF
     # CR samples
     cr_g8: float | None = None
     cr_h8: float | None = None
@@ -365,8 +369,32 @@ class CrNcfModule:
         result.au14_irr = excel_irr(ak_ordered[:45])
 
         eq = float(case.equity_share_company_1 or 0.0)
+        # Scalar equity NPVs: preserve project-NPV × share (GTC AG51/AH51).
         result.equity_ag51 = result.ag51 * eq
         result.equity_ah51 = result.ah51 * eq
+
+        # --- Equity year-keyed AF / AH / AI (Slice A) ---
+        # GM evidence (Confirmed-2026-08-03 baseline): Equity_NCF_Con is a
+        # share-homogeneous parallel of Project_NCF — cached equity AF/AH equal
+        # project AF/AH × Equity Dash!C4 for all sampled years. Slice A therefore
+        # derives equity maps from project contractor_af × share rather than a
+        # full CIT/HT equity engine rebuild. Re-validate if equity CIT ever
+        # diverges from pure C4 scaling.
+        # AH discounts equity AF with the same DF as project AH.
+        # AI = running SUM(AH) with strict year < D22 (Equity_NCF_Con!AI, not ≤).
+        run_eq_ai = 0.0
+        for y in years:
+            eaf = float(result.contractor_af.get(y, 0.0) or 0.0) * eq
+            gate = 1.0 if y <= d22 else 0.0
+            df = (1.0 + hurdle * (1.0 + n14)) ** (y - start) if gate else 1.0
+            edncf = (eaf / df) if df else 0.0
+            run_eq_ai += edncf
+            # Equity AI gate is strict < D22 (Project AI uses ≤).
+            ecum = run_eq_ai if y < d22 else 0.0
+            result.equity_contractor_af[y] = eaf
+            result.equity_dncf_by_year[y] = edncf
+            result.equity_cum_dncf_by_year[y] = ecum
+
         return result
 
     def _build_cr_econ(self, case, flgt, costs, prod) -> list[CrEconYear]:

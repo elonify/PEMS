@@ -130,6 +130,69 @@ def test_equity_scale() -> None:
     assert abs(r.equity_ah51 - 0.5 * r.ah51) < 1e-12
 
 
+def test_equity_af_dncf_maps_slice_a() -> None:
+    """Slice A: equity AF = project AF × share; AH = eAF/DF; AI uses strict < D22."""
+    case = case_input_from_mapping(
+        {
+            "hurdle_rate": 0.10,
+            "project_start_year": 2027,
+            "equity_share_company_1": 0.5,
+            "price_path_end_year": 2029,  # D22 = 2029
+            "licence_lease_status": "New Acreage",
+            "pfs_contract_type": "PSC/SC",
+        }
+    )
+    # Years 2027, 2028, 2029, 2030 — D22=2029 so AI zero at 2029+
+    case.extras["project_ncf_intermediates"] = {
+        "A": [[2027, 2027], [2028, 2028], [2029, 2029], [2030, 2030]],
+        "B": [[2027, 100.0], [2028, 100.0], [2029, 100.0], [2030, 100.0]],
+        "E": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "F": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "G": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "H": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "I": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "J": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "O": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "P": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "Q": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "R": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "W": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "X": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "AB": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "AC": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "AD": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+        "AK": [[2027, 0], [2028, 0], [2029, 0], [2030, 0]],
+    }
+    case.extras["price_path_end_year"] = 2029
+    r = CrNcfModule().run(case)
+    share = 0.5
+    d22 = 2029
+    start = 2027
+    hurdle = 0.10
+
+    assert set(r.equity_contractor_af) == set(r.contractor_af)
+    run = 0.0
+    for y in r.years:
+        eaf = r.contractor_af[y] * share
+        assert abs(r.equity_contractor_af[y] - eaf) < 1e-12
+        gate = y <= d22
+        df = (1.0 + hurdle) ** (y - start) if gate else 1.0
+        edncf = eaf / df if df else 0.0
+        assert abs(r.equity_dncf_by_year[y] - edncf) < 1e-12
+        run += edncf
+        expected_cum = run if y < d22 else 0.0
+        assert abs(r.equity_cum_dncf_by_year[y] - expected_cum) < 1e-12, (y, r.equity_cum_dncf_by_year[y], expected_cum)
+
+    # Strict < D22: cumulative present for years before end, zero at D22 and after
+    assert r.equity_cum_dncf_by_year[2028] != 0.0 or r.equity_dncf_by_year[2027] == 0.0
+    assert r.equity_cum_dncf_by_year[2029] == 0.0
+    assert r.equity_cum_dncf_by_year[2030] == 0.0
+    # Project AI uses ≤ so may be non-zero at D22 while equity AI is 0
+    assert r.disc_cncf_ai.get(2029, 0.0) != 0.0 or r.disc_contractor_ah.get(2029, 0.0) == 0.0
+    # Scalars still project NPV × share
+    assert abs(r.equity_ah51 - share * r.ah51) < 1e-12
+
+
 def test_discount_year_zero() -> None:
     case = case_input_from_mapping(
         {
