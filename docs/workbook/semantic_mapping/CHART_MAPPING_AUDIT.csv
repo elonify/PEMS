@@ -1,10 +1,10 @@
 worksheet,chart_index,chart_type,title_text,series_count,template_candidate,module_source_candidate,series_formulas,named_range_present,direct_sheet_ref_present,mapping_status,implementation_authorized
-Ec_IO,1,AreaChart,Economic Limit Chart,1,ECONOMIC_LIMIT,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,NO
-Ec_IO,2,AreaChart,,2,PENDING_SEMANTIC_MAP,Ec_IO / existing production-cost-NCF presentation data,[0]!Annual_Oil | Prod_Summary!$S$5:$S$23 | [0]!Cum_Oil | Prod_Summary!$S$5:$S$31,1,1,REVIEW_REQUIRED,NO
-Ec_IO,3,AreaChart,,2,PENDING_SEMANTIC_MAP,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_Gas | Prod_Summary!$S$5:$S$31 | [0]!Annual_Gas | Prod_Summary!$S$5:$S$46,1,1,REVIEW_REQUIRED,NO
-Ec_IO,4,BarChart,Oil Cost Profile,4,COST_PROFILE,Ec_IO / existing production-cost-NCF presentation data,[0]!Expl_Appr. | [0]!Years_Prod | [0]!Wells_CAP | [0]!Fac_CAP | [0]!OPEX,1,0,REVIEW_REQUIRED,NO
-Ec_IO,5,AreaChart,Gas Cost Profile,1,COST_PROFILE,Ec_IO / existing production-cost-NCF presentation data,[0]!Gas_Expl_Appr. | [0]!Years_Prod,1,0,REVIEW_REQUIRED,NO
-Ec_IO,6,AreaChart,Project Discounted NCF,1,DISCOUNTED_NCF,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,NO
+Ec_IO,1,AreaChart,Economic Limit Chart,1,ECONOMIC_LIMIT,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,YES
+Ec_IO,2,AreaChart,,2,PRODUCTION_SUMMARY,Ec_IO / existing production-cost-NCF presentation data,[0]!Annual_Oil | Prod_Summary!$S$5:$S$23 | [0]!Cum_Oil | Prod_Summary!$S$5:$S$31,1,1,REVIEW_REQUIRED,YES
+Ec_IO,3,AreaChart,,2,PRODUCTION_SUMMARY,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_Gas | Prod_Summary!$S$5:$S$31 | [0]!Annual_Gas | Prod_Summary!$S$5:$S$46,1,1,REVIEW_REQUIRED,YES
+Ec_IO,4,BarChart,Oil Cost Profile,4,COST_PROFILE,Ec_IO / existing production-cost-NCF presentation data,[0]!Expl_Appr. | [0]!Years_Prod | [0]!Wells_CAP | [0]!Fac_CAP | [0]!OPEX,1,0,REVIEW_REQUIRED,YES
+Ec_IO,5,AreaChart,Gas Cost Profile,1,COST_PROFILE,Ec_IO / existing production-cost-NCF presentation data,[0]!Gas_Expl_Appr. | [0]!Years_Prod,1,0,REVIEW_REQUIRED,YES
+Ec_IO,6,AreaChart,Project Discounted NCF,1,DISCOUNTED_NCF,Ec_IO / existing production-cost-NCF presentation data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,YES
 STOIIP,1,LineChart,STOIIP,5,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,STOIIP!$D$40:$D$48 | STOIIP!$C$40:$C$48 | STOIIP!$E$40:$E$48 | STOIIP!$F$40:$F$48 | STOIIP!$G$40:$G$48 | STOIIP!$H$40:$H$48,0,1,REVIEW_REQUIRED,NO
 STOIIP,2,BarChart,"STOIIP, MMSTB",3,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,STOIIP!$D$40:$H$40 | STOIIP!$D$39:$H$39 | STOIIP!$D$44:$H$44 | STOIIP!$D$48:$H$48,0,1,REVIEW_REQUIRED,NO
 STOIIP,3,LineChart,%Change in STOIIP,5,PENDING_SEMANTIC_MAP,NOT MAPPED — reservoir sensitivity/detail surface,STOIIP!$O$40:$O$48 | STOIIP!$N$40:$N$48 | STOIIP!$P$40:$P$48 | STOIIP!$Q$40:$Q$48 | STOIIP!$R$40:$R$48 | STOIIP!$S$40:$S$48,0,1,REVIEW_REQUIRED,NO
@@ -17,12 +17,12 @@ Production Profile,1,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual
 Production Profile,2,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual production-rate data,'Production Profile'!AG_Chart_Rates | [0]!Years_Charts,1,1,REVIEW_REQUIRED,NO
 OML123_Oil_S1,1,BarChart,OML 123 SCENARIO 1,1,PENDING_SEMANTIC_MAP,NOT MAPPED — peripheral scenario surface,OML123_Oil_S1!$CP$4:$CP$45 | OML123_Oil_S1!$CN$4:$CN$45,0,1,REVIEW_REQUIRED,NO
 Prod_Summary,1,LineChart,,1,PENDING_SEMANTIC_MAP,ProductionResult / annual and cumulative production data,Prod_Summary!$C$5:$C$46,0,1,REVIEW_REQUIRED,NO
-Prod_Summary,2,AreaChart,,2,PENDING_SEMANTIC_MAP,ProductionResult / annual and cumulative production data,[0]!Annual_Oil | Prod_Summary!$S$5:$S$23 | [0]!Cum_Oil | Prod_Summary!$S$5:$S$31,1,1,REVIEW_REQUIRED,NO
-Prod_Summary,3,AreaChart,,2,PENDING_SEMANTIC_MAP,ProductionResult / annual and cumulative production data,[0]!Cum_Gas | Prod_Summary!$S$5:$S$31 | [0]!Annual_Gas | Prod_Summary!$S$5:$S$46,1,1,REVIEW_REQUIRED,NO
-Block_TC,1,BarChart,Cost Profile,4,COST_PROFILE,CostResult / oil cost components,[0]!Expl_Appr. | [0]!Years_Prod | [0]!Wells_CAP | [0]!Fac_CAP | [0]!OPEX,1,0,REVIEW_REQUIRED,NO
-Block_TC_Gas,1,AreaChart,Gas Cost Profile,1,COST_PROFILE,CostResult / gas cost components,[0]!Gas_Expl_Appr. | [0]!Years_Prod,1,0,REVIEW_REQUIRED,NO
-FLGT,1,BarChart,Front-Loaded Govt Take,7,FLGT_TAKE,FLGTResult / government-take data,FLGT!$AA$7:$AA$28 | FLGT!$A$7:$A$28 | FLGT!$AB$7:$AB$28 | FLGT!$AC$7:$AC$28 | FLGT!$AD$7:$AD$28 | FLGT!$AE$7:$AE$28 | FLGT!$AF$7:$AF$28 | FLGT!$AG$7:$AG$28,0,1,REVIEW_REQUIRED,NO
-Project_NCF,1,AreaChart,Project Discounted NCF,1,DISCOUNTED_NCF,CR_NCFResult / project discounted NCF data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,NO
+Prod_Summary,2,AreaChart,,2,PRODUCTION_SUMMARY,ProductionResult / annual and cumulative production data,[0]!Annual_Oil | Prod_Summary!$S$5:$S$23 | [0]!Cum_Oil | Prod_Summary!$S$5:$S$31,1,1,REVIEW_REQUIRED,YES
+Prod_Summary,3,AreaChart,,2,PRODUCTION_SUMMARY,ProductionResult / annual and cumulative production data,[0]!Cum_Gas | Prod_Summary!$S$5:$S$31 | [0]!Annual_Gas | Prod_Summary!$S$5:$S$46,1,1,REVIEW_REQUIRED,YES
+Block_TC,1,BarChart,Cost Profile,4,COST_PROFILE,CostResult / oil cost components,[0]!Expl_Appr. | [0]!Years_Prod | [0]!Wells_CAP | [0]!Fac_CAP | [0]!OPEX,1,0,REVIEW_REQUIRED,YES
+Block_TC_Gas,1,AreaChart,Gas Cost Profile,1,COST_PROFILE,CostResult / gas cost components,[0]!Gas_Expl_Appr. | [0]!Years_Prod,1,0,REVIEW_REQUIRED,YES
+FLGT,1,BarChart,Front-Loaded Govt Take,7,FLGT_TAKE,FLGTResult / government-take data,FLGT!$AA$7:$AA$28 | FLGT!$A$7:$A$28 | FLGT!$AB$7:$AB$28 | FLGT!$AC$7:$AC$28 | FLGT!$AD$7:$AD$28 | FLGT!$AE$7:$AE$28 | FLGT!$AF$7:$AF$28 | FLGT!$AG$7:$AG$28,0,1,REVIEW_REQUIRED,YES
+Project_NCF,1,AreaChart,Project Discounted NCF,1,DISCOUNTED_NCF,CR_NCFResult / project discounted NCF data,[0]!Cum_DNCF | [0]!Years_Prod,1,0,REVIEW_REQUIRED,YES
 Analysis,1,ScatterChart,% Change in NPV,8,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$U$84:$U$92 | Analysis!$V$84:$V$92 | Analysis!$W$84:$W$92 | Analysis!$X$84:$X$92 | Analysis!$Y$84:$Y$92 | Analysis!$Z$84:$Z$92 | Analysis!$AA$84:$AA$92 | Analysis!$AB$84:$AB$92 | Analysis!$AC$84:$AC$92,0,1,DEFERRED,NO
 Analysis,2,ScatterChart,NPV,8,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$J$84:$J$92 | Analysis!$K$84:$K$92 | Analysis!$L$84:$L$92 | Analysis!$M$84:$M$92 | Analysis!$N$84:$N$92 | Analysis!$O$84:$O$92 | Analysis!$P$84:$P$92 | Analysis!$Q$84:$Q$92 | Analysis!$R$84:$R$92,0,1,DEFERRED,NO
 Analysis,3,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$C$23:$C$33 | Analysis!$D$23:$D$33,0,1,DEFERRED,NO
