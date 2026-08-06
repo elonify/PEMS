@@ -18,17 +18,17 @@ The project is a presentation-layer chart dataset/building effort for the PEMS w
 
 | Item | Value |
 |------|--------|
-| **Commit** | **`0a6d456`** |
-| Message | `feat(presentation): Phase 1H ChartDataset builders + audit authorization` |
+| **HEAD / baseline** | **`8d2c1cc`** |
+| Message | `docs(phase1h): design ticket for PP cumulative maps (calc layer)` |
+| Key implementation commits | `0a6d456` (builders + audit) · `19b4ca8` (PresentationBundle.chart_datasets) · `8d2c1cc` (PP cum design ticket) |
 | Branch | `master` (local) |
-| Working tree (this slice) | **clean** after commit |
 | Push / tag | **not done** |
 
 ### Overall assessment
 
-Approximate overall progress: **7.5 / 10**.
+Approximate overall progress: **8.0 / 10**.
 
-Five authorized chart families are implemented, unit-tested, audit-authorized (12 rows), and **committed**. UI wiring and workbook-parity validation remain open. Remaining chart families are blocked on DTO gaps or deferred (Analysis).
+Five authorized chart families are implemented, unit-tested, audit-authorized (12 rows), and **committed**. **`PresentationBundle.chart_datasets`** attaches the seven authorized dataset IDs (five families; oil/gas doubled) via pure builders (`19b4ca8`). Plot rendering / dual-axis UI remains deferred. PP cumulative maps are **designed** (`TICKET_PP_CUMULATIVE_MAPS.md`, `8d2c1cc`) but not implemented — await calc-layer authorization. Remaining chart families blocked on DTO gaps or deferred (Analysis).
 
 ### Current strengths
 
@@ -37,14 +37,14 @@ Five authorized chart families are implemented, unit-tested, audit-authorized (1
 - Five core chart families have presentation dataset builders.
 - DTO-to-chart mappings for those five families established.
 - Builders are projection-only and isolated from Excel/calculation code.
-- Unit coverage in place.
-- Verification baseline:
-  - **49 passed**
+- Unit coverage in place (`test_chart_datasets` + presentation PT including PT11).
+- Verification baseline (post-wiring):
+  - **50 passed**
   - **1 pre-existing unregistered `@pytest.mark.slow` warning**
   - `compileall src/pems/presentation` OK
-- Not wired into UI yet.
+- Chart **data** wired into presentation bundle; plot **UI** not started.
 - Workbook parity has **not** been claimed as fully validated.
-
+- Product scope continuity: `docs/pems/PEMS_PRODUCT_SCOPE.md`.
 ### Important distinction
 
 Keep these states separate:
@@ -160,40 +160,53 @@ src/pems/presentation/__init__.py   # re-exports charts package
 
 `templates.py`: six templates including `EQUITY_CASHFLOW` placeholder (no builder).
 
-Package is self-contained; **not** wired to UI / view models / run service.
+`view_models.build_presentation` calls `build_authorized_chart_datasets(bundle)` and attaches results. PySide6 UI still renders **tables only** (no Charts page / no plots).
 
 ---
 
 ## 5. Current Git state
 
-### Committed in `0a6d456`
+### Baseline stack (through `8d2c1cc`)
+
+| Commit | Content |
+|--------|---------|
+| `0a6d456` | Five ChartDataset builders + audit authorization (12 rows YES) |
+| `e07c9d7` | Canonical handoff (initial post-0a6d456) |
+| `2cd09a3` | Status & Roadmap doc |
+| `b7a05ee` | Product scope doc → `docs/pems/PEMS_PRODUCT_SCOPE.md` |
+| **`19b4ca8`** | **`PresentationBundle.chart_datasets`** — five authorized families attached |
+| **`8d2c1cc`** | Design ticket: PP cumulative maps (calc layer) |
+
+### Presentation wiring (`19b4ca8`)
 
 ```text
-docs/workbook/semantic_mapping/CHART_MAPPING_AUDIT.csv   (12 rows YES)
-src/pems/presentation/__init__.py
-src/pems/presentation/charts/__init__.py
-src/pems/presentation/charts/datasets.py
-src/pems/presentation/charts/templates.py
-tests/unit/test_chart_datasets.py
+PresentationBundle.chart_datasets: dict[str, ChartDataset]
 ```
 
-**6 files**, +1172 / −12 lines.
+Official IDs (7):  
+`PROJECT_DISCOUNTED_NCF`, `ECONOMIC_LIMIT`,  
+`OIL_PRODUCTION_SUMMARY`, `GAS_PRODUCTION_SUMMARY`,  
+`OIL_COST_PROFILE`, `GAS_COST_PROFILE`, `FLGT_TAKE`.
 
-### Working tree
+Helper: `build_authorized_chart_datasets(bundle)` in `view_models.py`.  
+Test: `test_pt11_authorized_chart_datasets_attached`.
 
-After `0a6d456`, working tree was **clean** for this slice. Subsequent handoff doc updates may appear as unstaged/staged documentation only.
+### PP cumulative design (`8d2c1cc`)
 
-### Verification baseline (pre-commit and post-commit)
+```text
+docs/phase1h/TICKET_PP_CUMULATIVE_MAPS.md
+```
+
+GM F/I formulas documented; **no calc code yet** — awaits explicit calc-layer / PO authorization.
+
+### Verification baseline (post-wiring)
 
 ```text
 pytest tests/unit/test_chart_datasets.py tests/unit/test_presentation.py -q
-49 passed, 1 pre-existing @pytest.mark.slow warning
+50 passed, 1 pre-existing @pytest.mark.slow warning
 
 python -m compileall -q src/pems/presentation
 OK
-
-git diff --cached --check
-clean (at commit readiness)
 ```
 
 ---
@@ -326,15 +339,11 @@ Do not confuse Prod_Summary cum maps with missing PP `Chart_Cum` / `AG_Chart_Cum
 ## 9. Next priorities (evidence-gated only)
 
 1. Do **not** invent missing DTO/calculation outputs in presentation.
-2. Next implementation only if:
-   - audit `implementation_authorized=YES` for that row/family; **and**
-   - complete year-keyed DTO maps exist (or calc/DTO work is separately authorized).
-3. Natural candidates when unblocked by calc layer:
-   - Production Profile (needs PP cum maps);
-   - Equity CashFlow (needs equity annual/cum DNCF maps);
-   - Prod_Summary #1 (needs col-C semantic map).
-4. UI integration is a **separate gate** (not authorized by chart-dataset commit alone).
-5. Workbook-parity validation remains a **separate** claim — not made.
+2. **UI plot page / dual-axis engine** — still deferred; optional next is a read-only Charts (data) page only under light UI authorization.
+3. **Calc-layer (when PO authorizes):** implement `TICKET_PP_CUMULATIVE_MAPS.md` (`pp_cum_by_year` / `pp_ag_cum_by_year`), GTC vs F23…/I23…, then audit YES for Production Profile, then `production_profile_dataset`.
+4. **Equity CashFlow** — still needs year-keyed equity AH/AI maps (calc ticket not yet designed as formally as PP).
+5. Prod_Summary #1, STOIIP/GIIP, OML123, Analysis — remain blocked/deferred.
+6. Workbook-parity validation remains a **separate** claim — not made.
 
 ---
 
@@ -402,19 +411,19 @@ Do not:
 | **A** Architecture | ChartDataset structures/templates/builders isolated | `██████████` done |
 | **B** Semantic mapping | Workbook→DTO for core families | `█████████░` strong (core five) |
 | **C** Authorization | Audit YES for intended rows | `██████████` **12 rows YES** |
-| **D** Implementation | Builders + tests for authorized families | `██████████` **committed `0a6d456`** |
-| **E** Model/DTO completion | Missing DTOs for blocked charts | `████░░░░░░` gaps remain |
-| **F** UI integration | Consume ChartDataset in UI | `██░░░░░░░░` not started |
+| **D** Implementation | Builders + tests for authorized families | `██████████` **`0a6d456`** |
+| **E** Model/DTO completion | Missing DTOs for blocked charts | `█████░░░░░` PP cum **ticket only** |
+| **F** UI integration | Consume ChartDataset in UI | `█████░░░░░` **partial**: data on `PresentationBundle`; **plot UI deferred** |
 | **G** Workbook parity | Validated vs GM chart evidence | `███░░░░░░░` **not claimed** |
-| **H** Release | Full regression, docs, push as required | `████░░░░░░` local commit only |
+| **H** Release | Full regression, docs, push as required | `████░░░░░░` local commits only |
 
-**Overall: ~7.5 / 10**
+**Overall: ~8.0 / 10**
 
 ---
 
 ## 13. Recommended continuation prompt
 
-> Continue Phase 1H chart presentation from `docs/phase1h/PHASE1H_CHAT_HANDOFF.md`. Baseline commit **`0a6d456`**. Audit authority: `docs/workbook/semantic_mapping/CHART_MAPPING_AUDIT.csv` (12 rows YES, five families). Treat builders as presentation-only DTO projection. Do not invent missing DTOs. Do not claim workbook parity. Next work only if audit-authorized and DTO-ready (or separately authorized calc/DTO work). Use `NEXT` / `STATUS DELTA` / `VERIFY` rather than reconstructing the full conversation.
+> Continue Phase 1H chart presentation from `docs/phase1h/PHASE1H_CHAT_HANDOFF.md`. Baseline **`8d2c1cc`**. Audit: 12 rows YES, five families. Builders committed (`0a6d456`); `PresentationBundle.chart_datasets` attached (`19b4ca8`); PP cum calc design ticket only (`8d2c1cc` / `TICKET_PP_CUMULATIVE_MAPS.md`). Presentation-only DTO projection. No inventing DTOs. No workbook-parity claims. Plot UI still deferred. Next: calc authorization for PP cum maps, or optional Charts data page under UI auth. Use `NEXT` / `STATUS DELTA` / `VERIFY`.
 
 ---
 
@@ -423,14 +432,15 @@ Do not:
 1. Phase 1H chart presentation/dataset work.
 2. Audit authority: `CHART_MAPPING_AUDIT.csv`.
 3. PO: Dr Emmanuel Onwuka; five families authorized.
-4. Commit baseline: **`0a6d456`**.
+4. Commit baseline: **`8d2c1cc`** (includes `0a6d456`, `19b4ca8`).
 5. **12** audit rows YES; **28** still NO.
-6. Five builders committed + unit-tested.
-7. Tests: **49 passed**, 1 pre-existing slow-mark warning.
-8. Working tree clean for the implementation slice at commit time.
-9. FLGT: **keep 7-series**; `hcdt_gas` / `nddc_gas` **excluded** by chart evidence.
-10. Presentation-only; no Excel I/O or calc recompute in builders.
-11. Blockers remain: Production Profile, Equity CashFlow, STOIIP/GIIP, OML123, Prod_Summary #1, Analysis deferred.
-12. Next priorities: evidence-gated DTO work or further **explicitly authorized** families only.
-13. No UI wiring yet; no full 40-chart claim; no workbook-parity claim.
+6. Five builders committed + unit-tested; **7** `chart_datasets` on `PresentationBundle`.
+7. Tests: **50 passed**, 1 pre-existing slow-mark warning.
+8. FLGT: **keep 7-series**; `hcdt_gas` / `nddc_gas` **excluded** by chart evidence.
+9. Presentation-only; no Excel I/O or calc recompute in builders.
+10. PP cumulative: **design ticket only** — not implemented; Production Profile still blocked.
+11. Blockers remain: Production Profile (DTO), Equity CashFlow, STOIIP/GIIP, OML123, Prod_Summary #1, Analysis deferred.
+12. Milestone F **partial** (data attached; plot engine deferred).
+13. No full 40-chart claim; no workbook-parity claim.
 14. Handoff path: `docs/phase1h/PHASE1H_CHAT_HANDOFF.md`.
+15. Product scope: `docs/pems/PEMS_PRODUCT_SCOPE.md`.
