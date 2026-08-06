@@ -38,4 +38,4 @@ Analysis,12,LineChart,%Change in PI,8,PENDING_SEMANTIC_MAP,DEFERRED — sensitiv
 Analysis,13,BarChart,"Profitability Index, PI",3,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$K$374:$S$374 | Analysis!$K$373:$S$373 | Analysis!$K$378:$S$378 | Analysis!$K$382:$S$382,0,1,DEFERRED,NO
 Analysis,14,BarChart,%Change in PI,3,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$V$374:$AC$374 | Analysis!$V$373:$AC$373 | Analysis!$V$378:$AC$378 | Analysis!$V$382:$AC$382,0,1,DEFERRED,NO
 Analysis,15,ScatterChart,Oil Price Based Sensitivities of NPV and Disc. Payout,1,PENDING_SEMANTIC_MAP,DEFERRED — sensitivity/Analysis scope,Analysis!$D$22:$D$32,0,1,DEFERRED,NO
-Equity_NCF_Con,1,BarChart,Equity CashFlow with Acquisition Cost,1,EQUITY_CASHFLOW,CR_NCFResult / equity discounted cash-flow data,Equity_NCF_Con!$AH$5:$AH$34 | Equity_NCF_Con!$A$5:$A$34,0,1,REVIEW_REQUIRED,NO
+Equity_NCF_Con,1,BarChart,Equity CashFlow with Acquisition Cost,1,EQUITY_CASHFLOW,CR_NCFResult / equity discounted cash-flow data,Equity_NCF_Con!$AH$5:$AH$34 | Equity_NCF_Con!$A$5:$A$34,0,1,REVIEW_REQUIRED,YES
