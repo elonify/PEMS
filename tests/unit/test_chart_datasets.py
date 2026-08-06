@@ -17,6 +17,7 @@ from pems.presentation.charts.datasets import (
     cost_profile_dataset,
     discounted_ncf_dataset,
     economic_limit_dataset,
+    equity_cashflow_dataset,
     flgt_take_dataset,
     production_profile_dataset,
     production_summary_dataset,
@@ -829,3 +830,115 @@ def test_production_profile_uses_pp_maps_not_prod_summary() -> None:
 def test_production_profile_invalid_stream_raises() -> None:
     with pytest.raises(ValueError, match="stream must be"):
         production_profile_dataset(ProductionResult(), "combined")
+
+
+def _cr_ncf_with_equity_dncf() -> CrNcfResult:
+    """Minimal CrNcfResult with pre-computed equity DNCF maps (not calculated here)."""
+    years = [2027, 2028, 2029]
+    return CrNcfResult(
+        years=years,
+        equity_dncf_by_year={2027: -5.0, 2028: 2.5, 2029: 6.125},
+        equity_cum_dncf_by_year={2027: -5.0, 2028: -2.5, 2029: 3.625},
+        # Project decoys — must never appear in equity cashflow series
+        disc_contractor_ah={2027: 999.0, 2028: 999.0, 2029: 999.0},
+        disc_cncf_ai={2027: 888.0, 2028: 888.0, 2029: 888.0},
+        contractor_af={2027: 777.0, 2028: 777.0, 2029: 777.0},
+    )
+
+
+def test_equity_cashflow_dataset_identity_and_template() -> None:
+    ds = equity_cashflow_dataset(_cr_ncf_with_equity_dncf())
+    template = CHART_TEMPLATES["EQUITY_CASHFLOW"]
+
+    assert isinstance(ds, ChartDataset)
+    assert ds.dataset_id == "EQUITY_CASHFLOW"
+    assert ds.title == template.title
+    assert ds.title == "Equity CashFlow with Acquisition Cost"
+    assert ds.x_label == template.x_label
+    assert ds.y_label == template.y_label
+    assert ds.metadata["source"] == "CrNcfResult"
+    assert ds.metadata["template_id"] == "EQUITY_CASHFLOW"
+
+
+def test_equity_cashflow_dataset_projects_dto_series_only() -> None:
+    cr = _cr_ncf_with_equity_dncf()
+    ds = equity_cashflow_dataset(cr)
+
+    assert len(ds.series) == 2
+    annual, cumulative = ds.series
+
+    assert annual.key == "equity_dncf"
+    assert annual.label == "Equity DNCF"
+    assert list(annual.x) == cr.years
+    assert list(annual.y) == [cr.equity_dncf_by_year[y] for y in cr.years]
+
+    assert cumulative.key == "equity_cum_dncf"
+    assert cumulative.label == "Equity Cum DNCF"
+    assert list(cumulative.x) == cr.years
+    assert list(cumulative.y) == [cr.equity_cum_dncf_by_year[y] for y in cr.years]
+
+
+def test_equity_cashflow_dataset_shared_year_keys() -> None:
+    cr = _cr_ncf_with_equity_dncf()
+    ds = equity_cashflow_dataset(cr)
+    x0 = list(ds.series[0].x)
+    assert x0 == list(cr.years)
+    for s in ds.series:
+        assert list(s.x) == x0
+        assert len(s.y) == len(x0)
+
+
+def test_equity_cashflow_dataset_missing_year_yields_none() -> None:
+    cr = CrNcfResult(
+        years=[2027, 2028],
+        equity_dncf_by_year={2027: 1.0},
+        equity_cum_dncf_by_year={2027: 1.0},
+    )
+    ds = equity_cashflow_dataset(cr)
+    assert list(ds.series[0].y) == [1.0, None]
+    assert list(ds.series[1].y) == [1.0, None]
+
+
+def test_equity_cashflow_dataset_empty_years() -> None:
+    ds = equity_cashflow_dataset(CrNcfResult())
+    assert len(ds.series) == 2
+    for s in ds.series:
+        assert list(s.x) == []
+        assert list(s.y) == []
+
+
+def test_equity_cashflow_dataset_preserves_values_exactly() -> None:
+    cr = CrNcfResult(
+        years=[2027, 2028],
+        equity_dncf_by_year={2027: -10.125, 2028: 3.0 / 7.0},
+        equity_cum_dncf_by_year={2027: -10.125, 2028: -10.125 + 3.0 / 7.0},
+    )
+    ah_before = dict(cr.equity_dncf_by_year)
+    ai_before = dict(cr.equity_cum_dncf_by_year)
+    ds = equity_cashflow_dataset(cr)
+    assert list(ds.series[0].y) == [-10.125, 3.0 / 7.0]
+    assert list(ds.series[1].y) == [-10.125, -10.125 + 3.0 / 7.0]
+    assert cr.equity_dncf_by_year == ah_before
+    assert cr.equity_cum_dncf_by_year == ai_before
+
+
+def test_equity_cashflow_dataset_does_not_use_project_dncf() -> None:
+    """Must project equity maps only — not project AH/AI or scale project NCF."""
+    cr = _cr_ncf_with_equity_dncf()
+    ds = equity_cashflow_dataset(cr)
+    decoys = set(cr.disc_contractor_ah.values()) | set(cr.disc_cncf_ai.values()) | set(
+        cr.contractor_af.values()
+    )
+    for s in ds.series:
+        for v in s.y:
+            assert v not in decoys
+
+    body = inspect.getsource(datasets_mod.equity_cashflow_dataset).split(
+        "return ChartDataset", 1
+    )[0]
+    assert "disc_contractor_ah" not in body
+    assert "disc_cncf_ai" not in body
+    assert "contractor_af" not in body
+    assert "equity_share" not in body
+    assert "equity_dncf_by_year" in body
+    assert "equity_cum_dncf_by_year" in body

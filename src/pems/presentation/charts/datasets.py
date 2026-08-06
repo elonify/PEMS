@@ -355,6 +355,51 @@ def production_summary_dataset(production: Any, stream: str) -> ChartDataset:
     )
 
 
+def equity_cashflow_dataset(cr_ncf: Any) -> ChartDataset:
+    """Build Equity CashFlow dataset from CrNcfResult equity DNCF maps.
+
+    Golden Master Equity_NCF_Con chart40:
+      categories A5:A34  → cr_ncf.years
+      AH Equity DNCF     → equity_dncf_by_year
+      AI Equity Cum DNCF → equity_cum_dncf_by_year
+
+    Presentation only — projects calc-layer equity maps; no share scaling
+    and no projection of project-level discounted NCF maps.
+    """
+    template = CHART_TEMPLATES["EQUITY_CASHFLOW"]
+
+    years = list(cr_ncf.years)
+    annual = [cr_ncf.equity_dncf_by_year.get(year) for year in years]
+    cumulative = [cr_ncf.equity_cum_dncf_by_year.get(year) for year in years]
+
+    return ChartDataset(
+        dataset_id="EQUITY_CASHFLOW",
+        title=template.title,
+        x_label=template.x_label,
+        y_label=template.y_label,
+        series=(
+            ChartSeries(
+                key="equity_dncf",
+                label="Equity DNCF",
+                x=years,
+                y=annual,
+            ),
+            ChartSeries(
+                key="equity_cum_dncf",
+                label="Equity Cum DNCF",
+                x=years,
+                y=cumulative,
+            ),
+        ),
+        metadata={
+            "source": "CrNcfResult",
+            "template_id": template.template_id,
+            "gm_sheet": "Equity_NCF_Con",
+            "gm_columns": "A|AH|AI",
+        },
+    )
+
+
 def production_profile_dataset(production: Any, stream: str) -> ChartDataset:
     """Build Oil or AG Production Profile from ProductionResult PP maps.
 

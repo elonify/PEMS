@@ -51,7 +51,7 @@ CHART_TEMPLATES: dict[str, ChartTemplate] = {
     ),
     "EQUITY_CASHFLOW": ChartTemplate(
         template_id="EQUITY_CASHFLOW",
-        title="Equity CashFlow",
+        title="Equity CashFlow with Acquisition Cost",
         chart_type=ChartType.BAR,
         x_label="Year",
         y_label="Equity cash flow",

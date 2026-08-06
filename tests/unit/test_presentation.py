@@ -228,6 +228,8 @@ def test_pt11_authorized_chart_datasets_attached() -> None:
     b.cr_ncf.years = [2027, 2028]
     b.cr_ncf.disc_contractor_ah = {2027: -1.0, 2028: 2.0}
     b.cr_ncf.disc_cncf_ai = {2027: -1.0, 2028: 1.0}
+    b.cr_ncf.equity_dncf_by_year = {2027: -0.49, 2028: 0.98}
+    b.cr_ncf.equity_cum_dncf_by_year = {2027: -0.49, 2028: 0.49}
     b.production.oil_daily_series = {2027: 8.0, 2028: 7.0}
     b.production.oil_annual_series = {2027: 3.0, 2028: 2.5}
     b.production.oil_cum_series = {2027: 3.0, 2028: 5.5}
@@ -263,9 +265,10 @@ def test_pt11_authorized_chart_datasets_attached() -> None:
         "OIL_COST_PROFILE",
         "GAS_COST_PROFILE",
         "FLGT_TAKE",
+        "EQUITY_CASHFLOW",
     }
     assert expected_ids <= set(pres.chart_datasets.keys())
-    assert len(pres.chart_datasets) == 9
+    assert len(pres.chart_datasets) == 10
     for ds_id, ds in pres.chart_datasets.items():
         assert ds.dataset_id == ds_id
         assert len(ds.series) >= 1
@@ -273,6 +276,9 @@ def test_pt11_authorized_chart_datasets_attached() -> None:
     ncf = pres.chart_datasets["PROJECT_DISCOUNTED_NCF"]
     annual = next(s for s in ncf.series if s.key == "annual_discounted_ncf")
     assert list(annual.y) == [-1.0, 2.0]
+    eq = pres.chart_datasets["EQUITY_CASHFLOW"]
+    eq_annual = next(s for s in eq.series if s.key == "equity_dncf")
+    assert list(eq_annual.y) == [-0.49, 0.98]
 
 
 @pytest.mark.slow

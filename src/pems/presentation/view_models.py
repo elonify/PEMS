@@ -16,6 +16,7 @@ from pems.presentation.charts import (
     cost_profile_dataset,
     discounted_ncf_dataset,
     economic_limit_dataset,
+    equity_cashflow_dataset,
     flgt_take_dataset,
     production_profile_dataset,
     production_summary_dataset,
@@ -111,7 +112,7 @@ def _irr_row(
 
 
 def build_authorized_chart_datasets(bundle: RunBundle) -> dict[str, ChartDataset]:
-    """Build the five PO-authorized chart families from RunBundle DTOs.
+    """Build PO-authorized chart families from RunBundle DTOs.
 
     Pure projection helper — no economic re-calculation. Missing or incomplete
     DTOs yield empty series via builders; failures skip that dataset.
@@ -129,6 +130,7 @@ def build_authorized_chart_datasets(bundle: RunBundle) -> dict[str, ChartDataset
     try:
         if cr is not None:
             _put(discounted_ncf_dataset(cr))
+            _put(equity_cashflow_dataset(cr))
     except Exception:
         pass
 
