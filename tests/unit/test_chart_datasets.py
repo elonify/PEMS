@@ -18,6 +18,7 @@ from pems.presentation.charts.datasets import (
     discounted_ncf_dataset,
     economic_limit_dataset,
     flgt_take_dataset,
+    production_profile_dataset,
     production_summary_dataset,
 )
 from pems.presentation.charts.templates import CHART_TEMPLATES
@@ -703,3 +704,128 @@ def test_production_summary_uses_prod_summary_maps_not_pp() -> None:
 def test_production_summary_invalid_stream_raises() -> None:
     with pytest.raises(ValueError, match="stream must be"):
         production_summary_dataset(ProductionResult(), "combined")
+
+
+def _production_with_pp_streams() -> ProductionResult:
+    """Minimal ProductionResult with PP rate + cum maps (no recompute here)."""
+    return ProductionResult(
+        pp_rate_by_year={2026: 0.0, 2027: 1.0, 2028: 6.0},
+        pp_cum_by_year={2026: 0.0, 2027: 0.5, 2028: 2.0},
+        pp_ag_rate_by_year={2026: 0.0, 2027: 2.0, 2028: 12.0},
+        pp_ag_cum_by_year={2026: 0.0, 2027: 1.0, 2028: 4.0},
+        # Prod_Summary decoys — must not appear in PP profile series
+        oil_daily_series={2027: 999.0},
+        oil_cum_series={2027: 888.0},
+    )
+
+
+def test_production_profile_oil_mapping() -> None:
+    prod = _production_with_pp_streams()
+    ds = production_profile_dataset(prod, "oil")
+    template = CHART_TEMPLATES["PRODUCTION_PROFILE"]
+
+    assert isinstance(ds, ChartDataset)
+    assert ds.dataset_id == "OIL_PRODUCTION_PROFILE"
+    assert ds.title == "Oil Production Profile"
+    assert ds.x_label == template.x_label
+    assert ds.y_label == template.y_label
+    assert ds.metadata["stream"] == "oil"
+    assert ds.metadata["template_id"] == "PRODUCTION_PROFILE"
+    assert [s.key for s in ds.series] == ["rate", "cumulative"]
+
+    years = sorted(set(prod.pp_rate_by_year) | set(prod.pp_cum_by_year))
+    rate, cum = ds.series
+    assert list(rate.x) == years
+    assert list(rate.y) == [prod.pp_rate_by_year[y] for y in years]
+    assert list(cum.y) == [prod.pp_cum_by_year[y] for y in years]
+
+
+def test_production_profile_gas_mapping() -> None:
+    prod = _production_with_pp_streams()
+    ds = production_profile_dataset(prod, "gas")
+
+    assert ds.dataset_id == "GAS_PRODUCTION_PROFILE"
+    assert ds.title == "Associated gas Production Profile"
+    assert ds.metadata["stream"] == "gas"
+    assert [s.key for s in ds.series] == ["rate", "cumulative"]
+
+    years = sorted(set(prod.pp_ag_rate_by_year) | set(prod.pp_ag_cum_by_year))
+    rate, cum = ds.series
+    assert list(rate.y) == [prod.pp_ag_rate_by_year[y] for y in years]
+    assert list(cum.y) == [prod.pp_ag_cum_by_year[y] for y in years]
+
+
+def test_production_profile_shared_year_keys() -> None:
+    prod = _production_with_pp_streams()
+    for stream in ("oil", "gas"):
+        ds = production_profile_dataset(prod, stream)
+        x0 = list(ds.series[0].x)
+        for s in ds.series:
+            assert list(s.x) == x0
+            assert len(s.y) == len(x0)
+
+
+def test_production_profile_missing_year_yields_none() -> None:
+    prod = ProductionResult(
+        pp_rate_by_year={2027: 1.0},
+        pp_cum_by_year={2027: 0.5, 2028: 1.5},
+    )
+    ds = production_profile_dataset(prod, "oil")
+    assert list(ds.series[0].x) == [2027, 2028]
+    assert list(ds.series[0].y) == [1.0, None]
+    assert list(ds.series[1].y) == [0.5, 1.5]
+
+
+def test_production_profile_empty_stream() -> None:
+    ds = production_profile_dataset(ProductionResult(), "oil")
+    assert len(ds.series) == 2
+    for s in ds.series:
+        assert list(s.x) == []
+        assert list(s.y) == []
+
+
+def test_production_profile_preserves_values_exactly() -> None:
+    prod = ProductionResult(
+        pp_rate_by_year={2027: 1.0 / 3.0, 2028: 0.0},
+        pp_cum_by_year={2027: 1.0 / 3.0, 2028: 0.0},
+    )
+    ds = production_profile_dataset(prod, "oil")
+    assert list(ds.series[0].y) == [1.0 / 3.0, 0.0]
+    assert list(ds.series[1].y) == [1.0 / 3.0, 0.0]
+
+
+def test_production_profile_does_not_mutate_source() -> None:
+    prod = _production_with_pp_streams()
+    snaps = {
+        "pp_rate_by_year": dict(prod.pp_rate_by_year),
+        "pp_cum_by_year": dict(prod.pp_cum_by_year),
+        "pp_ag_rate_by_year": dict(prod.pp_ag_rate_by_year),
+        "pp_ag_cum_by_year": dict(prod.pp_ag_cum_by_year),
+    }
+    production_profile_dataset(prod, "oil")
+    production_profile_dataset(prod, "gas")
+    for key, before in snaps.items():
+        assert getattr(prod, key) == before
+
+
+def test_production_profile_uses_pp_maps_not_prod_summary() -> None:
+    prod = _production_with_pp_streams()
+    ds = production_profile_dataset(prod, "oil")
+    for s in ds.series:
+        for v in s.y:
+            assert v not in prod.oil_daily_series.values()
+            assert v not in prod.oil_cum_series.values()
+
+    body = inspect.getsource(datasets_mod.production_profile_dataset).split(
+        "return ChartDataset", 1
+    )[0]
+    assert "oil_daily_series" not in body
+    assert "oil_cum_series" not in body
+    assert "sum(" not in body.lower() or "sum" not in body  # no cumsum invention
+    assert "pp_rate_by_year" in body
+    assert "pp_cum_by_year" in body
+
+
+def test_production_profile_invalid_stream_raises() -> None:
+    with pytest.raises(ValueError, match="stream must be"):
+        production_profile_dataset(ProductionResult(), "combined")

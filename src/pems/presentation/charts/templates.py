@@ -70,4 +70,11 @@ CHART_TEMPLATES: dict[str, ChartTemplate] = {
         x_label="Year",
         y_label="Production rate / volume",
     ),
+    "PRODUCTION_PROFILE": ChartTemplate(
+        template_id="PRODUCTION_PROFILE",
+        title="Production Profile",
+        chart_type=ChartType.LINE,
+        x_label="Year",
+        y_label="Production rate / cumulative",
+    ),
 }

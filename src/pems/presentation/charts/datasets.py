@@ -353,3 +353,66 @@ def production_summary_dataset(production: Any, stream: str) -> ChartDataset:
             "gm_named_ranges": gm_names,
         },
     )
+
+
+def production_profile_dataset(production: Any, stream: str) -> ChartDataset:
+    """Build Oil or AG Production Profile from ProductionResult PP maps.
+
+    Golden Master chart15 (oil/primary) and chart16 (associated gas):
+      Rates_Charts / AG rates → pp_rate_by_year / pp_ag_rate_by_year  (D / G)
+      Chart_Cum / AG_Chart_Cum → pp_cum_by_year / pp_ag_cum_by_year   (F / I)
+
+    Year spine is the sorted union of rate and cum map keys (Years_Charts).
+    ``stream`` must be exactly ``\"oil\"`` or ``\"gas\"`` (gas = associated gas).
+    Presentation only — no running-sum or rate recalculation.
+    """
+    if stream not in ("oil", "gas"):
+        raise ValueError(f"stream must be 'oil' or 'gas', got {stream!r}")
+
+    template = CHART_TEMPLATES["PRODUCTION_PROFILE"]
+
+    if stream == "oil":
+        stream_label = "Oil"
+        dataset_id = "OIL_PRODUCTION_PROFILE"
+        rate_map = production.pp_rate_by_year
+        cum_map = production.pp_cum_by_year
+        gm_names = "Years_Charts|Rates_Charts|Chart_Cum"
+        series_specs = (
+            ("rate", f"{stream_label} production rate", rate_map),
+            ("cumulative", f"{stream_label} cumulative production", cum_map),
+        )
+    else:
+        stream_label = "Associated gas"
+        dataset_id = "GAS_PRODUCTION_PROFILE"
+        rate_map = production.pp_ag_rate_by_year
+        cum_map = production.pp_ag_cum_by_year
+        gm_names = "Years_Charts|AG_Chart_Rates|AG_Chart_Cum"
+        series_specs = (
+            ("rate", f"{stream_label} production rate", rate_map),
+            ("cumulative", f"{stream_label} cumulative production", cum_map),
+        )
+
+    years = sorted(set(rate_map) | set(cum_map))
+    series = tuple(
+        ChartSeries(
+            key=key,
+            label=label,
+            x=years,
+            y=[src.get(year) for year in years],
+        )
+        for key, label, src in series_specs
+    )
+
+    return ChartDataset(
+        dataset_id=dataset_id,
+        title=f"{stream_label} {template.title}",
+        x_label=template.x_label,
+        y_label=template.y_label,
+        series=series,
+        metadata={
+            "source": "ProductionResult",
+            "template_id": template.template_id,
+            "stream": stream,
+            "gm_named_ranges": gm_names,
+        },
+    )

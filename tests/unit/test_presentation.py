@@ -258,12 +258,14 @@ def test_pt11_authorized_chart_datasets_attached() -> None:
         "ECONOMIC_LIMIT",
         "OIL_PRODUCTION_SUMMARY",
         "GAS_PRODUCTION_SUMMARY",
+        "OIL_PRODUCTION_PROFILE",
+        "GAS_PRODUCTION_PROFILE",
         "OIL_COST_PROFILE",
         "GAS_COST_PROFILE",
         "FLGT_TAKE",
     }
     assert expected_ids <= set(pres.chart_datasets.keys())
-    assert len(pres.chart_datasets) == 7
+    assert len(pres.chart_datasets) == 9
     for ds_id, ds in pres.chart_datasets.items():
         assert ds.dataset_id == ds_id
         assert len(ds.series) >= 1

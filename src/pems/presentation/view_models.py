@@ -17,6 +17,7 @@ from pems.presentation.charts import (
     discounted_ncf_dataset,
     economic_limit_dataset,
     flgt_take_dataset,
+    production_profile_dataset,
     production_summary_dataset,
 )
 from pems.presentation.formats import (
@@ -141,6 +142,8 @@ def build_authorized_chart_datasets(bundle: RunBundle) -> dict[str, ChartDataset
         if prod is not None:
             _put(production_summary_dataset(prod, "oil"))
             _put(production_summary_dataset(prod, "gas"))
+            _put(production_profile_dataset(prod, "oil"))
+            _put(production_profile_dataset(prod, "gas"))
     except Exception:
         pass
 

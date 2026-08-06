@@ -7,6 +7,7 @@ from pems.presentation.charts.datasets import (
     discounted_ncf_dataset,
     economic_limit_dataset,
     flgt_take_dataset,
+    production_profile_dataset,
     production_summary_dataset,
 )
 from pems.presentation.charts.templates import CHART_TEMPLATES, ChartTemplate, ChartType
@@ -21,5 +22,6 @@ __all__ = [
     "discounted_ncf_dataset",
     "economic_limit_dataset",
     "flgt_take_dataset",
+    "production_profile_dataset",
     "production_summary_dataset",
 ]
